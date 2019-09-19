@@ -1,3 +1,6 @@
+[//]: # (Source doc for where I originally wrote this: https://docs.google.com/document/d/18pgAehotwnSTJ5s1aZGk8SIarI6xMwrO9K_PdOfH7ic/edit)
+[//]: # (markdown comments source: https://stackoverflow.com/questions/4823468/comments-in-markdown/20885980#20885980)
+
 Gabriel Staples  
 Started: 19 Sept. 2019  
 
