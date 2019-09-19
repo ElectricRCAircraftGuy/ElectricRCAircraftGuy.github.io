@@ -9,7 +9,7 @@ Started: 19 Sept. 2019
 1. Add shortcut keys to snap windows to corners and edges: <https://askubuntu.com/a/1089033/327339> 
 1. Fix Chrome scroll speed: <https://askubuntu.com/a/991680/327339> 
 1. And add <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>P</kbd> shortcut key to disable/enable track pad: <https://askubuntu.com/a/1109515/327339> 
-1. Add Show Desktop icon (also accessible with Win + D): <https://askubuntu.com/a/1109490/327339> 
+1. Add Show Desktop icon (also accessible with <kbd>Win</kbd> + <kbd>D</kbd>): <https://askubuntu.com/a/1109490/327339> 
 1. Install Shutter & fix its Edit button: <https://askubuntu.com/questions/1029085/how-to-enable-the-edit-button-in-shutter>
 1. Install gnome-tweak-tool (<https://linuxconfig.org/how-to-install-tweak-tool-on-ubuntu-18-04-bionic-beaver-linux>) and use it to:
     1. Show battery percent in top bar: Tweaks app → Top Bar → Battery Percentage
