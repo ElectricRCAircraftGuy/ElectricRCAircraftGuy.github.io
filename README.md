@@ -1,5 +1,5 @@
 ## Pages:
-1. (20190919-post_ubuntu_18_todos.md)
+1. [Ubuntu post-install steps](20190919-post_ubuntu_18_todos.md)
 
 
 ------------
