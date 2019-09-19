@@ -12,14 +12,14 @@ Started: 19 Sept. 2019
 1. Add Show Desktop icon (also accessible with Win + D): https://askubuntu.com/a/1109490/327339 
 1. Install Shutter & fix its Edit button: https://askubuntu.com/questions/1029085/how-to-enable-the-edit-button-in-shutter
 1. Install gnome-tweak-tool (https://linuxconfig.org/how-to-install-tweak-tool-on-ubuntu-18-04-bionic-beaver-linux) and use it to:
-  1. Show battery percent in top bar: Tweaks app → Top Bar → Battery Percentage
-  1. Show date in top bar: Tweaks app → Top Bar → Date
+    1. Show battery percent in top bar: Tweaks app → Top Bar → Battery Percentage
+    1. Show date in top bar: Tweaks app → Top Bar → Date
 1. Install Sublime Text using apt: https://www.sublimetext.com/docs/3/linux_repositories.html 
-  1. And add a 120-char ruler: https://stackoverflow.com/a/11319526/4561887  
+    1. And add a 120-char ruler: https://stackoverflow.com/a/11319526/4561887  
 1. Install latest LibreOffice (uninstall old one first): https://libre-software.net/how-to-install-libreoffice-on-ubuntu-linux-mint/
-  1. And add the nice color pallette from before: https://superuser.com/a/1395448/425838 
+    1. And add the nice color pallette from before: https://superuser.com/a/1395448/425838 
 1. Add `gnome-system-monitor` to your Startup applications so it will open at boot so you can always know what your computer is thinking about...
 1. Create custom desktop launcher icons and “start menu” launchers for your 3rd-party applications you like which don’t add them automatically: https://askubuntu.com/questions/64222/how-can-i-create-launchers-on-my-desktop/1014261#1014261 
 1. Edit “~/.bashrc” file to customize your terminal experience:
-  1. Always show your shell depth and git branch you are working on, if any: https://stackoverflow.com/questions/4511407/how-do-i-know-if-im-running-a-nested-shell/57665918#57665918 
+    1. Always show your shell depth and git branch you are working on, if any: https://stackoverflow.com/questions/4511407/how-do-i-know-if-im-running-a-nested-shell/57665918#57665918 
 
