@@ -24,6 +24,31 @@ print_hi('Tom')
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
+-------  
+  
+Testing:
+
+```cpp
+// C includes
+#include <stdio.h>
+
+// C++ includes
+#include <iostream>
+
+// using namespace std;
+
+int main()
+{
+    // C-style print
+    printf("Hello World1\n");
+    // C++-style print
+    std::cout << "Hello world2" << std::endl;
+    std::cout << "End.\n\n";
+
+    return 0;
+}
+```
+
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
