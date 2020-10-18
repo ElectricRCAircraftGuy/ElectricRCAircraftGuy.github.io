@@ -53,3 +53,9 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# ---------------- GS Additions: -----------------------
+
+# Use Github-Flavored-Markdown (GFM); see: 
+# https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/setting-a-markdown-processor-for-your-github-pages-site-using-jekyll
+markdown: GFM
