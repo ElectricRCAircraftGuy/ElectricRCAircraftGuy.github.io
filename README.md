@@ -25,6 +25,8 @@ Take notice, however, that many code snippets come from projects which contain t
 
 # Notes to self
 
+[What to work on next (private document)](https://docs.google.com/document/d/1OU-RhzRcdc3qY_txABohx3ohlPAxsHNOqEdSRxIjAXU/edit)
+
 ## Pages
 
 1. [Ubuntu post-install steps](20190919-post_ubuntu_18_todos.md)
@@ -35,4 +37,4 @@ Take notice, however, that many code snippets come from projects which contain t
 1. [Welcome_to_GitHub_Pages.md](Welcome_to_GitHub_Pages.md)
 1. [GitHub Docs: Getting started with GitHub Pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/getting-started-with-github-pages)
 1. [GitHub Flavored Markdown: Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-
+1. [Cayman theme](https://github.com/pages-themes/cayman) - see "Customizing" and other sections for how to customize your theme here
