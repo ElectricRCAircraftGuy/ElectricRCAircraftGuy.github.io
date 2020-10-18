@@ -1,3 +1,11 @@
+---
+# YAML front matter tells Jekyll to process Liquid. 
+# See: https://jekyllrb.com/docs/step-by-step/02-liquid/
+
+# Front matter is used to set variables for the page. See: https://jekyllrb.com/docs/step-by-step/03-front-matter/.
+# Ex:
+# my_number: 5  # now you can use this variable elsewhere with: `{{ page.my_number }}`
+---
 
 This is the personal website of myself, Gabriel Staples. 
 
@@ -26,6 +34,9 @@ Take notice, however, that many code snippets come from projects which contain t
 # Notes to self
 
 [What to work on next (private document)](https://docs.google.com/document/d/1OU-RhzRcdc3qY_txABohx3ohlPAxsHNOqEdSRxIjAXU/edit)
+
+This site was first created with the command `jekyll new temp`. See here: https://jekyllrb.com/docs/. Also, search the `git log` for where I documented using this command.
+
 
 ## Pages
 
