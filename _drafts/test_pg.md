@@ -19,7 +19,7 @@ categories: CATEGORY-1 CATEGORY-2
 
 www.google.com
 
-![](/images/The-ABCs-of-RC-Airplane-Fuels.webp)
+![](/assets/images/The-ABCs-of-RC-Airplane-Fuels.webp)
 [Source](https://3dinsider.com/rc-airplane-fuels/)
 
 
@@ -67,16 +67,16 @@ and also:
 
 **Align left:**
 <p align="left" width="100%">
-    <img width="33%" src="/images/The-ABCs-of-RC-Airplane-Fuels.webp"> 
+    <img width="33%" src="/assets/images/The-ABCs-of-RC-Airplane-Fuels.webp"> 
 </p>
 
 **Align center:**
 <p align="center" width="100%">
-    <img width="33%" src="/images/The-ABCs-of-RC-Airplane-Fuels.webp"> 
+    <img width="33%" src="/assets/images/The-ABCs-of-RC-Airplane-Fuels.webp"> 
 </p>
 
 **Align right:**
 <p align="right" width="100%">
-    <img width="33%" src="/images/The-ABCs-of-RC-Airplane-Fuels.webp"> 
+    <img width="33%" src="/assets/images/The-ABCs-of-RC-Airplane-Fuels.webp"> 
 </p>
 
