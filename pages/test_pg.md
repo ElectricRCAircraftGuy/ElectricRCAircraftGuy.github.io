@@ -4,6 +4,17 @@ title: Test Page
 permalink: /test_pg/
 ---
 
+{% comment %}
+Other front matter:
+See: https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/adding-content-to-your-github-pages-site-using-jekyll#adding-a-new-post-to-your-site
+
+layout: page
+title: "POST TITLE"
+date: YYYY-MM-DD hh:mm:ss -0000
+categories: CATEGORY-1 CATEGORY-2
+
+{% endcomment %}
+
 **This** is a _test page_.
 
 www.google.com

@@ -1,0 +1,13 @@
+<!-- 
+See: 
+1. https://jekyllrb.com/docs/step-by-step/05-includes/ 
+2. *****https://jekyllrb.com/docs/step-by-step/06-data-files/ 
+-->
+
+<nav>
+  {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+      {{ item.name }}
+    </a>
+  {% endfor %}
+</nav>
