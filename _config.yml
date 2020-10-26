@@ -87,7 +87,6 @@ markdown: GFM
 
 # Note: supports Linux globbing
 exclude:
-  # - disabled/
   - /GitHub Pages Help, Tips & Tricks/
   - /Jekyll Help, Tips & Tricks/
   - /*/readme.md
@@ -97,7 +96,6 @@ exclude:
   - /*/Welcome_to_GitHub_Pages.md
   - /disabled/
   - /*/disabled/
-  - /old/
 
 # # See: https://github.com/jekyll/minima/blob/master/_config.yml
 minima: 
