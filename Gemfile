@@ -25,6 +25,9 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-seo-tag'
 
+  # https://github.com/pattex/jekyll-tagging#usage-
+  gem 'jekyll-tagging'
+
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

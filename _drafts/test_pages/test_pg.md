@@ -2,6 +2,7 @@
 layout: page
 title: Test Page
 permalink: /test_pg/
+tags: test1 test2 test3
 ---
 
 {% comment %}
@@ -32,17 +33,17 @@ This:
 ```html
 **Align left:**
 <p align="left" width="100%">
-    <img width="33%" src="https://i.stack.imgur.com/RJj4x.png"> 
+    <img width="33%" src="https://i.stack.imgur.com/RJj4x.png">
 </p>
 
 **Align center:**
 <p align="center" width="100%">
-    <img width="33%" src="https://i.stack.imgur.com/RJj4x.png"> 
+    <img width="33%" src="https://i.stack.imgur.com/RJj4x.png">
 </p>
 
 **Align right:**
 <p align="right" width="100%">
-    <img width="33%" src="https://i.stack.imgur.com/RJj4x.png"> 
+    <img width="33%" src="https://i.stack.imgur.com/RJj4x.png">
 </p>
 ```
 
@@ -50,33 +51,33 @@ Produces this:
 
 **Align left:**
 <p align="left" width="100%">
-    <img width="33%" src="https://i.stack.imgur.com/RJj4x.png"> 
+    <img width="33%" src="https://i.stack.imgur.com/RJj4x.png">
 </p>
 
 **Align center:**
 <p align="center" width="100%">
-    <img width="33%" src="https://i.stack.imgur.com/RJj4x.png"> 
+    <img width="33%" src="https://i.stack.imgur.com/RJj4x.png">
 </p>
 
 **Align right:**
 <p align="right" width="100%">
-    <img width="33%" src="https://i.stack.imgur.com/RJj4x.png"> 
+    <img width="33%" src="https://i.stack.imgur.com/RJj4x.png">
 </p>
 
 and also:
 
 **Align left:**
 <p align="left" width="100%">
-    <img width="33%" src="/assets/images/The-ABCs-of-RC-Airplane-Fuels.webp"> 
+    <img width="33%" src="/assets/images/The-ABCs-of-RC-Airplane-Fuels.webp">
 </p>
 
 **Align center:**
 <p align="center" width="100%">
-    <img width="33%" src="/assets/images/The-ABCs-of-RC-Airplane-Fuels.webp"> 
+    <img width="33%" src="/assets/images/The-ABCs-of-RC-Airplane-Fuels.webp">
 </p>
 
 **Align right:**
 <p align="right" width="100%">
-    <img width="33%" src="/assets/images/The-ABCs-of-RC-Airplane-Fuels.webp"> 
+    <img width="33%" src="/assets/images/The-ABCs-of-RC-Airplane-Fuels.webp">
 </p>
 

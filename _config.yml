@@ -1,5 +1,5 @@
 # Example sites to look at:
-# 1. https://github.com/jekyll/jekyll/blob/master/docs/ - this folder contains all of the actual 
+# 1. https://github.com/jekyll/jekyll/blob/master/docs/ - this folder contains all of the actual
 #    Jekyll website files for this website here: https://jekyllrb.com/.
 # 2. https://github.com/jekyll/minima
 # 3. https://jamstackthemes.dev/theme/devlopr/ - very nice-looking, with a really cool auto-typing
@@ -8,9 +8,13 @@
 #   2. Live demo: https://devlopr.netlify.app/
 # 4. https://jekyllcodex.org/
 #   1. GitHub: https://github.com/jhvanderschee/jekyllcodex
-# 5. Example containing "categories" too: 
-#   1. See PlanetJekyll plugins repo: 
+# 5. Example containing "categories" too:
+#   1. See PlanetJekyll plugins repo:
 #      https://github.com/planetjekyll/awesome-jekyll-plugins#tags--taggings-categories--categorizations
+#   2. Another example by CodinFox:
+#     1. https://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-in-your-jekyll-based-github-pages/
+#     2. live demo of Categories: http://codinfox.github.io/blog/categories/
+#     3. live demo of Tags: http://codinfox.github.io/blog/tags/
 
 # Welcome to Jekyll!
 #
@@ -22,7 +26,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -81,7 +85,7 @@ plugins:
 
 # ---------------- GS Additions: -----------------------
 
-# Use Github-Flavored-Markdown (GFM); see: 
+# Use Github-Flavored-Markdown (GFM); see:
 # https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/setting-a-markdown-processor-for-your-github-pages-site-using-jekyll
 markdown: GFM
 
@@ -98,10 +102,17 @@ exclude:
   - /*/disabled/*
 
 # # See: https://github.com/jekyll/minima/blob/master/_config.yml
-minima: 
+minima:
   social_links:
     twitter: jekyllrbaaaa
     github:  jekyll
 
 show_excerpts: false # set to true to show excerpts (1st paragraph of each post) as a preview
     # on the homepage
+
+# For jekyll-tagging plugin
+# https://github.com/pattex/jekyll-tagging
+# This will look for `_layouts/tag_page.html`
+tag_page_layout: tag_page
+# This will output the tag pages into the `_site/tag` directory.
+tag_page_dir: tag
