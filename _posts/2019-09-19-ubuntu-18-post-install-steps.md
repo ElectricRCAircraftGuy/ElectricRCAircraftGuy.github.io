@@ -1,8 +1,10 @@
 ---
 tags: ubuntu linux
 redirect_from:
-    - https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/blob/master/20190919-post_ubuntu_18_todos.md
-    - /20190919-post_ubuntu_18_todos.md
+    # - https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/blob/master/20190919-post_ubuntu_18_todos.md
+    # - /20190919-post_ubuntu_18_todos.md
+    # Full path WAS: https://electricrcaircraftguy.github.io/20190919-post_ubuntu_18_todos.html
+    - /20190919-post_ubuntu_18_todos.html
     # Example entry:
     # - /docs/resources/
 ---
