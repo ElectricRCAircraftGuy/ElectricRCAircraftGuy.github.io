@@ -11,7 +11,9 @@ published: true
 tags: politics religion abortion election anti-anti-liberalism
 ---
 
-Gabriel Staples  
+_Be an anti-anti-liberal_
+
+By Gabriel Staples  
 First written: 6 Sept. 2020
 
 In the [Book of Mormon](https://www.churchofjesuschrist.org/study/scriptures/bofm), there was one people who distinguished themselves not by what they were, but by what they *weren't*. They were the [Anti-Nephi-Lehis](https://www.churchofjesuschrist.org/study/scriptures/gs/anti-nephi-lehies) (see also [Wikipedia here](https://en.wikipedia.org/wiki/Anti-Nephi-Lehies)). "Anti" here apparently means they were _not_ descendants of Nephi, the son of Lehi. Why "Nephi-Lehi" in the name, instead of just "Nephi"? Because otherwise, one would say, "which Nephi are you talking about!?" There were many Nephis, and it was almost certainly a common name, so "Nephi-Lehi" certainly, I speculate, must have meant "the Nephi who is the son of Lehi." Why "Anti" in the name? Well, all that means is that the Anti-Nephi-Lehis were NOT descendants of that Nephi who was the son of Lehi. Rather, they were descendants of Laman and Lemuel and Ishmael--ie: the Lamanites. BUT...and this is a BIG BUT...they were NOT Lamanites. They were Lamanites by blood only, but NOT anymore by culture, tradition, beliefs, or actions, because they had become "converted unto the Lord" ([Alma 23:13][alma23]) and had become a righteous people. They truly were "Anti-Nephi-Lehis"--neither descendants of Nephi, nor Lamanites. They identified more by what they _weren't_, in this case, due to necessity of creating a new identity, than by what they _were_.
