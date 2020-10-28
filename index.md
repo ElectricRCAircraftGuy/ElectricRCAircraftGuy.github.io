@@ -5,4 +5,4 @@
 layout: home
 ---
 
-This is my home page...
+Welcome to the personal website of Gabriel Staples, covering anything from software development, C, C++, Python, electronics and electrical engineering, radio control aircraft, aeronautical engineering, basic life skills or life hacks, or even views on life, personal opinions, and political and religious discussions, beliefs, and points of view.

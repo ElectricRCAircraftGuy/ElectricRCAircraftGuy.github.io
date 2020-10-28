@@ -36,12 +36,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Enter the mind of Gabriel Staples
+# title: GabrielStaples.com
 # email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+# description: >- # this means to ignore newlines until "baseurl:"
+#   Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -101,14 +101,68 @@ exclude:
   - /disabled/*
   - /*/disabled/*
 
-# # See: https://github.com/jekyll/minima/blob/master/_config.yml
-minima:
-  social_links:
-    twitter: jekyllrbaaaa
-    github:  jekyll
+
+title: GabrielStaples.com Home
+author:
+  name: Gabriel Staples
+  # email: your-email@domain.com
+# description: > # this means to ignore newlines until "show_excerpts:"
+#   Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
+description: >- # this means to ignore newlines until "baseurl:"
+  Personal website of Gabriel Staples, covering anything from software development, C, C++, Python,
+  electronics and electrical engineering, radio control aircraft, aeronautical engineering,
+  basic life skills or life hacks, or even views on life, personal opinions, and political and
+  religious discussions, beliefs, and points of view.
 
 show_excerpts: false # set to true to show excerpts (1st paragraph of each post) as a preview
     # on the homepage
+
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+  # generate social links in footer
+  # GS: see also https://github.com/jekyll/minima/blob/master/_config.yml
+  social_links:
+    twitter: eRCaGuy
+    github:  ElectricRCAircraftGuy
+    # devto: jekyll
+    # dribbble: jekyll
+    # facebook: jekyll
+    # flickr:   jekyll
+    instagram: ercaguy
+    linkedin: gabriel-staples
+    # pinterest: jekyll
+    youtube: ElectricRCAircraftGuy
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+    # telegram: jekyll
+    # googleplus: +jekyll
+    # microdotblog: jekyll
+    # keybase: jekyll
+
+    # Mastodon instances
+    # mastodon:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+    # GitLab instances
+    # gitlab:
+    # - username: ElectricRCAircraftGuy
+      # instance: gitlab.com/ElectricRCAircraftGuy
+    # - username: jekyll2
+    #   instance: example.com
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+
 
 # For jekyll-tagging plugin
 # https://github.com/pattex/jekyll-tagging
