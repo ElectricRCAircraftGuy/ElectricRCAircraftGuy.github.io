@@ -9,6 +9,10 @@ This is the personal website of myself, Gabriel Staples.
 
 It contains my own content and opinions and does not reflect opinions on behalf of any employer.
 
+## Description
+
+{{ site.description }}
+
 # My Websites
 
 1. This website can be viewed online here: https://electricrcaircraftguy.github.io/ or here: https://gabrielstaples.com.

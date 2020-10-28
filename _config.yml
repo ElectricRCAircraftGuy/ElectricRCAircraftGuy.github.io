@@ -158,6 +158,12 @@ minima:
     # - username: jekyll2
     #   instance: example.com
 
+  # GS: see: https://github.com/jekyll/minima#skins
+  skin: classic
+  # skin: dark
+  # skin: solarized
+  # skin: solarized-dark
+
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 #header_pages:
@@ -170,3 +176,4 @@ minima:
 tag_page_layout: tag_page
 # This will output the tag pages into the `_site/tag` directory.
 tag_page_dir: tag
+
