@@ -170,10 +170,4 @@ minima:
 # - about.md
 
 
-# For jekyll-tagging plugin
-# https://github.com/pattex/jekyll-tagging
-# This will look for `_layouts/tag_page.html`
-tag_page_layout: tag_page
-# This will output the tag pages into the `_site/tag` directory.
-tag_page_dir: tag
 
