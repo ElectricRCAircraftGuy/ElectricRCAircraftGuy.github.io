@@ -16,18 +16,25 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "GabrielStaples.com Home"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Gabriel Staples"
+# description              : "An amazing website."
+description: >- # this means to ignore newlines until the next item in the list
+  Personal website of Gabriel Staples, covering anything from software development, C, C++, Python,
+  electronics and electrical engineering, radio control aircraft, aeronautical engineering,
+  basic life skills or life hacks, or even views on life, personal opinions, and political and
+  religious discussions, beliefs, and points of view.
+# url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://gabrielstaples.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+# repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 # GS: default for this theme is 200 wpm, but a quick Google search shows that is typical for NON-technical writing, so
 # let's make it 100 wpm for my site!
 words_per_minute         : 100
