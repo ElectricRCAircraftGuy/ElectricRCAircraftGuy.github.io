@@ -28,6 +28,8 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
+# GS: default for this theme is 200 wpm, but a quick Google search shows that is typical for NON-technical writing, so
+# let's make it 100 wpm for my site!
 words_per_minute         : 100
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -172,6 +174,17 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  # Added by GS:
+  - /0--Old/*
+  - /GitHub Pages Help, Tips & Tricks/*
+  - /Jekyll Help, Tips & Tricks/*
+  - /*/readme.md
+  - /*/README.md
+  - /README.md
+  - /Welcome_to_GitHub_Pages.md
+  - /*/Welcome_to_GitHub_Pages.md
+  - /disabled/*
+  - /*/disabled/*
 keep_files:
   - .git
   - .svn
@@ -180,7 +193,9 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
 # Conversion
-markdown: kramdown
+# markdown: kramdown
+# GS: use Github Flavored Markdown instead!
+markdown: GFM
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
@@ -219,6 +234,8 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  # Added by GS:
+  - jekyll-seo-tag
 
 # mimic GitHub Pages with --safe
 whitelist:
