@@ -1,8 +1,11 @@
 ---
-layout: page
+# layout: page
 title: Test Page
 permalink: /test_pg/
 tags: test1 test2 test3
+
+classes: wide
+# toc: true
 ---
 
 {% comment %}

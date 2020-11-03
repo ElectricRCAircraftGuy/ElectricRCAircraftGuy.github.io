@@ -1,7 +1,14 @@
 ---
 # See: https://jekyllrb.com/docs/front-matter/
-layout: post
+# layout: default
+# layout: posts
+# GS: see: https://github.com/mmistakes/minimal-mistakes/issues/2147
+# classes: wide 
+# layout: splash
 title: Anti-Anti-Liberalism
+toc: true
+# layout: splash
+classes: wide
 # permalink: /test/
 published: true
 # date: 1999-12-31

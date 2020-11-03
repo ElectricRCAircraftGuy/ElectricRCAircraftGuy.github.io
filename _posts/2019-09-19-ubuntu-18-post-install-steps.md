@@ -7,6 +7,9 @@ redirect_from:
     - /20190919-post_ubuntu_18_todos.html
     # Example entry:
     # - /docs/resources/
+toc: true
+# layout: splash
+classes: wide
 ---
 
 [//]: # (Source doc for where I originally wrote this: https://docs.google.com/document/d/18pgAehotwnSTJ5s1aZGk8SIarI6xMwrO9K_PdOfH7ic/edit)
