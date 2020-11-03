@@ -1,6 +1,6 @@
 ---
 toc: true
-classes: wide
+# classes: wide
 ---
 
 <!-- # title -->

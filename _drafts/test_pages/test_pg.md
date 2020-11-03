@@ -3,8 +3,9 @@
 title: Test Page
 permalink: /test_pg/
 tags: test1 test2 test3
+categories: cat1 cat2 cat3
 
-classes: wide
+# classes: wide
 # toc: true
 ---
 
@@ -21,15 +22,16 @@ categories: CATEGORY-1 CATEGORY-2
 
 **This** is a _test page_.
 
-www.google.com
+[www.google.com](www.google.com)
 
 ![](/assets/images/The-ABCs-of-RC-Airplane-Fuels.webp)
+
 [Source](https://3dinsider.com/rc-airplane-fuels/)
 
 
 More image practice:
 
-See: https://github.com/ElectricRCAircraftGuy/eRCaGuy_hello_world/blob/master/markdown/github_readme_center_and_align_images.md
+See: <https://github.com/ElectricRCAircraftGuy/eRCaGuy_hello_world/blob/master/markdown/github_readme_center_and_align_images.md>
 
 This:
 
