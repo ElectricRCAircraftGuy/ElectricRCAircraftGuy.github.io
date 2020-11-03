@@ -26,7 +26,22 @@ This is what is currently in "_variables.scss" under the "Breakpoints" section:
 
 Override $max-width (don't forget the semicolon!):
 */
-$max-width: 100%;
+$max-width: 100%; // default is 1280px
+
+/*
+GS: override screen sizes above to optimize for old 1280 (wide) x 1024 low-res monitors, new 3840
+(wide) x 2160 4k monitors, standard (modern) 1920 (wide) x 1080 monitors, and tiny modern smart
+phones with high-resolution 1920 (tall) x 1080 (wide) displays.
+
+Note: it appears that displays WITH A WEB-PAGE VIEWABLE AREA (ie: subtracting the scroll bar, Ubuntu
+left-hand "start menu", and any other margins inside or outside the edges of the browser window)
+**larger than** (ie: `>`, NOT `<=` !) these variable values below are considered that size!
+*/
+$small: 600px;     // default is 600px
+$medium: 768px;    // default is 768px
+$large: 1024px;    // default is 1024px [my old 1280x1024 low-res monitor fits here]
+$x-large: 1280px;  // default is 1280px [both my 1920x1080 laptop and my 3840x2160 4k 32" monitor
+                   // fit into this category!]
 
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
@@ -50,22 +65,22 @@ See: https://github.com/mmistakes/minimal-mistakes/issues/1219#issuecomment-3268
   the "Breakpoints" section of "_variables.scss"?
 */
 html {
-  font-size: 12px; // change to whatever
+  font-size: 14px; // change to whatever (default: 16px?)
 
   @include breakpoint($small) {
-    font-size: 12px; // change to whatever
+    font-size: 14px; // change to whatever (default: 16px?)
   }
 
   @include breakpoint($medium) {
-    font-size: 14px; // change to whatever
+    font-size: 14px; // change to whatever (default: 18px?)
   }
 
   @include breakpoint($large) {
-    font-size: 16px; // change to whatever
+    font-size: 16px; // change to whatever (default: 20px?)
   }
 
   @include breakpoint($x-large) {
-    font-size: 18px; // change to whatever
+    font-size: 18px; // change to whatever (default: 22px?)
   }
 }
 
