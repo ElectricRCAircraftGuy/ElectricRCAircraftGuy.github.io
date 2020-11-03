@@ -83,7 +83,10 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  # GS: this causes a tag like "@username" to be entered into the default share content when you
+  # click the "Share on" Twitter button to share a post! This way, it by default tags me in the
+  # sharer's post when they share one of my articles on Twitter!
+  username               : "GabrielStaples3"
 facebook:
   username               :
   app_id                 :
@@ -154,9 +157,12 @@ author:
     - label: "Instagram"
       icon:  "fab fa-fw fa-instagram"
       url:   "https://www.instagram.com/ercaguy/"
-    - label: "Twitter"
+    - label: "Twitter1"
       icon:  "fab fa-fw fa-twitter-square"
       url:   &twitter_url "https://twitter.com/eRCaGuy"
+    - label: "Twitter2"
+      icon:  "fab fa-fw fa-twitter-square"
+      url:   &twitter_url "https://twitter.com/GabrielStaples3"
 
 
 # Site Footer
@@ -198,9 +204,12 @@ footer:
     - label: "Instagram"
       icon:  "fab fa-fw fa-instagram"
       url:   "https://www.instagram.com/ercaguy/"
-    - label: "Twitter"
+    - label: "Twitter1"
       icon:  "fab fa-fw fa-twitter-square"
       url:   &twitter_url "https://twitter.com/eRCaGuy"
+    - label: "Twitter2"
+      icon:  "fab fa-fw fa-twitter-square"
+      url:   &twitter_url "https://twitter.com/GabrielStaples3"
 
 
 # Reading Files
