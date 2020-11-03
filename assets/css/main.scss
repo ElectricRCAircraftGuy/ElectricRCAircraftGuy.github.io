@@ -85,7 +85,7 @@ html {
   }
 
   @include breakpoint($x-large) {
-    font-size: 18px; // change to whatever (default: 22px?)
+    font-size: 20px; // change to whatever (default: 22px?)
   }
 }
 
