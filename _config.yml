@@ -141,6 +141,7 @@ author:
       # url: "https://instagram.com/"
     ###########
     # GS added:
+    # Find new icons here: https://fontawesome.com/
     ###########
     - label: "www.ElectricRCAircraftGuy.com"
       icon:  "fas fa-fw fa-link"
@@ -148,6 +149,9 @@ author:
     - label: "GitHub"
       icon:  "fab fa-fw fa-github"
       url:   "https://github.com/ElectricRCAircraftGuy"
+    - label: "StackExchange"
+      icon:  "fab fa-stack-overflow"
+      url:   "https://stackexchange.com/users/3032157/gabriel-staples?tab=accounts"
     - label: "LinkedIn"
       icon:  "fab fa-linkedin"
       url:   "https://www.linkedin.com/in/gabriel-staples/"
@@ -195,6 +199,9 @@ footer:
     - label: "GitHub"
       icon:  "fab fa-fw fa-github"
       url:   "https://github.com/ElectricRCAircraftGuy"
+    - label: "StackExchange"
+      icon:  "fab fa-stack-overflow"
+      url:   "https://stackexchange.com/users/3032157/gabriel-staples?tab=accounts"
     - label: "LinkedIn"
       icon:  "fab fa-linkedin"
       url:   "https://www.linkedin.com/in/gabriel-staples/"
