@@ -45,8 +45,8 @@ live (while resizing it) in the top-right of the window.
 $small: 600px;     // default is 600px
 $medium: 768px;    // default is 768px
 $large: 1024px;    // default is 1024px [my old 1280x1024 low-res monitor fits here]
-$x-large: 1280px;  // default is 1280px [both my 1920x1080 laptop and my 3840x2160 4k 32" monitor
-                   // fit into this category!]
+$x-large: 1280px;  // default is 1280px [my 1920x1080 laptop, my 3840x2160 4k 32" monitor, AND
+                   // my 1920x1080 Google Pixel 2 5-inch phone ALL fit into this category!]
 
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
@@ -85,7 +85,7 @@ html {
   }
 
   @include breakpoint($x-large) {
-    font-size: 20px; // change to whatever (default: 22px?)
+    font-size: 18px; // change to whatever (default: 22px?)
   }
 }
 

@@ -17,7 +17,7 @@ toc: true
 
 <!-- Private) source doc for where I originally wrote this: https://docs.google.com/document/d/18pgAehotwnSTJ5s1aZGk8SIarI6xMwrO9K_PdOfH7ic/edit. -->
 
-Gabriel Staples-  
+Gabriel Staples  
 Started: 19 Sept. 2019  
 
 ## Ubuntu 18 post-install steps:
