@@ -16,9 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "GabrielStaples.com Home"
+title                    : "GabrielStaples.com home"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
+# name                     : "Your Name"
 name                     : "Gabriel Staples"
 # description              : "An amazing website."
 description: >- # this means to ignore newlines until the next item in the list
@@ -101,11 +102,20 @@ analytics:
 
 
 # Site Author
+# GS: https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-author
 author:
-  name             : "Your Name"
+  # name             : "Your Name"
+  name             : "Gabriel Staples"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  # bio              : "I am an **amazing** person."
+  # bio              : "{{ site.description }}" ########## GS: doesn't work :(
+  bio: >- # this means to ignore newlines until the next item in the list
+    My personal website, covering anything from software development, C, C++, Python,
+    electronics and electrical engineering, radio control aircraft, aeronautical engineering,
+    basic life skills or life hacks, or even views on life, personal opinions, and political and
+    religious discussions, beliefs, and points of view.
+  # location         : "Somewhere"
+  location         : "San Francisco"
   email            :
   links:
     - label: "Email"
@@ -200,9 +210,15 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
 # Conversion
-# markdown: kramdown
-# GS: use Github Flavored Markdown instead!
-markdown: GFM
+markdown: kramdown
+# GS: use Github Flavored Markdown instead! Among other things, kramdown won't automatically turn a
+# regular, pasted link into a clickable link, but GFM will! HOWEVER, kramdown DOES produce
+# tables of contents with `toc: true`, but GFM will NOT! :(
+# - Solution: just look for a Sublime Text plugin instead? This has the advantage of working on my
+# regular GitHub readmes too, and NOT just on my GitHub pages site! See what you can find!
+# UPDATE: see my answer here!:
+# https://stackoverflow.com/questions/11948245/markdown-to-create-pages-and-table-of-contents/64656967#64656967
+# markdown: GFM
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
@@ -229,10 +245,11 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 5 # 10 # amount of posts to show; GS (on home page) default: 5
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+# GS: list of GitHub Pages whitelisted plugins: https://pages.github.com/versions/
 
 # Plugins (previously gems:)
 plugins:
@@ -251,6 +268,8 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  # Added by GS:
+  - jekyll-seo-tag
 
 
 # Archives

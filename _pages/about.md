@@ -1,8 +1,12 @@
 ---
-layout: page
+# layout: page
+layout: single
 title: About
 permalink: /about/
 # tags: about
+toc: true
+# layout: splash
+classes: wide
 ---
 
 This is the personal website of myself, Gabriel Staples.
