@@ -8,7 +8,7 @@
 title: Anti-Anti-Liberalism
 toc: true
 # layout: splash
-classes: wide
+# classes: wide
 # permalink: /test/
 published: true
 # date: 1999-12-31

@@ -4,6 +4,31 @@
 
 @charset "utf-8";
 
+/*
+GS: to override any SASS variables in "_variables.scss", you must place new values here, BEFORE
+the `@import` statements, as that is the point where the variables are used!
+See: https://github.com/mmistakes/minimal-mistakes/issues/2278#issuecomment-541484035
+*/
+
+/*
+- Let's override the stinking `$max-width` variable in "_variables.scss", which controls the
+  maximum width of the entire content on the screen, as it is currently set to `$x-large`, which
+  is only 1280px, which is too small to take up the entire width on a standard
+  1920 (px wide) x 1080 (px tall) display, and WAY TOO SMALL for a 3840 x 2160 4k display!
+This is what is currently in "_variables.scss" under the "Breakpoints" section:
+
+        $small: 600px !default;
+        $medium: 768px !default;
+        $medium-wide: 900px !default;
+        $large: 1024px !default;
+        $x-large: 1280px !default;
+        $max-width: $x-large !default;
+
+Override $max-width (don't forget the semicolon!):
+*/
+$max-width: 100%;
+
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
@@ -43,3 +68,4 @@ html {
     font-size: 18px; // change to whatever
   }
 }
+
