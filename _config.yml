@@ -124,30 +124,47 @@ author:
     - label: "Website"
       icon:  "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: &web_ercaguy_label "www.ElectricRCAircraftGuy.com"
-      icon:  &web_ercaguy_icon "fas fa-fw fa-link"
-      url:   &web_ercaguy_url "https://ElectricRCAircraftGuy.com"
     - label: "Twitter"
       icon:  "fab fa-fw fa-twitter-square"
-      url:   &twitter_url "https://twitter.com/eRCaGuy"
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon:  "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon:  "fab fa-fw fa-github"
-      url:   &github_url "https://github.com/ElectricRCAircraftGuy"
       # url: "https://github.com/"
     - label: "Instagram"
       icon:  "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    ###########
+    # GS added:
+    ###########
+    - label: "www.ElectricRCAircraftGuy.com"
+      icon:  "fas fa-fw fa-link"
+      url:   "https://ElectricRCAircraftGuy.com"
+    - label: "GitHub"
+      icon:  "fab fa-fw fa-github"
+      url:   "https://github.com/ElectricRCAircraftGuy"
+    - label: "LinkedIn"
+      icon:  "fab fa-linkedin"
+      url:   "https://www.linkedin.com/in/gabriel-staples/"
+    - label: "YouTube"
+      icon:  "fab fa-youtube"
+      url:   "https://www.youtube.com/ElectricRCAircraftGuy"
+    - label: "Instagram"
+      icon:  "fab fa-fw fa-instagram"
+      url:   "https://www.instagram.com/ercaguy/"
+    - label: "Twitter"
+      icon:  "fab fa-fw fa-twitter-square"
+      url:   &twitter_url "https://twitter.com/eRCaGuy"
+
 
 # Site Footer
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url:  *twitter_url
+      # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
@@ -163,6 +180,27 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+    ###########
+    # GS added (EXACTLY COPIED FROM ABOVE!)
+    ###########
+    - label: "www.ElectricRCAircraftGuy.com"
+      icon:  "fas fa-fw fa-link"
+      url:   "https://ElectricRCAircraftGuy.com"
+    - label: "GitHub"
+      icon:  "fab fa-fw fa-github"
+      url:   "https://github.com/ElectricRCAircraftGuy"
+    - label: "LinkedIn"
+      icon:  "fab fa-linkedin"
+      url:   "https://www.linkedin.com/in/gabriel-staples/"
+    - label: "YouTube"
+      icon:  "fab fa-youtube"
+      url:   "https://www.youtube.com/ElectricRCAircraftGuy"
+    - label: "Instagram"
+      icon:  "fab fa-fw fa-instagram"
+      url:   "https://www.instagram.com/ercaguy/"
+    - label: "Twitter"
+      icon:  "fab fa-fw fa-twitter-square"
+      url:   &twitter_url "https://twitter.com/eRCaGuy"
 
 
 # Reading Files
@@ -327,6 +365,5 @@ defaults:
       comments: # true
       share: true
       related: true
-      # GS:
-      # Show date: https://mmistakes.github.io/minimal-mistakes/docs/configuration/#post-dates
+      # GS show date: https://mmistakes.github.io/minimal-mistakes/docs/configuration/#post-dates
       show_date: true
