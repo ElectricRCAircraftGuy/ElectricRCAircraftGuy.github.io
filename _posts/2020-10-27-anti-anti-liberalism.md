@@ -17,6 +17,9 @@ published: true
 # categories: politics religion
 tags: politics religion abortion election anti-anti-liberalism
 # last_modified_at: 1999-12-31
+redirect_from:
+    # Old Jekyll minima theme site up to 3 Nov. 2020: https://gabrielstaples.com/2020/10/27/anti-anti-liberalism.html
+    - /2020/10/27/anti-anti-liberalism.html
 ---
 
 _Be an anti-anti-liberal_

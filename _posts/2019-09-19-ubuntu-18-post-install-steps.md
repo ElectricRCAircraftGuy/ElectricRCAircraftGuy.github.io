@@ -7,6 +7,9 @@ redirect_from:
     - /20190919-post_ubuntu_18_todos.html
     # Example entry:
     # - /docs/resources/
+    # 
+    # Old Jekyll minima theme site up to 3 Nov. 2020: https://gabrielstaples.com/2019/09/19/ubuntu-18-post-install-steps.html
+    - /2019/09/19/ubuntu-18-post-install-steps.html
 toc: true
 # layout: splash
 # classes: wide

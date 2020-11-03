@@ -303,6 +303,7 @@ plugins:
   - jekyll-include-cache
   # Added by GS:
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -313,6 +314,7 @@ whitelist:
   - jekyll-include-cache
   # Added by GS:
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 
 # Archives
