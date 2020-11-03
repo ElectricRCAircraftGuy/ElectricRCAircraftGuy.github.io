@@ -322,3 +322,6 @@ defaults:
       comments: # true
       share: true
       related: true
+      # GS:
+      # Show date: https://mmistakes.github.io/minimal-mistakes/docs/configuration/#post-dates
+      show_date: true
