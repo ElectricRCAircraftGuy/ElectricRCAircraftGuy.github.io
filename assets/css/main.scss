@@ -33,9 +33,14 @@ GS: override screen sizes above to optimize for old 1280 (wide) x 1024 low-res m
 (wide) x 2160 4k monitors, standard (modern) 1920 (wide) x 1080 monitors, and tiny modern smart
 phones with high-resolution 1920 (tall) x 1080 (wide) displays.
 
-Note: it appears that displays WITH A WEB-PAGE VIEWABLE AREA (ie: subtracting the scroll bar, Ubuntu
-left-hand "start menu", and any other margins inside or outside the edges of the browser window)
-**larger than** (ie: `>`, NOT `<=` !) these variable values below are considered that size!
+Note: experimenting shows that displays WITH A WEB-PAGE VIEWABLE AREA (ie: subtracting the scroll
+bar, Ubuntu left-hand "start menu", and any other margins inside or outside the edges of the browser
+window) **greater than or equal to** (ie: `>=`, NOT `<` !) these variable values below are
+considered that size!
+- You can verify this by right-clicking in Chrome --> Inspect, then click the 3 dots in the
+top-right of the inspect window, choose the bottom dock position to not interfere with the window
+width, then drag the window to resize it. As you do so, you'll see Chrome display the window size
+live (while resizing it) in the top-right of the window.
 */
 $small: 600px;     // default is 600px
 $medium: 768px;    // default is 768px
@@ -72,7 +77,7 @@ html {
   }
 
   @include breakpoint($medium) {
-    font-size: 14px; // change to whatever (default: 18px?)
+    font-size: 16px; // change to whatever (default: 18px?)
   }
 
   @include breakpoint($large) {
