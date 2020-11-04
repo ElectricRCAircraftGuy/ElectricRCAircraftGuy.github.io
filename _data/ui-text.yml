@@ -24,7 +24,15 @@ en: &DEFAULT_EN
   categories_label           : "Categories:"
   date_label                 : "Updated:"
   comments_label             : "Leave a comment"
-  comments_title             : "Comments"
+  # comments_title             : "Comments"
+  # GS edited:
+  comments_title             : >-
+    Leave a comment.<br><br>
+    A free <a href="https://github.com/">GitHub account</a> is required.
+    <i>Comments are moderated.</i> <b>Be respectful. No swearing or inflammatory language.</b>
+    All comments for all pages
+    <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/labels/website_comments">
+    can be viewed online here</a>.
   more_label                 : "Learn more"
   related_label              : "You may also enjoy"
   follow_label               : "Follow:"
