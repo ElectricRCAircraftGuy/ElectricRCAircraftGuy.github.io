@@ -21,4 +21,8 @@
 # So, it would look like this, or similar:
 #       JEKYLL_ENV=production && ./run_build_site.sh --drafts --unpublished
 
+# Incremental: enable incremental builds (to potentially speed things up a lot!?) with
+# `--incremental`. Ex:
+#       ./run_build_site.sh --drafts --unpublished --incremental
+
 bundle exec jekyll serve --livereload "$@"

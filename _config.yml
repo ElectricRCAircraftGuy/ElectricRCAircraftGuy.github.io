@@ -279,6 +279,8 @@ exclude:
   - /*/Welcome_to_GitHub_Pages.md
   - /disabled/*
   - /*/disabled/*
+  - run_build_site.sh
+  - run_upgrade_site.sh
 keep_files:
   - .git
   - .svn
