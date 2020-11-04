@@ -99,12 +99,22 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
-# Analytics
-analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
-  google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+# GS: see "_includes/head/custom.html" instead.
+# Disable this whole section since the google analytics here is included at the end of the HTML
+# body as part of `{% include scripts.html %}` in "_layouts/default.html", but I want it to be
+# included inside the head section instead like Google recommends! So, I'll just manually add the
+# whole snippet with my site's tracking ID into "_includes/head/custom.html" instead! Note: I
+# **think** the benefit of putting this tracking script into the head instead is that if the user
+# comes to the site but leaves before the page totally loads, you still logged their site visit
+# since it was loaded as one of the first things since the head loads first. That's all. Putting
+# the tracking script at the end of the body means you're more likely to miss very short-lived
+# visits where the user leaves before the whole body has the chance to load.
+# # Analytics
+# analytics:
+#   provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
+#   google:
+#     tracking_id          :
+#     anonymize_ip         : # true, false (default)
 
 
 # Site Author

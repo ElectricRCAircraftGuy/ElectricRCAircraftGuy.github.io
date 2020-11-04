@@ -10,8 +10,12 @@
 -->
 <html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
   <head>
-    {% include head.html %}
+    {% comment %}
+        GS: include "head/custom.html" first, so my Google Analytics can be placed first in the head, as Google recommends:
+        "Copy and paste this code as the first item into the <head> of every webpage you want to measure."
+    {% endcomment %}
     {% include head/custom.html %}
+    {% include head.html %}
   </head>
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">

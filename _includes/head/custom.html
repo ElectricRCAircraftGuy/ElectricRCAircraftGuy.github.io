@@ -1,17 +1,34 @@
 <!-- start custom head snippets -->
 
+
+{% comment %}
+GS: Google analytics. Google's instructions from analytics.google.com:
+"Copy and paste this code as the first item into the <head> of every webpage you want to measure."
+{% endcomment %}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FNC93W9X29"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FNC93W9X29');
+</script>
+
+
+
 {% comment %}
 GS: added `feed_meta` and `seo` based on this info: https://jekyllrb.com/docs/step-by-step/10-deployment/
 {% endcomment %}
+
 
 {% feed_meta %}
 {% seo %}
 
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
-
 {% comment %}
-Favicon, generated via the link just above.
+GS: Favicon, generated via the link just above.
 {% endcomment %}
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
@@ -22,5 +39,6 @@ Favicon, generated via the link just above.
 <meta name="msapplication-TileColor" content="#e9e9e9">
 <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
 <meta name="theme-color" content="#e9e9e9">
+
 
 <!-- end custom head snippets -->
