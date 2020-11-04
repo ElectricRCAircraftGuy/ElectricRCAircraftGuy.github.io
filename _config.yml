@@ -43,7 +43,8 @@ breadcrumbs              : true # true, false (default)
 # let's make it 100 wpm for my site!
 words_per_minute         : 100
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  # provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "utterances"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -53,9 +54,16 @@ comments:
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
+  # GS notes: for all utterances config options, choose your desired settings with the radio buttons
+  # here, and look at the code output at the bottom: https://utteranc.es/.
+  # See also this file: "_includes/comments-providers/utterances.html".
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    theme                : "github-light" # "github-light" (default), "github-dark"
+    issue_term           : "pathname" # "pathname" (default)
+    # GS added: "the label that will be assigned to issues created by Utterances." "Label names are
+    # case sensitive. The label must exist in your repo- Utterances cannot attach labels that do not
+    # exist. Emoji are supported in label names.✨💬✨".
+    label                : "website_comments"
   staticman:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
@@ -381,6 +389,8 @@ compress_html:
 
 
 # Defaults
+# GS: see here for Jekyll Front Matter Defaults options:
+# https://jekyllrb.com/docs/configuration/front-matter-defaults/
 defaults:
   # _posts
   - scope:
@@ -390,7 +400,8 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      # comments: # true
+      comments: true
       share: true
       related: true
       # GS show date: https://mmistakes.github.io/minimal-mistakes/docs/configuration/#post-dates

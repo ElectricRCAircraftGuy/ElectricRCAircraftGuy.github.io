@@ -15,4 +15,10 @@
 # For BOTH, do:
 #       ./run_build_site.sh --drafts --unpublished
 
+# To view comments: see: https://mmistakes.github.io/minimal-mistakes/docs/configuration/#comments:
+# > Note: Comments are disabled by default in development. To enable when testing/building locally
+# > be sure to set JEKYLL_ENV=production to force the environment to production.
+# So, it would look like this, or similar:
+#       JEKYLL_ENV=production && ./run_build_site.sh --drafts --unpublished
+
 bundle exec jekyll serve --livereload "$@"
