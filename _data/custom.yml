@@ -4,8 +4,15 @@
 # See: "_includes/comments.html".
 comments_notes: >-
   Comments are powered by <a href="https://utteranc.es/">Utterances</a>.
-  A free <a href="https://github.com/">GitHub account</a> is required.<br>
+  A free <a href="https://github.com/">GitHub account</a> is required.
   <i>Comments are moderated.</i> <b>Be respectful. No swearing or inflammatory language. No spam.</b><br>
-  <i>I reserve the right to delete any comment.</i> All comments for all pages
+  <i>I reserve the right to delete any comments.</i>
+  All comments for all pages
   <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/labels/website_comments">
-  can be viewed online here</a>.
+  can be viewed and <i>searched</i> online here</a>.<br><br>
+
+  <b>To edit or delete your comment:</b> click the "Comments" link at the top of the comments
+  section below where it says how many comments have been left (this will take you to a GitHub page<br>
+  with all comments for this page) --> find your comment on this GitHub pg. and click the 3 dots in the top-right
+  --> click "Edit" or "Delete". Editing or adding a comment this way also gives<br>
+  you a nicer editor.
