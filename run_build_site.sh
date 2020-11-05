@@ -20,7 +20,9 @@
 # > be sure to set JEKYLL_ENV=production to force the environment to production.
 # So, it would look like this, or similar:
 #       JEKYLL_ENV=production ./run_build_site.sh --drafts --unpublished
-# Note: the opposite of "production" is "development".
+# Note: the opposite of "production" is "development". Do NOT use `--incremental` when switching
+# to production mode or else it won't work properly, and will continue to use cached development
+# content.
 
 # Incremental: enable incremental builds (to potentially speed things up a lot!?) with
 # `--incremental`. Ex:
