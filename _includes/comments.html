@@ -152,6 +152,14 @@
       </section>
     {% when "utterances" %}
       <h4 class="page__comments-title">{{ comments_label }}</h4>
+      {% comment %}
+        GS: add custom `comments_notes` section
+      {% endcomment %}
+      {% if site.data.custom.comments_notes %}
+      <p class="small">
+      {{ site.data.custom.comments_notes }}
+      </p>
+      {% endif %}
       <section id="utterances-comments"></section>
     {% when "custom" %}
       {% include /comments-providers/custom.html %}

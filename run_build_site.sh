@@ -3,7 +3,7 @@
 # References:
 # 1. See "Gemfile"
 # 2. https://jekyllrb.com/docs/
-#   - also mentions the `--livereload` option here!
+#   - also mentions the `--livereload` option here (which I now include by default)!
 
 # Build drafts too:
 # - See: https://jekyllrb.com/docs/posts/#drafts
@@ -19,7 +19,8 @@
 # > Note: Comments are disabled by default in development. To enable when testing/building locally
 # > be sure to set JEKYLL_ENV=production to force the environment to production.
 # So, it would look like this, or similar:
-#       JEKYLL_ENV=production && ./run_build_site.sh --drafts --unpublished
+#       JEKYLL_ENV=production ./run_build_site.sh --drafts --unpublished
+# Note: the opposite of "production" is "development".
 
 # Incremental: enable incremental builds (to potentially speed things up a lot!?) with
 # `--incremental`. Ex:

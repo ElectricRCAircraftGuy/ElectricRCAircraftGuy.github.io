@@ -1,0 +1,11 @@
+# Custom data for use by Gabriel Staples
+
+# For Utterances comments.
+# See: "_includes/comments.html".
+comments_notes: >-
+  Comments are powered by <a href="https://utteranc.es/">Utterances</a>.
+  A free <a href="https://github.com/">GitHub account</a> is required.<br>
+  <i>Comments are moderated.</i> <b>Be respectful. No swearing or inflammatory language.</b><br>
+  All comments for all pages
+  <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/labels/website_comments">
+  can be viewed online here</a>.
