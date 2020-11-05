@@ -14,6 +14,12 @@
 remote_theme             : "mmistakes/minimal-mistakes@4.20.2"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
+# GS: fix this error when building (required for the github-pages "pages-gem" to work correctly):
+# > GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have
+# > incorrect data.
+# See: https://github.com/github/pages-gem/issues/399#issuecomment-301827749
+github: [metadata]
+
 # Site Settings
 locale                   : "en-US"
 title                    : "GabrielStaples.com home"
@@ -408,3 +414,6 @@ defaults:
       related: true
       # GS show date: https://mmistakes.github.io/minimal-mistakes/docs/configuration/#post-dates
       show_date: true
+      toc: true
+
+
