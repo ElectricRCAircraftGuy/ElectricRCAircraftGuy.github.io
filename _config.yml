@@ -46,8 +46,8 @@ logo                     : # path of logo image to display in the masthead, e.g.
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 # GS: default for this theme is 200 wpm, but a quick Google search shows that is typical for NON-technical writing, so
-# let's make it 100 wpm for my site!
-words_per_minute         : 100
+# let's make it 100~150 wpm for my site!
+words_per_minute         : 150
 comments:
   # provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   provider               : "utterances"
