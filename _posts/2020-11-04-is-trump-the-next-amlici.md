@@ -12,6 +12,9 @@ tags: politics Trump election
 
 _He's powerful. He's strong. He's assertive. And he's not afraid to undermine the rights of voters in the free democratic election process to take away peoples' freedoms and get his way...just like Amlici of old._
 
+Is Trump a sort of modern-day Amlici? I think he is. So this year, as a Republican, I proudly and confidently voted for Biden, and I truly hope Biden wins. 
+
+
 ## Questions I have about Trump
 
 1. Is Donald Trump a modern-day Amlici?
@@ -29,6 +32,7 @@ It says:
 **It takes time to count ballots. _Every_ vote must be counted for a free election to truly represent the people and be an honest, good, and correct election, and that takes _up to 17 days_!**
 
 I don't know for certain if Trump is a modern-day Amlici, and I certainly hope not, but it really bothers me how deceitful, dishonest, and undermining he is of the democratic (free world) election process, and I've been wondering for months if he is a modern day Amlici intentionally driving our nation towards, and garnering support for, literally, another civil war.
+
 
 ## Who is Amlici?
 
