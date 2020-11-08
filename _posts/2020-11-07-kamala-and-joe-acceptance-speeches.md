@@ -1,7 +1,7 @@
 ---
 published: true  # use "false" while drafting articles just before publishing
 title: Kamala Harris and Joe Biden Presidential Acceptance Speeches
-tags: politics biden election
+tags: politics biden election drones
 # date: 1999-12-31
 # last_modified_at: 2000-12-31  # updates the "Updated" date at the bottom!
 # permalink: /test/
@@ -14,10 +14,10 @@ As a deeply concerned, but long-time Republican, I didn't fully make up my mind 
 
 <p align="center" width="100%">
     <a href="https://youtu.be/gHuY1lyx9kk?t=8856">
-        <img width="32%" src="/assets/images/20201107-kamala.jpg"> 
+        <img width="40%" src="/assets/images/20201107-kamala.jpg"> 
     </a>
     <a href="https://youtu.be/gHuY1lyx9kk?t=9495">
-        <img width="32%" src="/assets/images/20201107-joe-biden.jpg"> 
+        <img width="40%" src="/assets/images/20201107-joe-biden.jpg"> 
     </a>
 </p>
 
