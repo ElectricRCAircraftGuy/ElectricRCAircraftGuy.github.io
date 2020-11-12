@@ -89,3 +89,55 @@ html {
   }
 }
 
+/* GS: CSS inspired by my own answer here:
+https://stackoverflow.com/questions/12090472/github-readme-md-center-image/62383408#62383408 */
+
+/* Create a CSS class to style HTML elements, such as `div`, `p`, or `img`, to left-align,
+or "float left" */
+.alignLeft
+{
+  display:inline-block;
+  float:left;
+  /* provide a 15 pixel gap between the image and the text to its right */
+  margin-right:15px;
+  /*width:60%;*/
+}
+
+/* Create a CSS class to style HTML elements, such as `div`, `p`, or `img`, to center-align */
+.alignCenter
+{
+  display:block;
+  float:none;
+  /* Set both the left and right margins to `auto` to cause the image to be centered. */
+  margin-left:auto;
+  margin-right:auto;
+  /*width:60%;*/
+}
+
+/* Create a CSS class to style HTML elements, such as `div`, `p`, or `img`, to right-align,
+or "float right" */
+.alignRight
+{
+  display:inline-block;
+  float:right;
+  /* provide a 15 pixel gap between the image and the text to its left */
+  margin-left:15px;
+  /*width:60%;*/
+}
+
+
+.inlineTrue
+{
+  /* CSS `display` properties: see: https://www.w3schools.com/cssref/pr_class_display.asp */
+  /*display:inline-block !important;*/
+  display:inline-block;
+  /*float:none;*/
+}
+
+.inlineFalse
+{
+  /* CSS `display` properties: see: https://www.w3schools.com/cssref/pr_class_display.asp */
+  /*display:block !important;*/
+  display:block;
+  float:none;
+}
