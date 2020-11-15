@@ -1,5 +1,5 @@
 ---
-published: false  # use "false" while drafting articles just before publishing
+published: true  # use "false" while drafting articles just before publishing
 title: Deceitful Maps on behalf of a Deceitful President
 tags: politics trump election
 # date: 1999-12-31
@@ -11,6 +11,8 @@ tags: politics trump election
 ---
 
 I saw this statement and map on Facebook today, copy-pasted into Facebook by someone from [a post on Parler, here](https://parler.com/profile/CraigRower/posts):
+
+<sup>Note: direct link to the exact post not available--you'll have to scroll down farther and farther each day on the link above to see it.</sup>
 
 <p align="center" width="100%">
     <a href="/assets/images/parler-red-map-cropped.jpg">
@@ -74,7 +76,7 @@ Now, in 2020 he is repeating his claims, this time crying louder and louder and 
 
 Other men in history have sought power this way. They have deceived many. Many wars have been started by men like this. Many souls have been lost both temporally and spiritually by following men like this. **Please do not be deceived by this man today, nor by his faithful followers who will follow him into any pit he has dug, and who will create false maps as shown above.**
 
-## What inspired this map?
+## What inspired the statement accompanying this map?
 
 It appears that the inspiration for this map comes from Representative (Republican, Texas) Louie Gohmert's speech [here](https://youtu.be/m2PPGcqilvw?t=51), where he says: 
 
