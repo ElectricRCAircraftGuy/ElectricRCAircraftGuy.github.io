@@ -90,6 +90,13 @@ html
   }
 }
 
+/* GS: blockquotes */
+
+blockquote {
+  /* Override `font-style: italic;` in "_base.scss" */
+  font-style: normal;
+}
+
 /*
 GS: CSS inspired by my own answer here:
 https://stackoverflow.com/questions/12090472/github-readme-md-center-image/62383408#62383408
