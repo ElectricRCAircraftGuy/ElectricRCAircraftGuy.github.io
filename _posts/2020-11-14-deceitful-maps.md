@@ -44,7 +44,7 @@ On 6 Nov. 2012, when Obama was elected, Trump claimed fraud in the election and 
 
 > This election is a total _sham and a travesty_. We are not a democracy!" 
 
-...along [with this](https://twitter.com/realDonaldTrump/status/266034630820507648)):
+...along [with this](https://twitter.com/realDonaldTrump/status/266034630820507648):
 
 > We can't let this happen. We should march on Washington and stop this travesty. Our nation is totally divided!
 
