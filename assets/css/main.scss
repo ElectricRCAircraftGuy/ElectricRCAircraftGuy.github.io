@@ -69,7 +69,8 @@ See: https://github.com/mmistakes/minimal-mistakes/issues/1219#issuecomment-3268
 - It looks like the screen pixel sizes to move into each new "size" category are defined in
   the "Breakpoints" section of "_variables.scss"?
 */
-html {
+html
+{
   font-size: 14px; // change to whatever (default: 16px?)
 
   @include breakpoint($small) {
@@ -89,55 +90,78 @@ html {
   }
 }
 
-/* GS: CSS inspired by my own answer here:
-https://stackoverflow.com/questions/12090472/github-readme-md-center-image/62383408#62383408 */
+/*
+GS: CSS inspired by my own answer here:
+https://stackoverflow.com/questions/12090472/github-readme-md-center-image/62383408#62383408
 
-/* Create a CSS class to style HTML elements, such as `div`, `p`, or `img`, to left-align,
-or "float left" */
-.alignLeft
+See also:
+0. *****[my own document] https://github.com/ElectricRCAircraftGuy/eRCaGuy_hello_world/blob/master/markdown/github_readme_center_and_align_images.md
+1. ****https://www.w3schools.com/howto/howto_css_image_center.asp
+1.5*****https://www.w3schools.com/howto/howto_css_images_side_by_side.asp
+2. ***https://www.w3schools.com/css/css3_images.asp
+3. **https://www.w3schools.com/html/html_images.asp
+4. https://stackoverflow.com/questions/20917632/how-to-align-an-image-at-middle-of-wrapped-text
+*/
+
+/* align left WITH word wrap to the right of the element */
+.alignLeftWrap
 {
-  display:inline-block;
-  float:left;
-  /* provide a 15 pixel gap between the image and the text to its right */
-  margin-right:15px;
-  /*width:60%;*/
+  display: inline-block;
+  float: left;
+  margin-left: 0px;
+  /* provide a gap between the element and the text to its right */
+  margin-right: 15px;
+  /*width: 60%;*/
 }
 
-/* Create a CSS class to style HTML elements, such as `div`, `p`, or `img`, to center-align */
-.alignCenter
+/* align right WITH word wrap to the left of the element */
+.alignRightWrap
 {
-  display:block;
-  float:none;
-  /* Set both the left and right margins to `auto` to cause the image to be centered. */
-  margin-left:auto;
-  margin-right:auto;
-  /*width:60%;*/
-}
-
-/* Create a CSS class to style HTML elements, such as `div`, `p`, or `img`, to right-align,
-or "float right" */
-.alignRight
-{
-  display:inline-block;
-  float:right;
-  /* provide a 15 pixel gap between the image and the text to its left */
-  margin-left:15px;
-  /*width:60%;*/
+  display: inline-block;
+  float: right;
+  /* provide a gap between the element and the text to its left */
+  margin-left: 15px;
+  margin-right: 0px;
+  /*width: 60%;*/
 }
 
 
-.inlineTrue
+/* align left withOUT word wrap--the element goes on its own line */
+.alignLeftNoWrap
 {
-  /* CSS `display` properties: see: https://www.w3schools.com/cssref/pr_class_display.asp */
-  /*display:inline-block !important;*/
-  display:inline-block;
-  /*float:none;*/
+  display: block;
+  float: none;
+  margin-left: 0px;
+  margin-right: auto;
+  /*width: 60%;*/
 }
 
-.inlineFalse
+/* align center withOUT word wrap--the element goes on its own line */
+.alignCenterNoWrap
 {
-  /* CSS `display` properties: see: https://www.w3schools.com/cssref/pr_class_display.asp */
-  /*display:block !important;*/
-  display:block;
-  float:none;
+  display: block;
+  float: none;
+  /* Set both the left and right margins to `auto` to cause the img/element to be centered. */
+  margin-left: auto;
+  margin-right: auto;
+  /*width: 60%;*/
+}
+
+/* align right withOUT word wrap--the element goes on its own line */
+.alignRightNoWrap
+{
+  display: block;
+  float: none;
+  margin-left: auto;
+  margin-right: 0px;
+  /*width: 60%;*/
+}
+
+
+/* Force this element to NOT wrap around any floating elements above it which have word wrap.
+Therefore, this element will begin on a new line, even if it would otherwise try to wrap
+around the above element instead. */
+.noWrapAroundAbove
+{
+  clear: both;
 }

@@ -94,202 +94,87 @@ and also:
 
 ## 2) Images using modern CSS styling and properties:
 
-DOES _NOT_ WORK START:
+**Align left no wrap:**  
+<img class="alignLeftNoWrap" style="width:33%;" src="https://i.stack.imgur.com/RJj4x.png">
 
-**Align left:**
-<p class="alignLeft" style="width:100%;">
-    <img width="33%" src="https://i.stack.imgur.com/RJj4x.png">
-</p>
+**Align center no wrap:**  
+<img class="alignCenterNoWrap" style="width:33%;" src="https://i.stack.imgur.com/RJj4x.png">
 
-**Align center:**
-<p class="alignCenter" style="width:100%;">
-    <img width="33%" src="https://i.stack.imgur.com/RJj4x.png">
-</p>
+**Align right no wrap:**  
+<img class="alignRightNoWrap" style="width:33%;" src="https://i.stack.imgur.com/RJj4x.png">
 
-**Align right:**
-<p class="alignRight" style="width:100%;">
-    <img width="33%" src="https://i.stack.imgur.com/RJj4x.png">
-</p>
+**Align left with wrap:**  
+<img class="alignLeftWrap" style="width:33%;" src="https://i.stack.imgur.com/RJj4x.png">
+[Arduino](https://en.wikipedia.org/wiki/Arduino) (/ɑːrˈdwiːnoʊ/) is an open-source hardware and software company, project and user community that designs and manufactures single-board microcontrollers and microcontroller kits for building digital devices. Its hardware products are licensed under a CC-BY-SA license, while software is licensed under the GNU Lesser General Public License (LGPL) or the GNU General Public License (GPL),[1] permitting the manufacture of Arduino boards and software distribution by anyone. Arduino boards are available commercially from the official website or through authorized distributors. Arduino board designs use a variety of microprocessors and controllers. The boards are equipped with sets of digital and analog input/output (I/O) pins that may be interfaced to various expansion boards ('shields') or breadboards (for prototyping) and other circuits.
 
-DOES _NOT_ WORK END
+**Align right with wrap:**  
+<img class="alignRightWrap" style="width:33%;" src="https://i.stack.imgur.com/RJj4x.png">
+[Arduino](https://en.wikipedia.org/wiki/Arduino) (/ɑːrˈdwiːnoʊ/) is an open-source hardware and software company, project and user community that designs and manufactures single-board microcontrollers and microcontroller kits for building digital devices. Its hardware products are licensed under a CC-BY-SA license, while software is licensed under the GNU Lesser General Public License (LGPL) or the GNU General Public License (GPL),[1] permitting the manufacture of Arduino boards and software distribution by anyone. Arduino boards are available commercially from the official website or through authorized distributors. Arduino board designs use a variety of microprocessors and controllers. The boards are equipped with sets of digital and analog input/output (I/O) pins that may be interfaced to various expansion boards ('shields') or breadboards (for prototyping) and other circuits.
 
-**0:**
-<img style="width:33%;" src="https://i.stack.imgur.com/RJj4x.png">
+**Allow the following 2 examples to interweave in an ugly way:**
 
-**Align left 1:**
-<img style="width:33%;display:block" src="https://i.stack.imgur.com/RJj4x.png">
+**Align left with wrap:**  
+<img class="alignLeftWrap" style="width:33%;" src="https://i.stack.imgur.com/RJj4x.png">
+[Arduino](https://en.wikipedia.org/wiki/Arduino) (/ɑːrˈdwiːnoʊ/) is an open-source hardware and software company...
 
-**Align left 2:**
-<img class="inlineTrue" style="width:33%;" src="https://i.stack.imgur.com/RJj4x.png">
+**Align right with wrap:**  
+<img class="alignRightWrap" style="width:33%;" src="https://i.stack.imgur.com/RJj4x.png">
+[Arduino](https://en.wikipedia.org/wiki/Arduino) (/ɑːrˈdwiːnoʊ/) is an open-source hardware and software company...
 
-**Align left 3:**
-<img class="inlineFalse" style="width:33%;" src="https://i.stack.imgur.com/RJj4x.png">
+<!-- Use `p` tag here, NOT the `div` tag, to provide extra space between the bottom of the image above and the start of the text below, since paragraph elements automatically have extra space above and below them! -->
+<p class="noWrapAroundAbove"></p>
+**But use the `.noWrapAroundAbove` CSS class I created for these ones to prevent the above behavior and force each new image to begin on a new line.**
 
-**Align left 4:**
-<img class="inlineFalse alignLeft inlineFalse" style="width:33%;display:block;" src="https://i.stack.imgur.com/RJj4x.png">
+**Align left with wrap:**  
+<img class="alignLeftWrap noWrapAroundAbove" style="width:33%;" src="https://i.stack.imgur.com/RJj4x.png">
+[Arduino](https://en.wikipedia.org/wiki/Arduino) (/ɑːrˈdwiːnoʊ/) is an open-source hardware and software company...
 
-**Align left 5:**
-<img class="inlineTrue" style="width:33%;" src="https://i.stack.imgur.com/RJj4x.png">
+<p class="noWrapAroundAbove"></p>
+**Align right with wrap:**  
+<img class="alignRightWrap noWrapAroundAbove" style="width:33%;" src="https://i.stack.imgur.com/RJj4x.png">
+[Arduino](https://en.wikipedia.org/wiki/Arduino) (/ɑːrˈdwiːnoʊ/) is an open-source hardware and software company...
 
-**Align left 6:**
-<img class="inlineFalse" style="width:33%;" src="https://i.stack.imgur.com/RJj4x.png">
+<p class="noWrapAroundAbove"></p>
 
+### Images as `a` links to themselves:
 
-**Center 1:**
-<img class="alignCenter" style="width:33%;" src="https://i.stack.imgur.com/RJj4x.png">
+**Align left no wrap:**  
+<a href="https://i.stack.imgur.com/RJj4x.png">
+<img class="alignLeftNoWrap" style="width:33%;" src="https://i.stack.imgur.com/RJj4x.png">
+</a>
 
-**Right 1 inline:**
-<img class="alignRight" style="width:33%;" src="https://i.stack.imgur.com/RJj4x.png">
+**Align center no wrap:**  
+<a href="https://i.stack.imgur.com/RJj4x.png">
+<img class="alignCenterNoWrap" style="width:33%;" src="https://i.stack.imgur.com/RJj4x.png">
+</a>
 
-**Right 2 not inline?:**
-<img class="inlineFalse alignRight inlineFalse" style="width:33%;display:block;" src="https://i.stack.imgur.com/RJj4x.png">
+**Align right no wrap:**  
+<a href="https://i.stack.imgur.com/RJj4x.png">
+<img class="alignRightNoWrap" style="width:33%;" src="https://i.stack.imgur.com/RJj4x.png">
+</a>
 
-**Right 2 not inline?:**
-<div style="width:100%;">
-    <img class="inlineFalse alignRight inlineFalse" style="width:33%;display:block;" src="https://i.stack.imgur.com/RJj4x.png">
+### Multiple images centered in a row:
+
+<p class="alignCenterNoWrap">Hey how are you?</p>
+
+<div class="alignCenterNoWrap" style="width:100%;">
+    <a href="https://i.stack.imgur.com/RJj4x.png">
+    <img style="width:30%;" src="https://i.stack.imgur.com/RJj4x.png">
+    </a>
+    <a href="https://i.stack.imgur.com/RJj4x.png">
+    <img style="width:30%;" src="https://i.stack.imgur.com/RJj4x.png">
+    </a>
 </div>
 
-**Center:**
-<img class="alignCenter" style="width:33%;" src="https://i.stack.imgur.com/RJj4x.png">
-
-**Right 2 not inline?:**
-<div style="width:100%;">
-    <img class="inlineFalse alignRight inlineFalse" style="width:33%;display:block;" src="https://i.stack.imgur.com/RJj4x.png">
+<div class="alignRightNoWrap" style="width:100%;">
+    <a href="https://i.stack.imgur.com/RJj4x.png">
+    <img style="width:30%;" src="https://i.stack.imgur.com/RJj4x.png">
+    </a>
+    <a href="https://i.stack.imgur.com/RJj4x.png">
+    <img style="width:30%;" src="https://i.stack.imgur.com/RJj4x.png">
+    </a>
 </div>
 
----
-
-**Left?:**
-<img style="width:33%;
-            display:block;
-            float:none;
-            margin-right:auto;" 
-     src="https://i.stack.imgur.com/RJj4x.png">
-
-**Center?:**
-<img style="width:33%;
-            display:block;
-            float:none;
-            margin-left:auto;
-            margin-right:auto;" 
-     src="https://i.stack.imgur.com/RJj4x.png">
-
-**Right?:**
-<img style="width:33%;
-            display:block;
-            float:none;
-            margin-left:auto;" 
-     src="https://i.stack.imgur.com/RJj4x.png">
-
----
-
-**Left-inline?:**  
-<img style="
-            width:33%;
-            display:inline-block;
-            float:left;
-            margin-right:15px;
-           "
-     src="https://i.stack.imgur.com/RJj4x.png">
-
-dddad  
-adadddsd  
-addas  
-ds  
-dsddds  
-qe  
-eq  
-eq  
-eqqeee  
-
-**Center-inline?:**  
-<img style="width:33%;
-            display:inline-block;
-            float:none;
-            margin-left:15px;
-            margin-right:15px;" 
-     src="https://i.stack.imgur.com/RJj4x.png">
-
-dddad  
-adadddsd  
-addas  
-ds  
-dsddds  
-qe  
-eq  
-eq  
-eqqeee  
-
-**Right-inline?:**  
-<img style="width:33%;
-            display:inline-block;
-            float:right;
-            margin-left:15px;" 
-     src="https://i.stack.imgur.com/RJj4x.png">
-
-dddad  
-adadddsd  
-addas  
-ds  
-dsddds  
-qe  
-eq  
-eq  
-eqqeee  
-
-**For text alignment, see: <https://www.w3schools.com/cssref/tryit.asp?filename=trycss_text-align>**
-
-<div style="text-align:right;">
-
-**Right-inline w/text also to the right?:**  
-<img style="width:33%;
-            display:inline-block;
-            float:right;
-            margin-left:15px;" 
-     src="https://i.stack.imgur.com/RJj4x.png">
-
-dddad  
-adadddsd  
-addas  
-ds  
-dsddds  
-qe  
-eq  
-eq  
-eqqeee  
-
-</div>
-
-d  
-d  
-d  
-dd  
-d  
+END.
 
 
-This breaks it for the _whole page_, as it sets right-align for the WHOLE PAGE, NOT just starting from here on down!:
-
-```css
-<style>
-p {
-    text-align:right;
-}
-</style>
-```
-
-**Right-inline w/text also to the right?:**  
-<img style="width:33%;
-            display:inline-block;
-            float:right;
-            margin-left:15px;" 
-     src="https://i.stack.imgur.com/RJj4x.png">
-
-dddad  
-adadddsd  
-addas  
-ds  
-dsddds  
-qe  
-eq  
-eq  
-eqqeee  
