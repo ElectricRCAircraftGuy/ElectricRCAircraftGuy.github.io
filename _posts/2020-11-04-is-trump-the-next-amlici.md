@@ -133,6 +133,11 @@ In this story above, Biden is Alma, Trump is Amlici, and I hope Trump does not r
 One thing is certain, however, Trump undermines democracy and freedom, lies about voting and the electoral process, and seeks to do wrong. It appears to me he is cunning and manipulative and threatening. That's not a presidential candidate I can stand by. Biden, on the other hand, I felt when he spoke directly to the people in the last debate, has a genuine desire to use a position of power, like the US presidency, for good. That's a candidate I _can_ stand by, so this year, he won my vote.
 
 
+## Additional Reading
+
+1. [The Real Reason For Trump’s Mormon Wall](https://nealsilvester.wordpress.com/2016/10/26/the-real-reason-for-trumps-mormon-wall/) - great read; this is an article written on Oct. 26, 2016, during the 2016 presidential election, talking about how Trump shares characteristics with many wicked Book of Mormon people of old, including the wicked King Noah, Amlici, the most-cunning Amalickiah in particular--and his Kingmen, and Paanchi and his followers who planned a murderous coup. For anyone who read my article here, I _highly recommend_ you take a look at this one too.
+
+
   [washington_post]: https://www.washingtonpost.com/elections/2020/11/03/trump-biden-election-live-updates/
   [alma2]: https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/2
 
