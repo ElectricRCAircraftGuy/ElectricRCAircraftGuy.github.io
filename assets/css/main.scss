@@ -49,8 +49,12 @@ $x-large: 1280px;  // default is 1280px [my 1920x1080 laptop, my 3840x2160 4k 32
                    // my 1920x1080 Google Pixel 2 5-inch phone ALL fit into this category!]
 
 
+/* ============ OVERRIDE SASS (*.scss file) VARIABLES BY PLACING THEM ABOVE ===================== */
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* ============ OVERRIDE CSS STYLES BY PLACING THEM BELOW ======================================= */
 
 
 /*
@@ -91,9 +95,10 @@ html
 }
 
 /* GS: blockquotes */
-
 blockquote {
   /* Override `font-style: italic;` in "_base.scss" */
+  /* See my Q:
+  https://talk.jekyllrb.com/t/want-to-use-default-github-jekyll-code-formatting-and-quote-formatting/5221/2 */
   font-style: normal;
 }
 
