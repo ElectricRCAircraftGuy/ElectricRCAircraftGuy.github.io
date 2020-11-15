@@ -5,9 +5,11 @@
 @charset "utf-8";
 
 /*
+----------------------------------------------------------------------------------------------------
 GS: to override any SASS variables in "_variables.scss", you must place new values here, BEFORE
 the `@import` statements, as that is the point where the variables are used!
 See: https://github.com/mmistakes/minimal-mistakes/issues/2278#issuecomment-541484035
+----------------------------------------------------------------------------------------------------
 */
 
 /*
@@ -62,9 +64,11 @@ $code-background-color: rgba(27,31,35,0.05); /* overrides val in "_variables.scs
 
 
 /*
+----------------------------------------------------------------------------------------------------
 GS: override any CSS with new CSS styles AFTER the `@import "minimal-mistakes";` line just above!
 See: https://github.com/mmistakes/minimal-mistakes/issues/1219#issuecomment-326809412
 Anything you place after this point will therefore "cascade and override" the previous CSS styles.
+----------------------------------------------------------------------------------------------------
 */
 
 /*
@@ -111,6 +115,23 @@ blockquote {
   https://talk.jekyllrb.com/t/want-to-use-default-github-jekyll-code-formatting-and-quote-formatting/5221/2 */
   font-style: normal;
 }
+
+/* ----- CODE ----------------------------------------------------------------------------------- */
+
+/*
+In "_base.scss", the CSS formatting for the `code` class is applied to `td > code`, which means it
+ONLY applies to `code` classes which are **children of** (`>`) HTML `td` elements. I want the
+light grey background color to be applied to ALL code blocks, however, even code words between
+back-ticks (ex: `some word`) in headings (`<h2>`, `<h1>`, or other heading elements, for instance)
+or inside other non-`td` elements. To do this, simply apply the CSS `background` property to ALL
+`code` classes, like this:
+*/
+code {
+  /* force background code highlighting inside headings & all other elements too */
+  background: $code-background-color;
+}
+
+/* ----- IMAGES & CONTAINERS -------------------------------------------------------------------- */
 
 /*
 GS: CSS inspired by my own answer here:

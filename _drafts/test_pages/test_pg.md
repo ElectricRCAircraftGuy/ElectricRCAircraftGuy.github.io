@@ -37,6 +37,8 @@ See: <https://github.com/ElectricRCAircraftGuy/eRCaGuy_hello_world/blob/master/m
 
 ## 1) Image layouts using deprecated HTML attributes (`align` at all, and `width` outside of its normally-supported HTML elements):
 
+Test code here: `I am code 1234;`.
+
 This:
 
 ```html
