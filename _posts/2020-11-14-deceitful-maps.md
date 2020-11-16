@@ -44,21 +44,31 @@ On 6 Nov. 2012, when Obama was elected, Trump claimed fraud in the election and 
 
 > This election is a total _sham and a travesty_. We are not a democracy!" 
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This election is a total sham and a travesty. We are not a democracy!</p>&mdash; Donald J. Trump (@realDonaldTrump) <a href="https://twitter.com/realDonaldTrump/status/266035509162303492?ref_src=twsrc%5Etfw">November 7, 2012</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ...along [with this](https://twitter.com/realDonaldTrump/status/266034630820507648):
 
 > We can't let this happen. We should march on Washington and stop this travesty. Our nation is totally divided!
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We can&#39;t let this happen. We should march on Washington and stop this travesty. Our nation is totally divided!</p>&mdash; Donald J. Trump (@realDonaldTrump) <a href="https://twitter.com/realDonaldTrump/status/266034630820507648?ref_src=twsrc%5Etfw">November 7, 2012</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 In 2016, when running for president himself, he again claimed the elections were fraudulent and rigged, when [he said here on 16 Apr. 2016](https://twitter.com/realDonaldTrump/status/721307257472999424) (emphasis added):
 
 > I will be interviewed on @foxandfriends at 9:00 A.M. I will be talking about the _rigged_ and _boss controlled_ Republican primaries!
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I will be interviewed on <a href="https://twitter.com/foxandfriends?ref_src=twsrc%5Etfw">@foxandfriends</a> at 9:00 A.M. I will be talking about the rigged and boss controlled Republican primaries!</p>&mdash; Donald J. Trump (@realDonaldTrump) <a href="https://twitter.com/realDonaldTrump/status/721307257472999424?ref_src=twsrc%5Etfw">April 16, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 and [on 17 May 2016 here](https://twitter.com/realDonaldTrump/status/732716604027502592) (emphasis added): 
 
 > Do you think _Crooked_ Hillary will finally close the deal? If she can't win Kentucky, she should drop out of race. _System rigged!_
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Do you think Crooked Hillary will finally close the deal? If she can&#39;t win Kentucky, she should drop out of race. System rigged!</p>&mdash; Donald J. Trump (@realDonaldTrump) <a href="https://twitter.com/realDonaldTrump/status/732716604027502592?ref_src=twsrc%5Etfw">May 17, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 and [on 20 May 2016 here](https://twitter.com/realDonaldTrump/status/733604767612710912) (emphasis added): 
 
 > _Crooked_ Hillary can't even close the deal with Bernie - and the Dems have it _rigged_ in favor of Hillary. Four more years of this? No way!
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Crooked Hillary can&#39;t even close the deal with Bernie - and the Dems have it rigged in favor of Hillary. Four more years of this? No way!</p>&mdash; Donald J. Trump (@realDonaldTrump) <a href="https://twitter.com/realDonaldTrump/status/733604767612710912?ref_src=twsrc%5Etfw">May 20, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 He made many other claims in 2016 that the system was rigged. He then continued claiming election results were rigged for years, and just before the 2020 election he ramped up his efforts, told his supporters not to vote by mail, and said all mail-in voting would be fraudulent and the election rigged. 
 
