@@ -1,7 +1,7 @@
 ---
 published: true  # use "false" while drafting articles just before publishing
 title: Bulk File Renaming in Linux
-tags: linux
+tags: linux ubuntu
 # date: 1999-12-31
 # last_modified_at: 2000-12-31  # updates the "Updated" date at the bottom!
 # permalink: /test/
