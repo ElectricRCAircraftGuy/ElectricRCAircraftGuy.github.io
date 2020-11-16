@@ -16,7 +16,7 @@ Simple:
 
 (tested in Ubuntu 20.04)
 
-1. Install the `thunar` file manager GUI tool which comes with a handy "Bulk Rename" utility:
+1. Install the `thunar` file manager GUI tool which comes with a handy "Bulk Rename" utility. Type the following into a terminal (you can open a terminal window with `Ctrl` + `Alt` + `T`):
 
     ```bash
     sudo apt update 
