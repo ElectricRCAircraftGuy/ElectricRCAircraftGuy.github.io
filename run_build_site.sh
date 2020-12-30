@@ -13,7 +13,7 @@
 #       ./run_build_site.sh --unpublished
 
 # For BOTH, do:
-#       ./run_build_site.sh --drafts --unpublished
+#       ./run_build_site.sh --drafts --unpublished  <====== MY FAVORITE ========
 
 # To view comments: see: https://mmistakes.github.io/minimal-mistakes/docs/configuration/#comments:
 # > Note: Comments are disabled by default in development. To enable when testing/building locally
@@ -26,6 +26,6 @@
 
 # Incremental: enable incremental builds (to potentially speed things up a lot!?) with
 # `--incremental`. Ex:
-#       ./run_build_site.sh --drafts --unpublished --incremental
+#       ./run_build_site.sh --drafts --unpublished --incremental  <======= TO TRY OUT =======
 
 bundle exec jekyll serve --livereload "$@"

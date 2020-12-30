@@ -5,6 +5,13 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+# Jekyll Global Configuration, Build Command, or Serve Command options:
+# - See: https://jekyllrb.com/docs/configuration/options
+
+# default jekyll serve port is 4000, but NoMachine uses this port (see my answer here:
+# https://stackoverflow.com/a/65512475/4561887), so force jekyll to use another port instead
+port: 4001
+
 # Theme Settings
 #
 # Review documentation to determine if you should use `theme` or `remote_theme`
