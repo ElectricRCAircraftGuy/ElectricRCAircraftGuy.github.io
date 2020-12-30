@@ -54,6 +54,68 @@ $x-large: 1280px;  // default is 1280px [my 1920x1080 laptop, my 3840x2160 4k 32
 GitHub--CSS variable `--color-markdown-code-bg`; inspected via a browser. */
 $code-background-color: rgba(27,31,35,0.05); /* overrides val in "_variables.scss" */
 
+/*
+syntax highlighting (base16)
+- See "_sass/minimal-mistakes/_variables.scss" for default values.
+- See "_sass/minimal-mistakes/_syntax.scss" for mapping to `.highlight` values.
+- See also this, and my comment below it:
+  https://github.com/mmistakes/minimal-mistakes/discussions/2278#issuecomment-541484035
+*/
+// DEFAULT VALUES
+//                Mapped to (in _syntax.scss)
+//                ---------------------------
+$base00: #263238; // highlight `background`
+$base01: #2e3c43; // NA
+$base02: #314549; // NA
+$base03: #546e7a; // NA
+$base04: #b2ccd6; // line numbers (.highlight table td .rouge-gutter `color`); Comment--all types
+                  // (.c, .cm, .cp, .c1, .cs), Generic.Prompt (.gp), Literal.String.Doc (.sd)
+$base05: #eeffff; // figure.highlight `color`; Name (.n), Punctuation (.p), Generic.Heading (.gh),
+                  // Name.Builtin (.nb), Name.Entity (.ni), Name.Label (.nl), Name.Property (.py),
+                  // Text.Whitespace (.w), Literal.String.Char (.sc), Name.Builtin.Pseudo (.bp)
+$base06: #eeffff; // .highlight .hll `background-color`
+$base07: #ffffff; // NA
+$base08: #f07178; // Error (.err), Generic.Deleted (.gd), Name.Constant (.no), Name.Exception (.ne),
+                  // Name.Variable (.nv), Name.Variable.Class (.vc), Name.Variable.Global (.vg),
+                  // Name.Variable.Instance (.vi)
+$base09: #f78c6c; // Literal (.l), Literal.Number (.m), Literal.Number.Float (.mf),
+                  // Literal.Number.Hex (.mh), Literal.Number.Integer (.mi),
+                  // Literal.Number.Oct (.mo), Literal.String.Escape (.se),
+                  // Literal.String.Interpol (.si), Literal.Number.Integer.Long (.il)
+$base0a: #ffcb6b; // Keyword.Type (.kt), Name.Class (.nc), Name.Namespace (.nn)
+
+$base0b: #c3e88d; // Generic.Inserted (.gi), Literal.Date (.ld), Literal.String (.s),
+                  // Literal.String.Backtick (.sb), Literal.String.Double (.s2),
+                  // Literal.String.Heredoc (.sh), Literal.String.Other (.sx),
+                  // Literal.String.Regex (.sr), Literal.String.Single (.s1),
+                  // Literal.String.Symbol (.ss)
+$base0c: #89ddff; // Operator (.o), Generic.Subheading (.gu), Keyword.Namespace (.kn),
+                  // Name.Decorator (.nd), Name.Tag (.nt), Operator.Word (.ow)
+$base0d: #82aaff; // Name.Attribute (.na), Name.Function (.nf), Name.Other (.nx)
+$base0e: #c792ea; // Keyword (.k), Keyword.Constant (.kc), Keyword.Declaration (.kd),
+                  // Keyword.Pseudo (.kp), Keyword.Reserved (.kr)
+$base0f: #ff5370; // NA
+
+// NEW VALUES
+// - Modified from this: https://github.com/Defman21/base16-github-scheme/blob/master/github.yaml
+// - Inspecting and using Stack Overflow colors when in doubt, via browser Inspection and color
+//   picker tools.
+$base00: #f6f6f6;
+// $base01: #f5f5f5;
+// $base02: #c8c8fa;
+// $base03: #969896;
+$base04: #656e77;
+$base05: #333333;
+$base06: #ffffff;
+// $base07: #ffffff;
+$base08: #ed6a43;
+$base09: #0086b3;
+$base0A: #795da3;
+$base0B: #183691;
+$base0C: #183691;
+$base0D: #795da3;
+$base0E: #a71d5d;
+// $base0F: #333333;
 
 /* ============ OVERRIDE SASS (*.scss file) VARIABLES BY PLACING THEM ABOVE ===================== */
 
@@ -132,6 +194,8 @@ code {
 }
 
 /* ----- IMAGES & CONTAINERS -------------------------------------------------------------------- */
+/* WORK IN PROGRESS--DOESN'T WORK YET! SEE MY QUESTION:
+https://stackoverflow.com/questions/64800932/how-to-have-a-row-of-images-centered-aligned-left-or-aligned-right-in-css#64801050 */
 
 /*
 GS: CSS inspired by my own answer here:

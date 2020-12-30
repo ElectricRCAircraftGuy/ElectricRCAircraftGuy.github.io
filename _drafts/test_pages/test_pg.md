@@ -22,6 +22,135 @@ categories: CATEGORY-1 CATEGORY-2
 
 **This** is a _test page_.
 
+Code sample: [my answer] <https://stackoverflow.com/a/54488289/4561887>
+
+```cpp
+// -------------
+// my_module.h
+// -------------
+
+// An opaque pointer (handle) to a C-style "object" of "class" type
+// "my_module" (struct my_module_s *, or my_module_h):
+typedef struct my_module_s *my_module_h;
+
+void doStuff1(my_module_h my_module);
+void doStuff2(const my_module_h my_module);
+
+// -------------
+// my_module.c
+// -------------
+
+// Definition of the opaque struct "object" of C-style "class" "my_module".
+struct my_module_s
+{
+    int int1;
+    int int2;
+    float f1;
+    // etc. etc--add more "private" member variables as you see fit
+}
+```
+
+```cpp
+ //--------------------
+ // my_module.h
+ //--------------------
+
+ // my_module configuration struct
+ typedef struct my_module_config_s
+ {
+     int my_config_param_int;
+     float my_config_param_float;
+ } my_module_config_t;
+
+ my_module_error_t my_module_open(my_module_h * my_module_h_p,
+                                  const my_module_config_t *config);
+
+ //--------------------
+ // my_module.c
+ //--------------------
+
+ my_module_error_t my_module_open(my_module_h * my_module_h_p,
+                                  const my_module_config_t *config)
+ {
+     my_module_error_t err = MY_MODULE_ERROR_OK;
+
+     // Ensure the passed-in pointer is not NULL (since it is a core dump/segmentation fault
+     // to try to dereference  a NULL pointer)
+     if (!my_module_h_p)
+     {
+         // Print some error or store some error code here, and return it at the end of the
+         // function instead of returning void. Ex:
+         err = MY_MODULE_ERROR_INVARG;
+         goto done;
+     }
+
+     // Now allocate the actual memory for a new my_module C object from the heap, thereby
+     // dynamically creating this C-style "object".
+     my_module_h my_module; // Create a local object handle (pointer to a struct)
+     // Dynamically allocate memory for the full contents of the struct "object"
+     my_module = malloc(sizeof(*my_module));
+     if (!my_module)
+     {
+         // Malloc failed due to out-of-memory. Print some error or store some error code
+         // here, and return it at the end of the function instead of returning void. Ex:
+         err = MY_MODULE_ERROR_NOMEM;
+         goto done;
+     }
+
+     // Initialize all memory to zero (OR just use `calloc()` instead of `malloc()` above!)
+     memset(my_module, 0, sizeof(*my_module));
+
+     // Now initialize the object with values per the config struct passed in. Set these
+     // private variables inside `my_module` to whatever they need to be. You get the idea...
+     my_module->my_private_int1 = config->my_config_param_int;
+     my_module->my_private_int2 = config->my_config_param_int*3/2;
+     my_module->my_private_float = config->my_config_param_float;
+     // etc etc
+
+     // Now pass out this object handle to the user, and exit.
+     *my_module_h_p = my_module;
+
+ done:
+     return err;
+ }
+And usage:
+
+ my_module_error_t err = MY_MODULE_ERROR_OK;
+
+ my_module_h my_module = NULL;
+ my_module_config_t my_module_config =
+ {
+     .my_config_param_int = 7,
+     .my_config_param_float = 13.1278,
+ };
+ err = my_module_open(&my_module, &my_module_config);
+ if (err != MY_MODULE_ERROR_OK)
+ {
+     switch (err)
+     {
+     case MY_MODULE_ERROR_INVARG:
+         printf("MY_MODULE_ERROR_INVARG\n");
+         break;
+     case MY_MODULE_ERROR_NOMEM:
+         printf("MY_MODULE_ERROR_NOMEM\n");
+         break;
+     case MY_MODULE_ERROR_PROBLEM1:
+         printf("MY_MODULE_ERROR_PROBLEM1\n");
+         break;
+     case MY_MODULE_ERROR_OK:
+         // not reachable, but included so that when you compile with
+         // `-Wall -Wextra -Werror`, the compiler will fail to build if you forget to handle
+         // any of the error codes in this switch statement.
+         break;
+     }
+
+     // Do whatever else you need to in the event of an error, here. Ex:
+     // await connection of debugger, or automatic system power reset by watchdog
+     while (true) {};
+ }
+```
+
+
 Here's some inline code: `uint64_t`.
 
 [www.google.com](www.google.com)
