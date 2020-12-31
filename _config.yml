@@ -327,7 +327,12 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
+  # # GS: enable syntax highlighter line numbers!
+  # # - See here: https://github.com/jekyll/jekyll/issues/4619#issuecomment-418558697
+  # # - Tested and works perfectly!
+  # syntax_highlighter_opts:
+  #   block:
+  #     line_numbers: true
 
 # Sass/SCSS
 sass:
