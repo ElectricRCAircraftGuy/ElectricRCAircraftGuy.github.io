@@ -173,6 +173,24 @@ See: <https://github.com/ElectricRCAircraftGuy/eRCaGuy_hello_world/blob/master/m
 
 This is regular text. 
 
+- this is `code`
+    - this is `code`
+        - this is `code`
+- this is `code`
+    - this is `code`
+        - this is `code`
+
+This is regular text. 
+
+1. this is `code`
+    1. this is `code`
+        1. this is `code`
+1. this is `code`
+    1. this is `code`
+        1. this is `code`
+
+> this is `code`
+
 ## 1) Image layouts using deprecated HTML attributes (`align` at all, and `width` outside of its normally-supported HTML elements):
 
 Test code here: `I am code 1234;`.
