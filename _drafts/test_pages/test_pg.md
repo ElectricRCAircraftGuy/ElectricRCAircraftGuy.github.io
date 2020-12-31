@@ -164,6 +164,15 @@ More image practice:
 
 See: <https://github.com/ElectricRCAircraftGuy/eRCaGuy_hello_world/blob/master/markdown/github_readme_center_and_align_images.md>
 
+# Heading 1 can also be made like this: `<h1>Heading 1</h1>`
+## Heading 2 can also be made like this: `<h2>Heading 2</h2>`
+### Heading 3 can also be made like this: `<h3>Heading 3</h3>`
+#### Heading 4 can also be made like this: `<h4>Heading 4</h4>`
+##### Heading 5 can also be made like this: `<h5>Heading 5</h5>`
+###### Heading 6 can also be made like this: `<h6>Heading 6</h6>`
+
+This is regular text. 
+
 ## 1) Image layouts using deprecated HTML attributes (`align` at all, and `width` outside of its normally-supported HTML elements):
 
 Test code here: `I am code 1234;`.
