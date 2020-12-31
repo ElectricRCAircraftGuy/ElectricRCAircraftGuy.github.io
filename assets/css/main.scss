@@ -100,22 +100,22 @@ syntax highlighting (base16)
 // - Modified from this: https://github.com/Defman21/base16-github-scheme/blob/master/github.yaml
 // - Inspecting and using Stack Overflow colors when in doubt, via browser Inspection and color
 //   picker tools.
-$base00: #f6f6f6;
-$base01: #f5f5f5;
-$base02: #c8c8fa;
-$base03: #969896;
-$base04: #e8e8e8;
-$base05: #333333;
-$base06: #ffffff;
-$base07: #ffffff;
-$base08: #ed6a43;
-$base09: #0086b3;
-$base0a: #795da3;
-$base0b: #183691;
-$base0c: #183691;
-$base0d: #795da3;
-$base0e: #a71d5d;
-$base0f: #333333;
+$base00: #f6f8fa; // background--good
+$base01: #000;
+$base02: #000;
+$base03: #000;
+$base04: #6a737d; // comments--good
+$base05: #24292e; // variable names and unknown types; ex: `my_module_h my_module`--good
+$base06: #ffffff; // unk--copied from https://github.com/Defman21/base16-github-scheme/blob/master/github.yaml
+$base07: #000;
+$base08: #ed6a43; // unk--copied from https://github.com/Defman21/base16-github-scheme/blob/master/github.yaml
+$base09: #0086b3; // unk--copied from https://github.com/Defman21/base16-github-scheme/blob/master/github.yaml
+$base0a: #d73a49; // namespace, class, and type keywords (`int`, `void`, etc.)--good
+$base0b: #183691; // unk--copied from https://github.com/Defman21/base16-github-scheme/blob/master/github.yaml
+$base0c: #24292e; // operators (*+-, etc.)--good
+$base0d: #6f42c1; // function names--good
+$base0e: #d73a49; // keywords: `typedef`, `struct`, `const`, etc.
+$base0f: #000;
 
 /* ============ OVERRIDE SASS (*.scss file) VARIABLES BY PLACING THEM ABOVE ===================== */
 
@@ -197,6 +197,13 @@ h5 > code,
 h6 > code {
   /* force background code highlighting inside headings & all other elements too */
   background: $code-background-color;
+}
+
+// Squash the code line height down to be more like GitHub.
+// - overrides "_syntax.scss" settings.
+div.highlighter-rouge,
+figure.highlight {
+  line-height: 1.6; // default: 1.8
 }
 
 /* ----- IMAGES & CONTAINERS -------------------------------------------------------------------- */
