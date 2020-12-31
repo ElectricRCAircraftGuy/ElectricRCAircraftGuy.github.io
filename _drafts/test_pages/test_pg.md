@@ -22,9 +22,15 @@ categories: CATEGORY-1 CATEGORY-2
 
 **This** is a _test page_.
 
+```cpp
+int i = 12345;
+float f = 2038.233;
+int i = 0x012345;
+```
+
 Code sample: [my answer] <https://stackoverflow.com/a/54488289/4561887>
 
-```cpp
+```c
 // -------------
 // my_module.h
 // -------------
@@ -50,7 +56,7 @@ struct my_module_s
 }
 ```
 
-```cpp
+```c
  //--------------------
  // my_module.h
  //--------------------
@@ -113,8 +119,9 @@ struct my_module_s
  done:
      return err;
  }
-And usage:
+```
 
+```c
  my_module_error_t err = MY_MODULE_ERROR_OK;
 
  my_module_h my_module = NULL;
