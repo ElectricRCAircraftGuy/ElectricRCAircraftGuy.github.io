@@ -105,13 +105,13 @@ $base01: #000;
 $base02: #000;
 $base03: #000;
 $base04: #6a737d; // comments--good
-$base05: #24292e; // variable names and unknown types; ex: `my_module_h my_module`--good
+$base05: #24292e; // (dark grey) variable names and unknown types; ex: `my_module_h my_module`--good
 $base06: #ffffff; // unk--copied from https://github.com/Defman21/base16-github-scheme/blob/master/github.yaml
 $base07: #000;
 $base08: #ed6a43; // unk--copied from https://github.com/Defman21/base16-github-scheme/blob/master/github.yaml
 $base09: #0086b3; // unk--copied from https://github.com/Defman21/base16-github-scheme/blob/master/github.yaml
 $base0a: #d73a49; // namespace, class, and type keywords (`int`, `void`, etc.)--good
-$base0b: #183691; // unk--copied from https://github.com/Defman21/base16-github-scheme/blob/master/github.yaml
+$base0b: #54790d; // strings--good (Github Uses #24292e, but lets use #54790d like Stack Overflow instead!: https://stackoverflow.com/a/54728664/4561887)
 $base0c: #24292e; // operators (*+-, etc.)--good
 $base0d: #6f42c1; // function names--good
 $base0e: #d73a49; // keywords: `typedef`, `struct`, `const`, etc.
@@ -123,6 +123,35 @@ $base0f: #000;
 @import "minimal-mistakes"; // main partials
 
 /* ============ OVERRIDE CSS STYLES BY PLACING THEM BELOW ======================================= */
+
+// Improve syntax highlighting to be slightly more like GitHub.
+// - Note: THE ROUGE SYNTAX HIGHLIGHTER USED BY JEKYLL MAKES ALMOST EVERYTHING `n`. Therefore,
+// perfection canNOT be achieved since the Jekyll rouge syntax highlighter does not tag things quite
+// the same as the GitHub syntax highlighter--we can only get kind of close is all. In particular,
+// the rouge highlighter tags a lot of things with the `n` (name) tag which the GitHub highlighter
+// would not. So, rouge makes many things the `n` color which would be uncolored (dark
+// grey/blackish) on GitHub. If I have `n` as bluish below, then you'll therefore see a lot more
+// blue on my website than you would for the same code on GitHub.
+.highlight {
+  .cp {
+    color: $base0e;
+  }
+  .n {
+    color: $base0d;
+  }
+  .nb {
+    color: #005cc5;
+  }
+  .nc {
+    color: $base0d;
+  }
+  .nl {
+    color: $base0e;
+  }
+  .nt {
+    color: #22863a;
+  }
+}
 
 
 /*
@@ -203,7 +232,7 @@ h6 > code {
 // - overrides "_syntax.scss" settings.
 div.highlighter-rouge,
 figure.highlight {
-  line-height: 1.6; // default: 1.8
+  line-height: 1.5; // default: 1.8
 }
 
 /* ----- IMAGES & CONTAINERS -------------------------------------------------------------------- */
