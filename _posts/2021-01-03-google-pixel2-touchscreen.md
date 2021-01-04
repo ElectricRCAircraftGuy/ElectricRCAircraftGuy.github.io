@@ -1,7 +1,9 @@
 ---
 published: true  # use "false" while drafting articles just before publishing
 title: One possible fix for your Google Pixel 2 if the touch screen quits working
-tags: "phone repairs" "life skills"
+tags: 
+  - phone repairs
+  - life skills
 # date: 1999-12-31
 # last_modified_at: 2000-12-31  # updates the "Updated" date at the bottom!
 # permalink: /test/
