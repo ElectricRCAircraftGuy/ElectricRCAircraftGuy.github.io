@@ -65,6 +65,9 @@ Once I had my mouse plugged into my phone so I could click around, I was able to
 Safe mode didn't fix the touch screen problem, making me think it was probably a hardware issue. That's when I found the "fix" above by pressing on the center of the phone screen to jostle the hardware and apparently re-seat the connector or something. 
 
 
+# Other References
+1. This article also posted as a Q&A on the Android Enthusiasts Stack Exchange here: [Android Enthusiasts Stack Exchange: My Google Pixel 2's touch screen suddenly quit working--how can I fix it?](https://android.stackexchange.com/questions/232564/my-google-pixel-2s-touch-screen-suddenly-quit-working-how-can-i-fix-it).
+
   [1]: https://www.ifixit.com/Guide/Google+Pixel+2+Battery+Replacement/103334
   [2]: https://www.ifixit.com/Guide/How+to+Replace+a+Google+Pixel+2+Screen/103077
   [3]: https://i.stack.imgur.com/GsyFB.jpg
