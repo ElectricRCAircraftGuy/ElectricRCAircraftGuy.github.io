@@ -13,6 +13,8 @@ tags:
 toc: true  # (default for Table of Contents is true)
 ---
 
+_What I'm about to describe is a terrible tragedy. I say this somberly and seriously. I think we can learn from this and find a better path forward. I hope it inspires followers of President Trump to leave his fold, for he is leading them astray and the consequences are serious._
+
 To anyone who thinks President Trump is just a funny guy, perhaps mildly led astray but really just a wonderful man and President looking out for your country and doing what's right for us all, let me introduce you to someone else who deeply admires and loves this man: her name is Ashli Babbitt.
 
 You can see her picture below. [She's a 14-year US Air Force Veteran](https://nypost.com/2021/01/06/protester-killed-in-capitol-was-air-force-vet-from-california/). 
