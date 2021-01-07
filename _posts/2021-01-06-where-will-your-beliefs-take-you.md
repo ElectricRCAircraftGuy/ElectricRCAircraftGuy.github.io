@@ -35,7 +35,7 @@ This is a serious subject. This is a serious matter. Her life and her family's l
 
 ...(yesterday), one day before her death.
 
-## WHERE WILL YOUR BELIEFS TAKE YOU!?
+## WHERE WILL YOUR BELIEFS TAKE _YOU!?_
 
 ------
 
