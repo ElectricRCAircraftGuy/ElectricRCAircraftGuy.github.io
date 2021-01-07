@@ -39,7 +39,7 @@ This is a serious subject. This is a serious matter. Her life and her family's l
 
 ------
 
-Please be respectful of her and her family. She's not evil, she's deceived. That doesn't mean she deserves to be dead and her husband to have no wife and her kids to have no mom.
+Please be respectful of her and her family. She's not evil, she's deceived. That doesn't mean she deserves to be dead and her husband to have no wife and her kids to have no mom. My heart goes out to them. I am deeply saddened by their loss. This is a terrible terrible tragedy.
 
 President Trump is the one most responsible here for leading people away from truth until they feel so trapped because of the severity of his lies that they feel they have no way out but to act drastically according to his damning (_damning_ = literally, stopping your forward progress) lies.
 
