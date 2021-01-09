@@ -46,6 +46,6 @@ Please be respectful of her and her family. She's not evil, she's deceived. That
 President Trump is the one most responsible here for leading people away from truth until they feel so trapped because of the severity of his lies that they feel they have no way out but to act drastically according to his damning (_damning_ = literally, stopping your forward progress) lies.
 
 ## Related:
-1. https://www.romney.senate.gov/romney-condemns-insurrection-us-capitol
+1. <https://www.romney.senate.gov/romney-condemns-insurrection-us-capitol>
 
   [ashli]: https://nypost.com/wp-content/uploads/sites/2/2021/01/ashli-babbitt.jpg?quality=90&strip=all&w=1286
