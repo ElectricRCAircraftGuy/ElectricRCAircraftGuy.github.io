@@ -20,7 +20,7 @@ During these COVID-19 times, many people are blessed to be able to continue to w
 
 This means I get my laptop screen plus the equivalent of 4 more laptop screens! I can snap my windows all to the corners ([as I explain in my Ask Ubuntu answer here](https://askubuntu.com/a/1089033/327339)) and get 4 screens on 1x 32" curved monitor. For monitors this size, do NOT get flat monitors! The edges look really far away and are harder to see. A curved monitor helps you see the edges easier, reduces neck strain since you don't have to turn your head left and right all the time to see the screen, and is easier on the eyes. 
 
-Here's what I bought, and what I highly recommend you buy too:
+Here's what I bought, and what I highly recommend you buy too. I bought all of these products the end of August 2020, and have been using them for over 5 months now. So far, so good! They are so nice to have.
 
 1. Monitor: AOC CU32V3 32" Super-Curved 4K 3840x2160 UHD monitor, 1500R Curved VA (\~$390)--up to 60Hz refresh rate at 4k resolution if you have the USB C adapter below (otherwise, without that adapter, you can only get 30Hz refresh rate at 4k through an HDMI cable): 
 
