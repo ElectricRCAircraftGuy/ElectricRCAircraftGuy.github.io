@@ -24,19 +24,19 @@ Here's what I bought, and what I highly recommend you buy too:
 
 1. Monitor: 
 
-    <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=wwwel-20&language=en_US&marketplace=amazon&region=US&placement=B083TDZJD7&asins=B083TDZJD7&linkId=27cd8b19fd852c281db9ade475fc350b&show_border=true&link_opens_in_new_window=true"></iframe>
+    <iframe style="width:360px;height:720px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=wwwel-20&language=en_US&marketplace=amazon&region=US&placement=B083TDZJD7&asins=B083TDZJD7&linkId=27cd8b19fd852c281db9ade475fc350b&show_border=true&link_opens_in_new_window=true"></iframe>
 
 1. Stand: 
 
-    <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=wwwel-20&language=en_US&marketplace=amazon&region=US&placement=B07FQRY349&asins=B07FQRY349&linkId=8a94b7154af5e2d96096f02730bb2414&show_border=true&link_opens_in_new_window=true"></iframe>
+    <iframe style="width:360px;height:720px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=wwwel-20&language=en_US&marketplace=amazon&region=US&placement=B07FQRY349&asins=B07FQRY349&linkId=8a94b7154af5e2d96096f02730bb2414&show_border=true&link_opens_in_new_window=true"></iframe>
 
 1. USB C adapter so you can get a full 60Hz refresh rate at 4k--without this cable you cannot get better than 30Hz since the screen is too huge for your video monitor and cable to handle the throughput! Also, with this cable you can keep your laptop's HDMI port free for a 2nd external monitor too: 
 
-    <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=wwwel-20&language=en_US&marketplace=amazon&region=US&placement=B07YDNSGY2&asins=B07YDNSGY2&linkId=602cc1cc41b88104bd9bbcaf2d0452c6&show_border=true&link_opens_in_new_window=true"></iframe>
+    <iframe style="width:240px;height:480px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=wwwel-20&language=en_US&marketplace=amazon&region=US&placement=B07YDNSGY2&asins=B07YDNSGY2&linkId=602cc1cc41b88104bd9bbcaf2d0452c6&show_border=true&link_opens_in_new_window=true"></iframe>
 
 1. (Optional) Linux-friendly :) mouse pad--helps ensure you mouse works well on shiny or transparent desks or surfaces: 
 
-    <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=wwwel-20&language=en_US&marketplace=amazon&region=US&placement=B06XBBFTMJ&asins=B06XBBFTMJ&linkId=e1d95d0c06c9979013fae5c164d0ec3d&show_border=true&link_opens_in_new_window=true"></iframe>
+    <iframe style="width:240px;height:480px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ss&ref=as_ss_li_til&ad_type=product_link&tracking_id=wwwel-20&language=en_US&marketplace=amazon&region=US&placement=B06XBBFTMJ&asins=B06XBBFTMJ&linkId=e1d95d0c06c9979013fae5c164d0ec3d&show_border=true&link_opens_in_new_window=true"></iframe>
 
 
 I paid for all these products and had no promotion to buy them. But, since the links I put above are Amazon affiliate links, if you click on the link and then buy the product from that link, Amazon gives me a few dollars. Here's the disclaimer they require:
