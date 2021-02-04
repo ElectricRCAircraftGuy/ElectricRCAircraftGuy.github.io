@@ -39,7 +39,7 @@ Here's what I bought, and what I highly recommend you buy too. I bought all of t
     <a href="https://www.amazon.com/dp/B06XBBFTMJ?&linkCode=li3&tag=wwwel-20&linkId=559353e54d9ebf6763405c1a832edd2a&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B06XBBFTMJ&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=wwwel-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=wwwel-20&language=en_US&l=li3&o=1&a=B06XBBFTMJ" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 
-I paid for all these products and had no promotion to buy them. But, since the links I put above are Amazon affiliate links, if you click on the link and then buy the product from that link, Amazon gives me a few dollars. Here's the disclaimer they require:
+I paid for all these products and had no promotion to buy them. But, since the image links I put above are Amazon affiliate links, if you click on the link and then buy the product from that link, Amazon gives me a tiny percentage of the selling price. The price you pay is identical whether you click on the link or not--you just help me out a tiny bit if you buy the product after clicking on the link is all, instead of searching for it yourself. Here's the disclaimer they require:
 
 Disclaimer required by Amazon:  
 _We are a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for us to earn fees by linking to Amazon.com and affiliated sites._
