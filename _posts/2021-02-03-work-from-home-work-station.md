@@ -26,7 +26,7 @@ Here's what I bought, and what I highly recommend you buy too:
 
     <a href="https://www.amazon.com/dp/B083TDZJD7?&linkCode=li3&tag=wwwel-20&linkId=253c9e0a39a1d3ba85678489a71e8ad4&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B083TDZJD7&Format=_SL400_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=wwwel-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=wwwel-20&language=en_US&l=li3&o=1&a=B083TDZJD7" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
-1. Stand: 
+1. Stand: this stand is the _perfect_ height stand for any laptop up to \~15"\~16" to sit right in front of the monitor without blocking it!: 
 
     <a href="https://www.amazon.com/dp/B07FQRY349?&linkCode=li2&tag=wwwel-20&linkId=ce79b95a8031f5b0205ec230c243b842&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07FQRY349&Format=_SL400_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=wwwel-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=wwwel-20&language=en_US&l=li2&o=1&a=B07FQRY349" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
