@@ -22,19 +22,19 @@ This means I get my laptop screen plus the equivalent of 4 more laptop screens! 
 
 Here's what I bought, and what I highly recommend you buy too:
 
-1. Monitor: 
+1. Monitor (\~$390): 
 
-    <a href="https://www.amazon.com/dp/B083TDZJD7?&linkCode=li3&tag=wwwel-20&linkId=253c9e0a39a1d3ba85678489a71e8ad4&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B083TDZJD7&Format=_SL400_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=wwwel-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=wwwel-20&language=en_US&l=li3&o=1&a=B083TDZJD7" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+    <a href="https://www.amazon.com/dp/B083TDZJD7?&linkCode=li3&tag=wwwel-20&linkId=253c9e0a39a1d3ba85678489a71e8ad4&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B083TDZJD7&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=wwwel-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=wwwel-20&language=en_US&l=li3&o=1&a=B083TDZJD7" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
-1. Stand: this stand is the _perfect_ height stand for any laptop up to \~15"\~16" to sit right in front of the monitor without blocking it!: 
+1. Stand (\~$32): this stand is the _perfect_ height stand for any laptop up to \~15"\~16" to sit right in front of the monitor without blocking it!: 
 
     <a href="https://www.amazon.com/dp/B07FQRY349?&linkCode=li2&tag=wwwel-20&linkId=ce79b95a8031f5b0205ec230c243b842&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07FQRY349&Format=_SL400_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=wwwel-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=wwwel-20&language=en_US&l=li2&o=1&a=B07FQRY349" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
-1. USB C adapter so you can get a full 60Hz refresh rate at 4k--without this cable you cannot get better than 30Hz since the screen is too huge for your video monitor and cable to handle the throughput! Also, with this cable you can keep your laptop's HDMI port free for a 2nd external monitor too: 
+1. USB C adapter (\~$15) so you can get a full 60Hz refresh rate at 4k--without this cable you cannot get better than 30Hz since the screen is too huge for your video monitor and cable to handle the throughput! Also, with this cable you can keep your laptop's HDMI port free for a 2nd external monitor too: 
 
     <a href="https://www.amazon.com/dp/B07YDNSGY2?&linkCode=li3&tag=wwwel-20&linkId=88fc48417611716d4ff46c3a3a1ec6da&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07YDNSGY2&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=wwwel-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=wwwel-20&language=en_US&l=li3&o=1&a=B07YDNSGY2" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
-1. (Optional) Linux-friendly :) mouse pad--helps ensure you mouse works well on shiny or transparent desks or surfaces: 
+1. (Optional) Linux-friendly :) mouse pad (\~$8)--helps ensure you mouse works well on shiny or transparent desks or surfaces: 
 
     <a href="https://www.amazon.com/dp/B06XBBFTMJ?&linkCode=li3&tag=wwwel-20&linkId=559353e54d9ebf6763405c1a832edd2a&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B06XBBFTMJ&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=wwwel-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=wwwel-20&language=en_US&l=li3&o=1&a=B06XBBFTMJ" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
