@@ -22,7 +22,7 @@ This means I get my laptop screen plus the equivalent of 4 more laptop screens! 
 
 Here's what I bought, and what I highly recommend you buy too:
 
-1. Monitor (\~$390): 
+1. Monitor: AOC CU32V3 32" Super-Curved 4K 3840x2160 UHD monitor, 1500R Curved VA (\~$390)--up to 60Hz refresh rate at 4k resolution if you have the USB C adapter below (otherwise, without that adapter, you can only get 30Hz refresh rate at 4k through an HDMI cable): 
 
     <a href="https://www.amazon.com/dp/B083TDZJD7?&linkCode=li3&tag=wwwel-20&linkId=253c9e0a39a1d3ba85678489a71e8ad4&language=en_US&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B083TDZJD7&Format=_SL500_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=wwwel-20&language=en_US" ></a><img src="https://ir-na.amazon-adsystem.com/e/ir?t=wwwel-20&language=en_US&l=li3&o=1&a=B083TDZJD7" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
