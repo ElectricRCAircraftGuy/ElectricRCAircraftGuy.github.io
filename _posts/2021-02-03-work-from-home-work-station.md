@@ -3,6 +3,7 @@ published: true  # use "false" while drafting articles just before publishing
 title: Work from home work station (monitor and stand)
 tags: 
   - life skills
+  - shopping
 # date: 1999-12-31
 # last_modified_at: 2000-12-31  # updates the "Updated" date at the bottom!
 # permalink: /test/
