@@ -98,9 +98,10 @@ If your settings/macros don't seem to be getting applied, and your code still sh
     **Window** --> **Preferences** --> **C/C++** --> **Indexer** --> select **Use active build configuration**. Again, however, I do NOT use this option myself and do not necessarily recommend you use it either. It's just something to be aware of is all.  
     [![enter image description here][8]][8]
 
-----
 
-This article is also posted as an answer on Stack Overflow here: [How can I convince Eclipse CDT that a macro is defined for source code editing and code completion?](https://stackoverflow.com/a/66094447/4561887). If you find it useful, please leave a comment here and go upvote my Stack Overflow answer there.
+## See also
+1. This article is also posted as an answer on Stack Overflow here: [How can I convince Eclipse CDT that a macro is defined for source code editing and code completion?](https://stackoverflow.com/a/66094447/4561887). If you find it useful, please leave a comment here and go upvote my Stack Overflow answer there.
+1. See my full Eclipse setup instructions here: <https://github.com/ElectricRCAircraftGuy/eRCaGuy_dotfiles/tree/master/eclipse>.
 
   [1]: https://i.stack.imgur.com/iT9LA.jpg
   [2]: https://i.stack.imgur.com/R7SBA.jpg
