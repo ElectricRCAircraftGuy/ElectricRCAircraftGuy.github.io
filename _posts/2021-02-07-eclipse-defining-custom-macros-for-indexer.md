@@ -33,7 +33,7 @@ In this example we will set the following defines _at the Eclipse project level_
 
 <!-- language: lang-cpp -->
 
-```
+```cpp
 #define ARDUINO 1000
 #define AVR
 #define __AVR_ATmega328__
@@ -43,7 +43,7 @@ If you were defining them at the command-line when manually building a `gcc` or 
 
 <!-- language: lang-bash -->
 
-```
+```bash
 -DARDUINO=1000 -DAVR -D__AVR_ATmega328__
 ```
 
