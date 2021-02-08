@@ -20,7 +20,9 @@ Here is an example of that. The `ARDUINO` macro is not defined anywhere, so Ecli
 
 [![../assets/images/Selection_082.jpg](../assets/images/Selection_082.jpg)](../assets/images/Selection_082.jpg)
 
-The Arduino build system apparently must normally define this macro during building, by passing something like `-DARDUINO=120`, or similar, to the build system. So, let's just pass `-DARDUINO=1000` to the Eclipse indexer so it will see it is defined to something `> 100`, since I know it is when I build. When done following the instructions below, I see this instead:
+The Arduino build system apparently must normally define this macro during building, by passing something like `-DARDUINO=120`, or similar, to the build system. So, let's just pass `-DARDUINO=1000` to the Eclipse indexer so it will see it is defined to something `> 100`, since I know it is when I build. 
+
+After I completed following my instructions below to set the equivalent of `-DARDUINO=1000` (which is equivalent to `#define ARDUINO 1000`) in Eclipse, I now see this instead:
 
 [![../assets/images/Selection_083.jpg](../assets/images/Selection_083.jpg)](../assets/images/Selection_083.jpg)
 
