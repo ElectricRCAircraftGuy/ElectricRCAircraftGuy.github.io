@@ -1,5 +1,5 @@
 ---
-published: false  # use "false" while drafting articles just before publishing
+published: true  # use "false" while drafting articles just before publishing
 title: How to define macros for the Eclipse builder and indexer so it indexes your code correctly
 tags: 
   - programming
