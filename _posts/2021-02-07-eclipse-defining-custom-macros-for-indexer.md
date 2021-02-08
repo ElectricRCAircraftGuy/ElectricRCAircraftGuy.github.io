@@ -14,13 +14,20 @@ toc: true  # (default for Table of Contents is true)
 
 ## Problem: Eclipse won't index my project correctly, and parts of it are blacked out!
 
+Eclipse has a _really smart and good code indexer._ That's why I use it! This allows you to **Ctrl** + **Click** on any function name, `#include` file, variable, class, namespace, macro, etc., to jump to its definition! This is very handy. However, sometimes a project contains macros which are defined _only at compile time_, via the `-Dmacro=definition` option to the `gcc` or `g++` C and C++ compilers, respectively. 
 
+Here is an example of that. The `ARDUINO` macro is not defined anywhere, so Eclipse's indexer causes that part of the code to be blacked-out, indicating it is not being used or entered, as shown here:
 
-Eclipse makes this rather confusing, since there are multiple places to set this, and the settings are coupled, but here's how it works:
+[![../assets/images/Selection_082.jpg](../assets/images/Selection_082.jpg)](../assets/images/Selection_082.jpg)
+
+The Arduino build system apparently must normally define this macro during building, by passing something like `-DARDUINO=120`, or similar, to the build system. So, let's just pass `-DARDUINO=1000` to the Eclipse indexer so it will see it is defined to something `> 100`, since I know it is when I build. When done following the instructions below, I see this instead:
+
+[![../assets/images/Selection_083.jpg](../assets/images/Selection_083.jpg)](../assets/images/Selection_083.jpg)
+
 
 ## Solution: set custom macros for a given project (affects both building and indexing in Eclipse)
 
-Here's my preferred way to do it. 
+Eclipse makes this rather confusing, since there are multiple places to set this, and the settings are coupled, but here's how it works, and here's my preferred way to do it:
 
 In this example we will set the following defines _at the Eclipse project level_ (for its indexer and builder) rather than in your source code.
 
@@ -91,6 +98,9 @@ If your settings/macros don't seem to be getting applied, and your code still sh
     **Window** --> **Preferences** --> **C/C++** --> **Indexer** --> select **Use active build configuration**. Again, however, I do NOT use this option myself and do not necessarily recommend you use it either. It's just something to be aware of is all.  
     [![enter image description here][8]][8]
 
+----
+
+This article also posted as an answer here: [How can I convince Eclipse CDT that a macro is defined for source code editing and code completion?](https://stackoverflow.com/a/66094447/4561887).
 
   [1]: https://i.stack.imgur.com/iT9LA.jpg
   [2]: https://i.stack.imgur.com/R7SBA.jpg
