@@ -20,16 +20,18 @@ Here is an example of that. The `ARDUINO` macro is not defined anywhere, so Ecli
 
 [![../assets/images/Selection_082.jpg](../assets/images/Selection_082.jpg)](../assets/images/Selection_082.jpg)
 
-The Arduino build system apparently must normally define this macro during building, by passing something like `-DARDUINO=120`, or similar, to the build system. So, let's just pass `-DARDUINO=1000` to the Eclipse indexer so it will see it is defined to something `> 100`, since I know it is when I build. 
+The Arduino build system apparently must normally define this macro during building, by passing something like `-DARDUINO=120`, or similar, to the build system. So, let's just pass `-DARDUINO=1000` to the Eclipse indexer so it will see it is defined to something `>= 100`, since I know it is when I build. 
 
-After I completed following my instructions below to set the equivalent of `-DARDUINO=1000` (which is equivalent to `#define ARDUINO 1000` in code) in Eclipse, I now see this instead:
+After I completed following my instructions below to set the equivalent of `-DARDUINO=1000` (which is equivalent to `#define ARDUINO 1000` in code) in Eclipse, I now see this instead. The `#include <Arduino.h>` line is no longer blacked out, meaning this is what Eclipse sees is being used, as it should, and Eclipse's indexer will now go and index that file and allow jumping to it when I **Ctrl** + **Click** on anything whose definition is found inside that file!
 
 [![../assets/images/Selection_083.jpg](../assets/images/Selection_083.jpg)](../assets/images/Selection_083.jpg)
+
+The `#include <WProgram.h>` line is now blacked out instead, indicating the macros are not allowing that part of the code to be used, which is what I wanted to happen since I know the `ARDUINO` macro is indeed defined to something `>= 100` when the Arduino builder calls the `gcc` and `g++` compilers to build these files.
 
 
 ## Solution: set custom macros for a given project (affects both building and indexing in Eclipse)
 
-Eclipse makes this rather confusing, since there are multiple places to set this, and the settings are coupled, but here's how it works, and here's my preferred way to do it:
+Eclipse makes defining macros for its indexer rather confusing, since there are multiple places to set this, and the settings are coupled, but here's how it works, and here's my preferred way to do it:
 
 In this example we will set the following defines _at the Eclipse project level_ (for its indexer and builder) rather than in your source code.
 
