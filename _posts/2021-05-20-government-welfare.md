@@ -13,11 +13,11 @@ tags:
 toc: true  # (default for Table of Contents is true)
 ---
 
-(My own words, because this program seems to be useful): help your voice be heard by policy-makers and lawmakers. If you're not signed up for VOCA yet, please go sign up. It's free and easy. Just requires a phone number so they can send you a weekly survey question, which results they share with your lawmakers: https://www.voca.vote/.
+(My own words, because this program seems to be useful): help your voice be heard by policy-makers and lawmakers. If you're not signed up for VOCA yet, please go sign up. It's free and easy. Just requires a phone number so they can send you a weekly survey question, which results they share with your lawmakers: <https://www.voca.vote/>.
 
 ## The Question
 
-This week's VOCA question, from here: https://www.voca.vote/r/ca_ubi:
+This week's VOCA question, from here: <https://www.voca.vote/r/ca_ubi>:
 
 <a href="../assets/images/voca--universal_income.jpg"> 
     <img align="right" width="30%" src="../assets/images/voca--universal_income.jpg"> 
@@ -34,7 +34,7 @@ This week's VOCA question, from here: https://www.voca.vote/r/ca_ubi:
 > 
 > QUESTION: From 1 (strongly oppose) to 5 (strongly support) what is your opinion of a universal basic income pilot program for low-income Californians?
 > 
-> LEARN MORE: Visit https://voc.as/ca_ubi to read an article about the governor's proposal.
+> LEARN MORE: Visit <https://voc.as/ca_ubi> to read an article about the governor's proposal.
 
 
 ## My Vote and Opinion
