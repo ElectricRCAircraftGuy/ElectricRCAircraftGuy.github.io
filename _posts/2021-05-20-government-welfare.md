@@ -2,9 +2,9 @@
 published: true  # use "false" while drafting articles just before publishing
 title: My thoughts on government welfare programs
 tags: 
-  - government
-  - welfare
-  - politics
+    - government
+    - welfare
+    - politics
 # date: 1999-12-31
 # last_modified_at: 2000-12-31  # updates the "Updated" date at the bottom!
 # permalink: /test/
@@ -19,7 +19,9 @@ toc: true  # (default for Table of Contents is true)
 
 This week's VOCA question, from here: https://www.voca.vote/r/ca_ubi:
 
-<img align="right" width="30%" src="../assets/images/voca--universal_income.jpg"> 
+<a href="../assets/images/voca--universal_income.jpg"> 
+    <img align="right" width="30%" src="../assets/images/voca--universal_income.jpg"> 
+</a>
 
 > ### Universal Basic Income pilot program in CA
 > 
