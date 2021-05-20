@@ -45,12 +45,12 @@ I just voted "strongly oppose", yet, [I _proudly_ voted for Biden this election]
 
 Here is my opinion:
 
-All welfare systems should promote productivity. As far as I know, this system would remove the amount people receive once their own income exceeds a certain level, thereby incentivizing people to intentionally make LESS THAN the threshold requires to receive this income. The law needs to be written such that they are motivated to make MORE MONEY, not less. Perhaps this could be done by INCREASING the payment amount the more someone makes, until they make a certain amount, then GRADUALLY decreasing it towards zero as they make more and more of their own money, according to a *linear equation*. This should be based on a linear equation of gradual decrease, NOT on a threshold or system of income "buckets" or "brackets". Come on people (lawmakers)! Use basic algebra (rather than buckets and brackets, like we do in taxes and nearly 100% of government programs; note: we have modern computers--we are no longer in a day and age when brackets are done by necessity), AND **motivate people to make MORE money by paying them MORE the more they make, not more the LESS they make! INCENTIVIZE SELF-SUFFICIENT BEHAVIOR.**
+All welfare systems should promote productivity. As far as I know, this system would remove the amount people receive once their own income exceeds a certain level, thereby incentivizing people to intentionally make LESS THAN the threshold required to receive this income. The law needs to be written such that they are motivated to make MORE MONEY, not less. Perhaps this could be done by INCREASING the payment amount the more someone makes, until they make a certain amount, then GRADUALLY decreasing it towards zero as they make more and more of their own money, according to a *linear equation*. This should be based on a linear equation of gradual decrease, NOT on a threshold or system of income "buckets" or "brackets". Come on people (lawmakers)! Use basic algebra (rather than buckets and brackets, like we do in taxes and nearly 100% of government programs; note: we have modern computers--we are no longer in a day and age when brackets are done by necessity), AND **motivate people to make MORE money by paying them MORE the more they make, not more the LESS they make! INCENTIVIZE SELF-SUFFICIENT BEHAVIOR.**
 
 The thing I hate seeing the most is a low-income person _intentionally_ remaining low-income so they don't exceed some arbitrary "low income" threshold, thereby losing ALL of their benefits all at once and making LESS money overall (gov't subsidy + their own income) once their own income exceeds a certain level. So, instead, pay them MORE GOV'T SUBSIDY THE MORE THEY MAKE! Again, then **gradually** decrease it according to a linear equation beyond a certain point. BUT, the key here is that as their own work income goes up, their TOTAL MONEY (gov't aid + own income) MUST ALSO GO UP so that they are ALWAYS incentivized and motivated to make MORE of their own money, NOT less. 
 
 
-## The Christian perspective
+## The Biblical Christian perspective
 
 Even God's inspired word, from the Bible here, seems to agree with this, and as I make observations in life I find this to be truly inspired:
 
@@ -59,13 +59,13 @@ Even God's inspired word, from the Bible here, seems to agree with this, and as 
 > 12 For whosoever hath, to him shall be given, and he shall have more abundance: but whosoever hath not, from him shall be taken away even that he hath.
 
 
-READ THE FOLLOWING! THE _PARABLE OF THE TALENTS_ IS SOOOO IMPORTANT AND APPLICABLE HERE!
+READ THE FOLLOWING! THE _PARABLE OF THE TALENTS_ (see the links just below) IS SOOOO IMPORTANT AND APPLICABLE HERE (to the application and management of government welfare programs)!
 
-Note that a "talent" is a unit of _money_! [Wikipedia states](https://en.wikipedia.org/wiki/Parable_of_the_talents_or_minas) "a single talent was therefore worth 16 years of labor." To put that in perspective, perhaps that is $100k/yr x 16 yrs = $1.6M (1.6 _million_ dollars!). This parable, from Jesus Christ himself, proclaims boldly (and I agree with this!) that those who have received money, use it, and make more money with it, should be given MORE money, and those who have _not_ money, lose it, and do NOT use it should have even less ("shall be taken away even that which he hath"). However, this concept and teaching must be taken into consideration with all the scriptures, not isolated and read alone. Hence, my opinion above: help the poor, while creating proper incentives to motivate them to become richer. And, initially, as they become richer, give them MORE MONEY from the government in order to create proper rewards and incentives, NOT less. Then, when it is time to wean them off of the program and give them less, give them less *gradually* so that the extra income they make as their own income goes up is MUCH MORE THAN the losses of the government subsidy as the government subsidy is slowly removed.  
+Note that a "talent" is a unit of _money_! [Wikipedia states](https://en.wikipedia.org/wiki/Parable_of_the_talents_or_minas) "a single talent was therefore worth 16 years of labor." To put that in perspective, perhaps that is $100k/yr x 16 yrs = $1.6M (1.6 _million_ dollars!). This parable, from Jesus Christ himself, proclaims boldly (and I agree with this!) that those who have received money, use it, and make more money with it, should be given MORE money, and those who have _not_ money, lose it, and do NOT use it should have even less ("shall be taken away even that which he hath"). However, this concept and teaching must be taken into consideration with all the scriptures, not isolated and read alone. Hence, my opinion above: help the poor, while creating proper incentives to motivate them to become richer. And, initially, as they become richer, give them MORE MONEY from the government in order to create proper rewards and incentives, NOT less. Then, when it is time to wean them off of the program and give them less, give them less *gradually*, according to their work income, and as their work income increases, so that the extra _total_ income (their work income + gov't subsidy) they make as their own work income goes up is MUCH MORE THAN the losses of the government subsidy as the government subsidy is slowly removed.  
 
 [Matthew 25:28-29](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/25.28)
 
-> 28 Take therefore the talent from him, and give it unto him which hath ten talents.
+> 28 Take therefore the talent [$1.6M] from him, and give it unto him which hath ten talents ($16M).
 >
 > 29 For unto every one that hath shall be given, and he shall have abundance: but from him that hath not shall be taken away even that which he hath.
 
@@ -79,7 +79,7 @@ Note that a "talent" is a unit of _money_! [Wikipedia states](https://en.wikiped
 > 
 > 26 For I say unto you, That unto every one which hath shall be given; and from him that hath not, even that he hath shall be taken away from him.
 
-### Read more about the Parable of the Talents here:
+### Read more about the Parable of the Talents here (READ AND STUDY THESE!):
 1. [Wikipedia: Parable of the talents or minas](https://en.wikipedia.org/wiki/Parable_of_the_talents_or_minas)
 1. [Matthew 25:14–30 - _The Parable of the Talents_](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/25.14-30?lang=eng)
 1. [Luke 19:11–27 - _The Parable of the Talents_](https://www.churchofjesuschrist.org/study/scriptures/nt/luke/19.11-27?lang=eng)
