@@ -6,6 +6,7 @@ tags:
     - welfare
     - politics
     - money
+    - religion
 # date: 1999-12-31
 # last_modified_at: 2000-12-31  # updates the "Updated" date at the bottom!
 # permalink: /test/
