@@ -89,6 +89,8 @@ As I said, however, the above must not be taken out of context with the rest of 
 > 
 > 24 Being justified freely by his grace through the redemption that is in Christ Jesus:
 
+### Are we not all beggars?
+
 The Book of Mormon, Another Testament of Jesus Christ, re-iterates and expounds upon the above concept. In Mosiah Chapter 4 we learn from the prophet-king Mosiah (in about 124 BC, in the American continent), the following: we are all beggars and depend upon God. So, just as God gives His Spirit and Son to us, "unworthy" beggars, so too must we give to those who stand in need of our substance:
 
 [Mosiah 4:16-20](https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/4.16-20?lang=eng) (emphasis added):
