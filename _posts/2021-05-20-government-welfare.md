@@ -89,6 +89,11 @@ As I said, however, the above must not be taken out of context with the rest of 
 > 
 > 24 Being justified freely by his grace through the redemption that is in Christ Jesus:
 
+### Read more about the Parable of the Talents here (READ AND STUDY THESE!):
+1. [Wikipedia: Parable of the talents or minas](https://en.wikipedia.org/wiki/Parable_of_the_talents_or_minas)
+1. [Matthew 25:14–30 - _The Parable of the Talents_](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/25.14-30?lang=eng)
+1. [Luke 19:11–27 - _The Parable of the Talents_](https://www.churchofjesuschrist.org/study/scriptures/nt/luke/19.11-27?lang=eng)
+
 ### Are we not all beggars?
 
 The Book of Mormon, Another Testament of Jesus Christ, re-iterates and expounds upon the above concept. In Mosiah Chapter 4 we learn from the prophet-king Mosiah (in about 124 BC, in the American continent), the following: we are all beggars and depend upon God. So, just as God gives His Spirit and Son to us, "unworthy" beggars, so too must we give to those who stand in need of our substance:
@@ -109,11 +114,6 @@ So, we are all beggars and must not harshly judge the poor and the needy and tho
 
 Let us also not forget the [_Parable of the Workers in the Vineyard_](https://en.wikipedia.org/wiki/Parable_of_the_Workers_in_the_Vineyard). You can read about it in [Matthew 20:1-16](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/20.1-16?lang=eng). Essentially, a vineyard owner hires a bunch of workers, some who work all day (from the 1st hour) to the end of the day (the 12th hour), some who work only from the 3rd hour until the end of the day (12th hour), and others still who work only from the 6th, 9th, or even 11th hour until the end of the day at the 12th hour. Then, they _all_ get the _same payment_--each and every one of them, regardless of the fact that some had worked far longer than others. The point is that no matter the hour we come unto Christ, _so long as we_ come unto Christ in the end, we receive the same reward. Now, does that seem fair? Perhaps not to us, but it is the teaching of Christ. **So too must we consider how to be generous to those we see as unworthy of receiving aid, as we are perhaps all 11th-hour workers and unworthy of receiving aid ourselves.**
 
-
-### Read more about the Parable of the Talents here (READ AND STUDY THESE!):
-1. [Wikipedia: Parable of the talents or minas](https://en.wikipedia.org/wiki/Parable_of_the_talents_or_minas)
-1. [Matthew 25:14–30 - _The Parable of the Talents_](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/25.14-30?lang=eng)
-1. [Luke 19:11–27 - _The Parable of the Talents_](https://www.churchofjesuschrist.org/study/scriptures/nt/luke/19.11-27?lang=eng)
 
 ## Additional Reading:
 1. [Book of Mormon Study Notes: Are We Not All Beggars? – Mosiah 4:16-19](https://bookofmormonstudynotes.blog/2016/04/05/are-we-not-all-beggars-mosiah-416-19/). I especially need to remember this author's words to pay attention to my kids when my kids ask for help. How often do I ignore them or brush them off when I should look them in the eye and give them more time and consideration? If not then, then that evening. Certainly I can do better to spend more time with my kids. Just as we beg for God's attention and help, so to my children beg for mine. We are all beggars. 
