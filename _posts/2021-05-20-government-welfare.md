@@ -43,7 +43,7 @@ This week's VOCA question, from here: <https://www.voca.vote/r/ca_ubi>:
 
 I just voted "strongly oppose", yet, [I _proudly_ voted for Biden this election](https://gabrielstaples.com/kamala-and-joe-acceptance-speeches/), and I believe _strongly_ in helping others. So, why did I oppose this initiative?
 
-Here is my opinion:
+Here is my current opinion (which could change with further study on the matter):
 
 All welfare systems should promote productivity. As far as I know, this system would remove the amount people receive once their own income exceeds a certain level, thereby incentivizing people to intentionally make LESS THAN the threshold required to receive this income. The law needs to be written such that they are motivated to make MORE MONEY, not less. Perhaps this could be done by INCREASING the payment amount the more someone makes, until they make a certain amount, then GRADUALLY decreasing it towards zero as they make more and more of their own money, according to a *linear equation*<sup>1</sup>. Perhaps this should be based on a linear (or other curve shape which makes sense) equation of gradual decrease, NOT on a threshold or system of income "buckets" or "brackets". Let's **motivate people to make MORE money by paying them MORE the more they make, not more the LESS they make! INCENTIVIZE SELF-SUFFICIENT BEHAVIOR.**
 
