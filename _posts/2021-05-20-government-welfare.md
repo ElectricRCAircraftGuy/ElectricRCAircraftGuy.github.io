@@ -112,3 +112,6 @@ Let us also not forget the [_Parable of the Workers in the Vineyard_](https://en
 1. [Wikipedia: Parable of the talents or minas](https://en.wikipedia.org/wiki/Parable_of_the_talents_or_minas)
 1. [Matthew 25:14–30 - _The Parable of the Talents_](https://www.churchofjesuschrist.org/study/scriptures/nt/matt/25.14-30?lang=eng)
 1. [Luke 19:11–27 - _The Parable of the Talents_](https://www.churchofjesuschrist.org/study/scriptures/nt/luke/19.11-27?lang=eng)
+
+## Additional Reading:
+1. [Book of Mormon Study Notes: Are We Not All Beggars? – Mosiah 4:16-19](https://bookofmormonstudynotes.blog/2016/04/05/are-we-not-all-beggars-mosiah-416-19/). I especially need to remember this author's words to pay attention to my kids when my kids ask for help. How often do I ignore them or brush them off when I should look them in the eye and give them more time and consideration? If not then, then that evening. Certainly I can do better to spend more time with my kids. Just as we beg for God's attention and help, so to my children beg for mine. We are all beggars. 
