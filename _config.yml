@@ -72,7 +72,7 @@ comments:
   # See also this file: "_includes/comments-providers/utterances.html".
   utterances:
     theme                : "github-light" # "github-light" (default), "github-dark"
-    issue_term           : "pathname" # "pathname" (default)
+    issue_term           : "url" # "pathname" (default)
     # GS added: "the label that will be assigned to issues created by Utterances." "Label names are
     # case sensitive. The label must exist in your repo- Utterances cannot attach labels that do not
     # exist. Emoji are supported in label names.✨💬✨".
