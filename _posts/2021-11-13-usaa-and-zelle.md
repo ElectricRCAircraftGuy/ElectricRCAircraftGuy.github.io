@@ -16,7 +16,7 @@ toc: false  # (default for Table of Contents is true)
 
 # TLDR;
 
-1. **To use Zelle in the USAA phone app you MUST set your phone language to `English (United States)`** (instead of, for instance, `Français (France)` like I use on my phone), or else an accidentally discriminatory bug blocks you from using Zelle under the premise of "State or foreign restrictions". 
+1. **To use Zelle ([ZellePay](https://www.zellepay.com/)) in the USAA phone app you MUST set your phone language to `English (United States)`** (instead of, for instance, `Français (France)` like I use on my phone), or else an accidentally discriminatory bug blocks you from using Zelle under the premise of "State or foreign restrictions". 
 1. See the full error message and screenshot below. 
 1. This has blocked me from using Zelle **for the last 3 years of my life,** and has unfortunately probably affected many more.
 
