@@ -94,5 +94,5 @@ Sincerely,
 
 
 Gabriel Staples,  
-Senior Embedded Software Engineer, and 
+Senior Embedded Software Engineer, and  
 Proud USAA customer since 2004
