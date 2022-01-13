@@ -87,11 +87,12 @@ I still want my phone in French, so I keep it in French normally, and have to an
 
 I'll also add that using the Zelle app directly is also blocked by Zelle for USAA customers, as they expect you to use Zelle only from within the USAA App. If you install the Zelle app and specify your bank is USAA, it will redirect you from the Zelle app to the USAA app, preventing you from using the Zelle app directly. **So, the only known work-around to use Zelle is to change your phone language to "English (United States)" if you are a USAA customer.**
 
-USAA and Zelle, please fix this bug.
+USAA and Zelle, please fix this bug. You do _not_ need to translate anything in the app to a foreign language. Just don't artificially declare me to be in a foreign _country_ is all when I'm in the United States with my phone set to a foreign _language_.
 
 
 Sincerely,
 
 
 Gabriel Staples,  
+Senior Embedded Software Engineer, and 
 Proud USAA customer since 2004
