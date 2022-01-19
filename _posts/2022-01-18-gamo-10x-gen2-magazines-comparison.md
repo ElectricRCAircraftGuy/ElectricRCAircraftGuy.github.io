@@ -12,7 +12,7 @@ tags:
 toc: true  # (default for Table of Contents is true)
 ---
 
-Being the 2nd most-powerful break-barrel air rifle in the world today (with the [Hatsan 0.30 caliber break barrel](https://www.airgundepot.com/hatsan-mod-130s-vortex-qe-air-rifle.html#GabrielStaples.com) being #1), the Gamo Swarm series seems to be getting a lot of attention. So, this article will help clear up some things about the two types of "10x Gen2" magazines now made by Gamo.
+With the [Gamo Swarm Magnum 10x Gen 2](https://www.airgundepot.com/gamo-swarm-magnum-g2-air-rifle.html) being the 2nd most-powerful break-barrel air rifle in the world today (with the [Hatsan 0.30 caliber break barrel](https://www.airgundepot.com/hatsan-mod-130s-vortex-qe-air-rifle.html#GabrielStaples.com) being #1), the Gamo Swarm series seems to be getting a lot of attention. So, this article will help clear up some things about the two types of "10x Gen2" magazines now made by Gamo.
 
 
 # Gamo 10x Gen2 Inertia-fed quick-shot magazine vs 10x Gen2 (NOT inertia-fed) quick-shot magazine
