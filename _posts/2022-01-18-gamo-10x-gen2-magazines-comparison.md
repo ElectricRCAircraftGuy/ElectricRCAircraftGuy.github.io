@@ -1,7 +1,19 @@
+---
+published: true  # use "false" while drafting articles just before publishing
+title: Gamo 10x Gen2 Inertia-fed quick-shot magazine vs 10x Gen2 (NOT inertia-fed) quick-shot magazine
+tags: 
+    - guns
+    - technology
+# date: 1999-12-31
+# last_modified_at: 2000-12-31  # updates the "Updated" date at the bottom!
+# permalink: /test/
+# redirect_from: 
+# categories: 
+toc: true  # (default for Table of Contents is true)
+---
+
 Being the 2nd most-powerful break-barrel air rifle in the world today (with the [Hatsan 0.30 caliber break barrel](https://www.airgundepot.com/hatsan-mod-130s-vortex-qe-air-rifle.html#GabrielStaples.com) being #1), the Gamo Swarm series seems to be getting a lot of attention. So, this article will help clear up some things about the two types of "10x Gen2" magazines now made by Gamo.
 
-
-# Gamo 10x Gen2 Inertia-fed quick-shot magazine vs 10x Gen2 (NOT inertia-fed) quick-shot magazine
 
 ## Summary
 
