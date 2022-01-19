@@ -1,5 +1,7 @@
 # Gamo 10x Gen2 Inertia-fed quick-shot magazine vs 10x Gen2 (NOT inertia-fed) quick-shot magazine
 
+Being the 2nd most-powerful break-barrel air rifle in the world today (with the [Hatsan 0.30 caliber break barrel](https://www.airgundepot.com/hatsan-mod-130s-vortex-qe-air-rifle.html#GabrielStaples.com) being #1), the Gamo Swarm series seems to be getting a lot of attention. So, this article will help clear up some things about the two types of "10x Gen2" magazines now made by Gamo.
+
 ## Summary
 
 There are two versions of the Gamo 10x Gen2 magazine: one is designed for the Swarm Whisper Fusion 10x Gen2 or Swarm Maxxim 10x Gen2, and the other has a red switch on the back of it, is inertia-fed, and is designed for the [Swarm Magnum](https://www.airgundepot.com/gamo-swarm-magnum-g2-air-rifle.html) and Swarm Bone Collector.
