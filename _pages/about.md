@@ -21,7 +21,7 @@ It contains my own content and opinions and does not reflect opinions on behalf 
 
 # My Websites
 
-1. This website can be viewed online here: <https://electricrcaircraftguy.github.io/> or here: <https://gabrielstaples.com>.
+1. This website can be viewed online here: <https://electricrcaircraftguy.github.io/> or here: <https://gabrielstaples.com>. Its source code is here: <https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io>.
 1. My other website is here: <https://www.ElectricRCAircraftGuy.com>.
     1. Contact info.: <https://www.electricrcaircraftguy.com/2013/01/contact-me.html>
 1. My oldest website, with various useful articles which are still found here and only here, is here: <http://oldsite.electricrcaircraftguy.com/>.
