@@ -80,7 +80,7 @@ When you break the barrel to cock the gun, it auto-loads a pellet and the drum d
 
 Both problems are solved now:
 1. When you cock the gun and auto-load a pellet, your magazine round indicator is still accurate. If it says **10** on it, there are **9** in the magazine (with the currently-aligned hole in the magazine now empty) and **1** in the chamber. Only upon firing does the magazine's "inertia feed" system kick in from the recoil to rotate to the next pellet position in preparation for you to then manually cock it (which process loads the next pellet).
-1. Since the magazine drum never rotates until you fire, you can cock the gun all you want (to double-check you had cocked it all, for instance) and it will NOT load more than 1 pellet into the chamber (unless the inertia-feed system and red switch malfunctions of course)! This is great! This is a much better magazine for the Swarm Magnum and Swarm Bone Collector guns!
+1. Since the magazine drum never rotates until you fire, you can cock the gun all you want (to double-check you had cocked it at all, for instance) and it will NOT load more than 1 pellet into the chamber (unless the inertia-feed system and red switch malfunctions of course)! This is great! This is a much better magazine for the Swarm Magnum and Swarm Bone Collector guns!
 
 
 I hope this helps. If you found this article useful, consider [sponsoring me for $1/month on GitHub](https://github.com/sponsors/ElectricRCAircraftGuy). I would be extremely grateful.
