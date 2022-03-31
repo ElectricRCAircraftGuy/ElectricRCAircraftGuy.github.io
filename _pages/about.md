@@ -28,5 +28,7 @@ It contains my own content and opinions and does not reflect opinions on behalf 
     1. See the navigation links in the top-left corner for more articles.
 
 
+# My Stack Exchange / Stack Overflow contributions
 
+<a href="https://stackexchange.com/users/3032157"><img src="https://stackexchange.com/users/flair/3032157.png" width="208" height="58" alt="profile for Gabriel Staples on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Gabriel Staples on Stack Exchange, a network of free, community-driven Q&amp;A sites"></a> <-- click to see more
 
