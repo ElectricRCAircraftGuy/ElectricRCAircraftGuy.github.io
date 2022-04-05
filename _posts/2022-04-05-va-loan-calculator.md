@@ -43,3 +43,8 @@ Use my calculator below to help them find out.
 1. Super lousy and limited official VA "Guaranty Percentage Calculator", for home buyers and lenders: <https://lgy.va.gov/lgyhub/guaranty-calculator>.
     1. Use my calculator instead. If you aren't even eligible for a VA loan on a 2nd home because your existing VA loan is already too much, my calculator will tell you that. Theirs won't. 
     1. In the case you *are* eligible for a 2nd VA loan, you can compare my results to theirs. My results are more granular. 
+
+
+## Other resources:
+1. [VA Home Loan Guaranty Buyer's Guide](https://www.benefits.va.gov/HOMELOANS/documents/docs/VA_Buyers_Guide.pdf)
+2. Main US Dept. of Veterans Affairs VA website: "VA Home Loans" page: <https://www.benefits.va.gov/homeloans/index.asp>
