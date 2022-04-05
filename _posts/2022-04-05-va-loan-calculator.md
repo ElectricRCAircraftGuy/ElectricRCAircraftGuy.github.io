@@ -39,7 +39,7 @@ Use my calculator below to help them find out.
     1. Excel spreadsheet: <https://www.fhfa.gov/DataTools/Downloads/Documents/Conforming-Loan-Limits/FullCountyLoanLimitList2022_HERA-BASED_FINAL_FLAT.xlsx>
 1. VA Home Loans page and contact number: <https://www.benefits.va.gov/homeloans/contact_rlc_info.asp>
     > Contact a VA Home Loan Representative by calling **1-877-827-3702**. The VA Home Loan toll-free number operates Monday - Friday, from 8:00am to 6:00pm EST.
-    1. I called the number above and discussed my calculator here with them live for 45 minutes to ensure I got my calculations right. We both agreed the calculator was right. You can always call them youself to be sure.
+    1. I called the number above on 5 Apr. 2022 and discussed my calculator here with them live for 45 minutes to ensure I got my calculations right. We both agreed the calculator was right. You can always call them youself to be sure.
 1. Super lousy and limited official VA "Guaranty Percentage Calculator", for home buyers and lenders: <https://lgy.va.gov/lgyhub/guaranty-calculator>.
     1. Use my calculator instead. If you aren't even eligible for a VA loan on a 2nd home because your existing VA loan is already too much, my calculator will tell you that. Theirs won't. 
     1. In the case you *are* eligible for a 2nd VA loan, you can compare my results to theirs. My results are more granular. 
@@ -48,3 +48,4 @@ Use my calculator below to help them find out.
 ## Other resources:
 1. [VA Home Loan Guaranty Buyer's Guide](https://www.benefits.va.gov/HOMELOANS/documents/docs/VA_Buyers_Guide.pdf)
 2. Main US Dept. of Veterans Affairs VA website: "VA Home Loans" page: <https://www.benefits.va.gov/homeloans/index.asp>
+3. VA home loan limits: <https://www.va.gov/housing-assistance/home-loans/loan-limits/>
