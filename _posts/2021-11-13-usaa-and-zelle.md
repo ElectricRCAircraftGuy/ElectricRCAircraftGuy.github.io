@@ -16,6 +16,8 @@ toc: false  # (default for Table of Contents is true)
 
 # TLDR; (Summary)
 
+_USAA's phone app blocks Zelle money transfers if your phone's system language is set to a foreign language (non-English)._
+
 1. **To use Zelle ([ZellePay](https://www.zellepay.com/)) in the USAA phone app you MUST set your phone language to `English (United States)`** (instead of, for instance, `Français (France)` like I use on my phone), or else an accidentally discriminatory bug blocks you from using Zelle under the premise of "State or foreign restrictions". 
     1. This is really silly. United States citizens living in the United States are therefore blocked from using Zelle in the USAA app just because they either prefer a foreign language or are studying it. I changed my language to French _because I studied French at the United States Defense Language Institute (DLI)_. Many other people who prefer a foreign langauge are serving in the US military or DoD (Department of Defense), or are spouses to those who do. We should _not_ be blocked from using Zelle because our phone language is non-English.
     2. Using Zelle should NOT require you to change your phone language--it shouldn't care what your phone language is. The Zelle feature and USAA app can be in English, that's fine, but it should not care what system language your phone is set to. This is a discriminatory bug.
