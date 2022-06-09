@@ -1,6 +1,6 @@
 ---
 published: true  # use "false" while drafting articles just before publishing
-title: USAA and Zelle have a phone app bug which accidentally discriminates against members who may be foreign or who speak or are studying a foreign language
+title: The USAA phone app has a Zelle money transfer bug which accidentally discriminates against members who may be foreign or who speak or are studying a foreign language
 tags: 
     - technology
     - languages
