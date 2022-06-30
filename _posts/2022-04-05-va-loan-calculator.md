@@ -26,7 +26,7 @@ Use my calculator below to help them find out.
 ## The calculator:
 
 ### Instructions:
-1. Click the link or image below. 
+1. Open the link or image below in a new tab by <kbd>Ctrl</kbd> + <kbd>Clicking</kbd> on it, _or_ by <kbd>Right-clicking</kbd> it and going to <kbd>Open link in new tab</kbd>.
 
     [VA Home Mortgage Loan Entitlement Calculator to purchase a 2nd home with a VA loan](https://docs.google.com/spreadsheets/d/1GyXeauLG8AtTB8nEPaWWk7kvxbm9XS3RsvAfK_hD0tE/edit?usp=sharing)
 
