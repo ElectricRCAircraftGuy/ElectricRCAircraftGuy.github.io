@@ -25,11 +25,23 @@ Use my calculator below to help them find out.
 
 ## The calculator:
 
-**Instructions:** Click the link or image below. Go to `File` --> `"Make a copy"` or `File` --> `"Download"` to copy this spreadsheet for yourself. Fill in the yellow input boxes. View the grey output boxes. Done.
+### Instructions:
+1. Click the link or image below. 
 
-[VA Home Mortgage Loan Entitlement Calculator to purchase a 2nd home with a VA loan](https://docs.google.com/spreadsheets/d/1GyXeauLG8AtTB8nEPaWWk7kvxbm9XS3RsvAfK_hD0tE/edit?usp=sharing)
+    [VA Home Mortgage Loan Entitlement Calculator to purchase a 2nd home with a VA loan](https://docs.google.com/spreadsheets/d/1GyXeauLG8AtTB8nEPaWWk7kvxbm9XS3RsvAfK_hD0tE/edit?usp=sharing)
 
-[![image](https://user-images.githubusercontent.com/6842199/161823602-b1bb66a1-12b3-4260-bb74-4d42a0ad05fd.png)](https://docs.google.com/spreadsheets/d/1GyXeauLG8AtTB8nEPaWWk7kvxbm9XS3RsvAfK_hD0tE/edit?usp=sharing)
+    [![image](https://user-images.githubusercontent.com/6842199/176585487-446d7d8b-cb94-4ba4-b1e9-383f444217df.png)](https://docs.google.com/spreadsheets/d/1GyXeauLG8AtTB8nEPaWWk7kvxbm9XS3RsvAfK_hD0tE/edit?usp=sharing)
+
+1. The FILE IS NOT EDITABLE BY YOU. YOU MUST _COPY THIS SPREADSHEET_ AND EDIT YOUR OWN COPY.
+    1. To copy this spreadsheet: looking at the image below, follow the following steps:
+
+    1. In the Google Docs editor menu at the top of the screen _after you click the link above_, click on <Kbd>File</Kbd> --> <Kbd>Make a copy</Kbd>. Edit YOUR OWN COPY. You may also click on <kbd>File</kbd> --> <kbd>Download</kbd> and save this spreadsheet on your computer as an Excel spreadsheet so you can EDIT YOUR OWN COPY.
+
+    [![Selection_361](https://user-images.githubusercontent.com/6842199/176586006-2ac34f39-27ad-4c71-9890-a9850f943b99.jpg)](https://user-images.githubusercontent.com/6842199/176586006-2ac34f39-27ad-4c71-9890-a9850f943b99.jpg)
+
+1. IN YOUR OWN COPY OF THE FILE, fill in the _yellow input boxes_. Read the description to the _left_ of each box to know what that box is for. Read the notes to the _right_ of each box for additional information or details. 
+
+1. View the results in the _grey output boxes._ Done.
 
 
 ## My sources:
