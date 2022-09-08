@@ -15,7 +15,7 @@ toc: true  # (default for Table of Contents is true)
 This article has been copied from my [eRCaGuy_hello_world](https://github.com/ElectricRCAircraftGuy/eRCaGuy_hello_world) repo here: [std_mutex_vs_std_lock_guard_vs_std_unique_lock_vs_std_scoped_lock_README.md](https://github.com/ElectricRCAircraftGuy/eRCaGuy_hello_world/blob/master/cpp/std_mutex_vs_std_lock_guard_vs_std_unique_lock_vs_std_scoped_lock_README.md).
 
 <a id="c-mutexes-and-locks-stdmutex-vs-stdlock_guard-and-stdcondition_variable-vs-stdunique_lock-vs-stdscoped_lock-and-stdlock"></a>
-# C++ mutexes and locks: `std::mutex` vs `std::lock_guard` and `std::condition_variable` vs `std::unique_lock` vs `std::scoped_lock` and `std::lock()`
+# C++ mutexes and locks: `std::mutex` vs (`std::lock_guard` and `std::condition_variable`) vs `std::unique_lock` vs (`std::scoped_lock` and `std::lock()`)
 
 About references: _both_ cppreference.com and cplusplus.com are _community wikis._ **You** can edit them, just like Wikipedia! Cppreference.com is generally _more pedantic_ and up-to-date (has documentation through C++20, for instance) and difficult to understand, and cplusplus.com is generally **significantly** easier to understand, and more useful in that sense, but is missing most documentation after C++11.  
 
@@ -276,9 +276,11 @@ while (true)
     // the predicate is false, then the `wait()` function assumes it was a 
     // [spurious wakeup](https://en.wikipedia.org/wiki/Spurious_wakeup) and 
     // automatically calls the underlying `lock.unlock()` and puts the thread
-    // back to sleep again. 
+    // back to sleep to wait again. This wait loop goes on indefinitely until 
+    // the predicate is true, at which point the `wait()` function will return. 
     // When `wait()` finally does return, the lock will have been already
-    // automatically taken via `lock.lock()`.  
+    // automatically taken via `lock.lock()`, which of course is just a wrapper
+    // around the underlying mutex, essentially calling `mutex.lock()`.    
     cv.wait(lock, []() { 
         return sharedData.isNewData; 
     });
