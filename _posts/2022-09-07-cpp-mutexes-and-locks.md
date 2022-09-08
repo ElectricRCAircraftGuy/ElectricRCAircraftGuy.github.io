@@ -1,6 +1,6 @@
 ---
 published: true  # use "false" while drafting articles just before publishing
-title: C++ Mutexes and Locks
+title: C++ Mutexes, Concurrency, and Locks
 tags: 
     - programming
     - C++
