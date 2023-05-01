@@ -12,6 +12,10 @@ tags:
 toc: true  # (default for Table of Contents is true)
 ---
 
+I've bought 2 houses in the last 4 years, and refinanced one of those in that time. So, that's 3 times going through the mortgage process in the last 4 years, shopping around and talking to lenders, brokers, and loan officers. This is what I've learned. The most recent purchase I did was just 6 months ago, so I need to write this down before it totally fades away from my memory. Here you go. 
+
+Mortgage hunting tips:
+
 1. As you shop lenders, compare against the official mortgage rates here: <https://www.freddiemac.com/pmms>.
     1. Loan officers expect you to not know this website exists...but it does. Example screenshot: 
 
@@ -67,9 +71,22 @@ toc: true  # (default for Table of Contents is true)
 1. You may want to pay a little extra, rather than competing for days or weeks. 
     1. If you're in a rush to close (ex: due to building a new house and needing the lender to move quickly once it's done), and/or have major time constraints on moving out of your current place of dwelling and into your new house, or if you are under a lot of pressure at work, _paying a couple thousand extra dollars in origination fees_ to a **local or higher-quality lender** over an **online or inexpensive broker** _can_ be worth it. Consider it. Maybe getting from the **+$20000** total cost LE to the **+$7000** total cost LE is 5 hours of work, and is 100% worth it, but getting from **+$7000** to **+$3500** is another 5 hours of work, and less worth it. Then, calling more brokers and competing from **+$3500** to **-$1500** is another 5 to 10 hours of work. As your costs get lower, you get diminishing returns. At some point, depending on your life pressures and overall stress level, the returns become less worth-it. Have an idea up-front of _when_ you will decide to call it quits and take what you've got--that penny-pinching and calling around for days just isn't worth it. Consider calling *at least* a few lenders--never just 1 or 2, but you don't need to talk to dozens, and if you are happy after a single round of locked-LE-competing, feel free to just be done. Save your time and sanity and go play with your kids, build an RC airplane, write an app, or 3D print something. 
 
+1. When you receive scanned-in PDF documents (ex: your final, 110 pgs of official, signed "closing documents") that aren't searchable because they don't have text recognized in them, you can use my [`pdf2searchablepdf`](https://github.com/ElectricRCAircraftGuy/PDF2SearchablePDF) tool I wrote to make them searchable _for free_. It's open source and no-cost. The command-line to make your pdf searchable would look like this:
+
+    ```bash
+    # produce a new set of searchable PDFs (at various compression levels) from
+    # input.pdf
+    pdf2searchablepdf --compress input.pdf
+    ```
+
 That's the bulk of my tips for now. 
 
 _Any other tips you have? Leave a comment!_
+
+
+## Notes to self
+
+The mortgage industry is practically archaic. Despite being in the year 2023 now, the mortgage industry is decades behind. It still requires *extensive* human-to-human discussion to get a loan. You still have to do everything over the phone. When you get final documents, they are scanned at like 70 dpi and don't have searchable text. The entire "debt market" is completely hidden from view--it is in the background where the public can't see it. Etc. I think perhaps there is an untapped market here to modernize it and give users a more-automated and more-streamlined digital, online process with fewer "middle men" involved who scrape money off the top of your loan cost. Perhaps the mortgage and debt market is _today_ where online banking and payments were in 1998, in the pre-[PayPal](https://en.wikipedia.org/wiki/PayPal) and pre-Elon-Musk-[X.com](https://en.wikipedia.org/wiki/X.com) days. Consider that as you a potential business market in the future. 
 
 
 ## See also
