@@ -1,6 +1,6 @@
 ---
 published: true  # use "false" while drafting articles just before publishing
-title: Loan/Mortage shopping tips for your new house or property!
+title: Loan/Mortage shopping and refinancing tips for your new house or property!
 tags: 
     - finance
     - mortgage
