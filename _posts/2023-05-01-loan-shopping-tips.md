@@ -84,12 +84,12 @@ That's the bulk of my tips for now.
 _Any other tips you have? Leave a comment!_
 
 
-## Notes to self
-
-The mortgage industry is practically archaic. Despite being in the year 2023 now, the mortgage industry is decades behind. It still requires *extensive* human-to-human discussion to get a loan. You still have to do everything over the phone. When you get final documents, they are scanned at like 70 dpi and don't have searchable text. The entire "debt market" is completely hidden from view--it is in the background where the public can't see it. Etc. I think perhaps there is an untapped market here to modernize it and give users a more-automated and more-streamlined digital, online process with fewer "middle men" involved who scrape money off the top of your loan cost. Perhaps the mortgage and debt market is _today_ where online banking and payments were in 1998, in the pre-[PayPal](https://en.wikipedia.org/wiki/PayPal) and pre-Elon-Musk-[X.com](https://en.wikipedia.org/wiki/X.com) days. Consider that as you a potential business market in the future. 
-
-
 ## See also
 
 1. [my article] <https://gabrielstaples.com/va-loan-calculator/>
+
+
+## Notes to self
+
+The mortgage industry is practically archaic. Despite being in the year 2023 now, the mortgage industry is decades behind. It still requires *extensive* human-to-human discussion to get a loan. You still have to do everything over the phone. When you get final documents, they are scanned at like 70 dpi and don't have searchable text. The entire "debt market" is completely hidden from view--it is in the background where the public can't see it. Etc. I think perhaps there is an untapped market here to modernize it and give users a more-automated and more-streamlined digital, online process with fewer "middle men" involved who scrape money off the top of your loan cost. Perhaps the mortgage and debt market is _today_ where online banking and payments were in 1998, in the pre-[PayPal](https://en.wikipedia.org/wiki/PayPal) and pre-Elon-Musk-[X.com](https://en.wikipedia.org/wiki/X.com) days. Consider that as you a potential business market in the future. 
 
