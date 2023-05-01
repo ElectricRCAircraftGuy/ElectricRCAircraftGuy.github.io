@@ -4,6 +4,7 @@ title: VA Loan 2nd home purchase calculator for lenders and home buyers
 tags: 
     - VA
     - finance
+    - mortgage
 # date: 1999-12-31
 # last_modified_at: 2000-12-31  # updates the "Updated" date at the bottom!
 # permalink: /test/
