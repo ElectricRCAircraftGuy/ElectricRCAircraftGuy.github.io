@@ -15,9 +15,11 @@ toc: true  # (default for Table of Contents is true)
 1. As you shop lenders, compare against the official mortgage rates here: <https://www.freddiemac.com/pmms>.
     1. Loan officers expect you to not know this website exists...but it does. Example screenshot: 
 
-    <p align="left" width="100%">
-        <img width="50%" src="https://user-images.githubusercontent.com/6842199/235502981-b039d242-8da7-471e-8711-c1b4488cb569.png">
-    </p>
+    <a href = "https://user-images.githubusercontent.com/6842199/235502981-b039d242-8da7-471e-8711-c1b4488cb569.png">
+        <p align="left" width="100%">
+            <img width="50%" src="https://user-images.githubusercontent.com/6842199/235502981-b039d242-8da7-471e-8711-c1b4488cb569.png">
+        </p>
+    </a>
 
 1. A really good lender will be equal to or up to a 1/4 point<sup>1</sup> _lower_ than the rates on the chart above, with *no* buy-down points and *no origination fees*. 
 
@@ -35,7 +37,7 @@ toc: true  # (default for Table of Contents is true)
 1. To calculate the cost of your mortgage over X years, use my spreadsheet here: [My Personal Finances - Staples - Just the TVM (Time Value of Money) Equations](https://docs.google.com/spreadsheets/d/1GZvHTyyKIuV4SGgt61tPM33Cy5MuaomVhI0mXjECIS4/edit?usp=sharing), equation 6. 
     1. Example, enter a loan amount of **$900000**, **6.00%** annual interest, **30 years**, **12 compounding periods per year**, and you'll see that the loan will cost you **$5395.95/month** for principal and interest payments, for a total lifetime payment of **$1942543.70**, with **$1042543.70** of that being interest!
 
-    ![Time value of money mortgage calculator screenshot](https://user-images.githubusercontent.com/6842199/235504886-1b1f9da9-30c7-48ab-ad05-c195fdca8bd7.png)
+    [![Time value of money mortgage calculator screenshot](https://user-images.githubusercontent.com/6842199/235504886-1b1f9da9-30c7-48ab-ad05-c195fdca8bd7.png)](https://user-images.githubusercontent.com/6842199/235504886-1b1f9da9-30c7-48ab-ad05-c195fdca8bd7.png)
 
 1. NEVER give your SSN nor birthday nor other highly-guarded personally identifying information to a loan officer on the phone until they have emailed you and you have verified their true _from_ email address to ensure it looks like it comes from a valid company, _and_ their registered NMLS number here: <https://www.nmlsconsumeraccess.org/>.
 
