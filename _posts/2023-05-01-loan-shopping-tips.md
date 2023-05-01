@@ -15,11 +15,11 @@ toc: true  # (default for Table of Contents is true)
 1. As you shop lenders, compare against the official mortgage rates here: <https://www.freddiemac.com/pmms>.
     1. Loan officers expect you to not know this website exists...but it does. Example screenshot: 
 
-    <a href = "https://user-images.githubusercontent.com/6842199/235502981-b039d242-8da7-471e-8711-c1b4488cb569.png">
-        <p align="left" width="100%">
+    <p align="left" width="100%">
+        <a href = "https://user-images.githubusercontent.com/6842199/235502981-b039d242-8da7-471e-8711-c1b4488cb569.png">
             <img width="50%" src="https://user-images.githubusercontent.com/6842199/235502981-b039d242-8da7-471e-8711-c1b4488cb569.png">
-        </p>
-    </a>
+        </a>
+    </p>
 
 1. A really good lender will be equal to or up to a 1/4 point<sup>1</sup> _lower_ than the rates on the chart above, with *no* buy-down points and *no origination fees*. 
 
