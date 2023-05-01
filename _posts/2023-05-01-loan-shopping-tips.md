@@ -25,7 +25,7 @@ toc: true  # (default for Table of Contents is true)
 
     _<sup>Note 1</sup> A "point" is 1% of the original loan amount, so 1/4 point = 0.25% of the original loan amount._
 
-1. If you are VA-loan eligible (as a prior US military member / a US military veteran), using your VA loan can drop your interest rate an additional 1/4 to 1/2 point belwo that it would otherwise be, for free, since VA loans are lower interest. VA loans can also allow _$0 down payments_ in many cases if that's something that interests you. 
+1. If you are VA-loan eligible (as a prior US military member / a US military veteran), using your VA loan can drop your interest rate an additional 1/4 to 1/2 point below that it would otherwise be, for free, since VA loans are lower interest. VA loans can also allow _$0 down payments_ in many cases if that's something that interests you. 
     1. Here is my VA loan calculator: <https://gabrielstaples.com/va-loan-calculator/>. 
     1. In my experience, probably 80% of loan officers won't know how to do these calculations for you, so you have to do them yourself. They will rely on their loan originators to do the calculations, which can stall you for weeks potentially and may require you to proceed with the loan first.
 
