@@ -133,7 +133,7 @@ _Any other tips you have? Leave a comment!_
 
 Newest on _bottom._
 
-1. Nov. 2019: 1st home purchase ever; 30-year VA loan; 3.375% interest rate; 0% down payment; excellent service and experience; average closing costs; no shopping around.
+1. Nov. 2019: 1st home purchase ever; 30-year VA loan; 3.375% interest rate; 0% down payment; excellent service and experience; average-to-high closing costs; no shopping around.
     1. In 2019, when we bought our first house ever, we just used the local lender our realtor knew well and recommended. We were under extreme pressure and had to be out of our old house and into our new house within _5 weeks of starting the house hunt._ That was crazy-stressful. That lender was _amazing_. Super helpful and informative. He got us approved on a Saturday night at like 10pm. It went pretty smoothly. We did _zero_ price shopping. We got a decent mid-range closing costs price, I think.
     1. My assessment of the result: good. 
         1. It was a good way to go. We had no time to compete. I didn't have the knowledge to compete either, in that amount of time. 
