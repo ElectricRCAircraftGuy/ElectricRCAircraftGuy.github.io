@@ -14,7 +14,8 @@ toc: true  # (default for Table of Contents is true)
 
 I've bought 2 houses in the last 4 years, and refinanced one of those in that time. So, that's 3 times going through the mortgage process in the last 4 years, shopping around and talking to lenders, brokers, and loan officers. This is what I've learned. The most recent purchase I did was just 6 months ago, so I need to write this down before it totally fades away from my memory. Here you go. 
 
-Mortgage hunting tips:
+
+## Mortgage hunting tips:
 
 1. As you shop lenders, compare against the official mortgage rates here: <https://www.freddiemac.com/pmms>.
     1. Loan officers expect you to not know this website exists...but it does. Example screenshot: 
@@ -32,6 +33,8 @@ Mortgage hunting tips:
 1. If you are VA-loan eligible (as a prior US military member / a US military veteran), using your VA loan can drop your interest rate an additional 1/4 to 1/2 point below that it would otherwise be, for free, since VA loans are lower interest. VA loans can also allow _$0 down payments_ in many cases if that's something that interests you. 
     1. Here is my VA loan calculator: <https://gabrielstaples.com/va-loan-calculator/>. 
     1. In my experience, probably 80% of loan officers won't know how to do these calculations for you, so you have to do them yourself. They will rely on their loan originators to do the calculations, which can stall you for weeks potentially and may require you to proceed with the loan first.
+
+1. For VA loan pros and cons, and example calculations, see my section on this titled "VA loan pros and cons" further below.
 
 1. Using a loan *broker*, not an originator nor consumer-facing lender, can frequently give you better deals. 
     1. Ex: a broker might get your a loan through PennyMac at 6.00% interest with zero buy-down points and $0 lender origination fees, whereas if you went to PennyMac directly, they might get you only 6.25% interest rate with zero buy-down points and $1500 lender origination fees. When you go to the consumer-facing loan department at PennyMac, you are costing them more overhead money, paying that loan officer to talk to you. By going to the broker instead, they save their overhead costs, and the broker is incentivized to try harder to reduce their own costs so they can take a lower cut and still make money when they sell your loan to PennyMac in the "wholesale debt market" behind the scenes. 
@@ -89,11 +92,48 @@ That's the bulk of my tips for now.
 _Any other tips you have? Leave a comment!_
 
 
+## VA loan pros and cons, and example calculations
+
+1. [VA loans](https://www.investopedia.com/terms/v/valoan.asp) (loans administered by the Dept. of Veterans Affairs [VA]), for prior military members, pros and cons:
+    1. Pros:
+        1. As little as 0% down payment.
+        1. Lower interest rates, in general, by 0.25%\~0.50%.
+        1. No **PMI** (Private Mortgage Insurance). PMI adds an additional $50\~$200 to your monthly payment to insure low-down-payment loans against default since they are higher risk. The VA insures VA loans, however, so PMI is waived.
+    1. Cons:
+        1. For non-disabled military veterans, there is a "VA funding fee" of 1.25%\~3.3% of your loan amount, depending on your down payment and whether or not it is your first use of a VA loan. 
+            1. Here is a chart: <https://www.va.gov/housing-assistance/home-loans/funding-fee-and-closing-costs/>:
+
+                > ## VA funding fee rate charts
+                >
+                > **Effective April 7, 2023**
+                > 
+                > Review the VA funding fee rate charts on this page to determine the amount you’ll have to pay. Down payment and VA funding fee amounts are expressed as a percentage of total loan amount.
+                > 
+                > **For example:** Let’s say you’re using a VA-backed loan for the first time, and you’re buying a $200,000 home and paying a down payment of $10,000 (5% of the $200,000 loan). You’ll pay a VA funding fee of $2,850, or 1.5% of the $190,000 loan amount. The funding fee applies only to the loan amount, not the purchase price of the home.
+                > 
+                > ### VA-backed purchase and construction loans
+                > 
+                > #### Rates for Veterans, active-duty service members, and National Guard and Reserve members
+                > 
+                > |                     | **If your down payment is…** | **Your VA funding fee will be…**   |
+                > |---                  | ---                          | ---                                |
+                > | **First use**       | Less than 5%                 | 2.15%                              |
+                > |                     | 5% or more                   | 1.5%                               |
+                > |                     | 10% or more                  | 1.25%                              |
+                > | **After first use** | Less than 5%                 | 3.3%                               |
+                > |                     | 5% or more                   | 1.5%                               |
+                > |                     | 10% or more                  | 1.25%                              |
+                >
+                > **Note:** If you used a VA-backed or VA direct home loan to purchase only a manufactured home in the past, you’ll still pay the first-time funding fee.
+
+            1. Example calculation: on a $700k 0% down-payment first-use VA loan to purchase a home, for instance, the VA funding fee is 2.15%, or $700000 x 0.0215 = $15050. That's a lot of money! Let's assume, however, that your lender would give you a 6.00% interest rate for the VA loan, but a 6.500% interest rate for a conventional loan. How long is your payback period? Using [my calculator, equation 6](https://docs.google.com/spreadsheets/d/1GZvHTyyKIuV4SGgt61tPM33Cy5MuaomVhI0mXjECIS4/edit?usp=sharing), the monthly payment at 6.5% is $4424.48, but at 6.0% it is $4196.85, for a difference of $4424.48 - $4196.85 = $227.63/month. Since you're paying the VA funding fee of $15050 for the privilege of using the VA loan, the "payback period" for how long it takes to make up for the funding fee in monthly savings due to a reduced monthly payment is $15050/$227.63 = 66.116 months, or 66.116 months / 12 months/year = **5.5 years**. If you keep this loan for 5.5 years or longer, the monthly savings of using this VA loan makes up for the VA funding fee. If you keep the loan for all 30 years, the VA loan savings is a much larger $1592811.42 at 6.5% interest - $1510867.32 at 6.0% interest - $15050 funding fee = **$66894.10!** Be sure to substitute in your own numbers for your lender. The _assumption_ here which makes VA loans extra valuable in the long-term is that they also have a _reduced interest rate_ and _no PMI (Private Mortgage Insurance)_, not just no down payment. In my calculation above, I didn't even account for PMI. I only accounted for the reduced interest rate (good for you) and the VA funding fee (bad for you) to see when they cancel each other out. You should account for PMI in your calculations too.
+
+
 ## Anecdotes (my personal experiences)--rants and raves
 
 Newest on _bottom._
 
-1. Nov. 2019: 1st home purchase ever; 30-year VA loan; 3.375% interest rate; excellent service and experience; average closing costs; no shopping around.
+1. Nov. 2019: 1st home purchase ever; 30-year VA loan; 3.375% interest rate; 0% down payment; excellent service and experience; average closing costs; no shopping around.
     1. In 2019, when we bought our first house ever, we just used the local lender our realtor knew well and recommended. We were under extreme pressure and had to be out of our old house and into our new house within _5 weeks of starting the house hunt._ That was crazy-stressful. That lender was _amazing_. Super helpful and informative. He got us approved on a Saturday night at like 10pm. It went pretty smoothly. We did _zero_ price shopping. We got a decent mid-range closing costs price, I think.
     1. My assessment of the result: good. 
         1. It was a good way to go. We had no time to compete. I didn't have the knowledge to compete either, in that amount of time. 
@@ -107,7 +147,7 @@ Newest on _bottom._
         1. I should have gone to brokers much earlier, as those two brokers fighting for my business in the end absolutely blew the competition out of the water by being more than **$8k cheaper** in closing costs than all other companies! 
         1. I made a huge mistake in folding to Company 2's pressure to not tell Company 1 when Company 2 had beat them. This really hurt Company 1's feelings and caused me immense stress. NEVER agree to a company who beats out another company to not let the company they beat out compete again! ALWAYS go back to the original winner and show them a new LE from the new winner. Be *clear* what you will do. Ex: "Hi Company 1. I need to let you know that even though I don't have a _locked_ LE from Company 2, they told me they will do x y and z, and I believe them. If you can't take this unlocked LE and beat it, that means you are self-eliminating and they will get the loan." Company 1 might then decide they *can* negotiate again with*out* another locked LE from Company 2, after-all, even if they normally wouldn't. It's really a game of "how knowledgeable and serious do they think you are?" If you are talking like I am recommending here, they will get the hint you are serious and knowledgeable.  
 
-1. Fall 2022: bought our 2nd home ever under a 30-year Conventional Loan; 5.625% interest rate; very stressful/absolutely terrible closing experience; lowest closing costs possible; _tons_ of shopping around.
+1. Fall 2022: bought our 2nd home ever under a 30-year Conventional Loan; 5.625% interest rate; 5% down payment; very stressful/absolutely terrible closing experience; lowest closing costs possible; _tons_ of shopping around.
     1. I shopped around way too much, and wasted way too much time. I accidentally took too many calls and spoke to too many lenders because they just kept calling me out of the blue! Each time my credit was hard-pulled, which happened twice since we shopped over the course of 10 months since our house was a new-build under construction, I'd get **30 to 60 calls** over the following 2 days starting at 6:30am! It was horrible! Register wit the National Do Not Call Registry. See above. I ended up not even calling the company I closed with in our refinance above, due to the sour experience. Instead, I closed with the company who lost in our 2020 refinance (simply because I didn't let them re-compete then!). This time they gave a great offer and everything went smoothly _UNTIL IT REALLY MATTERED_. The final 2 weeks were absolute hell! The broker was supposed to have the loan officer of the lender start underwriting early, but despite knowing our complicated financial situation, didn't. As a result, I got frantic calls for *2 weeks straight* during closing, and would have to abruptly stop work with zero notice to spend an _entire day_ pulling up dozens more bank statements to send to the underwriter. The fault was *the broker* for not pushing *the lender* to begin underwriting sooner, since *it was very clearly foreseeable* that our underwriting would take extra time!
     1. Also, interest rates were shooing up during this period, from like 3% at the start of 2022 to up to 7% near the end! So, I should have done a long-term lock. ALL of our local lenders would do a long-term lock of 6 months to 1 year, with some stipulations, but *very few* if any online or remote lenders would.  
     1. In hindsight, I made a ton of mistakes: 
