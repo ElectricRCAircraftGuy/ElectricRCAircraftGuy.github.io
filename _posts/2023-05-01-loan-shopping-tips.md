@@ -5,7 +5,7 @@ tags:
     - finance
     - mortgage
 # date: 1999-12-31
-# last_modified_at: 2000-12-31  # updates the "Updated" date at the bottom!
+last_modified_at: 2023-05-05  # updates the "Updated" date at the bottom!
 # permalink: /test/
 # redirect_from: 
 # categories: 
@@ -37,7 +37,9 @@ I've bought 2 houses in the last 4 years, and refinanced one of those in that ti
 1. For VA loan pros and cons, and example calculations, see my section on this titled "VA loan pros and cons" further below.
 
 1. Using a loan *broker*, not an originator nor consumer-facing lender, can frequently give you better deals. 
-    1. Ex: a broker might get your a loan through PennyMac at 6.00% interest with zero buy-down points and $0 lender origination fees, whereas if you went to PennyMac directly, they might get you only 6.25% interest rate with zero buy-down points and $1500 lender origination fees. When you go to the consumer-facing loan department at PennyMac, you are costing them more overhead money, paying that loan officer to talk to you. By going to the broker instead, PennyMac saves their overhead costs, and the broker is incentivized to try harder to reduce their own costs so they can take a lower cut and still make money when they sell your loan to PennyMac in the "wholesale debt market" behind the scenes. 
+    1. Whereas a _consumer-facing lender / loan originator_ can only offer you _one_ lender (themselves) to choose from, a _broker_ can shop the wholesale loan market and choose from _dozens or even hundreds of different lenders to help you find the best deal!_ Essentially, the broker acts as a loan coordinator to broker (ie: arrange, or coordinate) a deal between a lender (the company who gives you the loan) and a buyer (you, who needs the loan). 
+    1. Brokers take a small fee for this service, but they are frequently more-efficient than lenders directly, and therefore can still frequently give you a better deal than if you went to the consumer-facing side of the lender directly! Remember: if you go to a lender, such as PennyMac, directly, that's the _consumer-facing_ side of the lender. But, if you go to a broker, they would go to the _wholesale side of the lender_, and negotiate a back-end deal for you with the lender in the hidden "debt market" world. This wholesale side of the debt market can get you better deals. 
+    1. Ex: a broker might get your a loan through PennyMac (the lender) at **6.00%** interest with **zero buy-down points** and **$0 lender origination fees** (all via the back-end wholesale debt market), whereas if you went to PennyMac directly (via PennyMac's consumer-facing market), they might get you only **6.25%** interest rate with **zero buy-down points** and **$1500 in lender origination fees**. When you go to the consumer-facing loan department at PennyMac, you are costing them more overhead money, and they must pay that loan officer to talk to you. By going to the broker instead, PennyMac saves their overhead costs, and the broker is incentivized to try harder to reduce their own costs so they can take a lower cut and still make money when they sell your loan to PennyMac in the "wholesale debt market" behind the scenes. 
     1. Loan brokers essentially buy and sell debt to and from loan originators in a wholesale "debt market", which is like the stock market, but used to buy and sell _debt_ instead of _equity_. 
     1. Why would someone want to buy your debt, you might ask? Well, lenders might want to "buy your debt" by taking on your loan so that they can collect your interest payments. If you have a high credit score and are a low risk, they can pay $1M for your $900k loan, for instance, to buy it from another lender or to originate it, but then they might collect $1.9425M (assuming 6% interest rate) over the life of the loan, making money over the next 30 years. 
 
