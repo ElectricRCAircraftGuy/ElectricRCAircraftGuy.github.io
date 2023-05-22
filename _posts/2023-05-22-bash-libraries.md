@@ -262,4 +262,5 @@ Can Python do this? No, not natively at least. Bash is _much easier_ than Python
 1. [Bash and Test-Driven Development](https://stackoverflow.com/q/1315624/4561887)
 1. [Unit testing Bash scripts](https://stackoverflow.com/q/1339416/4561887)
 
-<sub>Note: I migrated this answer [from here](https://stackoverflow.com/q/76241158/4561887), where I had accidentally created a duplicate Q&A.</sub>
+
+_I have also published this as an answer on Stack Overflow, here: [Importing functions from a shell script](https://stackoverflow.com/a/76241268/4561887)._
