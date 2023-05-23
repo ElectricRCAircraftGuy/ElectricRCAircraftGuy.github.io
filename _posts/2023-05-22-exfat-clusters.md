@@ -20,7 +20,7 @@ As you may know, a typical hard drive or SSD is broken up into sectors of 512 by
 
 Again, a "cluster" is the smallest chunk of memory possible to be used by the file system. So, if a cluster is 4 KiB, for instance, and your file is only **1 byte**, it will still take up a full cluster, or **4 KiB**, on disk. This is what Windows refers to as "Size on disk". In this case, the file "Size" is 1 byte, whereas the "Size on disk" is 4 KiB, or 4096 bytes. See: [Super User: What is the difference between “Size” and “Size on disk?”](https://superuser.com/a/66826/425838).
 
-To learn more, I spent a day testing and plotting. Here is the data I collected. Again, exFAT cluster size has a *significant* (I mean: huuuuge!) effect on both _speed_ and _disk usage_ for a given set of files:
+To learn more, I spent a day testing and plotting. Here is the data I collected. Again, exFAT cluster size has a *significant* (I mean: huuuuge!) effect on both _speed_ and _disk usage_ for a given set of files. The top-left plot trends apply regardless of how many small files you have, since I did those tests by `rsync`ing over a single 5.3 GB file to the exFAT external SSD, but the other three plots are exacerbated by the quantity of tiny files I have (just over 1 million files, comprising 74 GB). The linear trend in the bottom-right applies to everyone, but its _slope_, and therefore the y-axis values, depends on how many small files you have. 
 
 [![exFAT plots](https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/12b2635d-653a-40ec-b438-d1106672b9d9)](https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/12b2635d-653a-40ec-b438-d1106672b9d9)
 
@@ -36,6 +36,8 @@ So, I'll use an exFAT cluster size of **8 KiB** for my drive.
 ## Formatting an exFAT drive on Linux Ubuntu
 
 I recommend 8 KiB clusters, but you can choose what you like based on the plots above. If all you have is very large files, your "Wasted space" plots may differ tremendously from mine, as my tests were on a computer with a ton of small files.
+
+Note that if you use the Gnome Disks GUI to format your exFAT partition, that works, but it gives you _no control_ over the cluster size. I think it just uses Microsoft's recommended cluster sizes based on the disk size. See the table at the very bottom of this article. So, for my 500 GB SSD, formatting it to exFAT with Gnome Disks created a cluster size of 128 KiB, which is bigger than I want, as I results in a lot of wasted disk space.
 
 WARNING: DATA LOSS CAN HAPPEN. If you are formatting the drive or writing a partition table, it will ERASE IT. Ensure it's backed up. Also, be sure to SELECT THE CORRECT DRIVE TO FORMAT OR PARTITION when doing the steps below. 
 
@@ -59,9 +61,11 @@ sudo apt install exfat-fuse exfat-utils  # for Ubuntu 20.04 and earlier
 sudo apt install exfat-fuse exfatprogs   # for Ubuntu 22.04 and later
 
 # Now, format your partition to exFAT
-# - WARNING: BE SURE TO UPDATE `/dev/sda1` TO WHATEVER IT SHOULD BE FOR YOU IN
+# - WARNING: BE SURE TO UPDATE `/dev/sda999` TO WHATEVER IT SHOULD BE FOR YOU IN
 #   THE COMMANDS BELOW, so you format the correct disk. 
-# - Choose the correct command for your desired cluster size.
+# - Choose the correct command for your desired cluster size. 
+# - You can use any power-of-2 number in the `-s num` option, thereby choosing a
+#   custom cluster size if desired.
 
 # NB: **creation** speed goes way faster for larger clusters too! The times
 # below in parenthesis are for creating an exFAT file system of these cluster
@@ -76,13 +80,13 @@ sudo apt install exfat-fuse exfatprogs   # for Ubuntu 22.04 and later
 #
 #                                                       cluster size  (format time)
 #                                                       ----------    -------------
-time sudo mkexfatfs -n "my_exFAT" -s 1 /dev/sda1     #   0.5 KiB (512 byte) 
+time sudo mkexfatfs -n "my_exFAT" -s 1 /dev/sda999     #   0.5 KiB (512 byte) 
                                                      #     clusters (10 sec)
-time sudo mkexfatfs -n "my_exFAT" -s 8 /dev/sda1     #   4 KiB clusters (1.340 sec)
-time sudo mkexfatfs -n "my_exFAT" -s 16 /dev/sda1    #   8 KiB clusters (0.698 sec) <=== WHAT I USE AND RECOMMEND: 8 KiB clusters
-time sudo mkexfatfs -n "my_exFAT" -s 64 /dev/sda1    #  32 KiB clusters (0.230 sec)
-time sudo mkexfatfs -n "my_exFAT" -s 256 /dev/sda1   # 128 KiB clusters (0.075 sec)
-time sudo mkexfatfs -n "my_exFAT" -s 65536 /dev/sda1 # 32 MiB clusters (0.120 sec) [absolute max cluster size allowed!]
+time sudo mkexfatfs -n "my_exFAT" -s 8 /dev/sda999     #   4 KiB clusters (1.340 sec)
+time sudo mkexfatfs -n "my_exFAT" -s 16 /dev/sda999    #   8 KiB clusters (0.698 sec) <=== WHAT I USE AND RECOMMEND: 8 KiB clusters
+time sudo mkexfatfs -n "my_exFAT" -s 64 /dev/sda999    #  32 KiB clusters (0.230 sec)
+time sudo mkexfatfs -n "my_exFAT" -s 256 /dev/sda999   # 128 KiB clusters (0.075 sec)
+time sudo mkexfatfs -n "my_exFAT" -s 65536 /dev/sda999 # 32 MiB clusters (0.120 sec) [absolute max cluster size allowed!]
 ```
 
 
@@ -261,6 +265,12 @@ Erase time (sec):   0.315   0.360   0.336
 ```
 
 Again, my full Python Matplotlib and numpy plotting code is here: <https://github.com/ElectricRCAircraftGuy/eRCaGuy_hello_world/blob/master/stack_exchange/format_exFAT_PLOTS.py>.
+
+
+## See also
+
+1. My comments under [this question](https://superuser.com/q/417402/425838).
+1. My own answer here: [Is it best to reformat the hard drive to exFAT using 512kb chunk, or smaller or bigger chunks?](https://superuser.com/a/1785239/425838)
 
 
 ## References and going further
