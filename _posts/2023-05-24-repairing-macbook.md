@@ -1,5 +1,5 @@
 ---
-published: false  # use "false" while drafting articles just before publishing
+published: true  # use "false" while drafting articles just before publishing
 title: How to repair your MacBook when it won't boot
 tags: 
     - computers
