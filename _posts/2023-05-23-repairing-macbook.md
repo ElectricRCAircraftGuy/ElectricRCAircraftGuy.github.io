@@ -55,13 +55,34 @@ At startup, right after you hear the Mac startup chime sound, press and hold the
 1. [best: internet boot] <kbd>Option</kbd> + <kbd>Command</kbd> + <bkd>R</bkd> = boot into the recovery system which is _stored online on the internet_. So long as you have a genuine Apple SSD drive in the computer, this should work. I think the reason Apple is a PITA and doesn't use normal m.2 SSDs is so that they can verify you are using a _genuine Apple part_, and I've read the internet boot thing won't work if you aren't using a genuine Apple SSD.
     1. Anyway, do this, log onto your local WiFi, and let it take a few minutes to download stuff and repair your drive. I then followed these steps again: [How to repair a Mac disk with Disk Utility](https://support.apple.com/en-us/HT210898), repairing volumes, then containers, then disks, and _this time it worked!_ Next thing I know, the MacOS booted up perfectly again! I think doing the internet boot fixed the system by downloading the utilities fresh from the internet and fixing the locally-stored ones or something. 
 1. <kbd>D</kbd> = boot up into the [Apple Diagnostics utility](https://support.apple.com/en-us/HT202731). Let it run some tests to see if your hardware is good.
-    1. This worked for me. If you have failures, however, you'll need to replace hardware, as appropriate. 
+    1. This worked for me, and everything passed. If you have failures, however, you'll need to replace hardware, as appropriate. 
 
 See other key combinations [here](https://support.apple.com/en-us/HT201255).
 
 The <kbd>Option</kbd> key alone is used to boot onto an alternative disk, when needed, such as an Ubuntu live USB drive when you are doing file recovery or installing Ubuntu.
 
 I gotta say: this internet boot thing by Apple, to repair your system, is really ingenious! I just wish they weren't such turds that they disable it if you use a regular m.2 SSD with an adapter board. I bought these parts to upgrade my MacBook when I install Linux Ubuntu 22.04 onto it:
+
+
+#### Notes to self: the total fix
+
+*******
+RESULT: so, the total fix for me seems to be:
+*******
+
+1. Reboot and hold down Option + Cmd + R to do an internet boot. This restores the necessary boot images (I think?). You can then run the Disk Utility and try to repair the disk per these instructions: <https://support.apple.com/en-us/HT210898>. It will likely fail. 
+2. Reboot again and hold down D during startup to run diagnostics. It will run all diags and then *pass*. Once it has passed, it will automatically boot into the Mac and the Mac will magically be working again!
+
+
+#### Notes to self: internal SSD health notes
+
+SSD health (checked via Gsmartcontrol on a Linux live USB I booted onto): 13.6 TB written. Drive is 120 GB **x 400 wear multiplier** / 1000 GB/TB = 48 TB estimated max TBW (Terabytes Written) write rating. 
+So, the writes are 13.6/48 = 28.33% life used. BUT...the computer is from 2015, making the drive about 8 years old, so it's 80% of its useful _time_ life, which is generally considered 10 years or so for flash memory. It's also very small, at only 120 GB! 
+
+So, my plan is to buy an external enclosure to copy all data to. I'll reinstall the MacOS onto this internal drive, since it's Apple-genuine and I think that's required for the Apple internet-boot-installation process to work. But, knowing it may not be reliable, I'll then remove it. If I wanted to continue using MacOS, I'd `ddrescue` the data from it (_after_ reinstalling MacOS) to a new SSD which I'd put into the MacOs (see my `ddrescue` examples in my answers [here](https://unix.stackexchange.com/a/743566/114401) and [here](https://unix.stackexchange.com/a/743566/114401) and [here](https://www.electricrcaircraftguy.com/2018/01/how-to-clone-your-hard-drive.html)). I'll then save the old drive so I always have the genuine Apple SSD lying around in case I ever need it for internet boots and recoveries again in the future. My new m.2 SSD, with adapter, would become the new internal drive. It would have a new write life and 10-year time life, to be reliable.
+
+
+## External enclosure and SSD to buy, as well as an internal adapter board so I can buy an extra m.2 SSD to replace the internal one too
 
 1. [Sintech NGFF M.2 nVME SSD Adapter Card for Upgrade 2013-2015 Year Macs(Not Fit Early 2013 MacBook Pro) (Black), $15](https://amzn.to/3BU3psK)
 1. [WD_BLACK 1TB SN770 NVMe Internal Gaming SSD Solid State Drive - Gen4 PCIe, M.2 2280, Up to 5,150 MB/s - WDS100T3X0E, $55](https://amzn.to/3MDsI7o)
@@ -87,6 +108,7 @@ Basically, we are going to boot onto an Ubuntu 22.04 live USB to recover files, 
     1. If the above two tools don't work, buy [APFS for Linux by Paragon Software](https://www.paragon-software.com/home/apfs-linux/) for $40, and be done!
 1. Mount your internal APFS Macbook SSD, so you can recover your data. 
 1. Use `rsync` to copy all data from the APFS drive to your external exFAT SSD, following my instructions here: [Best `rsync` settings for copying and mirroring to or from FAT and exFAT filesystems](https://superuser.com/a/1785111/425838).
+    1. BE PATIENT!: if you are running from a slow USB drive, for instance, or for whatever other reason, you may have periods of time where `rsync` seems to be frozen for dozens of minutes at a time. Just wait. It's not frozen. It will continue eventually.
     1. For 74 GB of data, which was \~1M files, going to an external 500 GB Western Digital blue 3500MB/s SSD, using rsync, this took about **2 hours** for me.
 1. When done, you can _secure erase_ the internal Mac drive so that whoever owned this computer before can feel safe letting you have it (assuming you are helping recover someone's photos and files in exchange for you keeping the old laptop, for instance). 
 
@@ -122,6 +144,8 @@ Again, Apple is a total PITA and tries too hard to think for everyone, abstracti
 
 ## Reinstalling MacOS: repartition and reformat the internal drive using Apple's internet-booted Disk Utility
 
+/////////DO *NOT* CHOOSE the encrypted option! The installer cannot run if you do!
+
 If you want to reinstall MacOS via the internet boot option, onto your freshly-secure-wiped internal drive, follow these steps. If you just want to install Ubuntu instead, you can skip them. 
 
 I have read somewhere that if you replace the internal SSD with an adapter card (I gave you the link above) and m.2 SSD, then Apple won't allow you to internet boot and reinstall MacOS. It checks to ensure you have only an Apple SSD first. I haven't confirmed this, but beware of this possible limitation. 
@@ -155,7 +179,13 @@ Once done reformatting the internal drive with Apple's Disk Utility, you can rei
 
 ## Reinstalling MacOS: run the internet-booted installer
 
-If still in the Apple Disk Utility from the previous step, exit it back to the Recovery utility's main menu via the top menus: Disk Utility --> Quit Disk Utility. Back at the Recovery utility's main menu, click on "Reinstall macOS Monterey", or whatever version it says there. 
+If still in the Apple Disk Utility from the previous step, exit it back to the Recovery utility's main menu via the top menus: Disk Utility --> Quit Disk Utility. Back at the Recovery utility's main menu, click on "Reinstall macOS Monterey", or whatever version it says there. Here's an image of what that looks like, from Apple here: [How to reinstall macOS](https://support.apple.com/en-us/HT204904):
+
+<p align="left" width="100%">
+    <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/252c8630-11a1-4c4c-ab48-4a515c9b3696">
+        <img width="33%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/252c8630-11a1-4c4c-ab48-4a515c9b3696"> 
+    </a>
+</p>
 
 If you are not still in the Apple Disk Utility from the previous step, reboot into the internet-booted Apple Recovery utility using <kbd>Option</kbd> + <kbd>Command</kbd> + <bkd>R</bkd> at startup, connect to WiFi, let it load for several minutes, choose your language and click the "-->" symbol to continue, type in your encryption password if you previously set up encryption, and finally at the Recovery utility's main menu, choose "Reinstall macOS Monterey", or equivalent.
 
@@ -163,9 +193,9 @@ Note: you can see a full list of Apple's OS versions and whether or not they are
 
 Follow the installation steps. Connect to internet if you aren't already.
 
-Note: if you get to the screen where you are supposed to select your internal disk to install to, and _no disk is available to select_, it is because you haven't yet partitioned nor APFS-formatted it. Go back up to the "repartition and reformat" step above.
-
-
+Notes: 
+1. If you get to the screen where you are supposed to select your internal disk to install to, and _no disk is available to select_, it is because you haven't yet partitioned nor APFS-formatted it. Go back up to the "repartition and reformat" step above.
+1. If you see an error which says, "You may not install to this volume because it has a disk password", then you must return to the "repartition and reformat" step above and erase the disk again using Apple's Disk Utility, but this time choose the _unencrypted_ "APFS" filesystem type instead of the encrypted "APFS (Encrypted" filesystem type. 
 
 
 ## Making your Hackintosh: upgrading to Linux Ubuntu, because MacOS sucks
@@ -182,10 +212,12 @@ Buy a special Apple-custom-designed-because-they-are-a-PITA P5 "pentalobe", or s
 
 Boot onto it. 
 
+<https://serverfault.com/a/1029458/357116>
+
 
 ## Post-Ubuntu-installation steps
 
-I have a lot of things I like to customize, but here are just a few:
+I have a lot of things I like to customize, but here are just a few: ///////////just add named links, nothing else//////
 
 1. nemo
 1. window snapping
