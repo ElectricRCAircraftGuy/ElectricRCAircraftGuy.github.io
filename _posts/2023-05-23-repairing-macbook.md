@@ -16,13 +16,16 @@ tags:
 toc: true  # (default for Table of Contents is true)
 ---
 
+What do you do if your MacBook won't boot? How do you turn it on? What is "internet booting" and how do you do it? Can I boot onto a Linux USB drive to run Linux on my Macbook and recover files? If so, how? How do I reinstall my MacOS? Can I wipe the whole hard drive and just install Linux on my old Macbook that's collecting dust? How?
 
 All steps below are meant to be followed in order, skipping only those you deep appropriate.
 
+_Tested on a 2015 MacBook Air 13", Model A1466 (as printed on the bottom)._
+
+If you're a die-hard apple fan, don't read this, because you'll be offended. Or, do, 'cause you'll get a laugh.
+
 
 ## Become a computer repair expert: background
-
-What do you do if your MacBook won't boot? How do you turn it on? What is "internet booting" and how do you do it? Can I boot onto a Linux USB drive to run Linux on my Macbook and recover files? If so, how? Can I wipe the whole hard drive and just install Linux on my old Macbook that's collecting dust? How. 
 
 There's a lot to cover here. I'll try to cover various parts of these questions at a level I can at least come back to and remember, myself. Over the last 2 weeks I spent countless hours recovering and repairing a 2015 MacBook Air, so I can copy the photos off of it for the original owner, secure erase the internal drive, attempt to internet boot into into a clean MacOS, upgrade the internal SSD with an adapter board, and finally install Linux Ubuntu 22.04 on it.
 
@@ -35,7 +38,7 @@ Let's start by saving some links. Most of these are links to answers I've writte
     1. [Best `rsync` settings for copying and mirroring to or from FAT and exFAT filesystems](https://superuser.com/a/1785111/425838)
     1. [article on my website] [exFAT filesystem speed and disk usage based on cluster size](https://gabrielstaples.com/exfat-clusters/)
 
-Note: I'm not a Mac user. I find them terribly hard to use, completely non-intuitive, lacking in basic functionality--like window snapping to corners, anti open-source (they even make their own P5 "pentalobe" screw head to keep you out!), and controlling as a company. They have an absolutely horrifically non-intuitive and hard-to-use file manager (Finder), and their gesture control drives me nuts trying to remember all that. But, they make great hardware, they pay people well, they single-handedly invented the modern smartphone, and they innovate. Old MacBooks also make great Linux machines. So, let's get started!
+Note: I'm not a Mac user. I find them terribly hard to use, completely non-intuitive, lacking in basic functionality--like window snapping to corners, anti open-source (they even make their own P5 "pentalobe" screw head to keep you out!), and controlling as a company. They are also very expensive, as they don't really offer low to mid-end hardware at all. They have an absolutely horrifically non-intuitive and hard-to-use file manager (Finder--it doesn't even show your Home directory by default, contrary to every other operating system in the world! It's no wonder that so many Mac users don't even know where their files are!--they don't even know what nor where their home folder is! They don't even know they _have_ a home folder! [Partial fix here](https://www.cnet.com/tech/computing/forgot-your-mac-password-heres-how-you-can-unlock-your-computer/)), and their gesture control drives me nuts trying to remember all that. But, they make great hardware, they pay people well, they single-handedly invented the modern smartphone, they have a novel internet-boot recovery and installation system which works even after fully erasing and formatting your internal SSD, and they innovate. They have a loyal and dedicated customer base. Old MacBooks also make great Linux machines. So, let's get started!
 
 
 ## Try to use the Apple boot menu options to recover your non-booting system
@@ -124,7 +127,7 @@ Secure erase the MacBook's internal SSD so that no data on the old drive can be 
 
 This is a good idea if an exchange is happening between two people of the physical laptop, including the old SSD. This way, the person giving away the laptop can know their data is truly wiped. 
 
-Note: if the MacBook was encrypted via Apple's File Vault and an "APFS (Encrypted)" file system, however, then this step can optionally be skipped. Simply writing a new partition table and formatting new partitions with gparted is enough, since the encryption password was secret anyway. Secure erasing is just good measure though, and is fast.
+Note: if the MacBook was encrypted via Apple's File Vault and an "APFS (Encrypted)" file system, however, then this step can optionally be skipped. Simply writing a new partition table and formatting new partitions with gparted is enough, since the encryption password was secret anyway. Secure erasing is just good measure though, and is fast, so you might as well do it anyway.
 
 First, pay $15 for [Parted Magic](https://partedmagic.com/), since it has a secure erase utility built-in. (You could probably also figure out how to install secure erase into an Ubuntu 22.04 live USB, but I haven't done that yet. Save your time; pay the money.) Optionally, also buy the "Disk Verifier" 3rd-party plugin for it as well. A link to it is on this page: <https://partedmagic.com/store/>. Direct link: <https://www.hamishmb.com/html/diskverifier.php>. It's £5 (\~$7) for the Disk Verifier add-on. 
 
@@ -144,8 +147,6 @@ Again, Apple is a total PITA and tries too hard to think for everyone, abstracti
 
 ## Reinstalling MacOS: repartition and reformat the internal drive using Apple's internet-booted Disk Utility
 
-/////////DO *NOT* CHOOSE the encrypted option! The installer cannot run if you do!
-
 If you want to reinstall MacOS via the internet boot option, onto your freshly-secure-wiped internal drive, follow these steps. If you just want to install Ubuntu instead, you can skip them. 
 
 I have read somewhere that if you replace the internal SSD with an adapter card (I gave you the link above) and m.2 SSD, then Apple won't allow you to internet boot and reinstall MacOS. It checks to ensure you have only an Apple SSD first. I haven't confirmed this, but beware of this possible limitation. 
@@ -156,11 +157,11 @@ I have read somewhere that if you replace the internal SSD with an adapter card 
 
 Here it goes:
 
-Try internet booting onto the Apple Disk Utility using <kbd>Option</kbd> + <kbd>Command</kbd> + <bkd>R</bkd> at startup. Then, follow the instructions here: [Use Disk Utility to erase an Intel-based Mac](https://support.apple.com/en-us/HT208496), reformatting the internal drive using Apple's tools. 
+Internet boot onto the Apple Disk Utility using <kbd>Option</kbd> + <kbd>Command</kbd> + <bkd>R</bkd> at startup. Then, follow the instructions here: [Use Disk Utility to erase an Intel-based Mac](https://support.apple.com/en-us/HT208496), reformatting the internal drive using Apple's tools. 
 
-Important info to know: when erasing the internal SSD using Apple's Disk Utility (which erase process I think is _not_ secure, like Parted Magic's), it also allows you to simultaneously rewrite the GPT (GUID partition table), which can also be done by Linux's gparted editor, but in addition Apple's Disk Utility allows you to _reformat the new partition with Apple's proprietary APFS filesystem_, which can ONLY be done by Apple utilities! So, using Apple's internet-booted Disk Utility for the secure-erase and simultaneous partitioning and formatting is preferred if you are going to reinstall MacOS when done, but there's no need to do this step if you are just going to install Linux anyway. 
+Important info to know: when erasing the internal SSD using Apple's Disk Utility (which erase process I think is _not_ secure, contrary to Parted Magic's erase process which *is* secure), it also allows you to simultaneously rewrite the GPT (GUID partition table), which can also be done by Linux's gparted editor, but in addition Apple's Disk Utility allows you to _reformat the new partition with Apple's proprietary APFS filesystem_, which can ONLY be done by Apple utilities! So, using Apple's internet-booted Disk Utility for the secure-erase and simultaneous partitioning and formatting is preferred if you are going to reinstall MacOS when done, but there's no need to do this step if you are just going to install Linux anyway. 
 
-Here are some screenshots showing Apple's Disk Utility format and partition table options. Again, if you're going to reinstall MacOS, I recommend choosing "GUID Partition Map" and "APFS (Encrypted)", as shown in the images below. If you choose the encrypted option, you'll have to type in an encryption password as well. Keep in mind that if you ever lose or forget your password, you permanently lose all of your data. _It cannot be recovered without your encryption password._
+Here are some screenshots showing Apple's Disk Utility format and partition table options. Again, if you're going to reinstall MacOS, I recommend choosing "GUID Partition Map" and "APFS". Refer to the images below. **Do _not_ choose the encrypted "APFS (Encrypted)" option! If you do, the MacOS installer cannot install to this drive later.** This is pretty dumb, and installing Linux Ubuntu doesn't have this limitation, but others have encountered this problem installing MacOS too, and recommend the same solution I recommend: [Ask Different: How to install macOS on a encrypted, journaled filesystem?](https://apple.stackexchange.com/a/265728/212953). See [my comment here](https://apple.stackexchange.com/questions/265706/how-to-install-macos-on-a-encrypted-journaled-filesystem/265728#comment675055_265706). To encrypt your MacOS filesystem later, you'll have to do it via the Apple File Vault after you log in to the MacOS, I think, or perhaps at the end of the installation process. We'll see. Note that when you do eventually encrypt your internal Mac SSD, you'll have to type in an encryption password as well. Keep in mind that if you ever lose or forget your password, you permanently lose all of your data. _It cannot be recovered without your encryption password._
 
 <p align="center" width="100%">
     <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/4169a450-f8a2-4bf0-8eee-333a26626093">
@@ -174,12 +175,12 @@ Here are some screenshots showing Apple's Disk Utility format and partition tabl
     </a>
 </p>
 
-Once done reformatting the internal drive with Apple's Disk Utility, you can reinstall MacOS.
+Once done reformatting the internal drive with Apple's Disk Utility to the *non*-encrypted "APFS" filesystem, you can reinstall MacOS.
 
 
 ## Reinstalling MacOS: run the internet-booted installer
 
-If still in the Apple Disk Utility from the previous step, exit it back to the Recovery utility's main menu via the top menus: Disk Utility --> Quit Disk Utility. Back at the Recovery utility's main menu, click on "Reinstall macOS Monterey", or whatever version it says there. Here's an image of what that looks like, from Apple here: [How to reinstall macOS](https://support.apple.com/en-us/HT204904):
+If still in the Apple Disk Utility from the previous step, exit it back to the Recovery utility's main menu via the top menus: Disk Utility --> Quit Disk Utility. Back at the Recovery utility's main menu (shown in the image below), click on "Reinstall macOS Monterey", or whatever version it says there. Here's an image of what that looks like, from Apple here: [How to reinstall macOS](https://support.apple.com/en-us/HT204904):
 
 <p align="left" width="100%">
     <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/252c8630-11a1-4c4c-ab48-4a515c9b3696">
@@ -187,18 +188,94 @@ If still in the Apple Disk Utility from the previous step, exit it back to the R
     </a>
 </p>
 
-If you are not still in the Apple Disk Utility from the previous step, reboot into the internet-booted Apple Recovery utility using <kbd>Option</kbd> + <kbd>Command</kbd> + <bkd>R</bkd> at startup, connect to WiFi, let it load for several minutes, choose your language and click the "-->" symbol to continue, type in your encryption password if you previously set up encryption, and finally at the Recovery utility's main menu, choose "Reinstall macOS Monterey", or equivalent.
+If you are not still in the Apple Disk Utility from the previous step (if you have rebooted or shut down between now and then, for instance), reboot into the internet-booted Apple Recovery utility using <kbd>Option</kbd> + <kbd>Command</kbd> + <bkd>R</bkd> at startup, connect to WiFi, let it load for several minutes, choose your language and click the "-->" symbol to continue, and finally at the Recovery utility's main menu (shown in the image above), choose "Reinstall macOS Monterey", or equivalent.
 
-Note: you can see a full list of Apple's OS versions and whether or not they are still supported, here: <https://en.wikipedia.org/wiki/MacOS_version_history>. If Apple ever quits supporting your MacOS version, which they do somewhere in the 3 to 8 year timeframe, I recommend you install Linux Ubuntu instead, as it will always be maintained and give you the freedom to have the latest, secure version.
+Note: you can see a full list of Apple's OS versions and whether or not they are still supported, here: <https://en.wikipedia.org/wiki/MacOS_version_history>. If Apple ever quits supporting your MacOS version, which they do somewhere in the 3 to 8 year timeframe of when you bought the MacBook, then I recommend you install Linux Ubuntu instead, as it will always be maintained and give you the freedom to have the latest, secure version.
 
-Follow the installation steps. Connect to internet if you aren't already.
+Follow the installation steps. Connect to internet if you haven't already.
 
 Notes: 
 1. If you get to the screen where you are supposed to select your internal disk to install to, and _no disk is available to select_, it is because you haven't yet partitioned nor APFS-formatted it. Go back up to the "repartition and reformat" step above.
-1. If you see an error which says, "You may not install to this volume because it has a disk password", then you must return to the "repartition and reformat" step above and erase the disk again using Apple's Disk Utility, but this time choose the _unencrypted_ "APFS" filesystem type instead of the encrypted "APFS (Encrypted" filesystem type. 
+1. If you see an error which says, "You may not install to this volume because it has a disk password", then you must return to the "repartition and reformat" step above and erase the disk again using Apple's Disk Utility, but this time choose the _unencrypted_ "APFS" filesystem type instead of the encrypted "APFS (Encrypted" filesystem type.
+
+Choose your newly-formatted into SSD to install to. Again, you won't be able to choose it if you didn't format it yet, or if you mistakenly chose "APFS (Encrypted)".
+
+Once you click "Continue" to begin the installation, an installation progress bar will display. Mine showed "About 2 hours and 19 minutes remaining", then quickly updated to "About 1 hour and 19 minutes remaining" a minute or so later. I'm on a high-speed 1 Gbps fiber internet connection. The total installation time for "macOS Monterey" turned out to be **1 hour 13 min** for me, at which point the screen to "Select Your Country or Region" came up.
+
+There is an option to "Transfer information to this Mac", which is pretty awesome:
+1. "From a Mac, Time Machine backup or Startup disk"
+    1. To do it from a Mac, you can apparently connect the old Mac to the same wifi network and then "open the Migration Assistant app in the Utilities folder on that Mac, and select 'To another Mac'". That should make transferring data from an old one to a new one easy. Here is that screenshot:
+
+        <p align="left" width="100%">
+            <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/1e9c115e-5c5e-45dd-8b66-e260e0a0f984">
+                <img width="33%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/1e9c115e-5c5e-45dd-8b66-e260e0a0f984"> 
+            </a>
+        </p>
+1. "From a Windows PC".
+    1. Connect the Windows PC to the same network, then "download and run the Migration Assistant app on your Windows PC from: <http://www.apple.com/migrate-to-mac>"
+
+Sign in with your Apple ID. If you don't have one, create one.
+
+Create a computer account. Be sure to add a password. If your full name is `firstlast`, I personally like to use an "Account name" of `first`. That will also be the name of your home folder.
+
+Use iCloud Keychain.
+
+I checked the boxes to:
+1. [x] "Share Mac Analytics with Apple"
+1. [x] "Share crash and usage data with app developers"
+
+Optionally check "Share iCloud Analytics with Apple." I did not check this box.
+
+You'll go through some more screens, such as iCloud and stuff.
+
+#### "FileVault Disk Encryption"
+
+When you get to this screen, I *highly recommend* you enable it! I _think_ this will essentially convert your "AFPS" filesystem to an "APFS (Encrypted)" filesystem, which is what we want! This is important to protect your data. But, it also means that if you ever lose or forget your password, your data is _gone forever!_ I checked both boxes:
+
+> **Would you like to use FileVault to encrypt the disk on your Mac?**
+> - [x] Turn on FileVault disk encryption
+> - [x] Allow my iCloud account to unlock my disk
+
+<p align="left" width="100%">
+    <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/ad4f88e0-ebe1-4a54-bc0e-7c688589fbfb">
+        <img width="33%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/ad4f88e0-ebe1-4a54-bc0e-7c688589fbfb"> 
+    </a>
+</p>
+
+---
+
+At this point, it logs you in to your Mac!
+
+Verify your system is encrypted: click the Apple Icon in the top-left, and go to "System Preferences..." --> Security & Privacy --> click the "FileVault" tab at the top. If your system is still in the process of encrypting, I think it will tell you that here. SSDs are *very fast* and encrypt very fast, however, so it may already be done encrypting. If you see "FileVault is turned on for the disk 'Gabe's MacBook'" (or equivalent), and "A recovery key has been set", then it is fully encrypted!
+
+You can also verify this a second way, as follows: do the 4 finger pinch gesture on the trackpad (dragging at least 3 fingers on top down towards your thumb), to open up the "Launchpad" program search tool. Type in "Disk Utility", and open that app. On your internal SSD, it will now say, right underneath the big bold name of the disk at the top, that it is of type **"APFS (Encrypted)"**. Good!
+
+Note: About 100 GB of my 121 GB SSD are available, so apparently the base MacOS installation takes **\~21 GB** of your disk. Clicking the Apple icon --> About This Mac --> Storage, and hovering my mouse over the used disk space once "Calculating..." was done displaying, however, showed that Apple was reporting 15.42 GB used by "macOS", and 5.05 GB by "System Data", for a total of 15.42 + 5.05 = 20.47 GB used.
 
 
-## Making your Hackintosh: upgrading to Linux Ubuntu, because MacOS sucks
+## Post-installation: fixing up your CrapBook
+
+Now that you've got your CrapOS successfully installed, at least go add your Home directory to your Finder. See here: <https://www.cnet.com/tech/computing/how-to-find-your-macs-home-folder-and-add-it-to-finder/>
+1. Open Finder.
+1. Press Command+Shift+H to open your Home dir.
+1. Press Command+UpArrow to go up one directory.
+1. Drag your Home directory (named `gabriel` in my case) to the left-hand pane. 
+1. Done!
+
+Enable automatic updates: click the Apple icon in the top-left --> System Preferences... --> Software Update (it's a gear icon) --> choose to install any pending updates, and check the box that says "Automatically keep my Mac up to date." Click the "Advanced" button next to that, and ensure everything is checked.
+
+---
+
+This is the worst computer ever. I don't even know how to close a program. Contrary to every other OS in the world, Apple has chosen to make the red X button in the top-left corner of windows *minimize* programs rather than *close* them! I gotta go fix this computer. On to the next step! 
+
+
+## Making your Hackintosh: upgrading from MacOS to Linux Ubuntu
+
+Next I will remove the 120 GB internal Apple-genuine SSD from the MacBook, install a new 1 TB m.2 SSD from Amazon, and install Linux Ubuntu, so I can feel in-control of my computer again, and once again good about using computers. 
+
+I consider changing from MacOS to Linux Ubuntu to be a definitive upgrade. Linux has its issues, for sure, but it lets me feel more in control of my computer, and I feel far less frustrated fixing my Linux system than I do trying to navigate the insanely unintuitive and overcontrolling MacOS.
+
+#### 1. prepare your Ubuntu live USB installation disk
 
 Download the .iso image of the latest version of Ubuntu, here: <https://ubuntu.com/download/desktop>.
 
@@ -206,19 +283,47 @@ Prepare a live USB installation drive of Ubuntu, following Ubuntu's steps, or si
 1. If you already have access to an Ubuntu computer, this works: <https://ubuntu.com/tutorials/create-a-usb-stick-on-ubuntu#1-overview>
 1. If you don't, this works: <https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview>
 
-If you are going to install over the currently-installed internal SSD
+#### 2. (Optional) upgrade the internal SSD
 
-Buy a special Apple-custom-designed-because-they-are-a-PITA P5 "pentalobe", or similar, screwdriver here: 
+If you are going to install over the currently-installed internal SSD, skip this step. 
 
-Boot onto it. 
+Buy a special Apple-custom-designed-because-they-are-a-PITA "pentalobe" P5 screwdriver here: [ifixit Essential Electronics Toolkit, $30](https://www.ifixit.com/products/essential-electronics-toolkit). Or find something on Amazon: [Amazon search for "pentalobe screwdriver"](https://amzn.to/3BSklj1).
 
-<https://serverfault.com/a/1029458/357116>
+Now why, why would Apple do that!?--inventing a new screw head for their MacBooks? Because they're A-holes. If they're trying to avoid stripping screw heads, a Torx bit would have worked just fine. It's a similar situation with Apple's proprietary m.2 SSDs with custom pinouts.
+
+Buy these, or something similar:
+
+1. [Sintech NGFF M.2 nVME SSD Adapter Card for Upgrade 2013-2015 Year Macs(Not Fit Early 2013 MacBook Pro) (Black), $15](https://amzn.to/3BU3psK)
+1. [WD_BLACK 1TB SN770 NVMe Internal Gaming SSD Solid State Drive - Gen4 PCIe, M.2 2280, Up to 5,150 MB/s - WDS100T3X0E, $55](https://amzn.to/3MDsI7o)
+
+Use the P5 screwdriver to take off the bottom of the MacBook, remove the old SSD drive, install the adapter card into the MacBook, and install the new 1 TB SSD into the adapter card.
+
+Screw the bottom of the laptop back on.
+
+#### 3. Boot onto the Ubuntu live USB installation disk and install Ubuntu
+
+TODO: improve this section as I do it on this laptop, making it more clear and easier to follow.
+
+Boot onto the Ubuntu 22.04 installation disk. Use gparted to format the internal drive, with these properties:
+1. GPT partition table.
+1. 512 MB EFI partition.
+1. 1 GB boot partition (see my notes [here](https://serverfault.com/a/1029458/357116) and [here](https://askubuntu.com/a/1265855/327339))
+1. LUKS encrypted volume taking up all but 10% of the remainder of the disk. 
+1. ext4 LVM within the LUKS-encrypted volume.
+1. Leave 10% of the total SSD space empty at the end of it, for [overprovisioning](https://en.wikipedia.org/wiki/Overprovisioning), which helps the SSD drive perform better and mitigate [write amplification](https://en.wikipedia.org/wiki/Write_amplification), thereby extending the life of the SSD.
+
+Install Ubuntu 20.04.
 
 
 ## Post-Ubuntu-installation steps
 
-I have a lot of things I like to customize, but here are just a few: ///////////just add named links, nothing else//////
+I have a lot of things I like to customize, but here are just a few:
 
-1. nemo
-1. window snapping
-1. mouse scroll wheel
+1. [Install the Nemo file manager and set it as the default file manager in Ubuntu 22.04](https://askubuntu.com/a/1446372/327339). Nemo is much more space-efficient than Ubuntu's default file manager, Nautilus. See my screenshots at the bottom of my answer [here](https://askubuntu.com/a/1173861/327339).
+1. Enable window snapping: [How can I automatically resize a window to 1/4 of the screen and snap it to a corner in Ubuntu 22.04?](https://askubuntu.com/a/1446690/327339)
+1. Fix the mouse scroll wheel speed: [How to permanently fix scroll speed in Chrome, Sublime Text, Foxit PDF reader, and any other application you see fit](https://askubuntu.com/a/991680/327339)
+
+
+## Comments or questions?
+
+Create a GitHub account and leave a comment or question if you need help.
