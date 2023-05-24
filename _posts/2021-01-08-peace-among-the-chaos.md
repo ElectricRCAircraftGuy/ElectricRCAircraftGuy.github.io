@@ -15,7 +15,7 @@ toc: false  # (default for Table of Contents is true)
 
 -Elder Russell M. Nelson (now President of the [Church of Jesus Christ of Latter-day Saints](https://www.churchofjesuschrist.org/)), 18 Nov. 2011
 
-Watch his message below:
+Watch his message [in the video below](https://www.youtube.com/embed/EMwKxmTLaCs):
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EMwKxmTLaCs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
