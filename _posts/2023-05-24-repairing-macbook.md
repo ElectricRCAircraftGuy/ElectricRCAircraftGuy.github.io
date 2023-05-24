@@ -26,7 +26,7 @@ If you're a die-hard apple fan, don't read this, because you'll be offended. Or,
 
 
 # Table of Contents
-<details>
+<details markdown="1"> <!-- For `markdown="1"`, see: https://stackoverflow.com/a/35276926/4561887 -->
 <summary><b>(click to expand)</b></summary>
 <!-- MarkdownTOC -->
 
@@ -55,7 +55,7 @@ If you're a die-hard apple fan, don't read this, because you'll be offended. Or,
 
 
 <a id="become-a-computer-repair-expert-background"></a>
-## Become a computer repair expert: background
+# Become a computer repair expert: background
 
 There's a lot to cover here. I'll try to cover various parts of these questions at a level I can at least come back to and remember, myself. Over the last 2 weeks I spent countless hours recovering and repairing a 2015 MacBook Air, so I can copy the photos off of it for the original owner, secure erase the internal drive, attempt to internet boot into into a clean MacOS, upgrade the internal SSD with an adapter board, and finally install Linux Ubuntu 22.04 on it.
 
@@ -72,7 +72,7 @@ Note: I'm not a Mac user. I find them terribly hard to use, completely non-intui
 
 
 <a id="try-to-use-the-apple-boot-menu-options-to-recover-your-non-booting-system"></a>
-## Try to use the Apple boot menu options to recover your non-booting system
+# Try to use the Apple boot menu options to recover your non-booting system
 
 [Mac startup key combinations](https://support.apple.com/en-us/HT201255):
 
@@ -99,7 +99,7 @@ I gotta say: this internet boot thing by Apple, to repair your system, is really
 
 
 <a id="notes-to-self-the-total-fix"></a>
-#### Notes to self: the total fix
+### Notes to self: the total fix
 
 RESULT: so, the total fix for me seems to be:
 
@@ -108,7 +108,7 @@ RESULT: so, the total fix for me seems to be:
 
 
 <a id="notes-to-self-internal-ssd-health-notes"></a>
-#### Notes to self: internal SSD health notes
+### Notes to self: internal SSD health notes
 
 SSD health (checked via Gsmartcontrol on a Linux live USB I booted onto): 13.6 TB written. Drive is 120 GB **x 400 wear multiplier** / 1000 GB/TB = 48 TB estimated max TBW (Terabytes Written) write rating. 
 So, the writes are 13.6/48 = 28.33% life used. BUT...the computer is from 2015, making the drive about 8 years old, so it's 80% of its useful _time_ life, which is generally considered 10 years or so for flash memory. It's also very small, at only 120 GB! 
@@ -117,7 +117,7 @@ So, my plan is to buy an external enclosure to copy all data to. I'll reinstall 
 
 
 <a id="stuff-to-buy"></a>
-## Stuff to buy
+# Stuff to buy
 
 External enclosure and SSD to buy, as well as an internal adapter board so I can buy an extra m.2 SSD to replace the internal one too:
 
@@ -129,7 +129,7 @@ Okay, so if you lucked out, internet boot worked above, and you are done! Go bac
 
 
 <a id="if-it-still-wont-boot-you-can-use-some-linux-tools-to-recover-your-files"></a>
-## If it still won't boot, you can use some Linux tools to recover your files
+# If it still won't boot, you can use some Linux tools to recover your files
 
 Basically, we are going to boot onto an Ubuntu 22.04 live USB to recover files, copying them to an external exFAT SSD. Then, we are going to use Apple's internet-booted Disk Utility [preferred, since it will also rewrite the GPT partition table, and is the only tool which can format the partition with Apple's proprietary APFS filesystem], _or_ Parted Magic [a brute-force approach if we are going to install Linux in place of MacOS in the end anyway], to secure erase the internal SSD.
 
@@ -152,13 +152,13 @@ Basically, we are going to boot onto an Ubuntu 22.04 live USB to recover files, 
 
 
 <a id="recovering-deleted-or-corrupted-files"></a>
-## Recovering deleted or corrupted files
+# Recovering deleted or corrupted files
 
 See my answer here: [Recovering deleted or lost files using [`photorec`](https://www.cgsecurity.org/wiki/PhotoRec) and other tools](https://unix.stackexchange.com/a/743566/114401).
 
 
 <a id="perform-secure-erase-on-the-old-macbooks-internal-ssd"></a>
-## Perform secure erase on the old MacBook's internal SSD
+# Perform secure erase on the old MacBook's internal SSD
 
 Secure erase the MacBook's internal SSD so that no data on the old drive can be recovered.
 
@@ -172,7 +172,7 @@ Hold down <kbd>Option</kbd> and boot onto Parted Magic on your Mac. Use the secu
 
 
 <a id="putting-someones-old-macbook-photos-into-the-photos-app-in-their-new-macbook"></a>
-## Putting someone's old MacBook photos into the Photos app in their new MacBook
+# Putting someone's old MacBook photos into the Photos app in their new MacBook
 
 Again, Apple is a total PITA and tries too hard to think for everyone, abstracting away even the filesystem from the Photos app. This is nuts. I lost like an hour trying to figure out how to bring in the photos from someone's old MacBook to their new MacBook. Here is how:
 
@@ -184,7 +184,7 @@ Again, Apple is a total PITA and tries too hard to think for everyone, abstracti
 
 
 <a id="reinstalling-macos-repartition-and-reformat-the-internal-drive"></a>
-## Reinstalling MacOS: repartition and reformat the internal drive
+# Reinstalling MacOS: repartition and reformat the internal drive
 
 ...using Apple's internet-booted Disk Utility.
 
@@ -220,7 +220,7 @@ Once done reformatting the internal drive with Apple's Disk Utility to the *non*
 
 
 <a id="reinstalling-macos-run-the-internet-booted-installer"></a>
-## Reinstalling MacOS: run the internet-booted installer
+# Reinstalling MacOS: run the internet-booted installer
 
 If still in the Apple Disk Utility from the previous step, exit it back to the Recovery utility's main menu via the top menus: Disk Utility --> Quit Disk Utility. Back at the Recovery utility's main menu (shown in the image below), click on "Reinstall macOS Monterey", or whatever version it says there. Here's an image of what that looks like, from Apple here: [How to reinstall macOS](https://support.apple.com/en-us/HT204904):
 
@@ -271,7 +271,7 @@ Optionally check "Share iCloud Analytics with Apple." I did not check this box.
 You'll go through some more screens, such as iCloud and stuff.
 
 <a id="filevault-disk-encryption"></a>
-#### "FileVault Disk Encryption"
+### "FileVault Disk Encryption"
 
 When you get to this screen, I *highly recommend* you enable it! I _think_ this will essentially convert your "AFPS" filesystem to an "APFS (Encrypted)" filesystem, which is what we want! This is important to protect your data. But, it also means that if you ever lose or forget your password, your data is _gone forever!_ I checked both boxes:
 
@@ -297,7 +297,7 @@ Note: About 100 GB of my 121 GB SSD are available, so apparently the base MacOS 
 
 
 <a id="post-installation-fixing-up-your-crapbook"></a>
-## Post-installation: fixing up your CrapBook
+# Post-installation: fixing up your CrapBook
 
 Now that you've got your CrapOS successfully installed, at least go add your Home directory to your Finder. See here: <https://www.cnet.com/tech/computing/how-to-find-your-macs-home-folder-and-add-it-to-finder/>
 1. Open Finder.
@@ -314,14 +314,14 @@ This is the worst computer ever. I don't even know how to close a program. Contr
 
 
 <a id="making-your-hackintosh-upgrading-from-macos-to-linux-ubuntu"></a>
-## Making your Hackintosh: upgrading from MacOS to Linux Ubuntu
+# Making your Hackintosh: upgrading from MacOS to Linux Ubuntu
 
 Next I will remove the 120 GB internal Apple-genuine SSD from the MacBook, install a new 1 TB m.2 SSD from Amazon, and install Linux Ubuntu, so I can feel in-control of my computer again, and once again good about using computers. 
 
 I consider changing from MacOS to Linux Ubuntu to be a definitive upgrade. Linux has its issues, for sure, but it lets me feel more in control of my computer, and I feel far less frustrated fixing my Linux system than I do trying to navigate the insanely unintuitive and overcontrolling MacOS.
 
 <a id="1-prepare-your-ubuntu-live-usb-installation-disk"></a>
-#### 1. prepare your Ubuntu live USB installation disk
+### 1. prepare your Ubuntu live USB installation disk
 
 Download the .iso image of the latest version of Ubuntu, here: <https://ubuntu.com/download/desktop>.
 
@@ -330,7 +330,7 @@ Prepare a live USB installation drive of Ubuntu, following Ubuntu's steps, or si
 1. If you don't, this works: <https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview>
 
 <a id="2-optional-upgrade-the-internal-ssd"></a>
-#### 2. (Optional) upgrade the internal SSD
+### 2. (Optional) upgrade the internal SSD
 
 If you are going to install over the currently-installed internal SSD, skip this step. 
 
@@ -348,7 +348,7 @@ Use the P5 screwdriver to take off the bottom of the MacBook, remove the old SSD
 Screw the bottom of the laptop back on.
 
 <a id="3-boot-onto-the-ubuntu-live-usb-installation-disk-and-install-ubuntu"></a>
-#### 3. Boot onto the Ubuntu live USB installation disk and install Ubuntu
+### 3. Boot onto the Ubuntu live USB installation disk and install Ubuntu
 
 TODO (notes to self to improve this section): 
 1. [ ] Improve this section as I do it on this laptop, making it more clear and easier to follow.
@@ -368,7 +368,7 @@ Install Ubuntu 20.04.
 
 
 <a id="post-ubuntu-installation-steps"></a>
-## Post-Ubuntu-installation steps
+# Post-Ubuntu-installation steps
 
 I have a lot of things I like to customize, but here are just a few:
 
@@ -378,6 +378,6 @@ I have a lot of things I like to customize, but here are just a few:
 
 
 <a id="comments-or-questions"></a>
-## Comments or questions?
+# Comments or questions?
 
 Create a GitHub account and leave a comment or question if you need help.
