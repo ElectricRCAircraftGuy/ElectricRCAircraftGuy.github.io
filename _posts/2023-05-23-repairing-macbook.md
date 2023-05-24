@@ -17,6 +17,9 @@ toc: true  # (default for Table of Contents is true)
 ---
 
 
+All steps below are meant to be followed in order, skipping only those you deep appropriate.
+
+
 ## Become a computer repair expert: background
 
 What do you do if your MacBook won't boot? How do you turn it on? What is "internet booting" and how do you do it? Can I boot onto a Linux USB drive to run Linux on my Macbook and recover files? If so, how? Can I wipe the whole hard drive and just install Linux on my old Macbook that's collecting dust? How. 
@@ -93,23 +96,47 @@ Basically, we are going to boot onto an Ubuntu 22.04 live USB to recover files, 
 See my answer here: [Recovering deleted or lost files using [`photorec`](https://www.cgsecurity.org/wiki/PhotoRec) and other tools](https://unix.stackexchange.com/a/743566/114401).
 
 
-## How to perform secure erase on the old MacBook's internal SSD
+## Perform secure erase on the old MacBook's internal SSD
 
-#### Step 1: secure erase the MacBook's internal SSD so that no data on the old drive can be recovered
+Secure erase the MacBook's internal SSD so that no data on the old drive can be recovered.
 
 This is a good idea if an exchange is happening between two people of the physical laptop, including the old SSD. This way, the person giving away the laptop can know their data is truly wiped. 
 
-First, pay $15 for [Parted Magic](https://partedmagic.com/), since it has a secure erase utility built-in. Optionally, buy the "Disk Verifier" 3rd-party plugin for it as well. A link to it is on this page: <https://partedmagic.com/store/>. Direct link: <https://www.hamishmb.com/html/diskverifier.php>. It's £5 (\~$7). 
+Note: if the MacBook was encrypted via Apple's File Vault and an "APFS (Encrypted)" file system, however, then this step can optionally be skipped. Simply writing a new partition table and formatting new partitions with gparted is enough, since the encryption password was secret anyway. Secure erasing is just good measure though, and is fast.
 
-Hold down <kbd>Option</kbd> and boot onto Parted Magic on your Mac. Use the secure erase utility to wipe the whole internal drive, now that you already got the files off of it in the previous step. 
+First, pay $15 for [Parted Magic](https://partedmagic.com/), since it has a secure erase utility built-in. (You could probably also figure out how to install secure erase into an Ubuntu 22.04 live USB, but I haven't done that yet. Save your time; pay the money.) Optionally, also buy the "Disk Verifier" 3rd-party plugin for it as well. A link to it is on this page: <https://partedmagic.com/store/>. Direct link: <https://www.hamishmb.com/html/diskverifier.php>. It's £5 (\~$7) for the Disk Verifier add-on. 
 
-Now, 
+Hold down <kbd>Option</kbd> and boot onto Parted Magic on your Mac. Use the secure erase utility to wipe the whole internal drive, now that you already got the files off of it in the previous step. This takes just a few seconds. If you bought the Disk Verifier, it will then auto-run and scan the whole disk to ensure no unerased data can be found.
 
-Try internet booting onto the Apple Disk Utility using <kbd>Option</kbd> + <kbd>Command</kbd> + <bkd>R</bkd> at startup. Then, follow the instructions here: [Use Disk Utility to erase an Intel-based Mac](https://support.apple.com/en-us/HT208496), secure erasing the internal drive using Apple's tools. 
 
-Important info to know: when secure erasing the internal SSD using Apple's Disk Utility, it also allows you to simultaneously rewrite the GPT (GUID partition table), which can also be done by Linux's gparted editor, but in addition it allows you to _reformat the new partition with Apple's proprietary APFS filesystem_, which can ONLY be done by Apple utilities! So, using Apple's internet-booted Disk Utility for the secure-erase and simultaneous partitioning and formatting is preferred if you are going to reinstall MacOS when done, but it doesn't matter which secure erase utility you use (Apple's Disk Utility vs Parted Magic) if you are just going to install Linux anyway. 
+## Putting someone's old MacBook photos into the Photos app in their new MacBook
 
-Here are some screenshots showing Apple's Disk Utility format and partition table options. If you're going to reinstall MacOS, I recommend choosing "GUID Partition Map" and "APFS (Encrypted)", as shown in the images below. If you choose the encrypted option, you'll have to type in an encryption password as well. Keep in mind that if you ever lose or forget your password, you permanently lose all of your data. _It cannot be recovered without your encryption password._
+Again, Apple is a total PITA and tries too hard to think for everyone, abstracting away even the filesystem from the Photos app. This is nuts. I lost like an hour trying to figure out how to bring in the photos from someone's old MacBook to their new MacBook. Here is how:
+
+1. On their new MacBook, plug in the exFAT SSD we previously copied all of their data to using rsync. 
+1. Open a Finder window, and press [<kbd>Shift</kbd> + <kbd>Command</kbd> + <kbd>G</kbd>](https://support.apple.com/en-us/HT201236#:~:text=Shift%2DCommand%2DG%3A%20Open,the%20current%20macOS%20user%20account.) to go to a dir. Go to the path at (I'm doing this from memory, so it may be wrong a little) `/Users/myusername/Pictures/`. Keep this open in one Finder window [wow is Finder ever a total piece of trash!].
+1. Open the plugged-in drive and navigate to that same directory. Copy the `Pictures` dir from the external SSD to the `Pictures` dir on the new MacBook, via drag-and-drop. 
+1. In the Finder, navigate into the `Pictures/Photos` dir you just dropped onto the new MacBook. As you double-click on `Photos` to enter it, the new MacBook will begin an import process to bring these into the Photos app on your new MacBook. The process will take maybe 10 minutes or so for 20 GB of photos. 
+1. For any other photos you manually managed via the Finder, outside your overcontrolling Photos app, go to File --> Import in the Photos app to bring them in. It would be a good idea to copy them from your external SSD to your new MacBook before doing this, though, to speed it up, since Mac likes the internal drive better and feels iffy about exFAT.
+
+
+## Reinstalling MacOS: repartition and reformat the internal drive using Apple's internet-booted Disk Utility
+
+If you want to reinstall MacOS via the internet boot option, onto your freshly-secure-wiped internal drive, follow these steps. If you just want to install Ubuntu instead, you can skip them. 
+
+I have read somewhere that if you replace the internal SSD with an adapter card (I gave you the link above) and m.2 SSD, then Apple won't allow you to internet boot and reinstall MacOS. It checks to ensure you have only an Apple SSD first. I haven't confirmed this, but beware of this possible limitation. 
+
+1. You should have already secure-erased the internal MacOS drive with Parted Magic's secure erase tool. 
+1. Next, we will use Apple's internet-loaded Disk Utility to write a new partition table and reformat the wiped drive. 
+1. Then we will reinstall MacOS via an internet boot process. 
+
+Here it goes:
+
+Try internet booting onto the Apple Disk Utility using <kbd>Option</kbd> + <kbd>Command</kbd> + <bkd>R</bkd> at startup. Then, follow the instructions here: [Use Disk Utility to erase an Intel-based Mac](https://support.apple.com/en-us/HT208496), reformatting the internal drive using Apple's tools. 
+
+Important info to know: when erasing the internal SSD using Apple's Disk Utility (which erase process I think is _not_ secure, like Parted Magic's), it also allows you to simultaneously rewrite the GPT (GUID partition table), which can also be done by Linux's gparted editor, but in addition Apple's Disk Utility allows you to _reformat the new partition with Apple's proprietary APFS filesystem_, which can ONLY be done by Apple utilities! So, using Apple's internet-booted Disk Utility for the secure-erase and simultaneous partitioning and formatting is preferred if you are going to reinstall MacOS when done, but there's no need to do this step if you are just going to install Linux anyway. 
+
+Here are some screenshots showing Apple's Disk Utility format and partition table options. Again, if you're going to reinstall MacOS, I recommend choosing "GUID Partition Map" and "APFS (Encrypted)", as shown in the images below. If you choose the encrypted option, you'll have to type in an encryption password as well. Keep in mind that if you ever lose or forget your password, you permanently lose all of your data. _It cannot be recovered without your encryption password._
 
 <p align="center" width="100%">
     <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/4169a450-f8a2-4bf0-8eee-333a26626093">
@@ -123,22 +150,43 @@ Here are some screenshots showing Apple's Disk Utility format and partition tabl
     </a>
 </p>
 
-If the Apple Disk Utility doesn't work, or if you're going to install Linux anyway, you can pay $15 for [Parted Magic](https://partedmagic.com/), since it has a secure erase utility built-in. 
+Once done reformatting the internal drive with Apple's Disk Utility, you can reinstall MacOS.
 
 
-## Putting someone's old MacBook photos into the Photos app in their new MacBook
+## Reinstalling MacOS: run the internet-booted installer
 
-Again, Apple is a total PITA and tries too hard to think for everyone, abstracting away even the filesystem from the Photos app. This is nuts. 
+If still in the Apple Disk Utility from the previous step, exit it back to the Recovery utility's main menu via the top menus: Disk Utility --> Quit Disk Utility. Back at the Recovery utility's main menu, click on "Reinstall macOS Monterey", or whatever version it says there. 
 
+If you are not still in the Apple Disk Utility from the previous step, reboot into the internet-booted Apple Recovery utility using <kbd>Option</kbd> + <kbd>Command</kbd> + <bkd>R</bkd> at startup, connect to WiFi, let it load for several minutes, choose your language and click the "-->" symbol to continue, type in your encryption password if you previously set up encryption, and finally at the Recovery utility's main menu, choose "Reinstall macOS Monterey", or equivalent.
 
+Note: you can see a full list of Apple's OS versions and whether or not they are still supported, here: <https://en.wikipedia.org/wiki/MacOS_version_history>. If Apple ever quits supporting your MacOS version, which they do somewhere in the 3 to 8 year timeframe, I recommend you install Linux Ubuntu instead, as it will always be maintained and give you the freedom to have the latest, secure version.
 
-## Reinstalling MacOS
+Follow the installation steps. Connect to internet if you aren't already.
 
-secure erase (if you aren't the original owner, and the original Apple APFS filesystem was NOT encrypted)
-format
-install
+Note: if you get to the screen where you are supposed to select your internal disk to install to, and _no disk is available to select_, it is because you haven't yet partitioned nor APFS-formatted it. Go back up to the "repartition and reformat" step above.
+
 
 
 
 ## Making your Hackintosh: upgrading to Linux Ubuntu, because MacOS sucks
 
+Download the .iso image of the latest version of Ubuntu, here: <https://ubuntu.com/download/desktop>.
+
+Prepare a live USB installation drive of Ubuntu, following Ubuntu's steps, or similar. 
+1. If you already have access to an Ubuntu computer, this works: <https://ubuntu.com/tutorials/create-a-usb-stick-on-ubuntu#1-overview>
+1. If you don't, this works: <https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview>
+
+If you are going to install over the currently-installed internal SSD
+
+Buy a special Apple-custom-designed-because-they-are-a-PITA P5 "pentalobe", or similar, screwdriver here: 
+
+Boot onto it. 
+
+
+## Post-Ubuntu-installation steps
+
+I have a lot of things I like to customize, but here are just a few:
+
+1. nemo
+1. window snapping
+1. mouse scroll wheel
