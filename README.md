@@ -32,6 +32,26 @@ It contains my own content and opinions and does not reflect opinions on behalf 
 This site was first created with the command `jekyll new temp`. See here: https://jekyllrb.com/docs/. Also, search the `git log` for where I documented using this command.
 
 
+## To build and test locally
+
+```bash
+# to install software
+./run_upgrade_site.sh
+
+# to build and preview the website! 
+./run_build_site.sh 
+
+# ... with unpublished pages, and drafts too:
+./run_build_site.sh --drafts --unpublished
+```
+
+Then browse to http://localhost:4000.
+
+See: https://jekyllrb.com/docs/.
+
+UPDATE: I set `port: 4001` in my `_config.yml` file, so browse here instead!: http://localhost:4001/. <== VIEW PREVIEW
+
+
 ## Pages
 
 1. [Ubuntu post-install steps](20190919-post_ubuntu_18_todos.md)

@@ -28,4 +28,9 @@
 # `--incremental`. Ex:
 #       ./run_build_site.sh --drafts --unpublished --incremental  <======= TO TRY OUT =======
 
+# Then browse to http://localhost:4000
+# See: https://jekyllrb.com/docs/
+#
+# UPDATE: I set `port: 4001` in my `_config.yml` file, so browse here instead!:
+# http://localhost:4001/
 bundle exec jekyll serve --livereload "$@"
