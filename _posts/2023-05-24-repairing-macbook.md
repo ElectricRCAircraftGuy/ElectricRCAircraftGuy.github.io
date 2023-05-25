@@ -18,7 +18,7 @@ toc: true  # (default for Table of Contents is true)
 
 What do you do if your MacBook won't boot? How do you turn it on? What is "internet booting" and how do you do it? Can I boot onto a Linux USB drive to run Linux on my Macbook and recover files? If so, how? How do I reinstall my MacOS? Can I wipe the whole hard drive and just install Linux on my old Macbook that's collecting dust? How?
 
-All steps below are meant to be followed in order, skipping only those you deep appropriate.
+All steps below are meant to be followed in order, skipping only those you deem appropriate.
 
 _Tested on a 2015 MacBook Air 13", Model A1466 (as printed on the bottom)._
 
