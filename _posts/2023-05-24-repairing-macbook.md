@@ -351,6 +351,10 @@ Screw the bottom of the laptop back on.
 ### 3. Boot onto the Ubuntu live USB installation disk and install Ubuntu
 
 TODO (notes to self to improve this section): 
+1. [ ] Create an ISO image, via the MacOS, of MacOS Monterey, so that I can install it inside Virtual Box on Linux later, so I can finally learn to use a stinking Mac. Aids to get me started:
+    1. https://support.apple.com/en-us/HT211683 - download the image
+    1. https://osxdaily.com/2020/07/20/how-convert-macos-installer-iso/ - make the ISO of the downloaded image
+    1. https://www.maketecheasier.com/install-macos-virtualbox/ - install the ISO into VirtualBox
 1. [ ] Improve this section as I do it on this laptop, making it more clear and easier to follow.
 1. [ ] Before I install Linux, but after I put in the new SSD, let's try to see if 1) internet boot to the Apple Recovery Utility still works, and 2) see if I can install MacOS on the new internal drive! I want to find out.
 
