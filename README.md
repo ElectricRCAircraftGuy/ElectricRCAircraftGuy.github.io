@@ -45,7 +45,7 @@ This site was first created with the command `jekyll new temp`. See here: https:
 ./run_build_site.sh --drafts --unpublished
 ```
 
-Then browse to http://localhost:4000.
+Then browse to <s><http://localhost:4000></s> <http://localhost:4001>.
 
 See: https://jekyllrb.com/docs/.
 
