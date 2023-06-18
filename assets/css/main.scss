@@ -80,6 +80,9 @@ Defaults for small, medium, large, and x-large screens are:
 See: https://github.com/mmistakes/minimal-mistakes/issues/1219#issuecomment-326809412
 - It looks like the screen pixel sizes to move into each new "size" category are defined in
   the "Breakpoints" section of "_variables.scss"?
+- See also the "type scale" section of "_sass/minimal-mistakes/_variables.scss", for where various
+  em units are used to set relative font sizes with names like `$type-size-1`, `$type-size-2`,
+  etc.
 */
 html
 {
