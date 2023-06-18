@@ -62,6 +62,28 @@ This is regular text.
 
 > this is `code`
 
+**Code _block_ in a quote:**
+
+> ```bash
+> git fetch 
+> git checkout main
+> ```
+
+**Keyboard `<kbd>` HTML tag keys:**
+
+This:
+```
+Press <kbd>Windows</kbd> + <kbd>D</kbd> to toggle the showing or hiding of all windows in Linux Ubuntu.
+
+> Press <kbd>Windows</kbd> + <kbd>D</kbd> to toggle the showing or hiding of all windows in Linux Ubuntu.
+```
+...renders as this:
+
+Press <kbd>Windows</kbd> + <kbd>D</kbd> to toggle the showing or hiding of all windows in Linux Ubuntu.
+
+> Press <kbd>Windows</kbd> + <kbd>D</kbd> to toggle the showing or hiding of all windows in Linux Ubuntu.
+
+
 ### GFM Code Blocks
 
 GitHub Flavored Markdown [fenced code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/) are supported. To modify styling and highlight colors edit `/_sass/syntax.scss`.
