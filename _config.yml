@@ -338,7 +338,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # 10 # amount of posts to show; GS (on home page) default: 5
+paginate: 20 # 10 # amount of posts to show; GS (on home page) default: 5
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
