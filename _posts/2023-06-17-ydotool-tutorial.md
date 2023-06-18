@@ -1,6 +1,6 @@
 ---
 published: true  # use "false" while drafting articles just before publishing
-title: Tutorial: Getting started with `ydotool` to automate key presses (or mouse movements) in Linux
+title: "Tutorial: Getting started with `ydotool` to automate key presses (or mouse movements) in Linux"
 tags: 
     - linux
     - ubuntu
