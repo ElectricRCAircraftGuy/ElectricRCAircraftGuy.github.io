@@ -96,6 +96,9 @@ Regular text: press <kbd>Windows</kbd> + <kbd>D</kbd>. Here is `some code`.
 _Italic text: press <kbd>Windows</kbd> + <kbd>D</kbd>. Here is `some code`._  
 **Bold text: press <kbd>Windows</kbd> + <kbd>D</kbd>. Here is `some code`.**  
 **_Bold and italic: press <kbd>Windows</kbd> + <kbd>D</kbd>. Here is `some code`._**  
+
+_NB: even though the below HTML tags are using `markdown="1"` in them to try to make `some code` render properly, per [this answer here](https://stackoverflow.com/a/35276926/4561887), it's not working in these tags. :(  I don't know why._
+
 <s markdown="1">Strikethrough text: press <kbd>Windows</kbd> + <kbd>D</kbd>. Here is `some code`.</s><br>
 <font color="red" markdown="1">Red text: press <kbd>Windows</kbd> + <kbd>D</kbd>. Here is `some code`.</font><br>
 <font color="green" markdown="1">Green text: press <kbd>Windows</kbd> + <kbd>D</kbd>. Here is `some code`.</font><br>
