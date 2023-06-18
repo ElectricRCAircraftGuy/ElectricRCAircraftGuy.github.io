@@ -6,6 +6,7 @@ tags:
     - computers
     - linux
     - ubuntu
+    - tutorial
 # date: 1999-12-31
 # last_modified_at: 2023-05-05  # updates the "Updated" date at the bottom!
 # permalink: /test/

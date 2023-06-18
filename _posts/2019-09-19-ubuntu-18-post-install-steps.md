@@ -1,5 +1,8 @@
 ---
-tags: ubuntu linux
+tags: 
+    - linux
+    - ubuntu
+    - tutorial
 redirect_from:
     # - https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/blob/master/20190919-post_ubuntu_18_todos.md
     # - /20190919-post_ubuntu_18_todos.md
