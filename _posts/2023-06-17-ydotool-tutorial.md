@@ -315,23 +315,23 @@ unable to find device pointer:ydotoold virtual device
 
 > XWAYLAND
 >
->        Xwayland is an X server that uses  a  Wayland  Compositor  as  backend.
->        Xwayland  acts as translation layer between the X protocol and the Way‐
->        land protocol but does not have direct access to the  hardware.  The  X
->        Input Extension devices created by Xwayland ("xwayland-pointer", "xway‐
->        land-keyboard", etc.) map to the Wayland protocol devices, not to phys‐
->        ical devices.
+> Xwayland is an X server that uses  a  Wayland  Compositor  as  backend.
+> Xwayland  acts as translation layer between the X protocol and the Way‐
+> land protocol but does not have direct access to the  hardware.  The  X
+> Input Extension devices created by Xwayland ("xwayland-pointer", "xway‐
+> land-keyboard", etc.) map to the Wayland protocol devices, not to phys‐
+> ical devices.
 > 
->        These  X  Input  Extension  devices are only visible to other X clients
->        connected to the same Xwayland process. Changing properties on Xwayland
->        devices  only  affects the behavior of those clients. For example, dis‐
->        abling an Xwayland device with xinput does not disable  the  device  in
->        Wayland-native  applications.  Other changes may not have any effect at
->        all.
+> These  X  Input  Extension  devices are only visible to other X clients
+> connected to the same Xwayland process. Changing properties on Xwayland
+> devices  only  affects the behavior of those clients. For example, dis‐
+> abling an Xwayland device with xinput does not disable  the  device  in
+> Wayland-native  applications.  Other changes may not have any effect at
+> all.
 > 
->        In most instances, using xinput with an Xwayland device  is  indicative
->        of  a  bug  in  a shell script and xinput will print a warning. Use the
->        Wayland Compositor's native device configuration methods instead.
+> In most instances, using xinput with an Xwayland device  is  indicative
+> of  a  bug  in  a shell script and xinput will print a warning. Use the
+> Wayland Compositor's native device configuration methods instead.
 
 In X11, I don't get the warning. Here is the output when I run the daemon:
 ```bash
