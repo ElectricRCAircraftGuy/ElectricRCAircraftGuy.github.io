@@ -83,6 +83,24 @@ Press <kbd>Windows</kbd> + <kbd>D</kbd> to toggle the showing or hiding of all w
 
 > Press <kbd>Windows</kbd> + <kbd>D</kbd> to toggle the showing or hiding of all windows in Linux Ubuntu.
 
+Check the rendering of `<kbd>` tags inside headings too:
+
+# Heading 1: press <kbd>Windows</kbd> + <kbd>D</kbd>. Here is `some code`. 
+## Heading 2: press <kbd>Windows</kbd> + <kbd>D</kbd>. Here is `some code`. 
+### Heading 3: press <kbd>Windows</kbd> + <kbd>D</kbd>. Here is `some code`. 
+#### Heading 4: press <kbd>Windows</kbd> + <kbd>D</kbd>. Here is `some code`. 
+##### Heading 5: press <kbd>Windows</kbd> + <kbd>D</kbd>. Here is `some code`. 
+###### Heading 6: press <kbd>Windows</kbd> + <kbd>D</kbd>. Here is `some code`. 
+
+Regular text: press <kbd>Windows</kbd> + <kbd>D</kbd>. Here is `some code`.  
+_Italic text: press <kbd>Windows</kbd> + <kbd>D</kbd>. Here is `some code`._  
+**Bold text: press <kbd>Windows</kbd> + <kbd>D</kbd>. Here is `some code`.**  
+**_Bold and italic: press <kbd>Windows</kbd> + <kbd>D</kbd>. Here is `some code`._**  
+<s markdown="1">Strikethrough text: press <kbd>Windows</kbd> + <kbd>D</kbd>. Here is `some code`.</s><br>
+<font color="red" markdown="1">Red text: press <kbd>Windows</kbd> + <kbd>D</kbd>. Here is `some code`.</font><br>
+<font color="green" markdown="1">Green text: press <kbd>Windows</kbd> + <kbd>D</kbd>. Here is `some code`.</font><br>
+<font color="#0000ff" markdown="1">Blue text: press <kbd>Windows</kbd> + <kbd>D</kbd>. Here is `some code`.</font>
+
 
 ### GFM Code Blocks
 
