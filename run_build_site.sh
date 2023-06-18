@@ -7,7 +7,7 @@
 
 # Build drafts too:
 # - See: https://jekyllrb.com/docs/posts/#drafts
-#       ./run_build_site.sh --drafts
+#       ./run_build_site.sh --drafts  # <===== TO SHOW TEST PAGES from the `_drafts` dir, and `_drafts/test_pages`! =====
 
 # Build unpublished posts too (where they have front matter: `published: false`):
 #       ./run_build_site.sh --unpublished
