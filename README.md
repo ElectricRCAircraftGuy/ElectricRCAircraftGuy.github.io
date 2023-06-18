@@ -98,6 +98,7 @@ To locate a theme’s files on your computer: https://jekyllrb.com/docs/themes/#
 
 
 ## Location of key files (for syntax, color, formatting, etc.)
+1. [`_config.yml`](_config.yml)
 1. [`_sass/minimal-mistakes/_base.scss`](_sass/minimal-mistakes/_base.scss)
 1. [`_sass/minimal-mistakes/_variables.scss`](_sass/minimal-mistakes/_variables.scss)
 1. [`_sass/minimal-mistakes/_syntax.scss`](_sass/minimal-mistakes/_syntax.scss)
