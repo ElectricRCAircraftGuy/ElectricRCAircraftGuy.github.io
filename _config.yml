@@ -150,7 +150,7 @@ author:
                                                 # instead!
   bio              : *description_
   # location         : "Somewhere"
-  location         : "San Francisco"
+  # location         : "San Francisco"
   email            :
   links:
     - label: "Email"
