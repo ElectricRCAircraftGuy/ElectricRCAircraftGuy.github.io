@@ -215,13 +215,16 @@
   color: #bbbbbb;
 }
 .highlight {
-  background-color: #f8f8f8;
+  // background-color: #f8f8f8; // GS: this is the default for Rougify GitHub style
+  background-color: var(--highlight-bg); // GS: this is inspected from Stack Overflow
 }
 
 // Added by GS to also modify highlighting behind individual lines of code within entire
 // ".highlight" code blocks!
 .highlight >code {
-  background-color: #f8f8f8;
+  // background-color: #f8f8f8; // GS: this is the default for Rougify GitHub style
+  background-color: var(--highlight-bg); // GS: this is inspected from Stack Overflow
+
   // GS: shrink the code block font size a bit to match the rest of the normal text around it.
   font-size: .9em;
   // font-size: $type-size-6;
