@@ -514,7 +514,8 @@
 
   .nav__title {
     color: #fff;
-    font-size: $type-size-6;
+    // GS default size is `$type-size-6`, which is a bit too small.
+    font-size: $type-size-5;
     background: $primary-color;
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;

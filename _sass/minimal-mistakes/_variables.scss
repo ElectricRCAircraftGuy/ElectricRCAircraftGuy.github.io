@@ -34,6 +34,10 @@ $header-font-family: $sans-serif !default;
 $caption-font-family: $serif !default;
 
 /* type scale */
+// GS: these are the relative font size scales!--where the base font size is the `font-size`
+// `px`-unit value set in "/assets/css/main.scss" based on your screen size, and these `em`
+// units are **relative** font size units to that base size, as scaling factors. Ex: 1em is 1x the
+// base size, 0.8em is 0.8x of the base size, 2em is 2x the base size, etc.
 $type-size-1: 2.441em !default; // ~39.056px
 $type-size-2: 1.953em !default; // ~31.248px
 $type-size-3: 1.563em !default; // ~25.008px

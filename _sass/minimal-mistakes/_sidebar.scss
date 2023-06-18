@@ -169,7 +169,9 @@
 }
 .sidebar .author__name {
   font-family: $sans-serif;
-  font-size: $type-size-5; // GS this is the default
+  // GS: `$type-size-5` is default; this is where my name is: "Gabriel Staples", in the left-hand
+  // sidebar on the website.
+  font-size: $type-size-5;
   // font-size: 0.4em;
 }
 
