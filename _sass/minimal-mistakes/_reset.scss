@@ -31,16 +31,24 @@ html {
 body { margin: 0; }
 
 /* Selected elements */
+// GS: for selected text via keyboard and mouse highlighting and click-and-drag selection of text.
+// - To allow the browser to just use its default highlighting settings, just comment this all out!
+//   See my detailed answer here: https://stackoverflow.com/a/76502482/4561887
 
-::-moz-selection {
-  color: #fff;
-  background: #000;
-}
+// // GS: for legacy Mozilla Firefox browsers pre-version 62
+// // See my detailed answer here: https://stackoverflow.com/a/76502482/4561887
+// ::-moz-selection {
+//   color: #fff;
+//   background: #000;
+// }
 
-::selection {
-  color: #fff;
-  background: #000;
-}
+// // GS: for all other browsers, including Mozilla Firefox version 62 and later
+// // See my detailed answer here: https://stackoverflow.com/a/76502482/4561887
+// ::selection {
+//   color: #fff;
+//   background: #000;
+// }
+
 
 /* Display HTML5 elements in IE6-9 and FF3 */
 
