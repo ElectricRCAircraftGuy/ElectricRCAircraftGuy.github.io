@@ -217,8 +217,12 @@
 .highlight {
   background-color: #f8f8f8;
 }
+
 // Added by GS to also modify highlighting behind individual lines of code within entire
 // ".highlight" code blocks!
 .highlight >code {
   background-color: #f8f8f8;
+  // GS: shrink the code block font size a bit to match the rest of the normal text around it.
+  font-size: .9em;
+  // font-size: $type-size-6;
 }
