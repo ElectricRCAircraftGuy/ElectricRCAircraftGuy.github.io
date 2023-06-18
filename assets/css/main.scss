@@ -52,8 +52,11 @@ $x-large: 1280px;  // default is 1280px [my 1920x1080 laptop, my 3840x2160 4k 32
 
 /* For background color for code highlighting between back-ticks: ex: `some code`; same as
 GitHub--CSS variable `--color-markdown-code-bg`; inspected via a browser. */
-$code-background-color: rgba(27,31,35,0.05); /* overrides val in "_variables.scss" */
-
+// - GS: et code block colors in "_sass/minimal-mistakes/_syntax.scss".
+//
+// $code-background-color: rgba(27, 31, 35, 0.05); // GS: GitHub color style I think?: overrides val
+                                                   // in "_variables.scss"
+$code-background-color: var(--black-075); // GS: Stack Overflow colors
 
 /* ============ OVERRIDE SASS (*.scss file) VARIABLES BY PLACING THEM ABOVE ===================== */
 
