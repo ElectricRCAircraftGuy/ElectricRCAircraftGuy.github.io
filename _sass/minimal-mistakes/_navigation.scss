@@ -534,7 +534,9 @@
   font-size: $type-size-6;
 
   @include breakpoint($large) {
-    font-size: $type-size-7;
+    // GS: the main Table of Contents entries. Default is `$type-size-7`, which is *very* small!
+    // These sizes are defined in "_sass/minimal-mistakes/_variables.scss".
+    font-size: $type-size-6;
   }
 
   a {
