@@ -164,10 +164,14 @@ p > code,
 a > code,
 li > code,
 figcaption > code,
+// GS: this section refers to **inline code between backticks** (``)!
 td > code {
   padding-top: 0.1rem;
   padding-bottom: 0.1rem;
-  font-size: 0.8em;
+  // GS: default `font-size` is `.8em`, meaning it is 0.8x as large as the regular text around the
+  // inline code. This seems to be similar to what Stack Overflow is doing, so I'll leave it.
+  // Actually, I think Stack Overflow is closer to 0.9em. Let's update it.
+  font-size: .9em;  // GS: default: `.8em`
   background: $code-background-color;
   border-radius: $border-radius;
 
