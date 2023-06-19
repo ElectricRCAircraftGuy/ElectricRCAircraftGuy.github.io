@@ -74,6 +74,7 @@
 
 .archive__item-excerpt {
   margin-top: 0;
+  // GS: the size of the description of an article in the archive pages.
   font-size: $type-size-6;
 
   & + p {
@@ -127,7 +128,10 @@
 .list__item {
   .page__meta {
     margin: 0 0 4px;
-    font-size: 0.6em;
+    // GS: set the font size of the date and reading time when looking at the archive tags "By
+    // Topic" and "By Date" views.
+    // font-size: 0.6em;
+    font-size: $type-size-6; // GS: default `0.6em`
   }
 }
 

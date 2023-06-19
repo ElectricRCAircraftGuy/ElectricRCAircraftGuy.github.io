@@ -38,14 +38,32 @@ $caption-font-family: $serif !default;
 // `px`-unit value set in "/assets/css/main.scss" based on your screen size, and these `em`
 // units are **relative** font size units to that base size, as scaling factors. Ex: 1em is 1x the
 // base size, 0.8em is 0.8x of the base size, 2em is 2x the base size, etc.
+//
+// GS: default values:
+// $type-size-1: 2.441em !default; // ~39.056px
+// $type-size-2: 1.953em !default; // ~31.248px
+// $type-size-3: 1.563em !default; // ~25.008px
+// $type-size-4: 1.25em !default; // ~20px
+// $type-size-5: 1em !default; // ~16px
+// $type-size-6: 0.75em !default; // ~12px
+// $type-size-7: 0.6875em !default; // ~11px
+// $type-size-8: 0.625em !default; // ~10px
+//
+// GS: I'd like to basically use only type dize 6 and larger! This will fix the final parts of my
+// site which includes a ton of tiny little font items scattered around the topics page,
+// breadcrumbs, in the post descriptions and how long they'll take to read, list of more posts at
+// the bottom, etc. To do this, let's just constrain the bottom couple sizes to be equal to type
+// size 6!
+// GS: MY CUSTOM VALUES:
 $type-size-1: 2.441em !default; // ~39.056px
 $type-size-2: 1.953em !default; // ~31.248px
 $type-size-3: 1.563em !default; // ~25.008px
 $type-size-4: 1.25em !default; // ~20px
 $type-size-5: 1em !default; // ~16px
 $type-size-6: 0.75em !default; // ~12px
-$type-size-7: 0.6875em !default; // ~11px
-$type-size-8: 0.625em !default; // ~10px
+// $type-size-6: $type-size-5 !default; // ~12px
+$type-size-7: $type-size-6 !default; // ~11px
+$type-size-8: $type-size-6 !default; // ~10px
 
 // /* headline scale */
 // // GS: heading scale

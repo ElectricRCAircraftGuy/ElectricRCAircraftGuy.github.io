@@ -372,10 +372,14 @@ body {
   grid-template-columns: repeat(2, 1fr);
   margin: 1.414em 0;
   padding: 0;
-  font-size: 0.75em;
+  // GS: the size of the tags in the "By Topic" archive view, and the dates in the "By Date" archive
+  // view!
+  font-size: $type-size-5; // GS: default is `0.75em`
+  // font-size: 0.75em;
   list-style: none;
 
   @include breakpoint($large) {
+    // GS: set the number of columns of tags or years in the "By Topic" or "By Date" archive views
     grid-template-columns: repeat(3, 1fr);
   }
 
@@ -397,7 +401,8 @@ body {
   display: block;
   clear: both;
   color: $muted-text-color;
-  font-size: 0.6em;
+  // GS: the size of the "BACK TO TOP" link on the archive "By Topic" and "By Date" pages
+  font-size: $type-size-6;  // GS: default is `0.6em`
   text-transform: uppercase;
   text-align: right;
   text-decoration: none;

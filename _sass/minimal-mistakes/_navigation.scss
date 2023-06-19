@@ -18,6 +18,9 @@
   -webkit-animation-delay: 0.3s;
   animation-delay: 0.3s;
 
+  // GS_added: default is `$type-size-5` (no value is set, by default)
+  // font-size: $type-size-5;
+
   @include breakpoint($x-large) {
     max-width: $x-large;
   }
