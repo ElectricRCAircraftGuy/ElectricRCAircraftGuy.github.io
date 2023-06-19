@@ -382,6 +382,7 @@ body {
 
   @include breakpoint($large) {
     // GS: set the number of columns of tags or years in the "By Topic" or "By Date" archive views
+    // for the "Posts by Tag" or "Posts by Year" tables!
     // grid-template-columns: repeat(3, 1fr);  // <== GS: this is the default
     grid-template-columns: repeat(4, 1fr);
   }

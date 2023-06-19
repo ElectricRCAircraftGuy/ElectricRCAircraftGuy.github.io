@@ -34,8 +34,10 @@
 .archive__subtitle {
   margin: 1.414em 0 0.5em;
   padding-bottom: 0.5em;
-  font-size: $type-size-5;
-  color: $muted-text-color;
+  // GS: set the font size for the archive tags and dates in their main sections underneath the
+  // table.
+  font-size: $type-size-3; // GS: default is `$type-size-5`
+  color: $extra-muted-text-color; // GS: default is `$muted-text-color`
   border-bottom: 1px solid $border-color;
 
   + .list__item .archive__item-title {
