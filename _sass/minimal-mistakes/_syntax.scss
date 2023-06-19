@@ -1,12 +1,36 @@
 /* ==========================================================================
    Syntax highlighting
-
-   GS: use GitHub styling, from the bottom of this comment here:
-   https://github.com/mmistakes/minimal-mistakes/issues/2770#issuecomment-752800124
-
-   GS: See also my comment here about how I think that CSS was generated!:
-   https://github.com/mmistakes/minimal-mistakes/issues/2770#issuecomment-752850850
    ========================================================================== */
+
+div.highlighter-rouge,
+figure.highlight {
+  position: relative;
+  margin-bottom: 1em;
+  // background: $base00;
+  // color: $base05;
+  font-family: $monospace;
+  // font-size: $type-size-6;
+  // line-height: 1.8;
+  border-radius: $border-radius;
+
+  >pre,
+  pre.highlight {
+    margin: 0;
+    padding: 1em;
+  }
+}
+
+// GS: to change the syntax highlighting from the dark theme (which I hated) to a light, GitHub or
+// Stack Overflow-like theme (which I love), here's what I did:
+//
+//
+// I commented out some of the stuff above to disable colors, line heights, and fonts, then I,
+// copy/pasted everything below (from the URLs shown just below), and then I updated the size and
+// background colors at the very bottom of this file.
+// - GS: use GitHub styling, from the bottom of this comment here:
+//   https://github.com/mmistakes/minimal-mistakes/issues/2770#issuecomment-752800124
+// - GS: See also my comment here about how I think that CSS was generated!:
+//   https://github.com/mmistakes/minimal-mistakes/issues/2770#issuecomment-752850850
 
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
