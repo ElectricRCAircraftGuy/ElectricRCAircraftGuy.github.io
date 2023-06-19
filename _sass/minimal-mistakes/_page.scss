@@ -368,6 +368,8 @@ body {
 
 .taxonomy__index {
   display: grid;
+  // grid-gap: 0em; // GS: added this to try to reduce the vertical gap; it made no difference.
+                 // The default is already 0em apparently.
   grid-column-gap: 2em;
   grid-template-columns: repeat(2, 1fr);
   margin: 1.414em 0;
@@ -380,7 +382,8 @@ body {
 
   @include breakpoint($large) {
     // GS: set the number of columns of tags or years in the "By Topic" or "By Date" archive views
-    grid-template-columns: repeat(3, 1fr);
+    // grid-template-columns: repeat(3, 1fr);  // <== GS: this is the default
+    grid-template-columns: repeat(4, 1fr);
   }
 
   a {
