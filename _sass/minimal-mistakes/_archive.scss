@@ -204,7 +204,11 @@
 
   .page__meta {
     margin: 0 0 4px;
-    font-size: 0.6em;
+    // GS: set the font size of the date and amount of reading time at the bottom of the website in
+    // the automatically-added "YOU MAY ALSO ENJOY" section at the very bottom of each individual
+    // article.
+    font-size: $type-size-6; // GS: default `0.6em`
+    // font-size: 0.6em;
   }
 
   .page__meta-sep {
