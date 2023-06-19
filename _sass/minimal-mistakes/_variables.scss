@@ -47,12 +47,40 @@ $type-size-6: 0.75em !default; // ~12px
 $type-size-7: 0.6875em !default; // ~11px
 $type-size-8: 0.625em !default; // ~10px
 
-/* headline scale */
-$h-size-1: 1.563em !default; // ~25.008px
-$h-size-2: 1.25em !default; // ~20px
-$h-size-3: 1.125em !default; // ~18px
-$h-size-4: 1.0625em !default; // ~17px
-$h-size-5: 1.03125em !default; // ~16.5px
+// /* headline scale */
+// // GS: heading scale
+// $h-size-1: 1.563em !default; // ~25.008px
+// $h-size-2: 1.25em !default; // ~20px
+// $h-size-3: 1.125em !default; // ~18px
+// $h-size-4: 1.0625em !default; // ~17px
+// $h-size-5: 1.03125em !default; // ~16.5px
+// $h-size-6: 1em !default; // ~16px
+
+// GS: these are MY CUSTOM HEADING SCALES!
+// I'd like all headings bigger than #6 to be about 10% or so bigger than they currently are!
+// Old numbers:
+//    1.563
+//    1.25
+//    1.125
+//    1.0625
+//    1.03125
+//    1
+// 10% larger numbers:
+//    1.7193
+//    1.375
+//    1.2375
+//    1.16875
+//    1.134375
+//    1.1
+// Nah: let's do n% growth each time you move up to the next-highest heading!--such that Heading 1
+// is 1.75x that of Heading 6. Goal-seeking in my spreadsheet results in about 11.8% growth each
+// time.
+// - see my spreadsheet in the repo for the calcs: "font_size_calcs.ods"
+$h-size-1: 1.7500em !default; // ~25.008px
+$h-size-2: 1.5647em !default; // ~20px
+$h-size-3: 1.3990em !default; // ~18px
+$h-size-4: 1.2509em !default; // ~17px
+$h-size-5: 1.1184em !default; // ~16.5px
 $h-size-6: 1em !default; // ~16px
 
 /*
