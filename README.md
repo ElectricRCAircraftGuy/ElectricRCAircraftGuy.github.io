@@ -98,6 +98,8 @@ To locate a theme’s files on your computer: https://jekyllrb.com/docs/themes/#
 
 
 ## Location of key files (for syntax, color, formatting, etc.)
+1. [`CNAME`](CNAME) - is the file which contains my DNS server domain name for my website, as configured online under [repo --> Settings --> Pages](https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/settings/pages) --> Custom domain. 
+    1. NB: if you change this value in GitHub online, GitHub will automatically create a commit for this change and push it to your repo! So, you'll have to `git fetch` and/or `git pull` that change down, depending on what you want to do.
 1. [`_config.yml`](_config.yml)
 1. [`_sass/minimal-mistakes/_base.scss`](_sass/minimal-mistakes/_base.scss)
 1. [`_sass/minimal-mistakes/_variables.scss`](_sass/minimal-mistakes/_variables.scss)
