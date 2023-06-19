@@ -200,7 +200,7 @@
       margin-left: 0;
     }
   }
-  
+
   img{
     -webkit-transition: none;
     transition: none;
@@ -514,6 +514,7 @@
 
   .nav__title {
     color: #fff;
+    // GS: this is the Table of Contents title!
     // GS default size is `$type-size-6`, which is a bit too small.
     font-size: $type-size-5;
     background: $primary-color;

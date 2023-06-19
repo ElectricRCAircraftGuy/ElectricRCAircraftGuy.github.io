@@ -65,6 +65,12 @@
   width: 100%;
   clear: both;
 
+  // GS: adding font size setting here to control the top-bar items, like "Home", "About", "By
+  // Topic", "By Date", etc.
+  // - NB: the default is to NOT SET THIS, which means it defaults automatically to the 1em setting,
+  //   or `$type-size-5`
+  font-size: $type-size-4;
+
   .site-nav {
     margin-left: 0;
 
