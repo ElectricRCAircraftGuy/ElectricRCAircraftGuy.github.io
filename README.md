@@ -105,6 +105,7 @@ To locate a theme’s files on your computer: https://jekyllrb.com/docs/themes/#
 1. [`_sass/minimal-mistakes/_variables.scss`](_sass/minimal-mistakes/_variables.scss)
 1. [`_sass/minimal-mistakes/_syntax.scss`](_sass/minimal-mistakes/_syntax.scss)
 1. [`assets/css/main.scss`](assets/css/main.scss) - I have some color overrides here, like for `code-background-color`!
+1. [`_site/`](_site) - this is the output directory where the generated site is stored!
 
 
 
