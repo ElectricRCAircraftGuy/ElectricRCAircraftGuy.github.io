@@ -3,6 +3,10 @@ title: "Test Markup Syntax Highlighting"
 excerpt: "Test post displaying the various ways of highlighting code in Markdown."
 # date: 2018-10-18 14:45:34 -0700
 # last_modified_at: 2018-01-03T09:45:06-05:00
+# GS: use `date` from the command-line! This works! See the site map at
+# `http://127.0.0.1:4001/sitemap.xml` and live at `https://gabrielstaples.com/sitemap.xml` to
+# verify.
+last_modified_at: Tue 20 Jun 2023 12:12:31 AM MST  
 header:
   teaser: "assets/images/markup-syntax-highlighting-teaser.jpg"
 tags: 

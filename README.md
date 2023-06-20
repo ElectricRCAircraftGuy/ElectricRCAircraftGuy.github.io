@@ -108,5 +108,13 @@ To locate a theme’s files on your computer: https://jekyllrb.com/docs/themes/#
 1. [`_site/`](_site) - this is the output directory where the generated site is stored!
 
 
+## Important pages
+
+1. sitemap.xml (find it in the `site/` dir above, too)
+    1. http://127.0.0.1:4001/sitemap.xml
+    1. https://gabrielstaples.com/sitemap.xml
+    1. This helps Google crawl your page. Submit your sitemap to google here: https://search.google.com/search-console/sitemaps?resource_id=sc-domain%3Agabrielstaples.com. See my issue where I did this: [Submit a site map to Google, to index my whole site #72](https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/issues/72).
+
+
 
   [eclipse_pdf]: https://github.com/ElectricRCAircraftGuy/eRCaGuy_dotfiles/blob/master/eclipse/Eclipse%20setup%20instructions%20on%20a%20new%20Linux%20(or%20other%20OS)%20computer.pdf
