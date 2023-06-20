@@ -8,8 +8,11 @@ en: &DEFAULT_EN
   skip_content               : "Skip to content"
   skip_footer                : "Skip to footer"
   page                       : "Page"
-  pagination_previous        : "Previous (older)"  # GS: added "older"
-  pagination_next            : "Next (newer)"  # GS: added "newer"
+  pagination_previous        : &pag_prev "Previous (Older)"  # GS: default "Previous"
+  pagination_next            : &pag_next "Next (Newer)"  # GS: default: "Next"
+  # GS: I'm adding these next 2 entries
+  pagination_older           : *pag_prev  # GS added
+  pagination_newer           : *pag_next  # GS added
   breadcrumb_home_label      : "Home"
   breadcrumb_separator       : "/"
   menu_label                 : "Toggle menu"
