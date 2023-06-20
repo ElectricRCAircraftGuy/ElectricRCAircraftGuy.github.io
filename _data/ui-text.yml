@@ -50,8 +50,12 @@ en: &DEFAULT_EN
   loading_label              : "Loading..."
   # search_label_text          : "Enter your search term..."  # GS: default
   # search_placeholder_text    : "Enter your search term..."  # GS: default
-  search_label_text          : "Type here to use Google to search my websites..."
-  search_placeholder_text    : "Type here to use Google to search my websites..."
+  # GS note: the longest string that can be seen in the search bar on my phone is this:
+  # "Type here to use Google to search my we". On other phones, it may be even shorter, like:
+  # "Type here to use Google to search". So, let's use this:
+  # "Search my websites w/Google..."
+  search_label_text          : "Search my websites w/Google..."
+  search_placeholder_text    : "Search my websites w/Google..."
   search_algolia_no_results  : "No results"
   results_found              : "Result(s) found"
   back_to_top                : "Back to top"
