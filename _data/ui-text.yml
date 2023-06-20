@@ -50,8 +50,8 @@ en: &DEFAULT_EN
   loading_label              : "Loading..."
   # search_label_text          : "Enter your search term..."  # GS: default
   # search_placeholder_text    : "Enter your search term..."  # GS: default
-  search_label_text          : "Use Google to search my websites..."
-  search_placeholder_text    : "Use Google to search my websites..."
+  search_label_text          : "Type here to use Google to search my websites..."
+  search_placeholder_text    : "Type here to use Google to search my websites..."
   search_algolia_no_results  : "No results"
   results_found              : "Result(s) found"
   back_to_top                : "Back to top"
