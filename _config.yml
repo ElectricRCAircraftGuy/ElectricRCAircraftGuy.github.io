@@ -30,7 +30,8 @@ github: [metadata]
 # Site Settings
 locale                   : "en-US"
 # title                    : "GabrielStaples.com home"
-title                    : "Home"
+# title                    : "Home"
+title                    : "GabrielStaples.com"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 # name                     : "Your Name"
