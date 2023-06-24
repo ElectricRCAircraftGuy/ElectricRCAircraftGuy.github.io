@@ -72,6 +72,16 @@ If you have any of the problems above, try these things:
 
         > In short, log out [of Ubuntu], click your name, click the gear in the bottom-right, choose the non-Wayland window manager option.
 
+1. **Use a USB-C to DP (Display Port) [best], or USB-C to HDMI [ok] video cable**, rather than a USB-C to USB-C cable to your monitor.
+    
+    USB-C to USB-C video/monitor cables may be trying to provide power into your laptop (to charge your laptop) at the same time as they are providing a video signal out of your laptop, to the monitor. This new double-feature seems to have problems on other OSs (like Windows) too, not just on Linux. So, disabling this "charge while displaying" type feature can help. 
+
+    There are frequently two ways to disable it: 
+
+    1. Via a setting in the BIOS, or 
+    1. By using a cable that doesn't support charging at the same time. Ex: a USB-C to DP (Display Port) or USB-C to HDMI cable. 
+        1. Of those two types of cables, I'd choose USB-C to DP if given the option, because the older versions of HDMI cannot support 4k signals at 60 Hz, but DP can. See my answer here: [Ask Ubuntu: No 60Hz Refresh Rate option on my 32" 4k external monitor in Ubuntu 20.04](https://askubuntu.com/a/1274313/327339).
+
 That's it! I suspect one of the above things will fix it for you.
 
 
