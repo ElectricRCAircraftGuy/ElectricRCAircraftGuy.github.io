@@ -8,7 +8,7 @@ tags:
     - repairs
     - tutorial
 # date: 1999-12-31
-# last_modified_at: 2023-05-05  # updates the "Updated" date at the bottom!
+last_modified_at: Sat Jun 24 02:11:32 PM MST 2023 # 2023-05-05  # updates the "Updated" date at the bottom!
 # permalink: /test/
 # redirect_from: 
 # categories: 
@@ -19,21 +19,22 @@ toc: true  # (default for Table of Contents is true)
 ## ...in case you are experiencing any of these issues:
 
 1. black screen, computer won't wake up, can't log in after the screen locks, can't log in after suspend
-1. multiple monitors won't work, external monitor won't work, computer won't detect external monitor
+1. multiple monitors won't work, external monitor won't work, computer won't detect external monitor; external monitor glitches
 1. screen brightness buttons won't work, can't adjust screen brightness
-1. mouse scroll wheel is slow, `imwheel` won't work, `xdotool` won't work, Python `pynput` can't detect mouse scroll wheel in certain applications, Shutter snipping tool won't work, "show desktop" icon doesn't work
+1. mouse scroll wheel is slow, can't adjust mouse scroll wheel speed, `imwheel` won't work, `xdotool` won't work, Python `pynput` can't detect mouse scroll wheel in certain applications, Shutter snipping tool won't work, "show desktop" icon doesn't work
 
-This is knowledge I've acquired via hundreds of hours of troubleshooting over the last 5 years of using Linux Ubuntu for 12+ hours per day, both at work and home, on _my_ computers, and on my _kids'_ computers. 
+This is knowledge I've acquired via hundreds of hours of troubleshooting over the last 5+ years of using Linux Ubuntu for 12+ hours per day, both at work and home, on _my_ computers, and on my _kids'_ computers. 
 
-If you have any of the problems above, try these 4 things:
+If you have any of the problems above, try these things:
 
 1. **Check the BIOS/UEFI settings.** Use "Discrete Graphics" instead of "Hybrid Graphics".
 1. **Use the latest LTS (Long-Term Support) version of Ubuntu**, rather than a short-term support version.
 1. **Install the latest _non-open-source_ NVIDIA driver** (in Ubuntu's "Software & Updates" app) which works with external monitors and your brightness keys.
 1. **Use the X11 window manager, NOT Wayland**
+1. **Use a USB-C to DP (Display Port) [best], or USB-C to HDMI [ok] video cable**, rather than a USB-C to USB-C cable to your monitor.
 
 
-## Details:
+## Additional details:
 
 1. **Check the BIOS/UEFI settings.**
     1. In particular if you have an NVIDIA graphics card:
@@ -85,13 +86,15 @@ Here are some links or tools I need to be aware of:
 1. My question: [pynput library not working as expected in Python to press Windows + D key](https://stackoverflow.com/q/76399361/4561887)
 1. [How to detect key presses? [in Python]](https://stackoverflow.com/q/24072790/4561887)
 1. `ydotool`
-    1. https://github.com/ReimuNotMoe/ydotool
+    1. <https://github.com/ReimuNotMoe/ydotool>
     1. See also a couple of the links above.
 1. pygame
 1. pyautogui
 1. pywinauto - is working on Linux support too, even though it started with Windows I think
-    1. https://pywinauto.readthedocs.io/en/latest/code/pywinauto.keyboard.html
+    1. <https://pywinauto.readthedocs.io/en/latest/code/pywinauto.keyboard.html>
 1. pynput
-    1. https://pynput.readthedocs.io/en/latest/keyboard.html
+    1. <https://pynput.readthedocs.io/en/latest/keyboard.html>
     1. My issue I opened: [pynput detects mouse scroll wheel movements only *partially* in the Wayland window manager in Linux, but fully in X11](https://github.com/moses-palmer/pynput/issues/555)
+1. My instructions to [add a "Show Desktop" icon to your launcher](https://askubuntu.com/a/1474575/327339)
+1. My instructions to [speed up your mouse scroll wheel speed](https://askubuntu.com/a/991680/327339)
 
