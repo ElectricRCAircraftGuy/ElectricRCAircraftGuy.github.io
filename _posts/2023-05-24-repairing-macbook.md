@@ -132,7 +132,7 @@ Okay, so if you lucked out, internet boot worked above, and you are done! Go bac
 <a id="if-it-still-wont-boot-you-can-use-some-linux-tools-to-recover-your-files"></a>
 # If it still won't boot, you can use some Linux tools to recover your files
 
-Basically, we are going to boot onto an Ubuntu 22.04 live USB to recover files, copying them to an external exFAT SSD. Then, we are going to use Apple's internet-booted Disk Utility [preferred, since it will also rewrite the GPT partition table, and is the only tool which can format the partition with Apple's proprietary APFS filesystem], _or_ Parted Magic [a brute-force approach if we are going to install Linux in place of MacOS in the end anyway], to secure erase the internal SSD.
+Basically, we are going to boot onto an Ubuntu 22.04 live USB to recover files, copying them to an external exFAT SSD. Then, we are going to use Apple's internet-booted Disk Utility [preferred, since it will also rewrite the GPT partition table, and is the only tool which can format the partition with Apple's proprietary APFS filesystem], _or_ [Parted Magic](https://partedmagic.com/?ref=94) [a brute-force approach if we are going to install Linux in place of MacOS in the end anyway], to secure erase the internal SSD.
 
 1. Use Unetbootin, or similar, to create an Ubuntu 22.04 Live USB drive. 
     1. Even better, buy an extra enclosure and m.2 SSD, and use that instead of a thumb drive, since they are so fast!
@@ -167,7 +167,7 @@ This is a good idea if an exchange is happening between two people of the physic
 
 Note: if the MacBook was encrypted via Apple's File Vault and an "APFS (Encrypted)" file system, however, then this step can optionally be skipped. Simply writing a new partition table and formatting new partitions with gparted is enough, since the encryption password was secret anyway. Secure erasing is just good measure though, and is fast, so you might as well do it anyway.
 
-First, pay $15 for [Parted Magic](https://partedmagic.com/), since it has a secure erase utility built-in. (You could probably also figure out how to install secure erase into an Ubuntu 22.04 live USB, but I haven't done that yet. Save your time; pay the money.) Optionally, also buy the "Disk Verifier" 3rd-party plugin for it as well. A link to it is on this page: <https://partedmagic.com/store/>. Direct link: <https://www.hamishmb.com/html/diskverifier.php>. It's £5 (\~$7) for the Disk Verifier add-on. 
+First, pay $15 for [Parted Magic](https://partedmagic.com/?ref=94), since it has a secure erase utility built-in. (You could probably also figure out how to install secure erase into an Ubuntu 22.04 live USB, but I haven't done that yet. Save your time; pay the money.) Optionally, also buy the "Disk Verifier" 3rd-party plugin for it as well. A link to it is on this page: <https://partedmagic.com/store/>. Direct link: <https://www.hamishmb.com/html/diskverifier.php>. It's £5 (\~$7) for the Disk Verifier add-on. 
 
 Hold down <kbd>Option</kbd> and boot onto Parted Magic on your Mac. Use the secure erase utility to wipe the whole internal drive, now that you already got the files off of it in the previous step. This takes just a few seconds. If you bought the Disk Verifier, it will then auto-run and scan the whole disk to ensure no unerased data can be found.
 
