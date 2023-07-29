@@ -54,6 +54,8 @@ If you were defining them at the command-line when manually building a `gcc` or 
 
 So, do the following in your Eclipse project. My project here is called "Arduino 1.8.13" (see full screenshot of this a couple images below):
 
+_NB: in the following step, if you do not have the **Properties** --> **C/C++ General** --> **Paths and Symbols** option in your project properties, it probably means you imported the project incorrectly. Fix it [by following my instructions in my comment here](https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/issues/90#issuecomment-1656958313), then follow the steps below._
+
 **Right-click on your project** in the "Project Explorer" pane on the left --> **Properties** --> **C/C++ General** --> **Paths and Symbols** --> **Symbols** tab --> select either **GNU C** or **GNU C++** --> click the **Add** button at the top-right --> type `ARDUINO` for **name** and `1000` for **value** --> BE SURE TO CHECK THE 2 BOXES FOR **Add to all configurations** and **Add to all languages** (unless you don't want those behaviors) --> click **OK**.  
 [![enter image description here][1]][1]
 
