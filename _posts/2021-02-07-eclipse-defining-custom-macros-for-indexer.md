@@ -6,7 +6,7 @@ tags:
   - eclipse
   - tutorial
 # date: 1999-12-31
-# last_modified_at: 2000-12-31  # updates the "Updated" date at the bottom!
+last_modified_at: Sat Jul 29 07:33:46 PM MST 2023  # updates the "Updated" date at the bottom!
 # permalink: /test/
 # redirect_from: 
 # categories: 
@@ -36,8 +36,6 @@ Eclipse makes defining macros for its indexer rather confusing, since there are 
 
 In this example we will set the following defines _at the Eclipse project level_ (for its indexer and builder) rather than in your source code.
 
-<!-- language: lang-cpp -->
-
 ```cpp
 #define ARDUINO 1000
 #define AVR
@@ -45,8 +43,6 @@ In this example we will set the following defines _at the Eclipse project level_
 ```
 
 If you were defining them at the command-line when manually building a `gcc` or `g++` project, the above `#define`s would look like this (search for `-Dmacro` in the [`man gcc`](https://linux.die.net/man/1/gcc) pages for details):
-
-<!-- language: lang-bash -->
 
 ```bash
 -DARDUINO=1000 -DAVR -D__AVR_ATmega328__
@@ -56,14 +52,17 @@ So, do the following in your Eclipse project. My project here is called "Arduino
 
 _NB: in the following step, if you do not have the **Properties** --> **C/C++ General** --> **Paths and Symbols** option in your project properties, it probably means you imported the project incorrectly. Fix it [by following my instructions in my comment here](https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/issues/90#issuecomment-1656958313), then follow the steps below._
 
-**Right-click on your project** in the "Project Explorer" pane on the left --> **Properties** --> **C/C++ General** --> **Paths and Symbols** --> **Symbols** tab --> select either **GNU C** or **GNU C++** --> click the **Add** button at the top-right --> type `ARDUINO` for **name** and `1000` for **value** --> BE SURE TO CHECK THE 2 BOXES FOR **Add to all configurations** and **Add to all languages** (unless you don't want those behaviors) --> click **OK**.  
+**Right-click on your project** in the "Project Explorer" pane on the left --> **Properties** --> **C/C++ General** --> **Paths and Symbols** [if this isn't an option, see my NB note just above] --> **Symbols** tab --> select either **GNU C** or **GNU C++** --> click the **Add** button at the top-right --> type `ARDUINO` for **name** and `1000` for **value** --> BE SURE TO CHECK THE 2 BOXES FOR **Add to all configurations** and **Add to all languages** (unless you don't want those behaviors) --> click **OK**.  
 [![enter image description here][1]][1]
 
 Repeat this step for all defines, as follows. Be sure to check the boxes for **Add to all configurations** and **Add to all languages** (unless you don't want those behaviors) for each one: 
 
-1. Name: `ARDUINO`, Value: `1000`
-1. Name: `AVR`, Value: (leave empty)
-1. Name: `__AVR_ATmega328__`, Value: (leave empty)
+1. **Name:** `ARDUINO`, **Value:** `1000`
+    1. Is equivalent to `#define ARDUINO 1000` in the code.
+1. **Name:** `AVR`, **Value:** (leave empty);
+    1. Is equivalent to `#define AVR` in the code.
+1. **Name:** `__AVR_ATmega328__`, **Value:** (leave empty)
+    1. Is equivalent to `#define __AVR_ATmega328__` in the code.
 
 Here's a screenshot showing the first one. Notice all the highlighted sections to click or pay attention to:
 
@@ -101,14 +100,39 @@ If your settings/macros don't seem to be getting applied, and your code still sh
         1. --> **Cross G++ Compiler** --> **Preprocessor**...  
     - ...sections to manually configure the macros just for one language and/or configuration, or another. ALL of these settings must be either in-sync or set individually.
 1. The easiest place to set these settings, as already stated above, is here: **Right-click on your project** in the "Project Explorer" pane on the left --> **Properties** --> **C/C++ General** --> **Paths and Symbols** --> **Symbols** tab. BUT, if you forgot to check the boxes for **Add to all configurations** and **Add to all languages**, I recommend just deleting the macros and then adding them again, this time checking those boxes.
+    1. Note that for default projects, there are 6 configuration settings per macro added. 
+        1. This is because you have 3 languages you can set macros in by default: 
+            1. Assembly
+            1. GNU C
+            1. GNU C++
+        1. And you have 2 build Configurations by default: 
+            1. Debug
+            1. Release
+        1. 3 x 2 = 6, and you must set the macros for each of those.
 1. If you don't want to worry about which build Configuration you have selected, and you didn't check the **Add to all configurations** box when you added the macros, you can also change this global workspace setting, but I don't really recommend it:  
     **Window** --> **Preferences** --> **C/C++** --> **Indexer** --> select **Use active build configuration**. Again, however, I do NOT use this option myself and do not necessarily recommend you use it either. It's just something to be aware of is all.  
+    
     [![enter image description here][8]][8]
+
+1. If you don't have the **Paths and Symbols** project properties option, it may be because you added or created your Eclipse project incorrectly. Follow my steps [in my comment here](https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/issues/90#issuecomment-1656958313), to re-add the project.
+1. If you just re-added the project per my instructions above, and now _do_ have the **Paths and Symbols** settings option, but adding a custom macro definition still does _not_ work (which was the case I described [in my now-obsolete comment here](https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/issues/90#issuecomment-1656994199)), then delete the project, run `rm -rf .cproject .project .pydevproject .settings` in your repo to delete all old Eclipse project files, and re-add the project again, [per my instructions here](https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/issues/90#issuecomment-1656958313).
+1. If your macro definitions you are setting in the project settings _still_ aren't working, ensure you are setting them correctly. 
+
+    Ex: `#if MBED_CONF_RTOS_PRESENT` in your C-code is only true if `MBED_CONF_RTOS_PRESENT` is defined as true, or `1`, like this: `#define MBED_CONF_RTOS_PRESENT 1`, whereas `#ifdef MBED_CONF_RTOS_PRESENT` or `#if defined(MBED_CONF_RTOS_PRESENT)` (same thing) is true if that macro is defined _at all!_ Ex: this works: `#define MBED_CONF_RTOS_PRESENT`. 
+
+    Be sure you are therefore setting your macro correctly inside the **Paths and Symbols** settings, based on that understanding.
+
+1. To help you debug how the indexer sees each source code file, in the Project Explorer on the left in Eclipse, **right-click a file** and go to --> **Index --> Create Parser Log File --> choose a name and location to save this file --> click "Save"**. This will auto-generate a special indexer log file to show you how the indexer sees that file, and which macros it has set, and to what, while indexing that file. I learned this from Marc-André LaperleFriend, [in the Eclipse Community Forum, here](https://www.eclipse.org/forums/index.php/t/556834/), where he says (emphasis added):
+
+    > At this point the solutions might vary but you could have to add includes paths manually in **project properties, C/C++ General, Preprocessor Include paths.** _To figure out which includes and symbols are used to parse a file, you can right-click on a source file, **Index, Create parser log.**_
+
+1. If you're still struggling, leave a comment, and maybe myself or another reader can help. If you post on Stack Overflow or another Stack Exchange site for help, please drop a link in the comments below so we can see your Q&A there.
 
 
 ## See also
 1. This article is also posted as an answer on Stack Overflow here: [How can I convince Eclipse CDT that a macro is defined for source code editing and code completion?](https://stackoverflow.com/a/66094447/4561887). If you find it useful, please leave a comment here and go upvote my Stack Overflow answer there.
 1. See my full Eclipse setup instructions here: <https://github.com/ElectricRCAircraftGuy/eRCaGuy_dotfiles/tree/master/eclipse>.
+
 
   [1]: https://i.stack.imgur.com/iT9LA.jpg
   [2]: https://i.stack.imgur.com/R7SBA.jpg
