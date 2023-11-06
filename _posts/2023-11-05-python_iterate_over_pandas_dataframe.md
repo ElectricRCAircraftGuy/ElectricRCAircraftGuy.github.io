@@ -635,7 +635,7 @@ I currently don't know Cython and don't feel the need to learn it. As you can se
 
 ## References
 
-1. A bunch of the official Pandas documentation, especially the `DataFrame` documentation here: https://pandas.pydata.org/pandas-docs/stable/reference/frame.html. 
+1. A bunch of the official Pandas documentation, especially the `DataFrame` documentation here: <https://pandas.pydata.org/pandas-docs/stable/reference/frame.html>. 
 1. [This excellent answer by @cs95](https://stackoverflow.com/a/55557758/4561887) - this is where I learned in particular how to use list comprehension to iterate over a DataFrame. 
 1. [This answer about `itertuples()`, by @Romain Capron](https://stackoverflow.com/a/59413206/4561887) - I studied it carefully and edited/formatted it.
 1. All of this is my own code, but I want to point out that I had dozens of chats with GitHub Copilot (mostly), Bing AI, and ChatGPT in order to figure out many of these techniques and debug my code as I went. 
@@ -658,7 +658,7 @@ I currently don't know Cython and don't feel the need to learn it. As you can se
 
 ## See also
 
-1. https://en.wikipedia.org/wiki/Array_programming - array programming, or "vectorization":
+1. <https://en.wikipedia.org/wiki/Array_programming> - array programming, or "vectorization":
 
     > In computer science, array programming refers to solutions that allow the application of operations to an entire set of values at once. Such solutions are commonly used in scientific and engineering settings.
     > 
