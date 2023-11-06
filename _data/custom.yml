@@ -12,8 +12,7 @@ comments_notes: >-
   can be viewed and <i>searched</i> online here</a>.<br><br>
 
   <b>To edit or delete your comment:</b> <b>Option 1 (recommended):</b> click the date just above
-  your comment, ex: the "just now" or "5 minutes ago" (or equivalent) part where it says <code>(Your
-  name) commented just now</code> or <code>(Your name) commented 5 minutes ago</code>, etc.,
+  your comment, ex: the <code>just now</code> or <code>5 minutes ago</code> (or equivalent) part where it says <code>YOUR_NAME commented just now</code> or <code>YOUR_NAME commented 5 minutes ago</code>, etc.,
   <i>or</i> <b>Option 2:</b> click the "Comments" link at the top of the comments section below
   where it says how many comments have been left. Option 1 will take you directly to your comment on
   GitHub. Option 2 will take you to a GitHub page with all comments for this page. Then: --> find your
