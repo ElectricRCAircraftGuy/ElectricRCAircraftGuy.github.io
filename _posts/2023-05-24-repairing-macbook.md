@@ -84,10 +84,10 @@ At startup, right after you hear the Mac startup chime sound, press and hold the
     1. This didn't fix it for me. 
 1. <kbd>Shift</kbd> = start in safe mode.
     1. I forgot to try this. 
-1. <kbd>Command</kbd> + <bkd>R</bkd> = boot into the recovery system which is _stored locally on your internal drive_.
+1. <kbd>Command</kbd> + <kbd>R</kbd> = boot into the recovery system which is _stored locally on your internal drive_.
     1. If you get in, follow these steps: [How to repair a Mac disk with Disk Utility](https://support.apple.com/en-us/HT210898), repairing volumes, then containers, then disks. Do NOT erase (format) your disk quite yet, as we don't want to lose our data. 
         1. I was able to boot to the Disk Utility and follow those steps, but they all failed. Don't give up yet! The following worked for me!
-1. [best: internet boot] <kbd>Option</kbd> + <kbd>Command</kbd> + <bkd>R</bkd> = boot into the recovery system which is _stored online on the internet_. So long as you have a genuine Apple SSD drive in the computer, this should work. I think the reason Apple is a PITA and doesn't use normal m.2 SSDs is so that they can verify you are using a _genuine Apple part_, and I've read the internet boot thing won't work if you aren't using a genuine Apple SSD.
+1. [best: internet boot] <kbd>Option</kbd> + <kbd>Command</kbd> + <kbd>R</kbd> = boot into the recovery system which is _stored online on the internet_. So long as you have a genuine Apple SSD drive in the computer, this should work. I think the reason Apple is a PITA and doesn't use normal m.2 SSDs is so that they can verify you are using a _genuine Apple part_, and I've read the internet boot thing won't work if you aren't using a genuine Apple SSD.
     1. Anyway, do this, log onto your local WiFi, and let it take a few minutes to download stuff and repair your drive. I then followed these steps again: [How to repair a Mac disk with Disk Utility](https://support.apple.com/en-us/HT210898), repairing volumes, then containers, then disks, and _this time it worked!_ Next thing I know, the MacOS booted up perfectly again! I think doing the internet boot fixed the system by downloading the utilities fresh from the internet and fixing the locally-stored ones or something. 
 1. <kbd>D</kbd> = boot up into the [Apple Diagnostics utility](https://support.apple.com/en-us/HT202731). Let it run some tests to see if your hardware is good.
     1. This worked for me, and everything passed. If you have failures, however, you'll need to replace hardware, as appropriate. 
@@ -104,8 +104,8 @@ I gotta say: this internet boot thing by Apple, to repair your system, is really
 
 RESULT: so, the total fix for me seems to be:
 
-1. Reboot and hold down Option + Cmd + R to do an internet boot. This restores the necessary boot images (I think?). You can then run the Disk Utility and try to repair the disk per these instructions: <https://support.apple.com/en-us/HT210898>. It will likely fail. 
-2. Reboot again and hold down D during startup to run diagnostics. It will run all diags and then *pass*. Once it has passed, it will automatically boot into the Mac and the Mac will magically be working again!
+1. Reboot and hold down <kbd>Option</kbd> + <kbd>Cmd</kbd> + <kbd>R</kbd> to do an internet boot. This restores the necessary boot images (I think?). You can then run the Disk Utility and try to repair the disk per these instructions: <https://support.apple.com/en-us/HT210898>. It will likely fail. 
+2. Reboot again and hold down <kbd>D</kbd> during startup to run diagnostics. It will run all diags and then *pass*. Once it has passed, it will automatically boot into the Mac and the Mac will magically be working again!
 
 
 <a id="notes-to-self-internal-ssd-health-notes"></a>
@@ -199,7 +199,7 @@ I have read somewhere that if you replace the internal SSD with an adapter card 
 
 Here it goes:
 
-Internet boot onto the Apple Disk Utility using <kbd>Option</kbd> + <kbd>Command</kbd> + <bkd>R</bkd> at startup. Then, follow the instructions here: [Use Disk Utility to erase an Intel-based Mac](https://support.apple.com/en-us/HT208496), reformatting the internal drive using Apple's tools. 
+Internet boot onto the Apple Disk Utility using <kbd>Option</kbd> + <kbd>Command</kbd> + <kbd>R</kbd> at startup. Then, follow the instructions here: [Use Disk Utility to erase an Intel-based Mac](https://support.apple.com/en-us/HT208496), reformatting the internal drive using Apple's tools. 
 
 Important info to know: when erasing the internal SSD using Apple's Disk Utility (which erase process I think is _not_ secure, contrary to Parted Magic's erase process which *is* secure), it also allows you to simultaneously rewrite the GPT (GUID partition table), which can also be done by Linux's gparted editor, but in addition Apple's Disk Utility allows you to _reformat the new partition with Apple's proprietary APFS filesystem_, which can ONLY be done by Apple utilities! So, using Apple's internet-booted Disk Utility for the secure-erase and simultaneous partitioning and formatting is preferred if you are going to reinstall MacOS when done, but there's no need to do this step if you are just going to install Linux anyway. 
 
@@ -231,7 +231,7 @@ If still in the Apple Disk Utility from the previous step, exit it back to the R
     </a>
 </p>
 
-If you are not still in the Apple Disk Utility from the previous step (if you have rebooted or shut down between now and then, for instance), reboot into the internet-booted Apple Recovery utility using <kbd>Option</kbd> + <kbd>Command</kbd> + <bkd>R</bkd> at startup, connect to WiFi, let it load for several minutes, choose your language and click the "-->" symbol to continue, and finally at the Recovery utility's main menu (shown in the image above), choose "Reinstall macOS Monterey", or equivalent.
+If you are not still in the Apple Disk Utility from the previous step (if you have rebooted or shut down between now and then, for instance), reboot into the internet-booted Apple Recovery utility using <kbd>Option</kbd> + <kbd>Command</kbd> + <kbd>R</kbd> at startup, connect to WiFi, let it load for several minutes, choose your language and click the "-->" symbol to continue, and finally at the Recovery utility's main menu (shown in the image above), choose "Reinstall macOS Monterey", or equivalent.
 
 Note: you can see a full list of Apple's OS versions and whether or not they are still supported, here: <https://en.wikipedia.org/wiki/MacOS_version_history>. If Apple ever quits supporting your MacOS version, which they do somewhere in the 3 to 8 year timeframe of when you bought the MacBook, then I recommend you install Linux Ubuntu instead, as it will always be maintained and give you the freedom to have the latest, secure version.
 
@@ -302,8 +302,8 @@ Note: About 100 GB of my 121 GB SSD are available, so apparently the base MacOS 
 
 Now that you've got your CrapOS successfully installed, at least go add your Home directory to your Finder. See here: <https://www.cnet.com/tech/computing/how-to-find-your-macs-home-folder-and-add-it-to-finder/>
 1. Open Finder.
-1. Press Command+Shift+H to open your Home dir.
-1. Press Command+UpArrow to go up one directory.
+1. Press <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>H</kbd> to open your Home dir.
+1. Press <kbd>Command</kbd> + <kbd>UpArrow</kbd> to go up one directory.
 1. Drag your Home directory (named `gabriel` in my case) to the left-hand pane. 
 1. Done!
 
