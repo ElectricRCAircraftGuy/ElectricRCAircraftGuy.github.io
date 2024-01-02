@@ -27,7 +27,8 @@ It contains my own content and opinions and does not reflect opinions on behalf 
 
 # Notes to self
 
-[What to work on next (private document)](https://docs.google.com/document/d/1OU-RhzRcdc3qY_txABohx3ohlPAxsHNOqEdSRxIjAXU/edit)
+- [Photo/image repository](https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/issues/28)
+- [What to work on next (private document)](https://docs.google.com/document/d/1OU-RhzRcdc3qY_txABohx3ohlPAxsHNOqEdSRxIjAXU/edit)
 
 This site was first created with the command `jekyll new temp`. See here: https://jekyllrb.com/docs/. Also, search the `git log` for where I documented using this command.
 
