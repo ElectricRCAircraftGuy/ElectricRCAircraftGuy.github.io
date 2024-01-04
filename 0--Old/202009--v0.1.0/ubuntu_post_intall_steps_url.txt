@@ -1,7 +1,0 @@
-https://electricrcaircraftguy.github.io/20190919-post_ubuntu_18_todos.html
-
-
-^^^
-
-THIS WAS THE **ACTUAL** URL WHEN PUBLISHED ON GITHUB PAGES ORIGINALLY! SO, I NEED TO REDIRECT *FROM* HERE TO WHATEVER NEW URL I END UP WITH!
-
