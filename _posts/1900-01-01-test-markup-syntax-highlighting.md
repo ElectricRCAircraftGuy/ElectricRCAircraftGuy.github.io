@@ -6,7 +6,7 @@ excerpt: "Test post displaying the various ways of highlighting code in Markdown
 # GS: use `date` from the command-line! This works! See the site map at
 # `http://127.0.0.1:4001/sitemap.xml` and live at `https://gabrielstaples.com/sitemap.xml` to
 # verify.
-last_modified_at: Tue 20 Jun 2023 12:12:31 AM MST  
+last_modified_at: Wed 03 Jan 2024 08:01:13 PM MST
 header:
   teaser: "assets/images/markup-syntax-highlighting-teaser.jpg"
 tags: 
