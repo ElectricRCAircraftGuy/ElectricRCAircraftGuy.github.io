@@ -107,22 +107,34 @@ body:hover .visually-hidden button {
    Task lists
    ========================================================================== */
 
+// GS task list edits. Task lists are when you do `1. [ ] whatever` or `- [ ] whatever` or
+// `1. [x] item done!`, for instance, in markdown. They are basically just ordered or unordered
+// lists with checkboxes!
+// - See my Q&A here: https://stackoverflow.com/q/77743791/4561887
+
 .task-list {
-  padding:0;
+  // padding:0;  // GS commented out; use inherited padding instead
 
   li {
-    list-style-type: none;
+    // GS: inherit from `ol` and `ul` lists, respectively: ordered lists are numbered; unordered
+    // lists are bulleted; other options are `none`, `decimal`, `initial`, etc.
+    // See here: https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type
+    list-style-type: inherit;
   }
 
   .task-list-item-checkbox {
-    margin-right: 0.5em;
-    opacity: 1;
+    margin-right: 0.5em; // GS: this adds a small gap to the right of each checkbox
+    opacity: 1;          // GS: this makes the checkbox's grey color more visible (darker), by
+                         // being fully opaque
   }
 }
 
-.task-list .task-list {
-  margin-left: 1em;
-}
+// GS commented out so that the natural `ul` and `ol` list indentation style is inherited and
+// used instead.
+//
+// .task-list .task-list {
+//   margin-left: 1em;
+// }
 
 /*
    Alignment
