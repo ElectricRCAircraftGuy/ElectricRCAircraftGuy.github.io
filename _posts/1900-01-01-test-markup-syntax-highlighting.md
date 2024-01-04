@@ -62,6 +62,90 @@ This is regular text.
     1. this is `code`
         1. this is `code`
 
+**Deeply nested ordered list:**
+1. one
+    1. two
+    1. two
+        1. three
+        1. three
+            1. four
+            1. four
+                1. five
+                1. five
+            1. four
+        1. three
+    1. two
+1. one
+
+**Deeply nested ordered list _task list_:**
+1. [ ] one
+    1. [ ] two
+    1. [x] two
+    1. two (intentionally has no checkbox)
+        1. [ ] three
+        1. [x] three
+        1. three (intentionally has no checkbox)
+            1. [ ] four
+            1. [x] four
+            1. four (intentionally has no checkbox)
+                1. [ ] five
+                1. [x] five
+                1. five (intentionally has no checkbox)
+            1. [ ] four
+            1. four (no checkbox)
+                1. five (no checkbox)
+                1. five (no checkbox)
+                1. five (no checkbox)
+        1. [x] three
+        1. three (no checkbox)
+    1. two (no checkbox)
+    1. [x] two
+1. one (no checkbox)
+1. [x] one 
+1. one (no checkbox)
+
+**Deeply nested *un*ordered list:**
+- one
+    - two
+    - two
+        - three
+        - three
+            - four
+            - four
+                - five
+                - five
+            - four
+        - three
+    - two
+- one
+
+**Deeply nested *un*ordered list _task list_:**
+- [ ] one
+    - [ ] two
+    - [x] two
+    - two (intentionally has no checkbox)
+        - [ ] three
+        - [x] three
+        - three (intentionally has no checkbox)
+            - [ ] four
+            - [x] four
+            - four (intentionally has no checkbox)
+                - [ ] five
+                - [x] five
+                - five (intentionally has no checkbox)
+            - [ ] four
+            - four (no checkbox)
+                1. five (no checkbox)
+                1. five (no checkbox)
+                1. five (no checkbox)
+        - [x] three
+        - three (no checkbox)
+    - two (no checkbox)
+    - [x] two
+- one (no checkbox)
+- [x] one 
+- one (no checkbox)
+
 **Code in a quote:**
 
 > this is `code`
