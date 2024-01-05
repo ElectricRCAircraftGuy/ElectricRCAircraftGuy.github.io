@@ -26,7 +26,7 @@ Here's what I bought, and what I highly recommend you buy too. I bought all of t
 
     <p align="left" width="100%">
         <a href="https://amzn.to/48CNjSk">
-            <img width="33%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/17747cfb-a61d-471a-9854-c087ebecbf3b"> 
+            <img width="33%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/2e371b5f-6918-4cdf-8192-74a94d8f8c11"> 
         </a>
     </p>
 
