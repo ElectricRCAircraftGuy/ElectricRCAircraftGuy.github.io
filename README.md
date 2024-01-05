@@ -27,8 +27,65 @@ It contains my own content and opinions and does not reflect opinions on behalf 
 
 # Notes to self
 
-- [Photo/image repository](https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/issues/28)
-- [What to work on next (private document)](https://docs.google.com/document/d/1OU-RhzRcdc3qY_txABohx3ohlPAxsHNOqEdSRxIjAXU/edit)
+
+## Useful/quick links
+
+1. [Photo/image repository](https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/issues/28)
+1. [What to work on next (private document)](https://docs.google.com/document/d/1OU-RhzRcdc3qY_txABohx3ohlPAxsHNOqEdSRxIjAXU/edit)
+
+
+## Image formatting (centering, sizing, aligning, etc.)
+
+1. See my answer here: [Centering, sizing, and aligning images in markdown](https://stackoverflow.com/a/62383408/4561887)
+
+Examples from [my article here](https://gabrielstaples.com/repairing-macbook/#gsc.tab=0) ([markdown](https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/blob/main/_posts/2023-05-24-repairing-macbook.md)):
+
+Single image:
+1. Markdown
+    ```html
+    <p align="left" width="100%">
+        <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/1e9c115e-5c5e-45dd-8b66-e260e0a0f984">
+            <img width="33%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/1e9c115e-5c5e-45dd-8b66-e260e0a0f984"> 
+        </a>
+    </p>
+    ```
+1. Result:
+    <p align="left" width="100%">
+        <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/1e9c115e-5c5e-45dd-8b66-e260e0a0f984">
+            <img width="33%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/1e9c115e-5c5e-45dd-8b66-e260e0a0f984"> 
+        </a>
+    </p>
+
+Multiple images:
+1. Markdown
+    ```html
+    <p align="center" width="100%">
+        <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/4169a450-f8a2-4bf0-8eee-333a26626093">
+            <img width="32%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/4169a450-f8a2-4bf0-8eee-333a26626093"> 
+        </a>
+        <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/4ed833d3-e820-4c3b-a5ce-ed13842a97fa">
+            <img width="32%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/4ed833d3-e820-4c3b-a5ce-ed13842a97fa"> 
+        </a>
+        <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/b8e98d62-2fee-4c10-a97d-d1b191b8504c">
+            <img width="32%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/b8e98d62-2fee-4c10-a97d-d1b191b8504c"> 
+        </a>
+    </p>
+    ```
+1. Result:
+    <p align="center" width="100%">
+        <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/4169a450-f8a2-4bf0-8eee-333a26626093">
+            <img width="32%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/4169a450-f8a2-4bf0-8eee-333a26626093"> 
+        </a>
+        <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/4ed833d3-e820-4c3b-a5ce-ed13842a97fa">
+            <img width="32%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/4ed833d3-e820-4c3b-a5ce-ed13842a97fa"> 
+        </a>
+        <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/b8e98d62-2fee-4c10-a97d-d1b191b8504c">
+            <img width="32%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/b8e98d62-2fee-4c10-a97d-d1b191b8504c"> 
+        </a>
+    </p>
+
+
+## Site creation
 
 This site was first created with the command `jekyll new temp`. See here: https://jekyllrb.com/docs/. Also, search the `git log` for where I documented using this command.
 
