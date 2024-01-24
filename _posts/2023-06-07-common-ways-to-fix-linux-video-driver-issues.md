@@ -32,6 +32,8 @@ If you have any of the problems above, try these things:
 1. **Install the latest _non-open-source_ NVIDIA driver** (in Ubuntu's "Software & Updates" app) which works with external monitors and your brightness keys.
 1. **Use the X11 window manager, NOT Wayland**
 1. **Use a USB-C to DP (Display Port) [best], or USB-C to HDMI [ok] video cable**, rather than a USB-C to USB-C cable to your monitor.
+1. Try [restarting the computer and then configuring the displays with nothing else running](https://askubuntu.com/a/1501198/327339).
+1. Try [a variety of USB-C video adapters, or DisplayLink adapters](https://askubuntu.com/a/1486986/327339). 
 
 
 ## Additional details:
