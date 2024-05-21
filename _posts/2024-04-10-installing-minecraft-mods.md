@@ -84,10 +84,6 @@ _Tested in Linux Ubuntu 22.04._
 
     1. In the terminal that opens up, run the following commands:
 
-        _Expert tip: once you begin typing a command or path, you can hit <kbd>Tab</kbd> to auto-complete what you are typing. You can also just copy-paste the commands below._
-
-        _Note that lines that begin with `#` below are Bash terminal comments, and do not need to be run._
-
         ```bash
         # Make the Java installation file executable
         chmod +x forge-1.20.1-47.2.30-installer.jar
@@ -96,6 +92,35 @@ _Tested in Linux Ubuntu 22.04._
         ./forge-1.20.1-47.2.30-installer.jar
         ```
 
+        _Expert tips and notes:_ 
+        1. Lines that begin with `#` above are Bash terminal comments, and do not need to be run.
+        1. Once you begin typing a command or path, you can hit <kbd>Tab</kbd> to auto-complete what you are typing. 
+            Example: after typing `./for` you can press <kbd>Tab</kbd> to auto-complete `./forge-1.20.1-47.2.30-installer.jar`. 
+        1. You can also just copy-paste the commands above. 
+            1. To paste in a terminal, either right-click and go to `Paste`, or press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd>. 
+        1. Instead of running the `./forge-1.20.1-47.2.30-installer.jar` command to run the Java JAR file, you can also just double-click it in your file explorer once you have marked it as "exectuable" (able to be run) with `chmod +x forge-1.20.1-47.2.30-installer.jar`. 
+
+    1. Once you run the `forge-1.20.1-47.2.30-installer.jar` file you will see a GUI installer as shown below. 
+
+        Click "Install client" --> "OK", and let it install this version of Forge: 
+
+        <p align="left" width="100%">
+            <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/353d9c5a-a25b-45f4-a5b7-d345d2fe87ec">
+                <img width="50%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/353d9c5a-a25b-45f4-a5b7-d345d2fe87ec"> 
+            </a>
+        </p>
+
+        When complete, you'll see something like this. Click "OK":
+
+        <p align="left" width="100%">
+            <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/d64172ac-6d62-4615-9b98-d7529863c284">
+                <img width="100%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/d64172ac-6d62-4615-9b98-d7529863c284"> 
+            </a>
+        </p>
+
+1. Install the Java mod file you downloaded above
+
+    ...
 
 
 
