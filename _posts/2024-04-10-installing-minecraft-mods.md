@@ -190,13 +190,17 @@ _Tested in Linux Ubuntu 22.04._
 
 1. You'll now see a warning pop up. Check the "I understand the risks" box and click "Play":
 
-    <p align="left" width="100%">
+    <p align="left" width="75%">
         <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/142c8d2d-a511-47d3-8434-d0de882f6783">
             <img width="100%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/142c8d2d-a511-47d3-8434-d0de882f6783"> 
         </a>
     </p>
 
-1. 
+1. ////////// if you get this error and it crashes and fails to load: 
+
+    > org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+
+    Then the problem is a bad mod. Remove the mod you just added and it will launch........
 
 
 
