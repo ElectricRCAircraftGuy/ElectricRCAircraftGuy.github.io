@@ -42,8 +42,11 @@ _Tested in Linux Ubuntu 22.04._
 
 1. Save the `DragonSurvival-1.20.1-09.01.2024.jar` Java .jar mod file into the location of your choosing. I like to save mods into a directory at this path, where `~` means your home directory:
 
-    ```
+    ```bash
     ~/Downloads/Install_Files/Minecraft/mods/
+    
+    # (same thing)
+    /home/gabriel/Downloads/Install_Files/Minecraft/mods/
     ```
 
 1. Download the version of Minecraft Forge that corresponds to your mod version you downloaded above. In my case, I need Minecraft Forge **1.20.1**. 
@@ -118,15 +121,82 @@ _Tested in Linux Ubuntu 22.04._
             </a>
         </p>
 
-1. Install the Java mod file you downloaded above
+        This adds the following Forge folder to your computer:
+        ```
+        ~/.minecraft/versions/1.20.1-forge-47.2.30/
+        ```
 
-    ...
+        We will need this folder in the next step.
 
+1. "Install" the Java mod file you downloaded above by copying it into the Forge mods folder.
+    1. In my case, the Java .jar mod file is called `DragonSurvival-1.20.1-09.01.2024.jar`, and I previously saved it into directory `~/Downloads/Install_Files/Minecraft/mods`.
 
+    1. "Install this mod" now by copying it into the Forge mods folder you just created in the previous step by installing that version of Forge. 
 
+    1. **Technique 1: using the command-line:**
 
+        In a terminal, run the following commands:
 
+        ```bash
+        # Make the mods directory if it doesn't already exist
+        mkdir -p ~/.minecraft/versions/1.20.1-forge-47.2.30/mods/
 
+        # Copy the mod file into that mods directory
+        cp ~/Downloads/Install_Files/Minecraft/mods/DragonSurvival-1.20.1-09.01.2024.jar ~/.minecraft/versions/1.20.1-forge-47.2.30/mods/
+        ```
+
+    1. Or **Technique 2: using your GUI file manager:**
+    
+        1. In your file manager, ensure that you have hidden files turned on:
+
+            In Nautilus, the default file manager with Ubuntu, click the 3-horizontal-bar icon in the top-right --> check the box for "Show Hidden Files". 
+
+            In [Nemo, my preferred file manager](https://askubuntu.com/a/1446372/327339), click View --> Show Hidden Files. 
+    
+        1. Manually create this new folder if it doesn't already exist: `~/.minecraft/versions/1.20.1-forge-47.2.30/mods/`. 
+        1. Now copy the `~/Downloads/Install_Files/Minecraft/mods/DragonSurvival-1.20.1-09.01.2024.jar` file into that directory. 
+
+1. Open the Minecraft Launcher and configure it to use the Forge version you just installed:
+    1. Open the Minecraft Launcher --> click "Installations" in the top menu --> hover over the new "forge" "1.20.1-forge-47.2.30" entry --> click the 3 dots at the right --> "Edit", as shown below:
+
+        <p align="left" width="100%">
+            <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/5b294ffd-3c1f-4022-a13e-9302440be0f0">
+                <img width="100%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/5b294ffd-3c1f-4022-a13e-9302440be0f0"> 
+            </a>
+        </p>
+
+    1. (Optional, but recommended) Change the "Name" from "forge" to "forge 1.20.1". 
+    1. In the "Game Directory" path, add this path by either manually typing it or by clicking the "Browse" button and browsing to it: 
+        ```
+        /home/gabriel/.minecraft/versions/1.20.1-forge-47.2.30
+        ```
+    1. You'll now see this:
+
+        <p align="left" width="100%">
+            <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/5fbc0ba0-d40e-4205-a05b-f316935f93c6">
+                <img width="100%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/5fbc0ba0-d40e-4205-a05b-f316935f93c6"> 
+            </a>
+        </p>
+    
+    1. Click "Save" when done.
+
+1. Back at the main Minecraft Launcher, click "Play" at the top --> select the "forge 1.20.1" version via the selection menu at the bottom left --> click "Play" at the bottom, as shown here:
+
+    <p align="left" width="100%">
+        <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/ae5ad54e-ffb2-4da3-af73-13d41b6d94a7">
+            <img width="100%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/ae5ad54e-ffb2-4da3-af73-13d41b6d94a7"> 
+        </a>
+    </p>
+
+1. You'll now see a warning pop up. Check the "I understand the risks" box and click "Play":
+
+    <p align="left" width="100%">
+        <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/142c8d2d-a511-47d3-8434-d0de882f6783">
+            <img width="100%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/142c8d2d-a511-47d3-8434-d0de882f6783"> 
+        </a>
+    </p>
+
+1. 
 
 
 
