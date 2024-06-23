@@ -196,12 +196,60 @@ _Tested in Linux Ubuntu 22.04._
         </a>
     </p>
 
-1. ////////// if you get this error and it crashes and fails to load: 
+    As the game loads, you'll see this: 
 
-    > org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+    <p align="left" width="75%">
+        <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/4f3a2b13-68cd-4639-b7b3-8582ffeddcac">
+            <img width="100%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/4f3a2b13-68cd-4639-b7b3-8582ffeddcac"> 
+        </a>
+    </p>
 
-    Then the problem is a bad mod. Remove the mod you just added and it will launch........
+1. If it fails to load, and you get this error: 
 
+    <p align="left" width="75%">
+        <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/7cc8d0e5-669b-4770-930f-8c3dea6736e3">
+            <img width="100%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/7cc8d0e5-669b-4770-930f-8c3dea6736e3"> 
+        </a>
+    </p>
+
+    > ERROR
+    > 
+    > ### Game Crashed
+    > 
+    > The game crashed whilst initializing game  
+    > Error: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+    > 
+    > Exit Code: 255
+
+    ...then the problem is a bad mod. Remove the mod you just added and try again and it will launch. 
+
+    To remove the mod, do one of these three options:
+    
+    1. Option 1 [my preference]: run this command in your terminal to move the bad mod file from the `mods` directory to a `mods/disabled` directory:
+        ```bash
+        cd ~/.minecraft/versions/1.20.1-forge-47.2.30/mods
+        mkdir -p disabled
+        mv DragonSurvival-1.20.1-09.01.2024.jar disabled/ 
+        ```
+    1. Option 2: simply delete the mod file from the mods directory you copied it into earlier. Manually use your file manager to delete the file at `~/.minecraft/versions/1.20.1-forge-47.2.30/mods/DragonSurvival-1.20.1-09.01.2024.jar`.
+    1. Option 3: delete the mod file by running this command in your terminal:
+        ```bash
+        rm ~/.minecraft/versions/1.20.1-forge-47.2.30/mods/DragonSurvival-1.20.1-09.01.2024.jar
+        ```
+
+    Then, try launching the game again. It will load just fine now. But, the mod we wanted will be missing, which defeats the whole purpose of this exercise, so let's try again:
+
+    Repeat steps 1-4 above, but this time on the Downloads page...////////////// download an older version of the mod. In our case: 1.19.2, as shown here: ...... 
+
+    //////////
+
+    Try again....
+
+1. Once the game loads.....you will see the mod active here: 
+
+    ////////////
+
+    Start at new game and you will see the mod working.
 
 
 ## Option 2 (recommended, and much easier): using the CurseForce app
