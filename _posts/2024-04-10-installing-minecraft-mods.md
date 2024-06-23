@@ -21,7 +21,7 @@ _Tested in Linux Ubuntu 22.04._
 
 ## Option 1: The manual method
 
-1. Find a mod you want, such as "Dragon Survival [Forge]" on CurseForce.com, here: https://www.curseforge.com/minecraft/mc-mods/dragons-survival
+1. Find a mod you want, such as "Dragon Survival [Forge]" on CurseForce.com, here: <https://www.curseforge.com/minecraft/mc-mods/dragons-survival>
 
 1. Click the "Download" button, as shown below:
 
@@ -51,7 +51,7 @@ _Tested in Linux Ubuntu 22.04._
 
 1. Download the version of Minecraft Forge that corresponds to your mod version you downloaded above. In my case, I need Minecraft Forge **1.20.1**. 
 
-    Go here: https://files.minecraftforge.net/net/minecraftforge/forge/ --> click `1.20.1` in the left-hand pane --> under "Download Latest", click "Installer", as shown below.
+    Go here: <https://files.minecraftforge.net/net/minecraftforge/forge/> --> click `1.20.1` in the left-hand pane --> under "Download Latest", click "Installer", as shown below.
 
     <p align="left" width="100%">
         <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/b7ebe31f-9228-4f44-9959-8a9ae293ff11">
@@ -207,3 +207,5 @@ _Tested in Linux Ubuntu 22.04._
 ## Option 2 (recommended, and much easier): using the CurseForce app
 
 TODO
+
+See CurseForge app: <https://www.curseforge.com/minecraft/mc-mods/dragons-survival/download/5371508>
