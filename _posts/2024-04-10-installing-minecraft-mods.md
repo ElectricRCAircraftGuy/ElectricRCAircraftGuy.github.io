@@ -20,9 +20,11 @@ toc: true  # (default for Table of Contents is true)
 ---
 
 
-_Tested in Linux Ubuntu 20.04 and 22.04 in July 2024, for my kids._
 
-_Even though these instructions are tailored for Linux Ubuntu, the concepts are the same for Windows and Mac._
+_Notes:_
+1. _Tested in Linux Ubuntu 20.04 and 22.04 in July 2024, for my kids._
+1. _Even though these instructions are tailored for Linux Ubuntu, the concepts are the same for Windows and Mac._
+1. _I updated the instructions for later versions of the Dragon Survival mod and Forge, so the screenshots may no longer match the text and commands exactly._
 
 
 # Option 1: The manual method
@@ -33,7 +35,7 @@ _Even though these instructions are tailored for Linux Ubuntu, the concepts are 
 1. Download a mod. Ex: from:
     1. <https://www.curseforge.com/>
 1. Download, install, and configure the correct version of the Forge mod loader for this mod, if you don't already have it installed.
-1. Install the mod by copying it into the Forge `mods` folder at this path, for instance: `~/.minecraft/versions/1.20.1-forge-47.2.30/mods/`. 
+1. Install the mod by copying it into the Forge `mods` folder at this path, for instance: `~/.minecraft/versions/1.20.1-forge-47.3.5/mods/`. 
 1. Launch the game using the Forge version you just installed, ensure the mod is active, and start a new game to see the mod in action.
 
 
@@ -60,7 +62,7 @@ _Even though these instructions are tailored for Linux Ubuntu, the concepts are 
         </a>
     </p>
 
-1. Save the `DragonSurvival-1.20.1-09.01.2024.jar` Java .jar mod file into the location of your choosing. I like to save mods into a directory at this path, where `~` means your home directory:
+1. Save the `DragonSurvival-1.20.1-27.06.2024-all.jar` Java .jar mod file into the location of your choosing. I like to save mods into a directory at this path, where `~` means your home directory:
 
     ```bash
     ~/Downloads/Install_Files/Minecraft/mods/
@@ -93,7 +95,7 @@ _This section shows you how to **install and configure a new version of the Forg
         </a>
     </p>
 
-    Save the `forge-1.20.1-47.2.30-installer.jar` into a directory of your choosing, such as:
+    Save the `forge-1.20.1-47.3.5-installer.jar` into a directory of your choosing, such as:
 
     ```
     ~/Downloads/Install_Files/Minecraft/forge/
@@ -113,21 +115,21 @@ _This section shows you how to **install and configure a new version of the Forg
 
         ```bash
         # Make the Java installation file executable
-        chmod +x forge-1.20.1-47.2.30-installer.jar
+        chmod +x forge-1.20.1-47.3.5-installer.jar
 
         # Run the Java installation file
-        ./forge-1.20.1-47.2.30-installer.jar
+        ./forge-1.20.1-47.3.5-installer.jar
         ```
 
         _Expert tips and notes:_ 
         1. Lines that begin with `#` above are Bash terminal comments, and do not need to be run.
         1. Once you begin typing a command or path, you can hit <kbd>Tab</kbd> to auto-complete what you are typing. 
-            Example: after typing `./for` you can press <kbd>Tab</kbd> to auto-complete `./forge-1.20.1-47.2.30-installer.jar`. 
+            Example: after typing `./for` you can press <kbd>Tab</kbd> to auto-complete `./forge-1.20.1-47.3.5-installer.jar`. 
         1. You can also just copy-paste the commands above. 
             1. To paste in a terminal, either right-click and go to `Paste`, or press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd>. 
-        1. Instead of running the `./forge-1.20.1-47.2.30-installer.jar` command to run the Java JAR file, you can also just double-click it in your file explorer once you have marked it as "exectuable" (able to be run) with `chmod +x forge-1.20.1-47.2.30-installer.jar`. 
+        1. Instead of running the `./forge-1.20.1-47.3.5-installer.jar` command to run the Java JAR file, you can also just double-click it in your file explorer once you have marked it as "exectuable" (able to be run) with `chmod +x forge-1.20.1-47.3.5-installer.jar`. 
 
-    1. Once you run the `forge-1.20.1-47.2.30-installer.jar` file you will see a GUI installer as shown below. 
+    1. Once you run the `forge-1.20.1-47.3.5-installer.jar` file you will see a GUI installer as shown below. 
 
         Click "Install client" --> "OK", and let it install this version of Forge: 
 
@@ -147,13 +149,13 @@ _This section shows you how to **install and configure a new version of the Forg
 
         This adds the following Forge folder to your computer:
         ```
-        ~/.minecraft/versions/1.20.1-forge-47.2.30/
+        ~/.minecraft/versions/1.20.1-forge-47.3.5/
         ```
 
         We will need this folder in a future step.
 
 1. Open the Minecraft Launcher and configure it to use the Forge version you just installed:
-    1. Open the Minecraft Launcher --> click "Installations" in the top menu --> hover over the new "forge" "1.20.1-forge-47.2.30" entry --> click the 3 dots at the right --> "Edit", as shown below:
+    1. Open the Minecraft Launcher --> click "Installations" in the top menu --> hover over the new "forge" "1.20.1-forge-47.3.5" entry --> click the 3 dots at the right --> "Edit", as shown below:
 
         <p align="left" width="100%">
             <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/5b294ffd-3c1f-4022-a13e-9302440be0f0">
@@ -164,7 +166,7 @@ _This section shows you how to **install and configure a new version of the Forg
     1. (Optional, but recommended) Change the "Name" from "forge" to "forge 1.20.1". 
     1. In the "Game Directory" path, add this path by either manually typing it or by clicking the "Browse" button and browsing to it: 
         ```
-        /home/gabriel/.minecraft/versions/1.20.1-forge-47.2.30
+        /home/gabriel/.minecraft/versions/1.20.1-forge-47.3.5
         ```
 
         _If you just upgraded your Forge subversion, ex: from `1.20.1-forge-47.2.30` to `1.20.1-forge-47.3.5`, then be sure to update this path to the new version number._
@@ -180,8 +182,8 @@ _This section shows you how to **install and configure a new version of the Forg
 
 ### 3. Install the mod
 
-1. "Install" the Java mod file you downloaded above by copying it into the Forge mods folder (at `~/.minecraft/versions/1.20.1-forge-47.2.30/mods/` in my case).
-    1. In my case, the Java .jar mod file is called `DragonSurvival-1.20.1-09.01.2024.jar`, and I previously saved it into directory `~/Downloads/Install_Files/Minecraft/mods`.
+1. "Install" the Java mod file you downloaded above by copying it into the Forge mods folder (at `~/.minecraft/versions/1.20.1-forge-47.3.5/mods/` in my case).
+    1. In my case, the Java .jar mod file is called `DragonSurvival-1.20.1-27.06.2024-all.jar`, and I previously saved it into directory `~/Downloads/Install_Files/Minecraft/mods`.
 
     1. "Install this mod" now by copying it into the Forge mods folder you just created in the previous step by installing that version of Forge. 
 
@@ -191,10 +193,10 @@ _This section shows you how to **install and configure a new version of the Forg
 
         ```bash
         # Make the mods directory if it doesn't already exist
-        mkdir -p ~/.minecraft/versions/1.20.1-forge-47.2.30/mods/
+        mkdir -p ~/.minecraft/versions/1.20.1-forge-47.3.5/mods/
 
         # Copy the mod file into that mods directory
-        cp ~/Downloads/Install_Files/Minecraft/mods/DragonSurvival-1.20.1-09.01.2024.jar ~/.minecraft/versions/1.20.1-forge-47.2.30/mods/
+        cp ~/Downloads/Install_Files/Minecraft/mods/DragonSurvival-1.20.1-27.06.2024-all.jar ~/.minecraft/versions/1.20.1-forge-47.3.5/mods/
         ```
 
     1. Or **Technique 2: using your GUI file manager:**
@@ -205,8 +207,8 @@ _This section shows you how to **install and configure a new version of the Forg
 
             In [Nemo, my preferred file manager](https://askubuntu.com/a/1446372/327339), click View --> Show Hidden Files. 
     
-        1. Manually create this new folder if it doesn't already exist: `~/.minecraft/versions/1.20.1-forge-47.2.30/mods/`. 
-        1. Now copy the `~/Downloads/Install_Files/Minecraft/mods/DragonSurvival-1.20.1-09.01.2024.jar` file into that directory. 
+        1. Manually create this new folder if it doesn't already exist: `~/.minecraft/versions/1.20.1-forge-47.3.5/mods/`. 
+        1. Now copy the `~/Downloads/Install_Files/Minecraft/mods/DragonSurvival-1.20.1-27.06.2024-all.jar` file into that directory. 
 
 ### 4. Launch the game using the correct version of Forge you just manually installed, and ensure the mod is active
 
