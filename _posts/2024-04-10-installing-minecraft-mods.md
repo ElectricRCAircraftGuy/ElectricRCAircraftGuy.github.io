@@ -49,7 +49,9 @@ _Tested in Linux Ubuntu 22.04._
     /home/gabriel/Downloads/Install_Files/Minecraft/mods/
     ```
 
-1. Download the version of Minecraft Forge that corresponds to your mod version you downloaded above. In my case, I need Minecraft Forge **1.20.1**. 
+1. _The next 3 steps show you how to **install and configure a new version of the Forge mod loader** into Minecraft. If you already have the required version of Forge you need for your new mod, skip ahead to step 10: installing the Java mod file you downloaded above._
+
+1. Download the version of Minecraft Forge that corresponds to your mod version you downloaded above. In my case, I need Minecraft Forge **1.20.1**.
 
     Go here: <https://files.minecraftforge.net/net/minecraftforge/forge/> --> click `1.20.1` in the left-hand pane --> under "Download Latest", click "Installer", as shown below.
 
@@ -126,9 +128,33 @@ _Tested in Linux Ubuntu 22.04._
         ~/.minecraft/versions/1.20.1-forge-47.2.30/
         ```
 
-        We will need this folder in the next step.
+        We will need this folder in a future step.
 
-1. "Install" the Java mod file you downloaded above by copying it into the Forge mods folder.
+1. Open the Minecraft Launcher and configure it to use the Forge version you just installed:
+    1. Open the Minecraft Launcher --> click "Installations" in the top menu --> hover over the new "forge" "1.20.1-forge-47.2.30" entry --> click the 3 dots at the right --> "Edit", as shown below:
+
+        <p align="left" width="100%">
+            <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/5b294ffd-3c1f-4022-a13e-9302440be0f0">
+                <img width="100%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/5b294ffd-3c1f-4022-a13e-9302440be0f0"> 
+            </a>
+        </p>
+
+    1. (Optional, but recommended) Change the "Name" from "forge" to "forge 1.20.1". 
+    1. In the "Game Directory" path, add this path by either manually typing it or by clicking the "Browse" button and browsing to it: 
+        ```
+        /home/gabriel/.minecraft/versions/1.20.1-forge-47.2.30
+        ```
+    1. You'll now see this:
+
+        <p align="left" width="100%">
+            <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/5fbc0ba0-d40e-4205-a05b-f316935f93c6">
+                <img width="100%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/5fbc0ba0-d40e-4205-a05b-f316935f93c6"> 
+            </a>
+        </p>
+    
+    1. Click "Save" when done.
+
+1. "Install" the Java mod file you downloaded above by copying it into the Forge mods folder (at `~/.minecraft/versions/1.20.1-forge-47.2.30/mods/` in my case).
     1. In my case, the Java .jar mod file is called `DragonSurvival-1.20.1-09.01.2024.jar`, and I previously saved it into directory `~/Downloads/Install_Files/Minecraft/mods`.
 
     1. "Install this mod" now by copying it into the Forge mods folder you just created in the previous step by installing that version of Forge. 
@@ -155,30 +181,6 @@ _Tested in Linux Ubuntu 22.04._
     
         1. Manually create this new folder if it doesn't already exist: `~/.minecraft/versions/1.20.1-forge-47.2.30/mods/`. 
         1. Now copy the `~/Downloads/Install_Files/Minecraft/mods/DragonSurvival-1.20.1-09.01.2024.jar` file into that directory. 
-
-1. Open the Minecraft Launcher and configure it to use the Forge version you just installed:
-    1. Open the Minecraft Launcher --> click "Installations" in the top menu --> hover over the new "forge" "1.20.1-forge-47.2.30" entry --> click the 3 dots at the right --> "Edit", as shown below:
-
-        <p align="left" width="100%">
-            <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/5b294ffd-3c1f-4022-a13e-9302440be0f0">
-                <img width="100%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/5b294ffd-3c1f-4022-a13e-9302440be0f0"> 
-            </a>
-        </p>
-
-    1. (Optional, but recommended) Change the "Name" from "forge" to "forge 1.20.1". 
-    1. In the "Game Directory" path, add this path by either manually typing it or by clicking the "Browse" button and browsing to it: 
-        ```
-        /home/gabriel/.minecraft/versions/1.20.1-forge-47.2.30
-        ```
-    1. You'll now see this:
-
-        <p align="left" width="100%">
-            <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/5fbc0ba0-d40e-4205-a05b-f316935f93c6">
-                <img width="100%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/5fbc0ba0-d40e-4205-a05b-f316935f93c6"> 
-            </a>
-        </p>
-    
-    1. Click "Save" when done.
 
 1. Back at the main Minecraft Launcher, click "Play" at the top --> select the "forge 1.20.1" version via the selection menu at the bottom left --> click "Play" at the bottom, as shown here:
 
