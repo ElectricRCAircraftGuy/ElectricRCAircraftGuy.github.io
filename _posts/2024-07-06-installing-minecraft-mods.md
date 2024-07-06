@@ -1,5 +1,5 @@
 ---
-published: false  # use "false" while drafting articles just before publishing
+published: true  # use "false" while drafting articles just before publishing
 title: "Installing Minecraft Mods in Java Edition"
 tags: 
     - tutorial
