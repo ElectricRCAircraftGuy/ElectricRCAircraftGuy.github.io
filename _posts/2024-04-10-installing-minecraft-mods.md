@@ -7,6 +7,10 @@ tags:
     - linux
     - ubuntu
     - gaming
+    - Minecraft
+    - mods
+    - Forge
+    - DragonSurvival
 # date: 1999-12-31
 # last_modified_at: 2024-01-05  # updates the "Updated" date at the bottom!
 # permalink: /test/
@@ -16,12 +20,28 @@ toc: true  # (default for Table of Contents is true)
 ---
 
 
-_Tested in Linux Ubuntu 22.04._
+_Tested in Linux Ubuntu 20.04 and 22.04 in July 2024, for my kids._
+
+_Even though these instructions are tailored for Linux Ubuntu, the concepts are the same for Windows and Mac._
 
 
-## Option 1: The manual method
+# Option 1: The manual method
 
-1. Find a mod you want, such as "Dragon Survival [Forge]" on CurseForce.com, here: <https://www.curseforge.com/minecraft/mc-mods/dragons-survival>
+
+## Quick summary
+
+1. Download a mod. Ex: from:
+    1. <https://www.curseforge.com/>
+1. Download, install, and configure the correct version of the Forge mod loader for this mod, if you don't already have it installed.
+1. Install the mod by copying it into the Forge `mods` folder at this path, for instance: `~/.minecraft/versions/1.20.1-forge-47.2.30/mods/`. 
+1. Launch the game using the Forge version you just installed, ensure the mod is active, and start a new game to see the mod in action.
+
+
+## Details
+
+### 1. Download a mod
+
+1. Find a mod you want, such as "Dragon Survival [Forge]" on <https://www.curseforge.com/>, here: <https://www.curseforge.com/minecraft/mc-mods/dragons-survival>
 
 1. Click the "Download" button, as shown below:
 
@@ -49,7 +69,9 @@ _Tested in Linux Ubuntu 22.04._
     /home/gabriel/Downloads/Install_Files/Minecraft/mods/
     ```
 
-1. _The next 3 steps show you how to **install and configure a new version of the Forge mod loader** into Minecraft. If you already have the required version of Forge you need for your new mod, skip ahead to step 10: installing the Java mod file you downloaded above._
+### 2. Download, install, and configure the correct version of the Forge mod loader for this mod
+
+_This section shows you how to **install and configure a new version of the Forge mod loader** into Minecraft. If you already have the required version of Forge you need for your new mod, skip ahead to the next section: installing the Java mod file you downloaded above._
 
 1. Download the version of Minecraft Forge that corresponds to your mod version you downloaded above. In my case, I need Minecraft Forge **1.20.1**.
 
@@ -144,6 +166,8 @@ _Tested in Linux Ubuntu 22.04._
         ```
         /home/gabriel/.minecraft/versions/1.20.1-forge-47.2.30
         ```
+
+        _If you just upgraded your Forge subversion, ex: from `1.20.1-forge-47.2.30` to `1.20.1-forge-47.3.5`, then be sure to update this path to the new version number._
     1. You'll now see this:
 
         <p align="left" width="100%">
@@ -153,6 +177,8 @@ _Tested in Linux Ubuntu 22.04._
         </p>
     
     1. Click "Save" when done.
+
+### 3. Install the mod
 
 1. "Install" the Java mod file you downloaded above by copying it into the Forge mods folder (at `~/.minecraft/versions/1.20.1-forge-47.2.30/mods/` in my case).
     1. In my case, the Java .jar mod file is called `DragonSurvival-1.20.1-09.01.2024.jar`, and I previously saved it into directory `~/Downloads/Install_Files/Minecraft/mods`.
@@ -182,6 +208,8 @@ _Tested in Linux Ubuntu 22.04._
         1. Manually create this new folder if it doesn't already exist: `~/.minecraft/versions/1.20.1-forge-47.2.30/mods/`. 
         1. Now copy the `~/Downloads/Install_Files/Minecraft/mods/DragonSurvival-1.20.1-09.01.2024.jar` file into that directory. 
 
+### 4. Launch the game using the correct version of Forge you just manually installed, and ensure the mod is active
+
 1. Back at the main Minecraft Launcher, click "Play" at the top --> select the "forge 1.20.1" version via the selection menu at the bottom left --> click "Play" at the bottom, as shown here:
 
     <p align="left" width="100%">
@@ -206,7 +234,11 @@ _Tested in Linux Ubuntu 22.04._
         </a>
     </p>
 
-1. If it fails to load, and you get this error: 
+### 5. Possible launch failures or errors you may encounter
+
+_If Minecraft successfully loads, skip this section and go to the next section._
+
+1. If it fails to load, and you get this error (as I got with Forge `1.20.1-forge-47.2.30` and mod `DragonSurvival-1.20.1-09.01.2024.jar`): 
 
     <p align="left" width="75%">
         <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/7cc8d0e5-669b-4770-930f-8c3dea6736e3">
@@ -223,7 +255,15 @@ _Tested in Linux Ubuntu 22.04._
     > 
     > Exit Code: 255
 
-    ...then the problem is a bad mod. Remove the mod you just added and try again and it will launch. 
+    ...then the problem is a bad mod and/or an outdated version of Forge. 
+    
+    **Solution:**
+    1. Install a different version of Forge: ex: the "Recommended" version instead of the "Latest" version, or vice versa, or the absolute latest version now if a newer version has been released since you last tried. Ex: I upgraded from the "latest" version of `1.20.1-forge-47.2.30` to the "latest" version of `1.20.1-forge-47.3.5` at a later date.
+    1. Install a different version of the mod. Ex: I upgraded from `DragonSurvival-1.20.1-09.01.2024.jar` to `DragonSurvival-1.20.1-27.06.2024-all.jar`, which became available at a later date when I tried again.
+
+    **How do just "uninstall" the failing mod, instead:**
+    
+    If you remove the mod you just added and try again then Forge will at least launch. 
 
     To remove the mod, do one of these three options:
     
@@ -239,22 +279,106 @@ _Tested in Linux Ubuntu 22.04._
         rm ~/.minecraft/versions/1.20.1-forge-47.2.30/mods/DragonSurvival-1.20.1-09.01.2024.jar
         ```
 
-    Then, try launching the game again. It will load just fine now. But, the mod we wanted will be missing, which defeats the whole purpose of this exercise, so let's try again:
+    Then, try launching the game again. It will load just fine now. But, the mod we wanted will be missing, which defeats the whole purpose of this exercise, so see the "Solution" steps just above to try again with a different version of the mod and/or Forge, instead.
 
-    Repeat steps 1-4 above, but this time on the Downloads page...////////////// download an older version of the mod. In our case: 1.19.2, as shown here: ...... 
+1. With Forge `1.20.1-forge-47.3.5` and mod `DragonSurvival-1.20.1-27.06.2024-all.jar`, I got this error: 
 
-    //////////
+    <p align="left" width="75%">
+        <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/e714242b-54ab-45d2-82f8-75182d85a097">
+            <img width="100%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/e714242b-54ab-45d2-82f8-75182d85a097"> 
+        </a>
+    </p>
 
-    Try again....
+    > Error loading mods  
+    > 1 error has occurred during loading
+    > 
+    > Mod dragonsurvival requires `geckolib` 4.2 or above  
+    > Currently, `geckolib` is not installed
 
-1. Once the game loads.....you will see the mod active here: 
+    **Solution:**
 
-    ////////////
+    I did a [Google search for "install geckolib"](https://www.google.com/search?q=install+geckolib&oq=install+geckolib&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDIwMjhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8) and found it here: <https://www.curseforge.com/minecraft/mc-mods/geckolib>. It turns out it's just another Minecraft mod that needs to be installed! So, download it for "game version" 1.20.1, and "mod loader" "Forge", and install it just like you did the other mod, simply copy-pasting it into the `mods` directory for the Forge version you are using. For me, I copied the file into here: `~/.minecraft/versions/1.20.1-forge-47.3.5/mods/geckolib-forge-1.20.1-4.4.7.jar`. Now the DragonSurvival mod works and the game loads!
 
-    Start at new game and you will see the mod working.
+### 6. Verify that the mod is loaded, and start a new game to see the mod in action
+
+1. Once Forge loads, you'll see this: 
+
+    <p align="left" width="75%">
+        <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/57b8f3b3-be16-497a-ba32-4bdc1dc881eb">
+            <img width="100%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/57b8f3b3-be16-497a-ba32-4bdc1dc881eb"> 
+        </a>
+    </p>
+
+1. Click "Continue". You'll now see this. Notice that it says "5 mods loaded" in the bottom-left:
+
+    <p align="left" width="75%">
+        <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/5f270f0b-c98f-4353-b029-8f451881f265">
+            <img width="100%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/5f270f0b-c98f-4353-b029-8f451881f265"> 
+        </a>
+    </p>
+
+1. Click the "Mods" button. You'll see a page with all of the installed mods listed in the left-hand column, and a description of any mod you click on in the center window. Here, you can see that the "mods" we have installed are:
+
+    ```
+    Minecraft 1.20.1
+    MixinExtras 0.3.6
+    Forge 47.3.5
+    Dragon Survival 1.5.57
+    GeckoLib 4 4.4.7
+    ```
+
+    The first 3 are brought in by Forge, and the last 2 are the mods we installed manually:
+
+    <p align="left" width="75%">
+        <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/d07ff5d9-7b09-4564-a22c-7f935c155f7f">
+            <img width="100%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/d07ff5d9-7b09-4564-a22c-7f935c155f7f"> 
+        </a>
+    </p>
+
+    Click "Done".
+
+1. Back at the main window, click "Singleplayer" or "Multiplayer" to begin your game with those mods loaded.
+
+### 7. Done!
+
+Enjoy your mods!
+
+### 8. For the Dragon Survival mod specifically
+
+1. In my case, for the Dragon Survival mod, I clicked "Singleplayer" --> "Create New World" --> choose your desired settings, then "Create New World". 
+
+    Right after the world loads, you'll see the default human view in Minecraft. About 5 seconds later, this view to "Choose a Dragon Species" automatically opens up:
+
+    <p align="left" width="75%">
+        <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/e0fb8873-10b3-45c3-80d2-9893bf741dac">
+            <img width="100%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/e0fb8873-10b3-45c3-80d2-9893bf741dac"> 
+        </a>
+    </p>
+
+    Click to choose your dragon, then this screen opens up to customize your dragon:
+
+    <p align="left" width="75%">
+        <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/a4050140-2f30-44d4-a23d-1777e5205b93">
+            <img width="100%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/a4050140-2f30-44d4-a23d-1777e5205b93"> 
+        </a>
+    </p>
+
+    Once you save your settings, you'll be back at the main play screen. Press <kbd>F5</kbd> to change your view. Here is my dragon!:
+
+    <p align="left" width="75%">
+        <a href="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/3ad119ed-bd63-425f-a344-0dc8f86b9db7">
+            <img width="100%" src="https://github.com/ElectricRCAircraftGuy/ElectricRCAircraftGuy.github.io/assets/6842199/3ad119ed-bd63-425f-a344-0dc8f86b9db7"> 
+        </a>
+    </p>
+
+    To fly, press <kbd>Space</kbd> to jump, and then press <kbd>G</kbd> to activate flight mode. Hold <kbd>Space</kbd> to go up, and <kbd>Shift</kbd> to go down. Press <kbd>W</kbd> to go forward, <kbd>A</kbd> to go left, <kbd>S</kbd> to go back, and <kbd>D</kbd> to go right.
+
+    For more info. on this particular mod, see the wiki for it on GitHub:
+    1. <https://github.com/DragonSurvivalTeam/DragonSurvival/wiki>
+        1. <https://github.com/DragonSurvivalTeam/DragonSurvival/wiki/5.-Dragon-Features#-flight-and-wings>
 
 
-## Option 2 (recommended, and much easier): using the CurseForce app
+# Option 2 (recommended, and (probably?) much easier): using the CurseForce app
 
 TODO
 
