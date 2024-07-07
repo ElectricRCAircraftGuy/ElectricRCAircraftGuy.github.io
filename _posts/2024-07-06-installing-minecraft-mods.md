@@ -226,6 +226,8 @@ _This section shows you how to **install and configure a new version of the Forg
         1. Manually create this new folder if it doesn't already exist: `~/.minecraft/versions/1.20.1-forge-47.3.5/mods/`. 
         1. Now copy the `~/Downloads/Install_Files/Minecraft/mods/DragonSurvival-1.20.1-27.06.2024-all.jar` file into that directory. 
 
+1. If following these instructions for the Dragon Survival mod, then you must also install the Gecko library mod. Get it here: <https://www.curseforge.com/minecraft/mc-mods/geckolib>. Install it the same as you just installed the other mod above by saving or copying the `geckolib-forge-1.20.1-4.4.7.jar` mod file (or similar version number) into your `~/.minecraft/versions/1.20.1-forge-47.3.5/mods/` (or similar) directory.  
+
 ### 4. Launch the game using the correct version of Forge you just manually installed, and ensure the mod is active
 
 1. Back at the main Minecraft Launcher, click "Play" at the top --> select the "forge 1.20.1" version via the selection menu at the bottom left --> click "Play" at the bottom, as shown here:
