@@ -26,6 +26,10 @@ _Notes:_
 1. _Even though these instructions are tailored for Linux Ubuntu, the concepts are the same for Windows and Mac._
 1. _I updated the instructions for later versions of the Dragon Survival mod and Forge, so the screenshots may no longer match the text and commands exactly._
 
+<!-- 
+**If you're looking for the easiest way to do this, go to the bottom of this article and see "Option 2: using the CurseForge app".**
+-->
+
 
 # Option 1: The manual method
 
@@ -116,10 +120,15 @@ _This section shows you how to **install and configure a new version of the Forg
         ```bash
         # Make the Java installation file executable
         chmod +x forge-1.20.1-47.3.5-installer.jar
-
-        # Run the Java installation file
-        ./forge-1.20.1-47.3.5-installer.jar
         ```
+
+        Now, run the file by: 
+        1. Option 1 [recommended/easiest]: double-clicking it in your file explorer.
+        1. Option 2: running it in the terminal:
+            ```bash
+            # Run the Java installation file for the Forge mod loader
+            java -jar forge-1.20.1-47.3.5-installer.jar
+            ```
 
         _Expert tips and notes:_ 
         1. Lines that begin with `#` above are Bash terminal comments, and do not need to be run.
@@ -128,6 +137,13 @@ _This section shows you how to **install and configure a new version of the Forg
         1. You can also just copy-paste the commands above. 
             1. To paste in a terminal, either right-click and go to `Paste`, or press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd>. 
         1. Instead of running the `./forge-1.20.1-47.3.5-installer.jar` command to run the Java JAR file, you can also just double-click it in your file explorer once you have marked it as "exectuable" (able to be run) with `chmod +x forge-1.20.1-47.3.5-installer.jar`. 
+        1. If you get this error (which I am seeing on Ubuntu 22.04 but not on Ubuntu 20.04) when trying to run the file via `./forge-1.20.1-47.3.5-installer.jar`:
+            ```
+            bash: ./forge-1.20.1-47.3.5-installer.jar: cannot execute binary file: Exec format error
+            ```
+            ...then you can run it via `java -jar forge-1.20.1-47.3.5-installer.jar` instead. I mention this [in my answer here](https://askubuntu.com/a/1519773/327339).
+
+            Or, even easier: just run it by double-clicking it in your file explorer!
 
     1. Once you run the `forge-1.20.1-47.3.5-installer.jar` file you will see a GUI installer as shown below. 
 
@@ -380,8 +396,21 @@ Enjoy your mods!
         1. <https://github.com/DragonSurvivalTeam/DragonSurvival/wiki/5.-Dragon-Features#-flight-and-wings>
 
 
-# Option 2 (recommended, and (probably?) much easier): using the CurseForce app
+# Option 2 (recommended, and much easier): using the CurseForce app
 
 TODO
 
-See CurseForge app: <https://www.curseforge.com/minecraft/mc-mods/dragons-survival/download/5371508>
+See CurseForge app: <https://www.curseforge.com/>
+
+<!--
+1. Install the CurseForge App: 
+
+    Go to <https://www.curseforge.com/> -> click "Get CurseForge App" in the top-right -> "Download standalone" -> save the file into a directory at `~/Downloads/Install_Files/Minecraft/CurseForge/`. 
+    
+    The file is called `curseforge-latest-linux.zip` in my case, so its full path is `~/Downloads/Install_Files/Minecraft/CurseForge/curseforge-latest-linux.zip`. 
+
+    Navigate to that location in a File Manager such as `nemo`. Right-click the `curseforge-latest-linux.zip` file and click "Extract Here".
+
+-->
+
+
