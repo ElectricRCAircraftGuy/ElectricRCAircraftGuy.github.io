@@ -34,7 +34,7 @@ Here's the video, at the time where Level 0 is introduced:
     </a>
 </p>
 
-You might say that God himself is part of a level 7 civilization. 
+You might say that God himself is part of a level 7 civilization, for he is truly a God of gods.
 
 When people (typically right-wing conservatives, in my self-acknowledged-_biased_ observation) grab onto their level 0 technology with a death grip and condemn level 1 technology as Level 1 technology is introduced, parts of me feel really angry. So, I get with those emotions and feel and process them. I consider such people to have blinders on and I just want to shake them and say,
 
