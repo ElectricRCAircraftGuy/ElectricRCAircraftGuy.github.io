@@ -1,5 +1,5 @@
 ---
-# 2024-09-08-7-types-of-civilization
+# 2024-09-08-7-types-of-civilization.md
 published: true  # use "false" while drafting articles just before publishing
 title: "7 Types of civilization: Earth is level 0.7; the electric car is a step towards level 1.0"
 tags: 
