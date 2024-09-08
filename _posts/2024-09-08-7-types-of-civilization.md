@@ -30,7 +30,7 @@ Here's the video, at the time where Level 0 is introduced:
 
 <p align="left" width="100%">
     <a href="https://youtu.be/Yb4H098aMRI?t=115">
-        <img width="50%" src="https://github.com/user-attachments/assets/61fcbdb2-81e9-4fff-9cd8-a76c055619a5"> 
+        <img width="65%" src="https://github.com/user-attachments/assets/61fcbdb2-81e9-4fff-9cd8-a76c055619a5"> 
     </a>
 </p>
 
