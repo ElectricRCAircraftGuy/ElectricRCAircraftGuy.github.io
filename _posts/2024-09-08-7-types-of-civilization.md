@@ -26,10 +26,10 @@ I view the electric car as a step towards level 1.0. It moves towards a system t
 
 Here's the video, at the time where Level 0 is introduced:
 
-<https://youtu.be/Yb4H098aMRI?t=115>
+<a href="https://youtu.be/Yb4H098aMRI?t=115" target="_blank">https://youtu.be/Yb4H098aMRI?t=115</a>
 
 <p align="left" width="100%">
-    <a href="https://youtu.be/Yb4H098aMRI?t=115">
+    <a href="https://youtu.be/Yb4H098aMRI?t=115" target="_blank">
         <img width="65%" src="https://github.com/user-attachments/assets/61fcbdb2-81e9-4fff-9cd8-a76c055619a5"> 
     </a>
 </p>
