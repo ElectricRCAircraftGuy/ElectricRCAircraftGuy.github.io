@@ -48,7 +48,7 @@ Another interesting perspective I hold which resonates with me is that aging and
 
 These are perspectives to consider, and which resonate with me. Again, with some modifications to how it is presented here, my simultaneously-held both scientific and religious belief is that God himself is, or is part of, a Level 7 civilization.
 
-If you watch the video, it his highly likely your perspectives will be widened. 
+If you watch [the video](https://youtu.be/Yb4H098aMRI?t=115), it his highly likely your perspectives will be widened. 
 
 Sincerely,
 
