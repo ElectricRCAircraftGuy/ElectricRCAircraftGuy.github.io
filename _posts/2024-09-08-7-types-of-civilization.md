@@ -40,7 +40,7 @@ When people (typically right-wing conservatives, in my self-acknowledged-_biased
 
 > **Wake up! Don't you know you are blocking humanity's progression towards becoming a Level 1 civilization!!!??? Your perspective is so limiting and blind!**
 
-To demonstrate my belief: as of a couple months ago: I now own a Tesla Model Y, and have invested $10k in Tesla and $10k into a solar-powered electric car company called [Aptera](https://aptera.us/), with a 2-seat car that has a range up to 1000 miles. So, this is stuff I believe in with my money, not just my mind. In the next 20 years, I may be able to increase my investment in Tesla into the millions of dollars--which I expect to mostly be achieved by growth, not deposits. 
+To demonstrate my belief: as of a couple months ago: I now own a Tesla Model Y, and have invested $10k in Tesla (my referral link is below) and $10k into a solar-powered electric car company called [Aptera](https://aptera.us/) (my referral link is below), with a 2-seat car that has a range up to 1000 miles. So, this is stuff I believe in with my money, not just my mind. In the next 20 years, I may be able to increase my investment in Tesla into the millions of dollars--which I expect to mostly be achieved by growth, not deposits. 
 
 So, hopefully this video illuminates your understanding, taking into account any religious beliefs you may hold as well which resonate with what you see here. 
 
