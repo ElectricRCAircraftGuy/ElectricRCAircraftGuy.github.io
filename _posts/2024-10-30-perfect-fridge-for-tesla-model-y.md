@@ -17,7 +17,7 @@ toc: true  # (default for Table of Contents is true)
 
 # The [Setpower AB15 mini-fridge](https://amzn.to/4fr717k) for < $200 on Amazon is _the perfect fridge for the Tesla Model Y_
 
-Get it here: https://amzn.to/4fr717k
+Get it here: <https://amzn.to/4fr717k>
 
 It fits perfectly in nearly every place you can think of in the 7-seater Tesla Model Y, including:
 1. In the frunk
@@ -67,6 +67,6 @@ Note: the AB16 black fridge here blocks the door from closing on the far right b
 ![PXL_20241029_223617014](https://github.com/user-attachments/assets/1d2a4763-d71b-4a4a-aa6e-965f4cdf71b1)
 ![image](https://github.com/user-attachments/assets/014e13c8-8649-4503-8068-9c81a5942705)
 
-Again, get the AB15 here: https://amzn.to/4fr717k. I just got one for camping and road trips and it's perfect. It holds a gallon of milk just fine too. 
+Again, get the AB15 here: <https://amzn.to/4fr717k>. I just got one for camping and road trips and it's perfect. It holds a gallon of milk just fine too. 
 
 _This content is not sponsored. I bought the fridge myself. But, the Amazon links above to the product are affiliate links, so if you buy the fridge through those links, I get a small commission at no extra cost to you. Thanks for supporting my work!_
