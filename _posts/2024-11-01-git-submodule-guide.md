@@ -1,7 +1,7 @@
 ---
 # 2024-11-01-git-submodule-guide.md
 published: true  # use "false" while drafting articles just before publishing
-title: "This is a `git submodule` "Quick Start" guide. Use it to get your team on-boarded"
+title: "`git submodule` \"Quick Start\" guide"
 tags: 
     - tutorial
     - programming
@@ -14,6 +14,9 @@ tags:
 # categories: 
 toc: true  # (default for Table of Contents is true)
 ---
+
+
+This is a `git submodule` "Quick Start" guide. Use it to get your team on-boarded.
 
 
 # See also
