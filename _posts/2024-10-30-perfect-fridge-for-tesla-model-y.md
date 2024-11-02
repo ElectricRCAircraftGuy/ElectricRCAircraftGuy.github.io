@@ -1,7 +1,7 @@
 ---
 # 2024-10-30-perfect-fridge-for-tesla-model-y.md
 published: true  # use "false" while drafting articles just before publishing
-title: "The perfect mini-fridge for the Tesla Model Y"
+title: "The perfect mini-fridge or freezer for the Tesla Model Y"
 tags: 
     - Tesla
     - shopping
@@ -15,7 +15,7 @@ toc: true  # (default for Table of Contents is true)
 ---
 
 
-# The [Setpower AB15 mini-fridge](https://amzn.to/4fr717k) for < $200 on Amazon is _the perfect fridge for the Tesla Model Y_
+# The [Setpower AB15 mini-fridge/freezer](https://amzn.to/4fr717k) for < $200 on Amazon is _the perfect fridge for the Tesla Model Y_
 
 Get the fridge here: <https://amzn.to/4fr717k>.
 
