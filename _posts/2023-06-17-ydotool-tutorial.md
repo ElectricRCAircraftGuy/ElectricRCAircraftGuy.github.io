@@ -19,6 +19,9 @@ toc: true  # (default for Table of Contents is true)
 ---
 
 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgabrielstaples.com%2Fydotool-tutorial%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views+%28today+%2F+total%29&edge_flat=false)](https://hits.seeyoufarm.com)
+
+
 ## `ydotool` works well in both the X11 _and_ Wayland window managers to press any keys, including <kbd>Windows</kbd> + <kbd>D</kbd>, for example
 
 Here is a full tutorial.
