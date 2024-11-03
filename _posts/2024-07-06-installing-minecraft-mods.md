@@ -20,6 +20,8 @@ toc: true  # (default for Table of Contents is true)
 ---
 
 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgabrielstaples.com%2Finstalling-minecraft-mods%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views+%28today+%2F+total%29&edge_flat=false)](https://hits.seeyoufarm.com)
+
 
 _Notes:_
 1. _Tested in Linux Ubuntu 20.04 and 22.04 in July 2024, for my kids._
