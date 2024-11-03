@@ -33,4 +33,9 @@
 #
 # UPDATE: I set `port: 4001` in my `_config.yml` file, so browse here instead!:
 # http://localhost:4001/
-bundle exec jekyll serve --livereload "$@"
+#
+# bundle exec jekyll serve --livereload "$@"
+#
+# Update Nov. 2024: remove `--livereload` option so that it doesn't excessively auto-increment 
+# the hit counter on the site. I'll manually refresh instead. 
+bundle exec jekyll serve "$@"
