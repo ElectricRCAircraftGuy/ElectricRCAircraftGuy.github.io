@@ -15,6 +15,9 @@ toc: true  # (default for Table of Contents is true)
 ---
 
 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgabrielstaples.com%2Fgithub-pages-comments%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views+%28today+%2F+total%29&edge_flat=false)](https://hits.seeyoufarm.com)
+
+
 This, <https://gabrielstaples.com/>, is my [Github Pages](https://pages.github.com/) static website and blog, powered by the [Jekyll](https://jekyllrb.com/) static site generator, based on a custom-modified version of the [Minimal Mistakes Jekyll theme](https://mademistakes.com/work/jekyll-themes/minimal-mistakes/), and written in the efficient, fast, and easy-to-read markup language called [markdown](https://en.wikipedia.org/wiki/Markdown).
 
 This website is hosted on [GitHub](https://github.com/) and configured with my custom domain. 
