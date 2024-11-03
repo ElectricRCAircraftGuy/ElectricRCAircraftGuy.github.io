@@ -20,6 +20,10 @@ tags:
 toc: true  # (default for Table of Contents is true)
 ---
 
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgabrielstaples.com%2F7-types-of-civilization%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views+%28today+%2F+total%29&edge_flat=false)](https://hits.seeyoufarm.com)
+
+
 In theoretical physics, according to the [Kardashev scale](https://en.wikipedia.org/wiki/Kardashev_scale), there are 7 Types of civilization. Earth is level 0.7. 
 
 I view the electric car as a step towards level 1.0. It moves towards a system that can harness energy from non-burnable resources. It also enables interplanetary travel. The cost of moving gasoline or burnable fuels to Mars, for instance, is prohibitive. Using electric vehicles allows us to transport vehicles to Mars that can be "fueled" using energy available on Mars; namely: solar power. Electric cars can also utilize nuclear power. They are a clear and unavoidable step towards society's advancement to eventually becoming a Type 1.0 civilization. 
