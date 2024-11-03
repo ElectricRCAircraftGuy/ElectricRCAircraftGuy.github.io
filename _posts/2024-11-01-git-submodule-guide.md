@@ -16,6 +16,9 @@ toc: true  # (default for Table of Contents is true)
 ---
 
 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgabrielstaples.com%2Fgit-submodule-guide%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views+%28today+%2F+total%29&edge_flat=false)](https://hits.seeyoufarm.com)
+
+
 This is a `git submodule` "Quick Start" guide. Use it to get your team on-boarded.
 
 
