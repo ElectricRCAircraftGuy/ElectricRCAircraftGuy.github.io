@@ -15,6 +15,9 @@ toc: true  # (default for Table of Contents is true)
 ---
 
 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgabrielstaples.com%2Fpython_iterate_over_pandas_dataframe%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views+%28today+%2F+total%29&edge_flat=false)](https://hits.seeyoufarm.com)
+
+
 Key takeaways:  
 1. Use vectorization. 
 1. **Speed profile** your code! Don't assume something is faster because you _think_ it is faster; speed profile it and _prove_ it is faster. The results may surprise you.
