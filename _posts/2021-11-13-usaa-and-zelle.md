@@ -1,6 +1,7 @@
 ---
 published: true  # use "false" while drafting articles just before publishing
 title: USAA's phone app has a Zelle money transfer bug which accidentally discriminates against members who may be foreign or who speak or are studying a foreign language
+excerpt: "_USAA's phone app blocks Zelle money transfers if your phone's system language is set to a foreign language (non-English)._"
 tags: 
     - technology
     - languages
@@ -13,6 +14,10 @@ tags:
 # categories: 
 toc: false  # (default for Table of Contents is true)
 ---
+
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgabrielstaples.com%2Fusaa-and-zelle%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views+%28today+%2F+total%29&edge_flat=false)](https://hits.seeyoufarm.com)
+
 
 # TLDR; (Summary)
 

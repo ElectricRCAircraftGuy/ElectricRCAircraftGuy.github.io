@@ -2,6 +2,10 @@
 # 2024-09-08-7-types-of-civilization.md
 published: true  # use "false" while drafting articles just before publishing
 title: "7 Types of civilization: Earth is level 0.7; the modern (beginning with Tesla) electric car is a step towards level 1.0"
+# NB: escape double quotes within double quotes. Watch the terminal output when rendering to find 
+# yaml parsing errors. 
+excerpt: "In theoretical physics, according to the [Kardashev scale](https://en.wikipedia.org/wiki/Kardashev_scale), there are 7 Types of civilization. Earth is level 0.7. 
+I view the electric car as a step towards level 1.0."
 tags: 
     - Levels of civilization
     - Kardashev scale

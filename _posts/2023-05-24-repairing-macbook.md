@@ -1,6 +1,7 @@
 ---
 published: true  # use "false" while drafting articles just before publishing
 title: How to repair your MacBook when it won't boot
+excerpt: "What do you do if your MacBook won't boot? How do you turn it on? What is \"internet booting\" and how do you do it? Can I boot onto a Linux USB drive to run Linux on my Macbook and recover files?"
 tags: 
     - computers
     - linux
@@ -16,6 +17,10 @@ last_modified_at: 2023-12-24  # updates the "Updated" date at the bottom!
 # categories: 
 toc: true  # (default for Table of Contents is true)
 ---
+
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgabrielstaples.com%2Frepairing-macbook%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views+%28today+%2F+total%29&edge_flat=false)](https://hits.seeyoufarm.com)
+
 
 What do you do if your MacBook won't boot? How do you turn it on? What is "internet booting" and how do you do it? Can I boot onto a Linux USB drive to run Linux on my Macbook and recover files? If so, how? How do I reinstall my MacOS? Can I wipe the whole hard drive and just install Linux on my old Macbook that's collecting dust? How?
 

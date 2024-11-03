@@ -1,6 +1,13 @@
 ---
 published: true  # use "false" while drafting articles just before publishing
 title: "Installing Minecraft Mods in Java Edition"
+# NB: escape double quotes within double quotes. Watch the terminal output when rendering to find 
+# yaml parsing errors.  
+excerpt: "# Option 1: The manual method. 
+Quick summary
+1. Download a mod. Ex: from:
+    1. <https://www.curseforge.com/>
+2. Download, install, and configure the correct version of the Forge mod loader for this mod, if you don't already have it installed."
 tags: 
     - tutorial
     - computers

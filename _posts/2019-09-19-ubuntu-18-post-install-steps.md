@@ -1,4 +1,6 @@
 ---
+excerpt: "Ubuntu 18 post-install steps:
+1. Shrink dock icon size down to make more space on left-hand bar: Settings → Dock → Icon Size (I recommend 28~30 pixels on a 16” 1920x1080 display)"
 tags: 
     - linux
     - ubuntu
@@ -17,6 +19,10 @@ toc: true
 # layout: splash
 # classes: wide
 ---
+
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgabrielstaples.com%2Fubuntu-18-post-install-steps%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views+%28today+%2F+total%29&edge_flat=false)](https://hits.seeyoufarm.com)
+
 
 <!-- Private) source doc for where I originally wrote this: https://docs.google.com/document/d/18pgAehotwnSTJ5s1aZGk8SIarI6xMwrO9K_PdOfH7ic/edit. -->
 

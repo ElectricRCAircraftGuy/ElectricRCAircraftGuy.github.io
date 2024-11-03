@@ -1,6 +1,7 @@
 ---
 published: true  # use "false" while drafting articles just before publishing
 title: How do you write, import, use, and test libraries in Bash?
+excerpt: "Here's a really beautiful, almost Python-like style I've come with over the years for writing and using Bash libraries. Bash is a beautiful \"glue\"-type language which allows you to easily tie together executables from many languages."
 tags: 
     - programming
     - bash
@@ -13,6 +14,10 @@ tags:
 # categories: 
 toc: true  # (default for Table of Contents is true)
 ---
+
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgabrielstaples.com%2Fbash-libraries%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views+%28today+%2F+total%29&edge_flat=false)](https://hits.seeyoufarm.com)
+
 
 Here's a really beautiful, almost Python-like style I've come with over the years for writing and using Bash libraries. Bash is a beautiful "glue"-type language which allows you to easily tie together executables from many languages. Considering how long Bash has been around, I'm not sure why the below style isn't more popular, but perhaps it hasn't been thought of or used this way before. So, here goes. I think you'll find it really useful.
 

@@ -1,6 +1,8 @@
 ---
 published: true  # use "false" while drafting articles just before publishing
 title: "Tutorial: Getting started with `ydotool` to automate key presses (or mouse movements) in Linux"
+excerpt: "## `ydotool` works well in both the X11 _and_ Wayland window managers to press any keys, including <kbd>Windows</kbd> + <kbd>D</kbd>, for example
+Here is a full tutorial."
 tags: 
     - linux
     - ubuntu

@@ -1,6 +1,7 @@
 ---
 published: true  # use "false" while drafting articles just before publishing
 title: Gamo 10x Gen2 Magazines Comparison
+excerpt: 'the Gamo Swarm series seems to be getting a lot of attention. So, this article will help clear up some things about the two types of "10x Gen2" magazines now made by Gamo.'
 tags: 
     - guns
     - technology
@@ -11,6 +12,10 @@ tags:
 # categories: 
 toc: true  # (default for Table of Contents is true)
 ---
+
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgabrielstaples.com%2Fgamo-10x-gen2-magazines-comparison%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views+%28today+%2F+total%29&edge_flat=false)](https://hits.seeyoufarm.com)
+
 
 With the [Gamo Swarm Magnum 10x Gen 2](https://www.airgundepot.com/gamo-swarm-magnum-g2-air-rifle.html) being the 2nd most-powerful break-barrel air rifle in the world today (and the [Hatsan Mod 130S Vortex QE](https://www.airgundepot.com/hatsan-mod-130s-vortex-qe-air-rifle.html#GabrielStaples.com) and [Hatsan Mod 135 Vortex QE](https://www.airgundepot.com/hatsan-135-air-rifle-vortex-piston-qe.html#GabrielStaples.com) 0.30 caliber break barrels being #1), the Gamo Swarm series seems to be getting a lot of attention. So, this article will help clear up some things about the two types of "10x Gen2" magazines now made by Gamo.
 

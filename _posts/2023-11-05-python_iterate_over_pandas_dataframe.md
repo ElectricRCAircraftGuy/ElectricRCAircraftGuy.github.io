@@ -1,6 +1,9 @@
 ---
 published: true  # use "false" while drafting articles just before publishing
 title: "Speed tests and 13 examples: how to iterate over Pandas `DataFrame`s in Python without iterating"
+# NB: escape double quotes within double quotes. Watch the terminal output when rendering to find 
+# yaml parsing errors. 
+excerpt: "Here are 13 techniques for iterating over Pandas DataFrames. As you can see, the time it takes varies dramatically. The fastest technique is ~1363x faster than the slowest technique! The key takeaway,"
 tags: 
     - python
     - tutorial

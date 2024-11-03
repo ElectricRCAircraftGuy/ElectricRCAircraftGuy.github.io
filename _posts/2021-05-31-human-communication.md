@@ -1,6 +1,7 @@
 ---
 published: true  # use "false" while drafting articles just before publishing
 title: Communicating with humans vs computers
+excerpt: "Communicating with humans is one of the most complicated, discouraging, enigmatic processes I have ever endeavored to undertake. I speak English far better than I speak, write or code any computer programming language."
 tags: 
     - journal-entry
     - communication
@@ -15,6 +16,10 @@ tags:
 # categories: 
 toc: false  # (default for Table of Contents is true)
 ---
+
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgabrielstaples.com%2Fhuman-communication%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views+%28today+%2F+total%29&edge_flat=false)](https://hits.seeyoufarm.com)
+
 
 Communicating with humans is one of the most complicated, discouraging, enigmatic processes I have ever endeavored to undertake. I speak English far better than I speak, write or code any computer programming language. Yet, I think communicating with a human is far harder than communicating with any computer. 
 

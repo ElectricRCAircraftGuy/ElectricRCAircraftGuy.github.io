@@ -1,6 +1,7 @@
 ---
 published: true  # use "false" while drafting articles just before publishing
 title: Loan/Mortage shopping and refinancing tips for your new house or property!
+excerpt: "I've bought 2 houses in the last 4 years, and refinanced one of those in that time. So, that's 3 times going through the mortgage process in the last 4 years, shopping around and talking to lenders, brokers, and loan officers. This is what I've learned."
 tags: 
     - finance
     - mortgage
@@ -12,6 +13,10 @@ last_modified_at: 2023-05-05  # updates the "Updated" date at the bottom!
 # categories: 
 toc: true  # (default for Table of Contents is true)
 ---
+
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgabrielstaples.com%2Floan-shopping-tips%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views+%28today+%2F+total%29&edge_flat=false)](https://hits.seeyoufarm.com)
+
 
 I've bought 2 houses in the last 4 years, and refinanced one of those in that time. So, that's 3 times going through the mortgage process in the last 4 years, shopping around and talking to lenders, brokers, and loan officers. This is what I've learned. The most recent purchase I did was just 6 months ago, so I need to write this down before it totally fades away from my memory. Here you go. 
 

@@ -1,6 +1,7 @@
 ---
 published: true  # use "false" while drafting articles just before publishing
 title: VA Loan 2nd home purchase calculator for lenders and home buyers
+excerpt: "1. **Can I buy a 2nd property (which will now be my primary house I live in) with a 2nd VA loan?** Do I have any VA entitlement remaining? Use my calculator below to find out."
 tags: 
     - VA
     - finance
@@ -13,6 +14,10 @@ tags:
 # categories: 
 toc: true  # (default for Table of Contents is true)
 ---
+
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgabrielstaples.com%2Fva-loan-calculator%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views+%28today+%2F+total%29&edge_flat=false)](https://hits.seeyoufarm.com)
+
 
 Let's imagine you're a **buyer** and you have a VA loan on a property. You move and rent out your house. You want to know: 
 1. **"Can I buy a 2nd property (which will now be my primary house I live in) with a 2nd VA loan?"** 

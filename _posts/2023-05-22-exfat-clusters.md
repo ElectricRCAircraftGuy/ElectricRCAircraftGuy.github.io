@@ -1,6 +1,7 @@
 ---
 published: true  # use "false" while drafting articles just before publishing
 title: exFAT filesystem _speed_ and _disk usage_ based on cluster size
+excerpt: "In my opinion, exFAT is the best filesystem to use when sharing files between **Mac and Windows**, **Linux and Mac**, **Windows and Mac**, or **Windows, Mac, and Linux**, because it is supported by all three operating systems for both read and write operations with minimal hassle."
 tags: 
     - programming
     - computers
@@ -14,6 +15,10 @@ tags:
 # categories: 
 toc: true  # (default for Table of Contents is true)
 ---
+
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgabrielstaples.com%2Fexfat-clusters%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views+%28today+%2F+total%29&edge_flat=false)](https://hits.seeyoufarm.com)
+
 
 In my opinion, exFAT is the best filesystem to use when sharing files between **Mac and Windows**, **Linux and Mac**, **Windows and Mac**, or **Windows, Mac, and Linux**, because it is supported by all three operating systems for both read and write operations with minimal hassle. Windows, Mac, and Linux Ubuntu all come by default now with the ability to read, write, and format exFAT filesystems. One thing to be aware of, however, is *cluster size*. 
 

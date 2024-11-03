@@ -2,6 +2,11 @@
 # 2024-10-30-perfect-fridge-for-tesla-model-y.md
 published: true  # use "false" while drafting articles just before publishing
 title: "The perfect mini-fridge or freezer for the Tesla Model Y"
+# NB: escape double quotes within double quotes. Watch the terminal output when rendering to find 
+# yaml parsing errors. 
+excerpt: "The Setpower AB15 mini-fridge/freezer fits perfectly in nearly every place you can think of in the 7-seater Tesla Model Y, including:
+1. In the frunk
+    1. ...including pushed against the far left or far right sides so long as the back (high side) of the fridge is near the center of the frunk."
 tags: 
     - Tesla
     - shopping

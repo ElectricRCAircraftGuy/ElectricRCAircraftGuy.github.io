@@ -1,6 +1,7 @@
 ---
 published: true  # use "false" while drafting articles just before publishing
 title: C++ Mutexes, Concurrency, and Locks
+excerpt: "C++ mutexes and locks: `std::mutex`, `std::lock_guard`, `std::unique_lock` and `std::condition_variable`,  and `std::scoped_lock` and `std::lock()`"
 tags: 
     - programming
     - C++
@@ -13,6 +14,10 @@ tags:
 # categories: 
 toc: true  # (default for Table of Contents is true)
 ---
+
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgabrielstaples.com%2Fcpp-mutexes-and-locks%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views+%28today+%2F+total%29&edge_flat=false)](https://hits.seeyoufarm.com)
+
 
 This article has been copied from my [eRCaGuy_hello_world](https://github.com/ElectricRCAircraftGuy/eRCaGuy_hello_world) repo here: [std_mutex_vs_std_lock_guard_vs_std_unique_lock_vs_std_scoped_lock_README.md](https://github.com/ElectricRCAircraftGuy/eRCaGuy_hello_world/blob/master/cpp/std_mutex_vs_std_lock_guard_vs_std_unique_lock_vs_std_scoped_lock_README.md).
 

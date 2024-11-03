@@ -1,7 +1,13 @@
 ---
 # 2024-11-01-git-submodule-guide.md
+# Help:
+# - Jekyll "front matter" documentation: https://jekyllrb.com/docs/front-matter/
+# - Jekyll "Liquid" variables documentation: https://jekyllrb.com/docs/variables/
 published: true  # use "false" while drafting articles just before publishing
 title: "`git submodule` \"Quick Start\" guide"
+# NB: escape double quotes within double quotes. Watch the terminal output when rendering/saving
+# to find yaml parsing errors. 
+excerpt: "This is a `git submodule` \"Quick Start\" guide. Use it to get your team on-boarded...1. A `git submodule` is git's official way to have a repo within a repo. 2. From this point forward, follow every `git clone`, `git pull`, or `git checkout` with `git submodule update --init --recursive`, which you run inside the outer repo."
 tags: 
     - tutorial
     - programming

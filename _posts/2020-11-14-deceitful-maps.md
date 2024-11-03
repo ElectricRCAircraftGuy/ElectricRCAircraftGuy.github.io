@@ -1,6 +1,7 @@
 ---
 published: true  # use "false" while drafting articles just before publishing
 title: Deceitful Maps on behalf of a Deceitful President
+excerpt: "I saw this statement and map on Facebook today, copy-pasted into Facebook by someone from [a post on Parler, here](https://parler.com/profile/CraigRower/posts):"
 tags: politics Trump election
 # date: 1999-12-31
 # last_modified_at: 2000-12-31  # updates the "Updated" date at the bottom!
@@ -9,6 +10,10 @@ tags: politics Trump election
 # categories: 
 # toc: false  # (default for Table of Contents is true)
 ---
+
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgabrielstaples.com%2Fdeceitful-maps%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views+%28today+%2F+total%29&edge_flat=false)](https://hits.seeyoufarm.com)
+
 
 I saw this statement and map on Facebook today, copy-pasted into Facebook by someone from [a post on Parler, here](https://parler.com/profile/CraigRower/posts):
 

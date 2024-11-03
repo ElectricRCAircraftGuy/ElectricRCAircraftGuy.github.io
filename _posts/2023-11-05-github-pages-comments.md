@@ -1,6 +1,7 @@
 ---
 published: true  # use "false" while drafting articles just before publishing
 title: "How to add comments in blog posts on GitHub Pages websites"
+excerpt: "I've added GitHub-Issue-based comments to the bottom of this website using the plugin called [utterances](https://utteranc.es/), which is totally awesome and makes it trivial to add a beautiful and user-friendly commenting system to your static website or blog."
 tags: 
     - tutorial
     - github pages

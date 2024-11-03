@@ -1,6 +1,7 @@
 ---
 published: true  # use "false" while drafting articles just before publishing
 title: My thoughts on government welfare programs
+excerpt: "The thing I hate seeing the most is a low-income person or other person receiving aid _intentionally_ remaining low-income so they don't exceed some arbitrary \"low income\" threshold, or intentionally doing some aberrant behavior so they can still qualify for some aid program."
 tags: 
     - government
     - welfare
@@ -14,6 +15,10 @@ tags:
 # categories: 
 toc: true  # (default for Table of Contents is true)
 ---
+
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgabrielstaples.com%2Fgovernment-welfare%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views+%28today+%2F+total%29&edge_flat=false)](https://hits.seeyoufarm.com)
+
 
 (My own words, because this program seems to be useful): help your voice be heard by policy-makers and lawmakers. If you're not signed up for VOCA yet, please go sign up. It's free and easy. Just requires a phone number so they can send you a weekly survey question, which results they share with your lawmakers: <https://www.voca.vote/>.
 

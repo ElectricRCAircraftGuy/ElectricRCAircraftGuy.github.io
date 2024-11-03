@@ -1,6 +1,7 @@
 ---
 published: true  # use "false" while drafting articles just before publishing
 title: Where will your beliefs take you?
+excerpt: "_What I'm about to describe is a terrible tragedy. I say this somberly and seriously. I think we can learn from this and find a better path forward. I hope it inspires followers of President Trump to leave his fold, for he is leading them astray and the consequences are severe._"
 tags: 
   - election
   - Trump
@@ -12,6 +13,10 @@ tags:
 # categories: 
 toc: true  # (default for Table of Contents is true)
 ---
+
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgabrielstaples.com%2Fwhere-will-your-beliefs-take-you%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views+%28today+%2F+total%29&edge_flat=false)](https://hits.seeyoufarm.com)
+
 
 _What I'm about to describe is a terrible tragedy. I say this somberly and seriously. I think we can learn from this and find a better path forward. I hope it inspires followers of President Trump to leave his fold, for he is leading them astray and the consequences are severe._
 

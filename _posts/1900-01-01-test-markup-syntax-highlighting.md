@@ -1,6 +1,6 @@
 ---
 title: "Test Markup Syntax Highlighting"
-excerpt: "Test post displaying the various ways of highlighting code in Markdown."
+excerpt: "Test post displaying the various ways of highlighting and formatting code in Markdown to see how my site renders."
 # date: 2018-10-18 14:45:34 -0700
 # last_modified_at: 2018-01-03T09:45:06-05:00
 # GS: use `date` from the command-line! This works! See the site map at
@@ -14,6 +14,10 @@ tags:
   - syntax highlighting
 toc: true
 ---
+
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgabrielstaples.com%2Ftest-markup-syntax-highlighting%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views+%28today+%2F+total%29&edge_flat=false)](https://hits.seeyoufarm.com)
+
 
 <!-- 
 GS 17 June 2023:

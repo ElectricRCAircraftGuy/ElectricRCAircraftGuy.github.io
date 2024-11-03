@@ -1,6 +1,7 @@
 ---
 published: true  # use "false" while drafting articles just before publishing
 title: Work from home work station (monitor and stand)
+excerpt: "Finding the right tools for the job and doing the right research is a _pain in the butt._ Nevertheless, I have a tendency to (eventually) put in the research and learn what I need to learn for just about any topic or problem I need to tackle. So, feel free to rely on my research for yourself. "
 tags: 
   - life skills
   - shopping
@@ -11,6 +12,10 @@ tags:
 # categories: 
 toc: false  # (default for Table of Contents is true)
 ---
+
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgabrielstaples.com%2Fwork-from-home-work-station%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views+%28today+%2F+total%29&edge_flat=false)](https://hits.seeyoufarm.com)
+
 
 Finding the right tools for the job and doing the right research is a _pain in the butt._ Nevertheless, I have a tendency to (eventually) put in the research and learn what I need to learn for just about any topic or problem I need to tackle. So, feel free to rely on my research for yourself. 
 

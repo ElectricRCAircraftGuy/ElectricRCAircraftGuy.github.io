@@ -6,6 +6,7 @@
 # classes: wide 
 # layout: splash
 title: Anti-Anti-Liberalism
+excerpt: "In the [Book of Mormon](https://www.churchofjesuschrist.org/study/scriptures/bofm), there was one people who distinguished themselves not by what they were, but by what they *weren't*. They were the [Anti-Nephi-Lehis](https://www.churchofjesuschrist.org/study/scriptures/gs/anti-nephi-lehies) (see also [Wikipedia here](https://en.wikipedia.org/wiki/Anti-Nephi-Lehies))."
 toc: true
 # layout: splash
 # classes: wide
@@ -21,6 +22,10 @@ redirect_from:
     # Old Jekyll minima theme site up to 3 Nov. 2020: https://gabrielstaples.com/2020/10/27/anti-anti-liberalism.html
     - /2020/10/27/anti-anti-liberalism.html
 ---
+
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgabrielstaples.com%2Fanti-anti-liberalism%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views+%28today+%2F+total%29&edge_flat=false)](https://hits.seeyoufarm.com)
+
 
 _Be an anti-anti-liberal_
 

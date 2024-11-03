@@ -1,6 +1,7 @@
 ---
 published: true  # use "false" while drafting articles just before publishing
 title: Bulk File Renaming in Linux
+excerpt: "Sometimes I need to rename a bunch of files all at once. This is especially useful when mass-renaming/bulk-renaming photos. For instance, I want to rename file `unnamed-1.jpg` through `unnamed-29.jpg` to `high_res-1.pg` through `high_res-29.jpg`, respectively."
 tags: 
     - linux
     - ubuntu
@@ -12,6 +13,10 @@ tags:
 # categories: 
 toc: true  # (default for Table of Contents is true)
 ---
+
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgabrielstaples.com%2Fbulk-file-renaming%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views+%28today+%2F+total%29&edge_flat=false)](https://hits.seeyoufarm.com)
+
 
 Sometimes I need to rename a bunch of files all at once. This is especially useful when mass-renaming/bulk-renaming photos. For instance, I want to rename file `unnamed-1.jpg` through `unnamed-29.jpg` to `high_res-1.pg` through `high_res-29.jpg`, respectively. How can I easily do this easily in Linux Ubuntu? Perhaps you might take the time to do this manually for 29 photos, but what about for 1000 photos? How can we automate this process using a simple, easy-to-use GUI tool?
 

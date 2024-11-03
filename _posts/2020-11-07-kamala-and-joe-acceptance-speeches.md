@@ -1,6 +1,7 @@
 ---
 published: true  # use "false" while drafting articles just before publishing
 title: Kamala Harris and Joe Biden Presidential Acceptance Speeches
+excerpt: "As a deeply concerned, but long-time Republican, I didn't fully make up my mind to vote for Biden until the latter part of the [final Presidential Debate](https://youtu.be/8o3jOBpIjS8?t=7228). But, I am ***so glad*** I did vote for Joe Biden!"
 tags: politics biden election drones
 # date: 1999-12-31
 # last_modified_at: 2000-12-31  # updates the "Updated" date at the bottom!
@@ -9,6 +10,10 @@ tags: politics biden election drones
 # categories: 
 # toc: false  # (default for Table of Contents is true)
 ---
+
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgabrielstaples.com%2Fkamala-and-joe-acceptance-speeches%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views+%28today+%2F+total%29&edge_flat=false)](https://hits.seeyoufarm.com)
+
 
 As a deeply concerned, but long-time Republican, I didn't fully make up my mind to vote for Biden until the latter part of the [final Presidential Debate](https://youtu.be/8o3jOBpIjS8?t=7228). But, I am ***so glad*** I did vote for Joe Biden! The speeches given by he and Kamala Harris tonight are some of the most powerful, positive, and **uniting** speeches I have ever seen in my entire life. If you have not watched them yet, please, please do. See [here from 2:27:35 to 2:54:33](https://youtu.be/gHuY1lyx9kk?t=8855). You may also click the images below to jump to the start of their speeches:
 

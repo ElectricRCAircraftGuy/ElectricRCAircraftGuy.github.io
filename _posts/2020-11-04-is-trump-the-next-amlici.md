@@ -1,6 +1,7 @@
 ---
 published: true  # use "false" while drafting articles just before publishing
 title: Is Trump the next Amlici?
+excerpt: "_He's powerful. He's strong. He's assertive. And he's not afraid to undermine the rights of voters in the free democratic election process to take away peoples' freedoms and get his way...just like Amlici of old._"
 tags: politics Trump election
 # date: 1999-12-31
 # last_modified_at: 2000-12-31  # updates the "Updated" date at the bottom!
@@ -9,6 +10,10 @@ tags: politics Trump election
 # categories: 
 # toc: false  # (default for Table of Contents is true)
 ---
+
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgabrielstaples.com%2Fis-trump-the-next-amlici%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views+%28today+%2F+total%29&edge_flat=false)](https://hits.seeyoufarm.com)
+
 
 _He's powerful. He's strong. He's assertive. And he's not afraid to undermine the rights of voters in the free democratic election process to take away peoples' freedoms and get his way...just like Amlici of old._
 
