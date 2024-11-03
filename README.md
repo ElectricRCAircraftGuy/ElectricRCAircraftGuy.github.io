@@ -92,22 +92,26 @@ This site was first created with the command `jekyll new temp`. See here: https:
 
 ## To build and test locally
 
-```bash
-# to install software
-./run_upgrade_site.sh
+1. Install Jekyll: https://jekyllrb.com/docs/installation/
+    1. If on Ubuntu, follow these steps: https://jekyllrb.com/docs/installation/ubuntu/
 
-# to build and preview the website!
-./run_build_site.sh
+1. Run the following commands:
+    ```bash
+    # to install software
+    ./run_upgrade_site.sh
 
-# [my favorite] ...with unpublished pages, and drafts too:
-./run_build_site.sh --drafts --unpublished
-```
+    # to build and preview the website!
+    ./run_build_site.sh
 
-Then browse to <s><http://localhost:4000></s> <http://localhost:4001>.
+    # [my favorite] ...with unpublished pages, and drafts too:
+    ./run_build_site.sh --drafts --unpublished
+    ```
 
-See: https://jekyllrb.com/docs/.
+1. Then browse to <s><http://localhost:4000></s> <http://localhost:4001>.
 
-UPDATE: I set `port: 4001` in my `_config.yml` file, so browse here instead!: http://localhost:4001/. <== VIEW PREVIEW
+    See: https://jekyllrb.com/docs/.
+
+    UPDATE: I set `port: 4001` in my `_config.yml` file, so browse here instead!: http://localhost:4001/. <== VIEW PREVIEW
 
 
 ## Pages
