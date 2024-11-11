@@ -12,7 +12,7 @@ tags:
     - shopping
     - electric car
 # date: 1999-12-31
-# last_modified_at: 2024-01-05  # updates the "Updated" date at the bottom!
+last_modified_at: 2024-11-11  # updates the "Updated" date at the bottom!
 # permalink: /test/
 # redirect_from: 
 # categories: 
@@ -40,6 +40,47 @@ The Setpower AB15 mini-fridge/freezer fits perfectly in nearly every place you c
 1. Behind the 3rd row seats when in 7-seater mode. 
     1. ...including when shoved against the far left or far right sides so long as the back (high side) of the fridge is near the center of the car.
 1. Stacked two-fridges-wide in 6-seater mode with one of the 3rd row seats down.
+
+
+## What it holds
+
+The fridge/freezer can hold all of this at once, for example:
+
+1. 1 gallon of milk
+1. Either:
+    1. This:
+        1. 64 oz (half gallon) bottle
+        1. and 28 oz Powerade bottle
+    1. OR this:
+        1. 1 large plastic tupperware container
+1. 32 oz (1 quart) paper carton (chocolate milk shown below)
+1. 2 or 3 x 8 oz packs of sliced cheese (only 1 shown in the photos)
+1. 32 oz (2 lb) bag of shredded cheese, partially used but still mostly full
+1. half loaf of bread
+
+Photos of food in the fridge just now. And yes, it closes in all of these configurations:
+
+![PXL_20241111_213906471](https://github.com/user-attachments/assets/dfd4ca1e-d3e1-4ee3-87ec-c8c96ec5fb54)
+![PXL_20241111_214044007](https://github.com/user-attachments/assets/d9d88f0f-43fa-4bd8-9609-8e88e243f3fc)
+![PXL_20241111_213830327](https://github.com/user-attachments/assets/29db5945-45b0-44a7-a60d-ffdae190d7f5)
+![PXL_20241111_213810982](https://github.com/user-attachments/assets/2fee0dae-0d11-452e-b6c0-4babd0b0c392)
+
+More of the large liquids shown fitting into the large compartment: 
+
+<p align="left" width="100%">
+    <a href="https://github.com/user-attachments/assets/d9ec160e-a606-49f2-90e7-e3854973edb6" target="_blank">
+        <img width="100%" src="https://github.com/user-attachments/assets/d9ec160e-a606-49f2-90e7-e3854973edb6"> 
+    </a>
+</p>
+
+![PXL_20241111_214216849](https://github.com/user-attachments/assets/00a9f217-b7ab-4100-89dd-ae3e4ed9e02f)
+![PXL_20241111_214222019](https://github.com/user-attachments/assets/9bfe9611-ab0f-44de-89ae-5b4e7533fcc4)
+![PXL_20241111_214309795](https://github.com/user-attachments/assets/945b1a07-2b59-4353-a7e8-e17c802f79ae)
+![PXL_20241111_214326409](https://github.com/user-attachments/assets/06c48a38-c541-40a1-994b-f876acd18cc3)
+![PXL_20241111_214440031](https://github.com/user-attachments/assets/bb931428-65ac-4591-b890-7eae864f0f4b)
+
+
+## Where the [Setpower AB15 mini-fridge/freezer](https://amzn.to/4fr717k) fits in the Tesla Model Y
 
 See the photos here. This fridge literally fits perfectly, as though it was custom made and custom-fit for the Tesla Model Y 5 and 7-seaters. If it was even a few mm longer in any dimension, it wouldn't fit in many of these places. 
 
@@ -75,6 +116,7 @@ See the photos here. This fridge literally fits perfectly, as though it was cust
 
 ![PXL_20241007_201934879](https://github.com/user-attachments/assets/a3104d44-93f7-4137-9e7e-3b515dedd6fc)
 
+Yes, the sub-trunk cover closes just fine with the fridge in the sub-trunk, without making contact with the fridge: 
 ![PXL_20241007_202001139](https://github.com/user-attachments/assets/31effb39-420f-4d4d-b0c9-ad7161ff3ed9)
 
 ![PXL_20241007_202019349](https://github.com/user-attachments/assets/e888a0c9-ecc5-476f-b42c-7fce925a36d4)
@@ -83,6 +125,7 @@ See the photos here. This fridge literally fits perfectly, as though it was cust
 
 ![PXL_20241029_221638997](https://github.com/user-attachments/assets/d38283a8-cf14-483d-9ad6-6373fb79e8ab)
 
+Yes, the frunk closes just fine so long as you keep the curved part of the fridge towards the left or right edges, and the high rear part of the fridge near the center of the frunk:
 ![PXL_20241029_221644590](https://github.com/user-attachments/assets/60e36947-98fe-45f8-ab17-fffda709dc0f)
 
 ![PXL_20241029_221734225](https://github.com/user-attachments/assets/ba2faced-b749-48f6-8e08-cd6b4967fdd2)
