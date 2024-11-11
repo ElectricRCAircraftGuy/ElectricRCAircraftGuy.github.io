@@ -67,8 +67,11 @@ The fridge/freezer can hold all of this at once, for example:
 Photos of food in the fridge just now. And yes, it closes in all of these configurations:
 
 ![PXL_20241111_213906471](https://github.com/user-attachments/assets/dfd4ca1e-d3e1-4ee3-87ec-c8c96ec5fb54)
+
 ![PXL_20241111_214044007](https://github.com/user-attachments/assets/d9d88f0f-43fa-4bd8-9609-8e88e243f3fc)
+
 ![PXL_20241111_213830327](https://github.com/user-attachments/assets/29db5945-45b0-44a7-a60d-ffdae190d7f5)
+
 ![PXL_20241111_213810982](https://github.com/user-attachments/assets/2fee0dae-0d11-452e-b6c0-4babd0b0c392)
 
 More of the large liquids shown fitting into the large compartment: 
@@ -80,9 +83,13 @@ More of the large liquids shown fitting into the large compartment:
 </p>
 
 ![PXL_20241111_214216849](https://github.com/user-attachments/assets/00a9f217-b7ab-4100-89dd-ae3e4ed9e02f)
+
 ![PXL_20241111_214222019](https://github.com/user-attachments/assets/9bfe9611-ab0f-44de-89ae-5b4e7533fcc4)
+
 ![PXL_20241111_214309795](https://github.com/user-attachments/assets/945b1a07-2b59-4353-a7e8-e17c802f79ae)
+
 ![PXL_20241111_214326409](https://github.com/user-attachments/assets/06c48a38-c541-40a1-994b-f876acd18cc3)
+
 ![PXL_20241111_214440031](https://github.com/user-attachments/assets/bb931428-65ac-4591-b890-7eae864f0f4b)
 
 
@@ -146,14 +153,14 @@ Yes, the frunk closes just fine so long as you keep the curved part of the fridg
 
 ![PXL_20241029_223118538](https://github.com/user-attachments/assets/0625ce9d-4044-42af-b94c-b1f3455c429c)
 
+**This is the most attractive part of this fridge for me! It fits in either position shown here, behind the 3rd row seats 6 and 7 in the 7-seater Model Y!** Just about any other fridge, including the black AB16 further below, does NOT fit here because the trunk is so tight on the left and right sides of the car. The AB15, on the other hand, fits perfectly, due to its rounded corners and perfect dimensions. If it was even a few mm wider or taller or bigger in any dimension, _it would not fit._ As shown in the two images below, however, the trunk still closes perfectly:
 ![PXL_20241029_223126542](https://github.com/user-attachments/assets/dbb18ece-0693-4368-a969-4d7398cba3dc)
+![PXL_20241029_223617014](https://github.com/user-attachments/assets/1d2a4763-d71b-4a4a-aa6e-965f4cdf71b1)
 
 
 Note: the AB16 black fridge here blocks the door from closing on the far right because the corner sticks out too much. The corners of the blue AB15 are a bit more rounded. If it was two AB15s here instead, they would fit just barely and the trunk door would still close: 
 
 ![PXL_20241029_223321757](https://github.com/user-attachments/assets/85516221-64ba-4d8f-8487-a1ead6d44e9c)
-
-![PXL_20241029_223617014](https://github.com/user-attachments/assets/1d2a4763-d71b-4a4a-aa6e-965f4cdf71b1)
 
 ![image](https://github.com/user-attachments/assets/014e13c8-8649-4503-8068-9c81a5942705)
 
