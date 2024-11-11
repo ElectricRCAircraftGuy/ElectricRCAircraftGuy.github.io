@@ -44,6 +44,12 @@ The Setpower AB15 mini-fridge/freezer fits perfectly in nearly every place you c
 
 ## What it holds
 
+<p align="left" width="100%">
+    <a href="https://github.com/user-attachments/assets/a163d692-5450-470a-9982-1533d021aeda" target="_blank">
+        <img width="60%" src="https://github.com/user-attachments/assets/a163d692-5450-470a-9982-1533d021aeda"> 
+    </a>
+</p>
+
 The fridge/freezer can hold all of this at once, for example:
 
 1. 1 gallon of milk
