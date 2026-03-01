@@ -40,3 +40,5 @@ The thing that stuck with me the most were the wives/women in the various relati
 5. **Spider & Kiri:** The teenaged son of Quaritch, Spider, and the adopted daughter of Jake/Neytiri, Kiri, share a close, evolving relationship that develops into a romance. Both powerful, honorable, and good. 
 
 I found these pairings to be deeply inspiring and a model for my own life and what I am seeking as a single man.
+
+<img width="1012" height="1500" alt="Image" src="https://github.com/user-attachments/assets/33e9898e-7efc-4d2f-bc1b-07088e625c02" />
