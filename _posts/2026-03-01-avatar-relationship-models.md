@@ -29,14 +29,14 @@ It was a beautiful movie, with powerful morals.
 
 The thing that stuck with me the most were the wives/women in the various relationships portrayed in the movie, and how equally yoked they were to their husbands/men. I found this deeply touching and inspiring. 
 
-1. Jake Sully & Neytiri: The central couple continues to navigate their life on Pandora, struggling with grief over their son's death and adapting to new clans. She is as powerful, strong, and loyal as he is. They don't see eye to eye on everything, but they honor each other with complete fidelity. I love them as a couple.
+1. **Jake Sully & Neytiri:** The central couple continues to navigate their life on Pandora, struggling with grief over their son's death and adapting to new clans. She is as powerful, strong, and loyal as he is. They don't see eye to eye on everything, but they honor each other with complete fidelity. I love them as a couple.
  
-2. Tonowari & Ronal: The leaders of the Metkayina clan remain a steady, powerful couple, with Ronal being pregnant in this season. She goes to war pregnant. Ronal is as strong and honorable a woman as there can be, as is her husband. I am inspired by her strength. 
+2. **Tonowari & Ronal:** The leaders of the Metkayina clan remain a steady, powerful couple, with Ronal being pregnant in this season. She goes to war pregnant. Ronal is as strong and honorable a woman as there can be, as is her husband. I am inspired by her strength. 
 
-3. Varang & Colonel Quaritch: a "power couple from hell". This pairing consists of the leader of the fire-worshipping Ash People (Varang) and the resurrected Colonel Quaritch, who form a strategic and romantic alliance. They are equally yoked in power and ambition, and both wicked and willing to do evil. Though I do not admire them, I can see how they are equally matched. Neither of them lacks in this relationship. A wicked woman needs an equally wicked man. 
+3. **Varang & Colonel Quaritch:** a "power couple from hell". This pairing consists of the leader of the fire-worshipping Ash People (Varang) and the resurrected Colonel Quaritch, who form a strategic and romantic alliance. They are equally yoked in power and ambition, and both wicked and willing to do evil. Though I do not admire them, I can see how they are equally matched. Neither of them lacks in this relationship. A wicked woman needs an equally wicked man. 
 
-4. Lo'ak & Tsireya: The romance between Jake and Neytiri's son, Lo'ak, and the Metkayina free diver, Tsireya, continues from The Way of Water. They are both strong, courageous, independent, yet deeply caring and loyal to each other. They are equally yoked in their love and respect for each other, and in their commitment to their people. I love them as a couple.
+4. **Lo'ak & Tsireya:** The romance between Jake and Neytiri's son, Lo'ak, and the Metkayina free diver, Tsireya, continues from The Way of Water. They are both strong, courageous, independent, yet deeply caring and loyal to each other. They are equally yoked in their love and respect for each other, and in their commitment to their people. I love them as a couple.
 
-5. Spider & Kiri: The teenaged son of Quaritch, Spider, and the adopted daughter of Jake/Neytiri, Kiri, share a close, evolving relationship that develops into a romance. Both powerful, honorable, and good. 
+5. **Spider & Kiri:** The teenaged son of Quaritch, Spider, and the adopted daughter of Jake/Neytiri, Kiri, share a close, evolving relationship that develops into a romance. Both powerful, honorable, and good. 
 
 I found these pairings to be deeply inspiring and a model for my own life and what I am seeking as a single man.
