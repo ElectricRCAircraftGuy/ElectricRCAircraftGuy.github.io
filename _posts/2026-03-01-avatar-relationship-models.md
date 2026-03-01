@@ -20,7 +20,7 @@ tags:
 # permalink: /test/
 # redirect_from: 
 # categories: 
-toc: true  # (default for Table of Contents is true)
+toc: false  # (default for Table of Contents is true)
 ---
 
 Last night I watched Avatar 3: Fire and Ash. 
